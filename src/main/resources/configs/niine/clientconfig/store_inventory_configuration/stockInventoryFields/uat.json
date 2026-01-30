@@ -1,0 +1,47 @@
+{
+  "name" : "stockInventoryFields",
+  "type" : "List",
+  "value" : [ {
+    "id" : "inventoryQtyCS",
+    "type" : "textField",
+    "label" : "INVENTORY QTY (CS)",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "inventoryQtyPC",
+    "type" : "textField",
+    "label" : "INVENTORY QTY (PC)",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "inventoryQtyOther",
+    "type" : "textField",
+    "label" : "INVENTORY QTY (Other)",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "batchCode",
+    "type" : "textField",
+    "label" : "BATCH CODE",
+    "required" : "false",
+    "validation" : { }
+  }, {
+    "id" : "expiryDate",
+    "type" : "dateTime",
+    "label" : "EXPIRY DATE",
+    "required" : "false",
+    "validation" : { }
+  }, {
+    "id" : "remainingShelfLife",
+    "type" : "textField",
+    "label" : "REMAINING SHELF LIFE",
+    "required" : "false",
+    "validation" : { }
+  }, {
+    "id" : "mrp",
+    "type" : "textField",
+    "label" : "MRP",
+    "required" : "false",
+    "validation" : { }
+  } ]
+}

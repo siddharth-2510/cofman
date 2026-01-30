@@ -1,0 +1,28 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.EnrichSaleStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.sagapreprocess.ProcessorWithSaga",
+    "index" : "10",
+    "description" : "Bean of ProcessorWithSaga"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "5",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "4",
+    "description" : "Sales db object"
+  }, {
+    "type" : "com.applicate.services.channelkart.dto.SalesDTO",
+    "index" : "13",
+    "description" : "Salesdto object"
+  }, {
+    "type" : "java.util.List",
+    "index" : "11",
+    "description" : "List containing the Enrichments to run"
+  }, {
+    "type" : "java.lang.Boolean",
+    "index" : "12",
+    "description" : "needsMinimalResponse flag from api request param"
+  } ]
+}

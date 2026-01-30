@@ -1,0 +1,6 @@
+{
+  "id" : "liveDashboard",
+  "icon" : "liveDashboardIcon",
+  "label" : "Live Dashboard",
+  "sidebarOptions" : [ "userAnalytics", "orderAnalytics", "googleAnalytics", "performanceDashboard", "reports" ]
+}

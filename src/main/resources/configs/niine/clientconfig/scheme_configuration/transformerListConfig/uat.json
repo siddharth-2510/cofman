@@ -1,0 +1,8 @@
+{
+  "name" : "transformerListConfig",
+  "type" : "String",
+  "value" : "usePromo",
+  "description" : "To define which scheme transformer to use",
+  "defaultValue" : "schemes",
+  "possibleVals" : [ "usePromo", "schemes" ]
+}

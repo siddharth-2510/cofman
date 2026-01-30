@@ -1,0 +1,17 @@
+{
+  "name" : "secondaryProductsTab",
+  "type" : "List",
+  "value" : [ {
+    "id" : "focus",
+    "label" : "Focus"
+  }, {
+    "id" : "new launches",
+    "label" : "New Launches"
+  }, {
+    "id" : "mss",
+    "label" : "MSS"
+  }, {
+    "id" : "uf",
+    "label" : "UF"
+  } ]
+}

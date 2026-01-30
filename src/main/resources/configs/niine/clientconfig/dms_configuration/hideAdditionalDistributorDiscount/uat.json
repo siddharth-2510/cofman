@@ -1,0 +1,8 @@
+{
+  "name" : "hideAdditionalDistributorDiscount",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "It will check whether the sku quantity is above the minimum billable quantity",
+  "possibleVals" : [ true, false ]
+}

@@ -1,0 +1,5 @@
+{
+  "maxTries" : 2,
+  "orderDays" : 4,
+  "intervalDay" : 2
+}

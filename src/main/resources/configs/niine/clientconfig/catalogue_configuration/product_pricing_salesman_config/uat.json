@@ -1,0 +1,8 @@
+{
+  "name" : "product_pricing_salesman_config",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "calls api /productmetadata/v1/items/pricing ",
+  "possibleVals" : [ true, false ]
+}

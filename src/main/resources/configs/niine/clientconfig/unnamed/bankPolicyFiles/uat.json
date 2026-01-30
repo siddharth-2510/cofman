@@ -1,0 +1,47 @@
+{
+  "name" : "bankPolicyFiles",
+  "type" : "map",
+  "value" : {
+    "sbi" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "axis" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "finagg" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    }
+  },
+  "description" : "Policy files urls for internal banks",
+  "defaultValue" : {
+    "sbi" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "axis" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "finagg" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    }
+  },
+  "possibleVals" : [ {
+    "sbi" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "axis" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    },
+    "finagg" : {
+      "tcURL" : "https://sellinabundle.s3.ap-south-1.amazonaws.com/TermsofUse-UnnatiApp-Revisednew.html",
+      "privacyURL" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/b191515aa00747659f8a7d00d2ce1888.pdf"
+    }
+  } ]
+}

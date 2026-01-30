@@ -1,0 +1,7 @@
+{
+  "name" : "blockOutletActivityOnLeave",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

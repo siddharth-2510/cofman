@@ -1,0 +1,193 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens"
+  }, {
+    "name" : "support",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Support"
+  }, {
+    "name" : "realTimeStocks",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Real Time Stocks"
+  }, {
+    "name" : "companyStockTypeUpdate",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Stock Type Update"
+  }, {
+    "name" : "companyManualStockUpdate",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manual Stock Adjustment"
+  }, {
+    "name" : "openClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Open Claims"
+  }, {
+    "name" : "closedClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Closed Claims"
+  }, {
+    "name" : "manageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Banner"
+  }, {
+    "name" : "manageBucketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bucket"
+  }, {
+    "name" : "manageBasketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Basket"
+  }, {
+    "name" : "managePolicies",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Policies"
+  }, {
+    "name" : "uiConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "UI Config"
+  }, {
+    "name" : "uiConfigNew",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Config Setup"
+  }, {
+    "name" : "sfaAnalytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "SFA Analytics"
+  }, {
+    "name" : "analyticsDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Performance Dashboard"
+  }, {
+    "name" : "homeScreenManagement",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "HomeScreen Management"
+  }, {
+    "name" : "integrationStatistics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Statistics"
+  }, {
+    "name" : "edaQuantityCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA Quantity Compliance "
+  }, {
+    "name" : "skuSelectionCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA SKU Selection Compliance"
+  }, {
+    "name" : "complianceDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Order Compliance"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "Analytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Analytics"
+  }, {
+    "name" : "validations",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Validations"
+  }, {
+    "name" : "updateTranslation",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update Translation"
+  }, {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "ClaimsAmt",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Claims Eligibilty Criteria"
+  }, {
+    "name" : "claimsFrequency",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Claims Generation Frequency"
+  }, {
+    "name" : "pricing",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Retailer Margin Configuration"
+  }, {
+    "name" : "couponManagement",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Coupon Management"
+  }, {
+    "name" : "triggerNotification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Trigger Notification"
+  }, {
+    "name" : "manageOutletApproval",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "New Outlet Approval Status"
+  }, {
+    "name" : "mdmSetUp",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Mdm SetUp"
+  }, {
+    "name" : "updatedFlowMDM",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Updated MDM"
+  }, {
+    "name" : "cashDiscount",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Cash Discount"
+  }, {
+    "name" : "insights",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Insights"
+  }, {
+    "name" : "productSequencing",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Product Catalog Sequencing"
+  }, {
+    "name" : "nocConfiguration",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "NOC Configuration"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "liveUpdateLabel",
+  "type" : "String",
+  "value" : "PJP - TODAY",
+  "docUrl" : "",
+  "description" : "live update label",
+  "possibleVals" : [ ]
+}

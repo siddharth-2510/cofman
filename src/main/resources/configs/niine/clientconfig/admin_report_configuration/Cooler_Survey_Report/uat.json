@@ -1,0 +1,6 @@
+{
+  "id" : "CoolerSurveyReport",
+  "name" : "Cooler Survey Report",
+  "type" : "usage",
+  "filter" : "daterange"
+}

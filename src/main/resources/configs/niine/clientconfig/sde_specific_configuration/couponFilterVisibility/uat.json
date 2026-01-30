@@ -1,0 +1,10 @@
+{
+  "name" : "couponFilterVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "Fiters on coupon screen",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

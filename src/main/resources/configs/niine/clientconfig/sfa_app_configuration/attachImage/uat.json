@@ -1,0 +1,9 @@
+{
+  "name" : "attachImage",
+  "type" : "String",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "support_configuration",
+  "description" : "To check image capture required or not",
+  "possibleVals" : [ ]
+}

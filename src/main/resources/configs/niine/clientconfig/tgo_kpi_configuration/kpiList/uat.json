@@ -1,0 +1,8 @@
+{
+  "name" : "kpiList",
+  "type" : "list",
+  "value" : [ "kpi_sales_value_user_sales_raw_data", "kpi_sales_value_user_level_using_raw_data", "kpi_productive_user_period", "kpi_msl_user", "order_recommendation_user", "order_recommendation", "kpi_review_eco_drilldown_table" ],
+  "description" : "list of KPI Names which will be sent in the api request body when the kpi loader runs",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

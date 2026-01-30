@@ -1,0 +1,8 @@
+{
+  "prefix" : "",
+  "suffix" : "",
+  "dateFormat" : "",
+  "startValue" : "1",
+  "sequenceLength" : "3",
+  "invoiceNumberPattern" : "RGRN{{sequence}}"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "packUnitLabel",
+  "type" : "string",
+  "value" : "Pc",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "renders the label that comes from the config",
+  "defaultValue" : "piece",
+  "possibleVals" : [ "string" ]
+}

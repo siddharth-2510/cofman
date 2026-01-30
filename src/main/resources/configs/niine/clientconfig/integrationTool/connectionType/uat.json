@@ -1,0 +1,148 @@
+[ {
+  "name" : "SFTP",
+  "image" : "sftp",
+  "attributes" : [ {
+    "name" : "host",
+    "displayName" : "Host"
+  }, {
+    "name" : "port",
+    "displayName" : "Port"
+  }, {
+    "name" : "userName",
+    "displayName" : "User Name"
+  }, {
+    "name" : "password",
+    "displayName" : "Password"
+  }, {
+    "name" : "remoteDirectory",
+    "displayName" : "Remote Directory"
+  } ],
+  "providerType" : "sftp"
+}, {
+  "name" : "AWS",
+  "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Amazon-S3-Logo.svg/1712px-Amazon-S3-Logo.svg.png",
+  "attributes" : [ {
+    "name" : "bucketName",
+    "value" : "",
+    "displayName" : "Bucket Name"
+  }, {
+    "name" : "region",
+    "value" : "",
+    "displayName" : "Region",
+    "defaultValue" : "ap-south-1"
+  }, {
+    "name" : "accessKey",
+    "value" : "",
+    "displayName" : "Access Key"
+  }, {
+    "name" : "secretKey",
+    "value" : "",
+    "displayName" : "Secret Key"
+  } ],
+  "providerType" : "aws_s3"
+}, {
+  "name" : "FTP",
+  "image" : "ftp",
+  "attributes" : [ {
+    "name" : "host",
+    "displayName" : "Host"
+  }, {
+    "name" : "port",
+    "displayName" : "Port"
+  }, {
+    "name" : "userName",
+    "displayName" : "User Name"
+  }, {
+    "name" : "password",
+    "displayName" : "Password"
+  }, {
+    "name" : "remoteDirectory",
+    "displayName" : "Remote Directory"
+  } ],
+  "providerType" : "ftp"
+}, {
+  "name" : "AZURE",
+  "image" : "azure",
+  "attributes" : [ {
+    "name" : "endpoint",
+    "value" : "",
+    "displayName" : "Endpoint"
+  }, {
+    "name" : "accountname",
+    "value" : "",
+    "displayName" : "Account Name"
+  }, {
+    "name" : "accountkey",
+    "value" : "",
+    "displayName" : "Account Key"
+  }, {
+    "name" : "sastoken",
+    "value" : "",
+    "displayName" : "SAS Token"
+  }, {
+    "name" : "container",
+    "value" : "",
+    "displayName" : "Container Name"
+  } ],
+  "providerType" : "azure_blob"
+}, {
+  "name" : "SharePoint",
+  "image" : "sharepoint",
+  "attributes" : [ {
+    "name" : "accessKey",
+    "value" : "",
+    "displayName" : "Client Id"
+  }, {
+    "name" : "secretKey",
+    "value" : "",
+    "displayName" : "Client Secret"
+  }, {
+    "name" : "domain",
+    "value" : "",
+    "displayName" : "Domain"
+  }, {
+    "name" : "sitePath",
+    "value" : "",
+    "displayName" : "Site Path"
+  }, {
+    "name" : "directory",
+    "value" : "/Shared Documents",
+    "displayName" : "Directory"
+  } ],
+  "providerType" : "sharepoint"
+}, {
+  "name" : "SOAP",
+  "image" : "soap",
+  "attributes" : [ {
+    "name" : "remoteUrl",
+    "value" : "",
+    "displayName" : "URL"
+  }, {
+    "name" : "xmlTag",
+    "value" : "",
+    "displayName" : "Data XML Tag"
+  }, {
+    "name" : "body",
+    "value" : "",
+    "displayName" : "Body"
+  }, {
+    "name" : "headers",
+    "displayName" : "Request Header"
+  }, {
+    "name" : "startTime",
+    "value" : "",
+    "displayName" : "Request Start Time(yyyy-MM-dd HH:mm:ss)"
+  }, {
+    "name" : "startTimeOffset",
+    "value" : "0",
+    "displayName" : "Start Time Offset, Should be in mintues"
+  }, {
+    "name" : "pagination",
+    "value" : "true",
+    "displayName" : "Pagination"
+  }, {
+    "name" : "authHeader",
+    "displayName" : "Request Auth Header"
+  } ],
+  "providerType" : "SOAP"
+} ]

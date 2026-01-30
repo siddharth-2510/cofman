@@ -1,0 +1,17 @@
+{
+  "name" : "searchKeywords",
+  "type" : "map",
+  "value" : {
+    "compliance" : [ "compliance", "cross sell", "recover", "regular" ],
+    "businessLoss" : [ "business loss", "absenteeism", "visit non compliance" ],
+    "orderInsight" : [ "order insights", "total orders", "total order value", "total sales value", "fill rate" ],
+    "businessImpact" : [ "business impact", "incremental sales", "cross sell", "recover" ],
+    "fieldExecution" : [ "field execution insights", "pjp compliance", "pjp productivity", "strike call" ],
+    "kpiPerformance" : [ "kpi performance insights", "sales growth", "target vs achievement sales", "target vs achievement order", "eco", "purchase trends" ],
+    "adoptionInsight" : [ "adoption insights", "total sales rep", "active sales rep", "sales rep placed orders", "outlets ordered" ]
+  },
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

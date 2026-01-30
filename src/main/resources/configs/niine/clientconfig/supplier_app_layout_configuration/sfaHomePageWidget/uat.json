@@ -1,0 +1,21 @@
+{
+  "name" : "sfaHomePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "outletsMapHome"
+  }, {
+    "id" : "basket"
+  }, {
+    "id" : "liveDashboard"
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "firstOrderFlow",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Determines whether to allow order on pending outlets"
+}

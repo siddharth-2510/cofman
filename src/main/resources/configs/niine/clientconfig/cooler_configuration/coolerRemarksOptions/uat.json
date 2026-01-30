@@ -1,0 +1,8 @@
+{
+  "name" : "coolerRemarksOptions",
+  "type" : "List",
+  "value" : [ "Perfecto estado", "Buen estado pero necesita asistencia", "Mal estado, requiere asistencia", "Mal estado, reemplazo" ],
+  "docUrl" : "",
+  "description" : "Merchandising Option",
+  "possibleVals" : [ ]
+}

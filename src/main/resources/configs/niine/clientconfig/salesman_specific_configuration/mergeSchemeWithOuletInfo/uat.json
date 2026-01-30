@@ -1,0 +1,9 @@
+{
+  "name" : "mergeSchemeWithOuletInfo",
+  "type" : "String",
+  "value" : "true",
+  "domainType" : "scheme_configuration",
+  "description" : "",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

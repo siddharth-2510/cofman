@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "test1",
+  "domain_type" : "test1",
+  "elements" : [ {
+    "name" : "aas",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

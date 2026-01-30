@@ -1,0 +1,10 @@
+{
+  "name" : "disableOrderEditDesignationBased",
+  "value" : {
+    "enable" : false,
+    "rolesAllowedForOrderEdit" : [ "supplier" ]
+  },
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

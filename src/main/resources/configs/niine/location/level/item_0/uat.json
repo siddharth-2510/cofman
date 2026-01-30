@@ -1,0 +1,14 @@
+{
+  "area" : 1,
+  "city" : 5,
+  "town" : 3,
+  "zone" : 9,
+  "state" : 7,
+  "branch" : 11,
+  "region" : 8,
+  "cluster" : 10,
+  "country" : 12,
+  "pincode" : 2,
+  "district" : 6,
+  "territory" : 4
+}

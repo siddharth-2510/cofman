@@ -1,0 +1,17 @@
+{
+  "operation" : [ {
+    "operation" : "increment",
+    "destColName" : "totalOrders"
+  }, {
+    "operation" : "add",
+    "destColName" : "mtdSalesValue",
+    "sourceColName" : "totalAmount"
+  }, {
+    "operation" : "date",
+    "destColName" : "timeSinceLastOrder",
+    "sourceColName" : "creationTime"
+  }, {
+    "operation" : "increment",
+    "destColName" : "todayOrders"
+  } ]
+}

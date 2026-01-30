@@ -1,0 +1,54 @@
+{
+  "name" : "outletActivityTabs",
+  "type" : "list",
+  "value" : [ {
+    "id" : "outletProfile",
+    "label" : "OUTLET PROFILE",
+    "iconPath" : "assets/svg/outlet_profile.svg",
+    "isDefault" : true,
+    "themeColor" : "#01c6b0",
+    "storeInRequired" : ""
+  }, {
+    "id" : "taskRecommendations",
+    "label" : "TASK RECOMMENDATIONS",
+    "iconPath" : "assets/svg/display.svg",
+    "isDefault" : true,
+    "themeColor" : "#A52A2A",
+    "storeInRequired" : ""
+  }, {
+    "id" : "competitionTracking",
+    "label" : "COMPETITION TRACKING",
+    "iconPath" : "assets/svg/competition_tracking.svg",
+    "isDefault" : true,
+    "themeColor" : "#e1ad01",
+    "storeInRequired" : ""
+  }, {
+    "id" : "storeInventory",
+    "label" : "STOCK INVENTORY",
+    "iconPath" : "assets/svg/store_inventory.svg",
+    "isDefault" : true,
+    "themeColor" : "#32a785",
+    "storeInRequired" : ""
+  }, {
+    "id" : "storeReturn",
+    "label" : "STOCK RETURN",
+    "iconPath" : "assets/svg/stock_returns.svg",
+    "isDefault" : true,
+    "themeColor" : "#7f7398",
+    "storeInRequired" : ""
+  }, {
+    "id" : "merchandising",
+    "label" : "MERCHANDISING",
+    "iconPath" : "assets/svg/merchandising.svg",
+    "isDefault" : true,
+    "themeColor" : "#767bfe",
+    "storeInRequired" : ""
+  }, {
+    "id" : "assetTracking",
+    "label" : "ASSET TRACKING",
+    "iconPath" : "assets/svg/competition_tracking.svg",
+    "isDefault" : true,
+    "themeColor" : "#2bbbad",
+    "storeInRequired" : ""
+  } ]
+}

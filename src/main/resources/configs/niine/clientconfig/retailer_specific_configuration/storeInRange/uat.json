@@ -1,0 +1,9 @@
+{
+  "name" : "storeInRange",
+  "type" : "number",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "outlet range",
+  "possibleVals" : [ "number" ]
+}

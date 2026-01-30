@@ -1,0 +1,6 @@
+{
+  "name" : "outletNavigation",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Determines whether to display outlet navigation map on outletcard"
+}

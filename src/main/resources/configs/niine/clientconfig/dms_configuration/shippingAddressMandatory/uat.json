@@ -1,0 +1,8 @@
+{
+  "name" : "shippingAddressMandatory",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "It will shipping address mandatory",
+  "possibleVals" : [ true, false ]
+}

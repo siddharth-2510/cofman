@@ -1,0 +1,99 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "projectadmin_report_configuration",
+  "elements" : [ {
+    "name" : "SFA-Attendance",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Grouping_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Salesman_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_Plan_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Ordered_Compliance_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Mapping_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Day_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_VALUE",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_Value",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Enrolled_Outlets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Business_Impact_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "No_Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report_ETL",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Notification_Dump",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "NotificationReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DeviceInfoReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Merchandising_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Stock_Entry",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DB_Visit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Visit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Competitor_Activity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Gate_Meeting",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,43 @@
+{
+  "name" : "mainDashboardLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Analytics Dashboard",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Analytics Dashboard",
+    "sidebarOptions" : [ "Analytics", "sfaAnalytics", "googleAnalytics", "performanceDashboard", "saleslens" ]
+  }, {
+    "id" : "Impact Prediction",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Impact Prediction",
+    "sidebarOptions" : [ "edaQuantityCompliance", "skuSelectionCompliance", "complianceDashboard" ]
+  }, {
+    "id" : "MDM and Reports",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Reports",
+    "sidebarOptions" : [ "mdm", "reports", "integrationPlatform", "registeredFunctions", "integrationJob", "splitKeyPage", "jenkinsJobDetails", "recipientList", "configComparatorTable", "oneClickIntegration", "manageReport" ]
+  }, {
+    "id" : "Salescode Studio",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Salescode Studio",
+    "sidebarOptions" : [ "uiConfig", "appBuild", "manageHomeScreen", "eventConfig", "accountStatus", "manageBannerStudio", "manageBucketStudio", "manageBasketStudio" ]
+  }, {
+    "id" : "Performance Analytics",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Performance Analytics",
+    "sidebarOptions" : [ "integrationStatistics", "analyticsDashboard", "masterDataReports", "validations" ]
+  }, {
+    "id" : "Banking",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Banking",
+    "sidebarOptions" : [ "createAccount", "retailerPayment", "retailerFinance", "retailerFinanceAdmin", "retailerOnboarding", "adminValidationPage" ]
+  }, {
+    "id" : "Manage Order",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Manage Order",
+    "sidebarOptions" : [ "manageOrder" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "dashboard Config",
+  "possibleVals" : [ ]
+}

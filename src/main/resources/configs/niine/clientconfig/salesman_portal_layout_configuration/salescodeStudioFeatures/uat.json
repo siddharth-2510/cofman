@@ -1,0 +1,10 @@
+{
+  "name" : "salescodeStudioFeatures",
+  "type" : "list",
+  "value" : [ {
+    "id" : "geoFencingEdit",
+    "questionsToDisable" : [ ]
+  } ],
+  "description" : "features that will be enabled on salescode studio",
+  "possibleVals" : [ ]
+}

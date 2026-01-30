@@ -1,0 +1,108 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "app_configuration",
+  "elements" : [ {
+    "name" : "validDesignation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "deepLinkUrl",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "betaVersion",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "moreScreenLogo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientLogo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appIconsTheme",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "gradientAppBarColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appBarBackgroundType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientHeaderLogo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appIcon",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientLogoHeight",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientHeaderLogoHeight",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appPackageName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appBuildType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appBuildId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "themeColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "androidAppId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loaderFailedText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "linkSharingMessage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "playStoreAppLink",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "additionalMessage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "remoteOrderlinkMessage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "remoteOrderlink",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "remoteOrderlinkAdditionalMessage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "executionTaskVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "iosAppPackageName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loadingScreenText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isOutletProfileHardCoded",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "solidAppBarColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appbarBackgroundImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loginBanner",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

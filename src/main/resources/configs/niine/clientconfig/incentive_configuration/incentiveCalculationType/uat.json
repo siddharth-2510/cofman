@@ -1,0 +1,5 @@
+{
+  "name" : "incentiveCalculationType",
+  "type" : "String",
+  "value" : "ORDER"
+}

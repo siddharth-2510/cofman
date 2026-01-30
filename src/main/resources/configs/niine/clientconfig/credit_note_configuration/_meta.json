@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "credit_note_configuration",
+  "elements" : [ {
+    "name" : "editValidity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "autoFillAmount",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

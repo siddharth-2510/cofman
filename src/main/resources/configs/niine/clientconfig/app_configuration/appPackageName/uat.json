@@ -1,0 +1,9 @@
+{
+  "name" : "appPackageName",
+  "type" : "string",
+  "value" : "com.applicate.cavinkaredemo.app",
+  "docUrl" : "",
+  "description" : "App package name",
+  "defaultValue" : "com.applicate.applicateai.app",
+  "possibleVals" : [ "string" ]
+}

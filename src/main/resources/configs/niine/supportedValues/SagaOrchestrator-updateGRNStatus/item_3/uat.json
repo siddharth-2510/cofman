@@ -1,0 +1,24 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.UpdateGRNStatusStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.SalesGrnService",
+    "index" : "7",
+    "description" : "Bean of SalesGrnService"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "3",
+    "description" : "New GRN Status"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.StockUpdateStep",
+    "index" : "-9",
+    "description" : "Bean of prev saga step StockUpdateStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.RetrieveGRNInfoStep",
+    "index" : "-1",
+    "description" : "Bean of prev saga step RetrieveGRNInfoStep"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "6",
+    "description" : "Rejection reason"
+  } ]
+}

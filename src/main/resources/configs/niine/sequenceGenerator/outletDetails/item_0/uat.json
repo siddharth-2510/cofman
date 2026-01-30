@@ -1,0 +1,8 @@
+{
+  "entity" : "com.applicate.services.channelkart.models.OutletDetails",
+  "fields" : [ {
+    "pattern" : "OUTLET-%s",
+    "fieldName" : "outletCode",
+    "appPattern" : "APPCODE_"
+  } ]
+}

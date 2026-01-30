@@ -1,0 +1,10 @@
+{
+  "name" : "uniqueSchemeVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "for unique scheme visibility",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

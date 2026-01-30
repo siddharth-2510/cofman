@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "outlet",
+  "domain_type" : "approval",
+  "elements" : [ {
+    "name" : "active",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

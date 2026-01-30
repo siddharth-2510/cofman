@@ -1,0 +1,12 @@
+{
+  "name" : "pricingMap",
+  "type" : "Map",
+  "value" : {
+    "1" : "supplier",
+    "2" : "outletCategory"
+  },
+  "docUrl" : "",
+  "domainType" : "order_configuration",
+  "description" : "Keys to be picked from Product Metadata for pricing",
+  "possibleVals" : [ true, false ]
+}

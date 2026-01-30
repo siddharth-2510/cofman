@@ -1,0 +1,6 @@
+{
+  "id" : "RawOrderValueEB2B",
+  "name" : "RAW Order Value",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

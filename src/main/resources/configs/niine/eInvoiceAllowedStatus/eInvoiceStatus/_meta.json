@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "eInvoiceAllowedStatus",
+  "domain_type" : "eInvoiceStatus",
+  "elements" : [ {
+    "name" : "statusAllowedForEInvoice",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

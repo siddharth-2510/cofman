@@ -1,0 +1,9 @@
+{
+  "name" : "grnRejectionReasons",
+  "type" : "list",
+  "value" : [ "⁠Damaged Goods", "Incorrect Items Delivered", "Expired Products", "Quality Issues", "Packaging Issues", "Mismatch in Quantity", "Non-compliance with Order Specs" ],
+  "docUrl" : "",
+  "description" : "grn rejection reasons",
+  "defaultValue" : [ "⁠Damaged Goods", "Incorrect Items Delivered", "Expired Products", "Quality Issues", "Packaging Issues", "Mismatch in Quantity", "Non-compliance with Order Specs" ],
+  "possibleVals" : [ "string[]" ]
+}

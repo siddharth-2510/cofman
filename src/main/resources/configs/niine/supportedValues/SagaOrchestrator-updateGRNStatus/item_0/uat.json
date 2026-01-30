@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.RetrieveGRNInfoStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.SalesGrnService",
+    "index" : "7",
+    "description" : "Bean of SalesGrnService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderService",
+    "index" : "1",
+    "description" : "Bean of OrderService"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "2",
+    "description" : "Invoice number"
+  } ]
+}

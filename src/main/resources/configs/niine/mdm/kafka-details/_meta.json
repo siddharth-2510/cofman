@@ -1,0 +1,30 @@
+{
+  "version" : "1.0",
+  "domain_name" : "mdm",
+  "domain_type" : "kafka-details",
+  "elements" : [ {
+    "name" : "stock",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "definition",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "productmeta",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "promoentity",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "parallelfilters",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "verticalfilters",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "id" : "fullMigration",
+  "name" : "Full Migration",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/FullCustomerMigrationETL-SqwwSTXBbPqc.xlsx",
+  "chainingJobName" : "test",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "skipPersist" : true,
+    "operationType" : "insert",
+    "transformerId" : "userParentIntegration"
+  } ]
+}

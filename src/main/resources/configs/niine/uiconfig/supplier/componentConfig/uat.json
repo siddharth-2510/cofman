@@ -1,0 +1,1011 @@
+{
+  "features" : [ {
+    "id" : "mdmDashboard",
+    "param" : {
+      "elements" : [ {
+        "id" : "staffMaster",
+        "name" : "GenericEntity",
+        "type" : "excel",
+        "label" : "Staff Master",
+        "templateurl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/StaffMaster-SvwWFFhPhAaD.xlsx",
+        "transformer" : [ {
+          "entityName" : "GenericEntity",
+          "transformerId" : "dms_staff_master_transformer"
+        } ]
+      }, {
+        "id" : "CreditStatus",
+        "name" : "CreditStatus",
+        "type" : "excel",
+        "label" : "CreditStatus",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/itcvissfaindemo/images/CreditStatus-rBSzEudVeXiU.xlsx",
+        "transformer" : [ {
+          "entityName" : "CreditStatus",
+          "transformerId" : "mdm_credit_status_transformer"
+        } ]
+      }, {
+        "id" : "vehicleMaster",
+        "name" : "VehicleInfo",
+        "type" : "excel",
+        "label" : "Vehicle Master",
+        "templateurl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/VehicleMDMUpload-XpLBIrfhpINF supplier-juFtCsbMvLjL.xlsx",
+        "transformer" : [ {
+          "entityName" : "VehicleInfo",
+          "transformerId" : "dms_vehicle_master_transformer"
+        } ]
+      }, {
+        "id" : "creditNoteBulkTransformer",
+        "name" : "Credit Note bulk ETL",
+        "label" : "Credit Note bulk ETL",
+        "useKafka" : false,
+        "templateurl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/crediteNoteTemplate-HWOWZJsVRNdL.xlsx",
+        "transformer" : [ {
+          "entityName" : "CreditNote",
+          "operationType" : "insert",
+          "transformerId" : "creditNoteBulkTransformer"
+        } ]
+      } ],
+      "extAttrInp" : [ "AUART", "KUNNR", "PAYER", "VKBUR", "SPART", "VKORG", "VTWEG" ]
+    },
+    "templateId" : "mdmDashboard"
+  }, {
+    "id" : "reports",
+    "param" : {
+      "elements" : [ {
+        "id" : "outletmasterreportDistributor",
+        "name" : "Outlet Master Report",
+        "type" : "master"
+      }, {
+        "id" : "StockReport",
+        "name" : "SFA-Stock",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SkuFullfilmentReport",
+        "name" : "SkuFullfilmentReport test",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        }, {
+          "id" : "history",
+          "name" : "Historical data",
+          "note" : "Note: Fetched historical data is 1 hour older"
+        } ]
+      }, {
+        "id" : "InvoiceReport",
+        "name" : "Secondary Invoice Report",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        }, {
+          "id" : "history",
+          "name" : "Historical data",
+          "note" : "Note: Fetched historical data is 1 hour older"
+        } ]
+      }, {
+        "id" : "GSTRReport",
+        "name" : "GSTRReport",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        }, {
+          "id" : "history",
+          "name" : "Historical data",
+          "note" : "Note: Fetched historical data is 1 hour older"
+        } ]
+      }, {
+        "id" : "sales_details_report",
+        "name" : "Sales Details Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "sales_details_report",
+          "name" : "Sales Details Report",
+          "reportName" : "sales_details_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "closing_stock_report",
+        "name" : "Closing Stock Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "isLiveReport" : true,
+        "newReportConfig" : {
+          "id" : "closing_stock_report",
+          "name" : "Closing Stock Report",
+          "getAPI" : "/rpt-generic/search?",
+          "reportName" : "closing_stock_report",
+          "columnsToHide" : [ "@filters", "id", "moddate", "product_status", "batch_status", "700", "600", "500", "400", "300", "200", "100", "creation_time" ],
+          "filtersToHide" : [ "product_code" ],
+          "mergedFilters" : {
+            "Product Hierarchy Level" : [ {
+              "alias" : "700",
+              "value" : "700"
+            }, {
+              "alias" : "600",
+              "value" : "600"
+            }, {
+              "alias" : "500",
+              "value" : "500"
+            }, {
+              "alias" : "400",
+              "value" : "400"
+            }, {
+              "alias" : "300",
+              "value" : "300"
+            }, {
+              "alias" : "200",
+              "value" : "200"
+            }, {
+              "alias" : "100",
+              "value" : "100"
+            } ]
+          },
+          "dateRangeFilter" : false,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "current_stock_report",
+        "name" : "Current Stock Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "isLiveReport" : true,
+        "newReportConfig" : {
+          "id" : "current_stock_report",
+          "name" : "Current Stock Report",
+          "getAPI" : "/rpt-generic/search?",
+          "reportName" : "current_stock_report",
+          "isLiveReport" : true,
+          "columnsToHide" : [ "@filters", "id", "moddate", "product_status", "batch_status", "700", "600", "500", "400", "300", "200", "100", "creation_time" ],
+          "filtersToHide" : [ "product_code" ],
+          "mergedFilters" : {
+            "Product Hierarchy Level" : [ {
+              "alias" : "700",
+              "value" : "700"
+            }, {
+              "alias" : "600",
+              "value" : "600"
+            }, {
+              "alias" : "500",
+              "value" : "500"
+            }, {
+              "alias" : "400",
+              "value" : "400"
+            }, {
+              "alias" : "300",
+              "value" : "300"
+            }, {
+              "alias" : "200",
+              "value" : "200"
+            }, {
+              "alias" : "100",
+              "value" : "100"
+            } ]
+          },
+          "dateRangeFilter" : false,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "purchase_return_report",
+        "name" : "Purchase Return Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "newReportConfig" : {
+          "id" : "purchase_return_report",
+          "name" : "Purchase Return Report",
+          "reportName" : "purchase_return_report",
+          "isNewReport" : true,
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "gstr1",
+        "name" : "GSTR1",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "gstr1",
+          "name" : "GSTR1",
+          "reportName" : "GSTR1",
+          "isGSTRReport" : true,
+          "gstrYearsRange" : 2,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "gstr2",
+        "name" : "GSTR2",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "gstr2",
+          "name" : "GSTR2",
+          "reportName" : "GSTR2",
+          "isGSTRReport" : true,
+          "gstrYearsRange" : 2,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "gstr3",
+        "name" : "GSTR3",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "gstr3",
+          "name" : "GSTR3",
+          "reportName" : "GSTR3",
+          "isGSTRReport" : true,
+          "gstrYearsRange" : 2,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "outlet_master_report",
+        "name" : "Outlet Master Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "outlet_master_report",
+          "name" : "Outlet Master Report",
+          "reportName" : "outlet_master_report",
+          "isLiveReport" : true,
+          "filtersToHide" : [ "distributor_status" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "primary_order_report",
+        "name" : "Primary Order Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "primary_order_report",
+          "name" : "Primary Order Report",
+          "reportName" : "primary_order_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "pending_claims_report",
+        "name" : "Pending Claims Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "pending_claims_report",
+          "name" : "Pending Claims Report",
+          "reportName" : "pending_claims_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "rejected_claims_report",
+        "name" : "Rejected Claims Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "rejected_claims_report",
+          "name" : "Rejected Claims Report",
+          "reportName" : "rejected_claims_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "input_tax_report",
+        "name" : "Input Tax Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "input_tax_report",
+          "name" : "Input Tax Report",
+          "reportName" : "input_tax_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "output_tax_report",
+        "name" : "Output Tax Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "output_tax_report",
+          "name" : "Output Tax Report",
+          "reportName" : "output_tax_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "hsn_code_wise_input_tax_report",
+        "name" : "Hsn Code Wise Input Tax Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "hsn_code_wise_input_tax_report",
+          "name" : "Hsn Code Wise Input Tax Report",
+          "reportName" : "hsn_code_wise_input_tax_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "hsn_code_wise_output_tax_report",
+        "name" : "Hsn Code Wise Output Tax Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "hsn_code_wise_output_tax_report",
+          "name" : "Hsn Code Wise Output Tax Report",
+          "reportName" : "hsn_code_wise_output_tax_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "dms_loading_sheet",
+        "name" : "Loading Sheet Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "dms_loading_sheet",
+          "name" : "Loading Sheet Report",
+          "reportName" : "dms_loading_sheet",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "dms_loadout_items",
+        "name" : "Loading Sheet Product Wise Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "dms_loadout_items",
+          "name" : "Loading Sheet Product Wise Report",
+          "reportName" : "dms_loadout_items",
+          "isLiveReport" : true,
+          "filtersToHide" : [ "loadout_reference_no" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "sku_fulfilment_report",
+        "name" : "Order Vs Supply Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "sku_fulfilment_report",
+          "name" : "Order Vs Supply Report",
+          "reportName" : "sku_fulfilment_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "purchase_tax_gst_report",
+        "name" : "Purchase Tax GST Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "purchase_tax_gst_report",
+          "name" : "Purchase Tax GST Report",
+          "reportName" : "purchase_tax_gst_report",
+          "isLiveReport" : true,
+          "columnsToHide" : [ "@filters", "id", "creation_time" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "outlet_ledger_report",
+        "name" : "Outlet Ledger Report",
+        "type" : "transaction",
+        "filter" : "daterange",
+        "isNewReport" : true
+      }, {
+        "id" : "stock_adjustment_report",
+        "name" : "Stock Adjustment Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "newReportConfig" : {
+          "id" : "stock_adjustment_report",
+          "name" : "Stock Adjustment Report",
+          "reportName" : "stock_adjustment_report",
+          "isNewReport" : true,
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "sales_return_report",
+        "name" : "Sales Return Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "sales_return_report",
+          "name" : "SSales Return Report",
+          "reportName" : "sales_return_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "stock_type_update_report",
+        "name" : "Stock Type Update Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "stock_type_update_report",
+          "name" : "Stock Type Update Report",
+          "reportName" : "stock_type_update_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "coverage_report",
+        "name" : "Coverage Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "coverage_report",
+          "name" : "Coverage Report",
+          "reportName" : "coverage_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "sfa_timespent_details_report",
+        "name" : "Timespentdetail Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "sfa_timespent_details_report",
+          "name" : "Timespentdetail Report",
+          "reportName" : "sfa_timespent_details_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "productwise_output_tax_report",
+        "name" : "GST Product-Wise Sales Output Tax Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "productwise_output_tax_report",
+          "name" : "GST Product-Wise Sales Output Tax Report",
+          "reportName" : "productwise_output_tax_report",
+          "columnsToHide" : [ "@filters", "id", "creation_time" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "stock_adjustment_report",
+        "name" : "Stock Adjustment Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "stock_adjustment_report",
+          "name" : "Stock Adjustment Report",
+          "reportName" : "stock_adjustment_report",
+          "columnsToHide" : [ "@filters", "id", "adjustment_date" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "fmcg_scheme_utilization_report",
+        "name" : "Scheme Utilization Report - FMCG",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "fmcg_scheme_utilization_report",
+          "name" : "Scheme Utilization Report - FMCG",
+          "reportName" : "fmcg_scheme_utilization_report",
+          "isLiveReport" : true,
+          "filtersToHide" : [ "salesman", "sales_route" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "supervisor_market_visit_report",
+        "name" : "Supervisor Market Visit Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "supervisor_market_visit_report",
+          "name" : "Supervisor Market Visit Report",
+          "reportName" : "supervisor_market_visit_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "bill_print_visibility_report",
+        "name" : "Bill Print Visibility Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "isLiveReport" : true,
+        "newReportConfig" : {
+          "id" : "bill_print_visibility_report",
+          "name" : "Bill Print Visibility Report",
+          "reportName" : "bill_print_visibility_report",
+          "columnsToHide" : [ "@filters", "id", "creation_time", "last_modified_time" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "bill_print_report",
+        "name" : "Bill Print Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "bill_print_report",
+          "name" : "Bill Print Report",
+          "reportName" : "bill_print_report",
+          "isPDFReport" : true,
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "showLast7DaysFilter" : false,
+          "showLast3MonthsFilter" : false,
+          "customDateRangeAllowed" : "1 month",
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "new_outlet_report",
+        "name" : "New Retailer Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "isLiveReport" : true,
+        "newReportConfig" : {
+          "id" : "new_outlet_report",
+          "name" : "New Retailer Report",
+          "reportName" : "new_outlet_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "product_wise_input_output_tax_report",
+        "name" : "Product wise input output tax report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "isLiveReport" : true,
+        "newReportConfig" : {
+          "id" : "product_wise_input_output_tax_report",
+          "name" : "product wise input output tax report",
+          "reportName" : "product_wise_input_output_tax_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "order_info_report",
+        "name" : "Order Information Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "order_info_report",
+          "name" : "Order Information Report",
+          "reportName" : "order_info_report",
+          "columnsToHide" : [ "@filters", "id" ],
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "grn_listing_report",
+        "name" : "GRN Listing Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "grn_listing_report",
+          "name" : "GRN Listing Report",
+          "reportName" : "grn_listing_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : true
+        }
+      }, {
+        "id" : "consolidated_claims_report",
+        "name" : "Consolidated Claims Report",
+        "type" : "new",
+        "filter" : "newFilter",
+        "isNewUi" : true,
+        "isNewReport" : true,
+        "newReportConfig" : {
+          "id" : "consolidated_claims_report",
+          "name" : "Consolidated Claims Report",
+          "reportName" : "consolidated_claims_report",
+          "isLiveReport" : true,
+          "dateRangeFilter" : true,
+          "isDistributorView" : true,
+          "shouldShowCustomFilters" : false
+        }
+      }, {
+        "id" : "ReturnReport",
+        "name" : "SFA-Return",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "RealTimeStockReport",
+        "name" : "Real Time Stock",
+        "type" : "stock audit",
+        "globalFilters" : [ {
+          "id" : "loggedInUser",
+          "api" : "/v1/query/getSuppliersDMS",
+          "label" : "Distributor",
+          "parent" : ""
+        } ]
+      }, {
+        "id" : "ClaimReportSaleReturns",
+        "name" : "Claim Report Sale Returns",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "ClaimReportPrimaryReturns",
+        "name" : "Claim Report Primary Returns",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "OrderReportCK",
+        "name" : "Order Report CK",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "InvoiceReportCK",
+        "name" : "Invoice Report CK",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SecondaryInvoiceHeaderReport",
+        "name" : "Secondary Invoice Header Report",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        } ]
+      }, {
+        "id" : "OutletMasterReport",
+        "name" : "Outlet Master Report",
+        "type" : "master"
+      }, {
+        "id" : "ARSOrderReport",
+        "name" : "Primary Order Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "ClaimHeaderReport",
+        "name" : "Claims Header Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "LoadoutReport",
+        "name" : "Loadout Report",
+        "type" : "delivery",
+        "filter" : "daterange",
+        "globalFilters" : [ {
+          "id" : "loginID",
+          "api" : "/v1/query/getSuppliers",
+          "label" : "Distributor",
+          "parent" : "",
+          "multiSelect" : true
+        } ]
+      }, {
+        "id" : "DeliveryConfirmationReport",
+        "name" : "Delivery Confirmation Report",
+        "type" : "settlement",
+        "filter" : "daterange",
+        "globalFilters" : [ {
+          "id" : "loginID",
+          "api" : "/v1/query/getSuppliers",
+          "label" : "Distributor",
+          "parent" : "",
+          "multiSelect" : true
+        } ]
+      }, {
+        "id" : "PrimaryOrderReport",
+        "name" : "PrimaryOrderReport",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        } ],
+        "globalFilters" : [ {
+          "id" : "type",
+          "label" : "type",
+          "apiType" : "API",
+          "options" : [ "primary" ]
+        } ]
+      }, {
+        "id" : "PrimaryGRNReport",
+        "name" : "PrimaryGRNReport",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        } ],
+        "globalFilters" : [ {
+          "id" : "type",
+          "label" : "type",
+          "apiType" : "API",
+          "options" : [ "primary" ]
+        } ]
+      }, {
+        "id" : "OrdersReport",
+        "name" : "Order Report test",
+        "type" : "transaction",
+        "filter" : "daterangeAndPeriod",
+        "parentFilter" : [ {
+          "id" : "live",
+          "name" : "Live",
+          "note" : "Note: Live values can be fetched for last 7 days only.",
+          "restriction" : {
+            "type" : "day",
+            "value" : 7
+          }
+        }, {
+          "id" : "custom",
+          "name" : "Custom date range",
+          "note" : "Note: Custom data can be fetched for last 3 months only and the data fetched is 1 hour older",
+          "restriction" : {
+            "type" : "month",
+            "value" : 3
+          }
+        }, {
+          "id" : "history",
+          "name" : "Historical data",
+          "note" : "Note: Fetched historical data is 1 hour older"
+        } ]
+      } ]
+    },
+    "templateId" : "reports"
+  }, {
+    "id" : "orderDashboard",
+    "templateId" : "orderDashboard2"
+  }, {
+    "id" : "userAnalytics",
+    "templateId" : "userAnalytics6"
+  }, {
+    "id" : "mdmApproval",
+    "templateId" : "mdmApproval"
+  }, {
+    "icon" : "fas fa-user-circle",
+    "name" : "Profile",
+    "featureId" : "adminProfile"
+  }, {
+    "id" : "queryEditor",
+    "templateId" : "queryEditor"
+  }, {
+    "id" : "adminProfile",
+    "templateId" : "adminProfile2"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "profile"
+      }, {
+        "icon" : "fas fa-user-lock",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  }, {
+    "id" : "sidebar",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-chart-area fa-lg",
+        "name" : "Order Analytics",
+        "featureId" : "orderDashboard"
+      }, {
+        "icon" : "fas fa-chart-line fa-lg",
+        "name" : "Reports",
+        "featureId" : "reports"
+      }, {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "Outlet Approval",
+        "featureId" : "mdmApproval"
+      } ]
+    },
+    "templateId" : "sidebar"
+  } ]
+}

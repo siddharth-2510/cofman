@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "upload",
+  "domain_type" : "fileupload",
+  "elements" : [ {
+    "name" : "type",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

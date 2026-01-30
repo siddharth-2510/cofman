@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "returnConfig",
+  "domain_type" : "enableCombinedReturnValidation",
+  "elements" : [ {
+    "name" : "enabled",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

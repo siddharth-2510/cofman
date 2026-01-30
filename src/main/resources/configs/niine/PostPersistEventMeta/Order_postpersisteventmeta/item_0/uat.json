@@ -1,0 +1,6 @@
+{
+  "eventType" : "SOAP",
+  "profileId" : "Order_PostPersistSoapProfile",
+  "queryName" : "NA",
+  "transformerId" : "OrderPostPersistTransformer"
+}

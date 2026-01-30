@@ -1,0 +1,8 @@
+{
+  "name" : "enableFocPurchaseReturnClaims",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Enables raising claims for FOC stock in Purchase Returns. Users will be able to raise claim for 0 amount as well.",
+  "possibleVals" : [ true, false ]
+}

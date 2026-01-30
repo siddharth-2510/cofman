@@ -1,0 +1,108 @@
+{
+  "name" : "homePageWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "id" : 0,
+    "name" : "TopScheme Banner",
+    "type" : "banner",
+    "bannerElements" : [ {
+      "id" : "017a5e7d-ad1a-4683-81a1-c63b9d4df29f",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-02-pBTxoEZIfFBg.jpg",
+      "fileName" : "App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-02.jpg",
+      "mediaName" : "image",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element Two",
+      "elementNumber" : "2",
+      "extendedAttributes" : null
+    }, {
+      "id" : "283bc51d-0afe-42c0-8ba9-6efba2f38200",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-03-OGSbPONBMlLa.jpg",
+      "fileName" : "App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-03.jpg",
+      "mediaName" : "image",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element One",
+      "elementNumber" : "1",
+      "extendedAttributes" : null
+    }, {
+      "id" : "8da727bd-6a56-42d1-a16a-cc62b56041c3",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-01-NepeBZnkEjry.jpg",
+      "fileName" : "App-Specific Banner-Promo banner-Top Schemes banner - 500x416 px-01.jpg",
+      "mediaName" : "image",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element Three",
+      "elementNumber" : "3",
+      "extendedAttributes" : null
+    } ]
+  }, {
+    "id" : 1,
+    "name" : "All Catalogue",
+    "type" : "banner",
+    "bannerElements" : [ {
+      "id" : "b533f93c-ac0d-49ef-86b8-b57c35d4bba8",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Screenshot 2025-05-17 at 4-ahKTuHLHYwnc.13.38 PM.png",
+      "fileName" : "Screenshot 2025-05-17 at 4.13.38 PM.png",
+      "mediaName" : "image",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element One",
+      "elementNumber" : "1",
+      "extendedAttributes" : null
+    } ]
+  }, {
+    "id" : 2,
+    "name" : "1746794781883",
+    "type" : "basket",
+    "bannerElements" : null
+  }, {
+    "id" : 9,
+    "name" : "1751010426705",
+    "type" : "bucket",
+    "bannerElements" : null
+  }, {
+    "id" : 4,
+    "name" : "Communication Banner",
+    "type" : "banner",
+    "bannerElements" : [ {
+      "id" : "b056c925-9bb1-4553-af97-e4e5bf171e72",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/De-tan communication bar-1-TMJURPrUuvJX.jpg",
+      "fileName" : "De-tan communication bar-1.jpg",
+      "mediaName" : "image",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element One",
+      "elementNumber" : "1",
+      "extendedAttributes" : null
+    } ]
+  }, {
+    "id" : 3,
+    "name" : "1747136721270",
+    "type" : "bucket",
+    "bannerElements" : null
+  }, {
+    "id" : 6,
+    "name" : "1746794927802",
+    "type" : "basket",
+    "bannerElements" : null
+  }, {
+    "id" : 7,
+    "name" : "Tv Adds",
+    "type" : "banner",
+    "bannerElements" : [ {
+      "id" : "7c1c26d1-8358-41b4-b665-500dfeb735ee",
+      "mediaUrl" : "https://www.youtube.com/watch?v=lKy96KU0KQw",
+      "mediaName" : "youtubeLink",
+      "elementType" : "image",
+      "activeStatus" : "active",
+      "elementTitle" : "Element One",
+      "elementNumber" : "1",
+      "extendedAttributes" : null
+    } ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "home page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout", "formLayout", "reportLayout" ]
+}

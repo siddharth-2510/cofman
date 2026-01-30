@@ -1,0 +1,23 @@
+{
+  "name" : "targetDashboardParameterSequence",
+  "type" : "List",
+  "value" : [ {
+    "sequence" : [ "Redis Payout", "Gate Business", "Focus Product 2", "PCP", "Focus Product 1", "Overall Business", "Foods - Snacks<Rs.20" ],
+    "configType" : "default"
+  }, {
+    "sequence" : [ "BINGO", "Redis Payout", "Focus prodcut", "ITC", "Gate Business", "PCP" ],
+    "configType" : "stockist"
+  }, {
+    "sequence" : [ "PCP", "Overall", "Redis Payout", "Focus Product 1", "Focus Product 2", "Foods - Snacks<Rs.20", "Gate Business", "Overall Business" ],
+    "configType" : "loyalty",
+    "loyaltyType" : "FC COMMON"
+  }, {
+    "sequence" : [ "PCP", "Overall", "Redis Payout" ],
+    "configType" : "loyalty",
+    "loyaltyType" : "FC UDAY"
+  }, {
+    "sequence" : [ "PCP", "Overall", "Redis Payout" ],
+    "configType" : "loyalty",
+    "loyaltyType" : "FC FOODS"
+  } ]
+}

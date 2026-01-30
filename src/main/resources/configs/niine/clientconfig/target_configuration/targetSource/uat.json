@@ -1,0 +1,8 @@
+{
+  "name" : "targetSource",
+  "type" : "string",
+  "value" : "kpi",
+  "docUrl" : "",
+  "description" : "Source of target",
+  "possibleVals" : [ "target", "kpi" ]
+}

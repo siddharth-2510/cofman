@@ -1,0 +1,9 @@
+{
+  "name" : "schemeWithSequence",
+  "type" : "string",
+  "value" : "true",
+  "docUrl" : "",
+  "description" : "To handle the title / heading of the scheme.",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

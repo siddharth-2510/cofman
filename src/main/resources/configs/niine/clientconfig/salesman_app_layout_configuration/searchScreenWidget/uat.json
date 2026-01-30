@@ -1,0 +1,35 @@
+{
+  "name" : "searchScreenWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "name" : "searchHistory",
+    "type" : "tab",
+    "limit" : 10,
+    "title" : "Your Recent Searches"
+  }, {
+    "name" : "BS001",
+    "type" : "tab",
+    "limit" : 10
+  }, {
+    "name" : "TR001",
+    "type" : "basket",
+    "limit" : 10
+  }, {
+    "id" : "SRCH001",
+    "name" : "shopByCategory",
+    "type" : "collectionBasket",
+    "limit" : 100
+  }, {
+    "id" : "00100",
+    "name" : "shopByBrand",
+    "type" : "collectionBasket",
+    "limit" : 100
+  }, {
+    "name" : "appSchemeBanner",
+    "type" : "banner"
+  } ],
+  "docUrl" : "",
+  "description" : "search page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout" ]
+}

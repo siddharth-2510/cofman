@@ -1,0 +1,42 @@
+{
+  "type" : "object",
+  "title" : "Any form name",
+  "required" : [ "key1", "key2" ],
+  "properties" : {
+    "key1" : {
+      "type" : "array",
+      "title" : "Key 1",
+      "arrayType" : "string"
+    },
+    "key2" : {
+      "type" : "string",
+      "title" : "Key 2"
+    },
+    "key3" : {
+      "type" : "object",
+      "title" : "key 3",
+      "properties" : {
+        "key4" : {
+          "type" : "array",
+          "title" : "Key 4",
+          "arrayType" : "string"
+        },
+        "key5" : {
+          "type" : "object",
+          "title" : "Key 5",
+          "properties" : {
+            "key6" : {
+              "type" : "string",
+              "title" : "Key 6"
+            }
+          }
+        },
+        "key7" : {
+          "type" : "string",
+          "title" : "Key 7"
+        }
+      }
+    }
+  },
+  "description" : "A simple form example."
+}

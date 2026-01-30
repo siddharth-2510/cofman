@@ -1,0 +1,11 @@
+{
+  "id" : "productMaster",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/file-upload/ProductMasterMdmUploadTemplate-FUarpqbTObOL.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductDetails",
+    "transformerId" : "dms_mdm_product_details_cocaind"
+  }, {
+    "entityName" : "ProductMetaData",
+    "transformerId" : "dms_mdm_product_metadata_cocaind"
+  } ]
+}

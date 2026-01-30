@@ -1,0 +1,6 @@
+{
+  "name" : "requiredWidgetIdsBeforeOtp",
+  "type" : "List",
+  "value" : [ "outletDistributor" ],
+  "description" : "check whether these fields are not empty before sending otp"
+}

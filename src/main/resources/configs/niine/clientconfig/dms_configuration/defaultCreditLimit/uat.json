@@ -1,0 +1,8 @@
+{
+  "name" : "defaultCreditLimit",
+  "type" : "number",
+  "value" : "15000",
+  "docUrl" : "",
+  "description" : "It will set the default credit limit",
+  "possibleVals" : [ "string" ]
+}

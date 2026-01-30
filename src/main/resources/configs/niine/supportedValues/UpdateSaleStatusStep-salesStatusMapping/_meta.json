@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "supportedValues",
+  "domain_type" : "UpdateSaleStatusStep-salesStatusMapping",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_1",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_2",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_3",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_4",
+    "pattern" : "FALLBACK"
+  } ]
+}

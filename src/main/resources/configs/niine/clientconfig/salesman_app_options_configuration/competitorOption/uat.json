@@ -1,0 +1,8 @@
+{
+  "name" : "competitorOption",
+  "type" : "List",
+  "value" : [ "Godrej", "Britannia", "ITC", "Hindustan Unilever" ],
+  "docUrl" : "",
+  "description" : "Competitor options",
+  "possibleVals" : [ ]
+}

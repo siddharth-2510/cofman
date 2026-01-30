@@ -1,0 +1,9 @@
+{
+  "name" : "transformerListConfig",
+  "type" : "String",
+  "value" : "usePromo",
+  "domainType" : "scheme_configuration",
+  "description" : "To define which scheme transformer to use",
+  "defaultValue" : "schemes",
+  "possibleVals" : [ "usePromo", "schemes" ]
+}

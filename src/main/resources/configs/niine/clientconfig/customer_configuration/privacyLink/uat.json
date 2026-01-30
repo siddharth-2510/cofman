@@ -1,0 +1,9 @@
+{
+  "name" : "privacyLink",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/CK_PrivacyPolicy 23-bgdWrMYvKhCe.6.25.pdf",
+  "docUrl" : "",
+  "description" : "privacylink",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

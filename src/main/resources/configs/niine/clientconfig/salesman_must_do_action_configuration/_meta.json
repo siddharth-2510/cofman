@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesman_must_do_action_configuration",
+  "elements" : [ {
+    "name" : "mustDoActionCard",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTabFilters",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "focusProductsLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "liveUpdateLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "premiumProductsLabel",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

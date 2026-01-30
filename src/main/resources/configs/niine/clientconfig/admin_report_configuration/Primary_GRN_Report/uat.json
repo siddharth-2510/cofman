@@ -1,0 +1,6 @@
+{
+  "id" : "PrimaryGRNReport",
+  "name" : "Primary GRN Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

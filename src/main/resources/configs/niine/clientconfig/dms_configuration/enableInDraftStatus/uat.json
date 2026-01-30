@@ -1,0 +1,8 @@
+{
+  "name" : "enableInDraftStatus",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Determines whether users can save as draft in open claims page.",
+  "possibleVals" : [ true, false ]
+}

@@ -1,0 +1,32 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.TransformOrderStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "7",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.utils.EntityUtils",
+    "index" : "13",
+    "description" : "Bean of EntityUtils"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Order",
+    "index" : "11",
+    "description" : "Order object"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "12",
+    "description" : "Old Order Status"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "6",
+    "description" : "New Order Status"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "10",
+    "description" : "Transformer"
+  }, {
+    "type" : "java.lang.Boolean",
+    "index" : "15",
+    "description" : "generatingInvoiceFlow true or false ? "
+  } ]
+}

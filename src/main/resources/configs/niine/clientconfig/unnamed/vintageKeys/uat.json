@@ -1,0 +1,26 @@
+{
+  "name" : "vintageKeys",
+  "type" : "map",
+  "value" : {
+    "title" : "Sales Information",
+    "turnover" : "Sales Value",
+    "disclaimer" : "Turnover details being shared with the bank",
+    "vintageDate" : "Month-Year",
+    "vintageTitle" : "Vintage"
+  },
+  "description" : "Configuration for keys in vintage popup",
+  "defaultValue" : {
+    "title" : "Sales Information",
+    "turnover" : "Sales Value",
+    "diclaimer" : "Turnover details being shared with the bank",
+    "vintageDate" : "Month-Year",
+    "vintageTitle" : "Vintage"
+  },
+  "possibleVals" : [ {
+    "title" : "Sales Information",
+    "turnover" : "Sales Value",
+    "diclaimer" : "Turnover details being shared with the bank",
+    "vintageDate" : "Month-Year",
+    "vintageTitle" : "Vintage"
+  } ]
+}

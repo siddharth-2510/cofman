@@ -1,0 +1,10 @@
+{
+  "type" : "sms",
+  "active" : 1,
+  "dataObj" : "{'supplier':'supplier.$name','supplierContNo':'supplier.$mobile','orderNo':'$orderNumber','outletCode':'outletCode.$outletCode','userName':'orderedByUser.$loginId',totalAmt:'$totalAmount',outletName:'outletCode.$outletName'}",
+  "lobText" : "$lob",
+  "mailSubject" : "New Order",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/templates/ordersms.txt",
+  "recipientInfo" : "{'feature':'orderNotification','retailerId':'orderedByUser.$loginId','retailerName':'orderedByUser.$name','orderNo':'$orderNumber','supplierName':'supplier.$name','supplierId':'supplier.$loginId','triggeredBy':'orderedByUser.$loginId'}",
+  "recipientText" : "orderedByUser.$mobile"
+}

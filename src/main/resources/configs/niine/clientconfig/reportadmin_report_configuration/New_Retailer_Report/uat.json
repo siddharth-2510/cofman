@@ -1,0 +1,46 @@
+{
+  "id" : "new_outlet_report",
+  "name" : "New Retailer Report",
+  "type" : "new",
+  "filter" : "newFilter",
+  "isNewReport" : true,
+  "isNewReportUi" : true,
+  "newReportConfig" : {
+    "id" : "new_outlet_report",
+    "name" : "New Retailer Report",
+    "reportName" : "new_outlet_report",
+    "isLiveReport" : true,
+    "dateRangeFilter" : true,
+    "distributorFilter" : {
+      "field" : "distributor_code",
+      "label" : "Select Distributor",
+      "enabled" : true
+    },
+    "salesHierarchyFilter" : {
+      "enabled" : true,
+      "hierarchyMap" : {
+        "zm" : [ "asm", "tsm" ],
+        "asm" : [ "sde", "tgo" ],
+        "nsm" : [ "rsm" ],
+        "rsm" : [ "zm" ],
+        "sde" : [ "supplier" ],
+        "tgo" : [ "supplier" ],
+        "tsm" : [ "sde", "tgo" ],
+        "saleshead" : [ "nsm" ]
+      },
+      "hierarchyOrder" : [ "saleshead", "nsm", "rsm", "zm", "asm", "tsm", "tgo", "sde", "supplier" ],
+      "levelFilterField" : "salesLevel",
+      "levelFilterLabel" : "Select Level",
+      "valueFilterField" : "salesValue",
+      "valueFilterLabel" : "Select Value"
+    },
+    "shouldShowCustomFilters" : true,
+    "geographicalHierarchyFilter" : {
+      "enabled" : true,
+      "levelFilterField" : "geographicalLevel",
+      "levelFilterLabel" : "Select Geographical Level",
+      "valueFilterField" : "geographicalValue",
+      "valueFilterLabel" : "Select Geographical Value"
+    }
+  }
+}

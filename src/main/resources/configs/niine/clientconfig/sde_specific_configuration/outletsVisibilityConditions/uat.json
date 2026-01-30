@@ -1,0 +1,7 @@
+{
+  "name" : "outletsVisibilityConditions",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "outlet_activity_configuration",
+  "description" : ""
+}

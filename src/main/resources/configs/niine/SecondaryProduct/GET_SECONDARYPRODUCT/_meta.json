@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "SecondaryProduct",
+  "domain_type" : "GET_SECONDARYPRODUCT",
+  "elements" : [ {
+    "name" : "queryName",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

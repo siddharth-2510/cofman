@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "Attendance",
+  "domain_type" : "DynamicUniqueKey",
+  "elements" : [ {
+    "name" : "dynamicKeys",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  }, {
+    "name" : "abc",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

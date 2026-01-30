@@ -1,0 +1,33 @@
+{
+  "name" : "excludedFeatureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "orderingconstraintloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "stockavailabilityloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "outletstatus",
+    "version" : "1.0",
+    "template" : "supervisor"
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

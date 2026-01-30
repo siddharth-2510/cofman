@@ -1,0 +1,8 @@
+{
+  "name" : "otherUnitLabelPrimaryReturn",
+  "type" : "string",
+  "value" : "Other",
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

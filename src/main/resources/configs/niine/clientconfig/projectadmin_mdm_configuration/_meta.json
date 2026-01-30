@@ -1,0 +1,141 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "projectadmin_mdm_configuration",
+  "elements" : [ {
+    "name" : "Salesman_User_Transformer",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Distributor_VSO_Mapping",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Claims_User_ETL",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Sales_Return_Restriction",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Location",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ProductDetails",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_to_Salesman",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockNew",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductImage",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "outletMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "companyMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "distributerMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "deliveryPJPMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Focus_Product",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Tax",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "vehicleMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Route_to_Frequency",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_to_Outlet",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SKU_Group_Creation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SKU_Line_Mapping",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "eb2b_stock",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductMetaData",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "staffMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Outlet_Category",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "MOQ",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryPriceMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "secondaryPriceMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Multiple_Image_Upload",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Division",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductDetailsMDM",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Target",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Replacement",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_Creation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_MDM",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Hierarchy_Creation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Distributor_TGO_Mapping",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Replacement_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Bulk_Manual_Stock_Adjustment",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Stock_Type_Update",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Full_Migration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Partial_Migration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Salesman_Sharing",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Beat_Migration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_Salesman_Migration",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

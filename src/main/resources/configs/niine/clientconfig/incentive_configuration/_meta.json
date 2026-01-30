@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "incentive_configuration",
+  "elements" : [ {
+    "name" : "incentiveLiveUpdate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ruleMapping",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "incentiveDuration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "incentiveCalculationType",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

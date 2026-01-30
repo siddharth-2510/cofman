@@ -1,0 +1,8 @@
+{
+  "name" : "blockUserTimeRestriction",
+  "type" : "integer",
+  "value" : 30,
+  "description" : "",
+  "defaultValue" : 0,
+  "possibleVals" : [ ]
+}

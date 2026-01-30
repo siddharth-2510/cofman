@@ -1,0 +1,28 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.UpdateSalesReturnWithoutRefNumStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "0",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "1",
+    "description" : "Updated Sales Return object"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "6",
+    "description" : "Original Sales Return object"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesTaxService",
+    "index" : "3",
+    "description" : "Bean of SalesTaxService"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "9",
+    "description" : "new status"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "10",
+    "description" : "status reason"
+  } ]
+}

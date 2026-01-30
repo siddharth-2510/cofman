@@ -1,0 +1,6 @@
+{
+  "id" : "AttendanceReport",
+  "name" : "SFA-Attendance",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

@@ -1,0 +1,10 @@
+{
+  "id" : "Claims User ETL",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/ClaimUsers-yovBebhkdiLD-yYHIOgZALTuQ.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_Claims_User_transformer"
+  } ]
+}

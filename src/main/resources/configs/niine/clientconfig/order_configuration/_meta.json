@@ -1,0 +1,147 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "order_configuration",
+  "elements" : [ {
+    "name" : "supplierSource",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderConfirmationEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appTypeOrderSourceConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "filterProductAttributes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "teleOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "teleOrderNumber",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCalculationType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderSuggestedQty",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "amountCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "missedPoPUpMargin",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "maxAllowedDigitForOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "minOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "minOrderType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderRemarksVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFulfillmentTime",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "discountCouponVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCheckoutPtrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCheckoutUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFeedback",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderIssues",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCompliment",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderInvoiceDisclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "distributorVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderTrackingStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderTrackingDefaultRange",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "editOrderTimeValidation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "editOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCancellationDisclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "locationPopupOnOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCancellationSummaryDisclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCancellationReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCancellationPeriod",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderNotReceivedReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderConfirmationPopup",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fullFilledByLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingApi",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "retailerMarginVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showSupplierDropdown",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryOrderTrackingStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "grnStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "goToInvoiceRedirectionButton",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableOrderTrackingDateFilterInOutletProfile",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderRecommendationFeedback",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "addButtonCustomKeyboard",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

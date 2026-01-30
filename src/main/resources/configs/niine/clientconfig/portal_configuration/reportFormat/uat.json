@@ -1,0 +1,8 @@
+{
+  "name" : "reportFormat",
+  "type" : "string",
+  "value" : "xlsx",
+  "docUrl" : "",
+  "description" : "format of the new reports",
+  "possibleVals" : [ ]
+}

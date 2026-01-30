@@ -1,0 +1,16 @@
+{
+  "name" : "supportSubCategoryList",
+  "type" : "List",
+  "value" : [ {
+    "raaga-skin" : [ "Stem Cell Facial Kit", "Hygiene Facial Kit", "De-Tan", "Liposoluble wax", "Raaga Express Single Use Kit", "Bridal Pedicure and Mancure", "Skin Retail", "Pedicure and Mancure", "SPF", "Express Eco Kit", "Bridal Facial Kit", "Hydro Brilanc", "Radiant Tone" ]
+  }, {
+    "raaga-hair" : [ "Pro Botanix Spa", "Pro Botanix Conditioner", "Pro Botanix Shampoo", "Pro10 Hair Colour", "Pro10 Developer", "Peel Off Mask" ]
+  }, {
+    "krone-haircare" : [ "AD Kit", "Prime Lex Conditioner", "Prime Lex Shampoo", "Keratin Serum", "Keratin Masque", "Keratin Shampoo", "Keratin Advanced Cream", "Probotox Spary", "Keratin Monodose", "Straightening Treatment", "Plex" ]
+  }, {
+    "indica-haircare" : [ "Inspire Hair Colour", "Inspire Developer", "Inspire Shampoo", "Inspire Masque", "Inspire Serum", "Brillumin Hair Colour", "Brillumin Developer", "Viva Shine", "Nutrendz" ]
+  } ],
+  "docUrl" : "",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,27 @@
+{
+  "name" : "loadoutStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "ALL",
+    "dmsLabel" : "ALL"
+  }, {
+    "id" : "IN-DRAFT",
+    "dmsColor" : "#FAFDFF",
+    "dmsLabel" : "In-Draft",
+    "dmsLabelColor" : "#0275CB"
+  }, {
+    "id" : "IN-TRANSIT",
+    "dmsColor" : "#FBFFEF",
+    "dmsLabel" : "In-Transit",
+    "dmsLabelColor" : "#7EA21C"
+  }, {
+    "id" : "DELIVERED",
+    "dmsColor" : "#F3FCF3",
+    "dmsLabel" : "Delivered",
+    "dmsLabelColor" : "#23C65B"
+  } ],
+  "docUrl" : "",
+  "description" : "Loadout stages",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

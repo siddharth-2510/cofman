@@ -1,0 +1,8 @@
+{
+  "name" : "iosAppPackageName",
+  "type" : "string",
+  "value" : "com.applicate.ckcoedemo.app",
+  "docUrl" : "",
+  "description" : "App Package Name",
+  "possibleVals" : [ "string" ]
+}

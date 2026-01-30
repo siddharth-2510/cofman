@@ -1,0 +1,117 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "catalogue_configuration",
+  "elements" : [ {
+    "name" : "sfaProductBasket",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondaryProductsTab",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "product_pricing_salesman_config",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showSchemeOnImageTap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "skuCodeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "skuDescriptionFormatter",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "casePtrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "packUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "caseUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ptrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "packPtrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "unitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "suggestedQtyVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderSuggestedQty",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "caseUnitLabel_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiUOMSelection",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultCatalogueImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showFreeProductLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "maxAllowedDigitForOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiVariantOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiVariantSortingOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiVariantHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bundleCouponVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "couponFilterVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mrpLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderUomCheck",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "caseUnitLabelPrimary",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitLabelPrimary",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "packUnitLabelPrimary",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "createPrimaryOrderUom",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productApiTransformer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "categoryWisePricingConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "categoryWisePricingOrderConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "catalogProductSortingRules",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

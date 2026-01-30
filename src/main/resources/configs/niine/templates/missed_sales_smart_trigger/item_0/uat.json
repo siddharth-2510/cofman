@@ -1,0 +1,19 @@
+{
+  "data" : "You’re falling behind! You’ve not even covered 50% of today’s Sales Target.",
+  "type" : "firebase",
+  "active" : 1,
+  "payload" : {
+    "intent" : "missedSalesNudge",
+    "blobKey" : "",
+    "feature" : "outletVisit",
+    "category" : "SmartTrigger",
+    "mediaUrl" : "",
+    "userName" : "{{data.outlet_name}}",
+    "intentText" : "Outlets with sales target contribution",
+    "subcategory" : "Missed Sales",
+    "numberOfDays" : "1"
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.usercontext}}",
+  "referenceType" : "inline"
+}

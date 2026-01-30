@@ -1,0 +1,10 @@
+{
+  "name" : "stockEnrichType",
+  "type" : "string",
+  "value" : "consolidateStock",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "stock_configuration",
+  "description" : "Specifies the type of stock data transformation to apply based on the response from different stock APIs",
+  "defaultValue" : false,
+  "possibleVals" : [ false ]
+}

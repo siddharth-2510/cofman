@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "cdmGetKeyQuery",
+  "domain_type" : "GenericEntity",
+  "elements" : [ {
+    "name" : "queryName",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

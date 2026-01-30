@@ -1,0 +1,8 @@
+{
+  "Stock" : {
+    "NONE" : [ ]
+  },
+  "ProductDetails" : {
+    "batchCode" : [ "batchCode" ]
+  }
+}

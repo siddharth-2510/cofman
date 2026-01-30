@@ -1,0 +1,16 @@
+{
+  "workflow" : [ {
+    "parallel" : false,
+    "approvers" : [ {
+      "designation" : "company",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "AND"
+  } ],
+  "revertUrl" : "nourl",
+  "callbackUrl" : "https://claims-demo.salescode.ai/v1/claims/processApproval",
+  "isEventRequired" : false,
+  "midStepCallbackRequired" : true
+}

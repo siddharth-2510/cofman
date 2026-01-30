@@ -1,0 +1,20 @@
+{
+  "name" : "visitSummaryLayout",
+  "type" : "List",
+  "value" : [ {
+    "id" : "OrderDate",
+    "label" : "Order Date"
+  }, {
+    "id" : "OrderStatus",
+    "label" : "Order Status",
+    "value" : "CONFIRMED"
+  }, {
+    "id" : "LastInvoiceDate",
+    "label" : "Invoice date",
+    "value" : "27-12-2023"
+  }, {
+    "id" : "LastVisitDate",
+    "label" : "Last Visit Date",
+    "value" : "28-12-2023"
+  } ]
+}

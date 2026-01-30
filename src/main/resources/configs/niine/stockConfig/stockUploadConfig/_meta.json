@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "stockConfig",
+  "domain_type" : "stockUploadConfig",
+  "elements" : [ {
+    "name" : "skuKeyDelimiter",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "uomConversionEnabled",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

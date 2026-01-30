@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "Outlet",
+  "domain_type" : "Notification",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

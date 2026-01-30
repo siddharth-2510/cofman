@@ -1,0 +1,8 @@
+{
+  "name" : "permissionBasedFeatureAccess",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Permission based feature access",
+  "possibleVals" : [ true, false ]
+}

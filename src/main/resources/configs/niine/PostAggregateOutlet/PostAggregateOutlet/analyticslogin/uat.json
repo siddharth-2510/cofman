@@ -1,0 +1,9 @@
+{
+  "operation" : [ {
+    "operation" : "increment",
+    "destColName" : "todayClicks"
+  }, {
+    "operation" : "increment",
+    "destColName" : "numOfClicks"
+  } ]
+}

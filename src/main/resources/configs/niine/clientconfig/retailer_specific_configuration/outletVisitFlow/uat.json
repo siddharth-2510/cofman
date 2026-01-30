@@ -1,0 +1,7 @@
+{
+  "name" : "outletVisitFlow",
+  "type" : "boolean",
+  "value" : false,
+  "domainType" : "outlet_activity_configuration",
+  "description" : ""
+}

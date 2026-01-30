@@ -1,0 +1,3 @@
+{
+  "OrderPurchaseConstraints" : "SELECT * FROM ck_order_purchase_constraints WHERE id={{id}}"
+}

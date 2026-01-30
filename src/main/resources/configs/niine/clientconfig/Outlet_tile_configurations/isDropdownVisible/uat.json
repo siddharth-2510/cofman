@@ -1,0 +1,8 @@
+{
+  "name" : "isDropdownVisible",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Whether to show or hide the outlet tiles",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "RecommendedOrder",
+  "domain_type" : "ConversionConfig",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

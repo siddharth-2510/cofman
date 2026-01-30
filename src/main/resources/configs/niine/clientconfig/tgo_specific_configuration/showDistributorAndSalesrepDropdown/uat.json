@@ -1,0 +1,6 @@
+{
+  "name" : "showDistributorAndSalesrepDropdown",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "outlet_mapping"
+}

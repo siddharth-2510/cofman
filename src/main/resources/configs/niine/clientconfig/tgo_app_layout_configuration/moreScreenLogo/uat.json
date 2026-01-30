@@ -1,0 +1,9 @@
+{
+  "name" : "moreScreenLogo",
+  "type" : "image",
+  "value" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/dfd7c265255b4031982009380e213b6a.png",
+  "docUrl" : "",
+  "description" : "about screen client logo",
+  "defaultValue" : null,
+  "possibleVals" : "string"
+}

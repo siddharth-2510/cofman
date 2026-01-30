@@ -1,0 +1,10 @@
+{
+  "id" : "Salesman User Transformer",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SalesmanMDM-aEZpGHCNbupL.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "operationType" : "insert",
+    "transformerId" : "dms_mdm_salesman_user_transformer"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "filters",
+  "domain_type" : "tab",
+  "elements" : [ {
+    "name" : "brand",
+    "pattern" : "PLAIN_STRING"
+  }, {
+    "name" : "subCategory",
+    "pattern" : "PLAIN_STRING"
+  }, {
+    "name" : "subBrand",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

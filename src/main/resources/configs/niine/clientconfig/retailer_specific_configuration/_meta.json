@@ -1,0 +1,81 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "retailer_specific_configuration",
+  "elements" : [ {
+    "name" : "supplierBasedProductDisplay",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sfaProductBasket",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondaryProductsTab",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderingConditions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockEnrichType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sfaPricingAPI",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportNumber",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingApi",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "tabFilters",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productFilterDomainName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ptrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiVariantOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "minOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taxVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "caseUnitLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enrichZeroStockProducts",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFulfillmentTime",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "retailerMarginVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "storeInRange",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderTrackingStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taxableBillValueVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletVisitFlow",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "focusProductsLabel",
+  "type" : "String",
+  "value" : "PREMIUM PRODUCT",
+  "docUrl" : "",
+  "description" : "focus products label",
+  "possibleVals" : [ ]
+}

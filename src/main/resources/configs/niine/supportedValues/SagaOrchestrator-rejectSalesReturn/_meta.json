@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "supportedValues",
+  "domain_type" : "SagaOrchestrator-rejectSalesReturn",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "isOutletProfileHardCoded",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "outlet profile data to be hardcoded in sfa",
+  "possibleVals" : [ true, false ]
+}

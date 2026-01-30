@@ -1,0 +1,8 @@
+{
+  "salesQuery" : "select * from ck_sales {where_block}  {DYNAMIC_FILTER} {hierarchy_condition} order by {DYNAMIC_SORT}  limit {DYNAMIC_LIMIT} ",
+  "minimalSalesQuery" : "select id, beat, loginid, extended_attributes, net_amount, source, creation_time, order_number, status, invoice_number, inv_ser_no, supplierid, normalized_quantity, outletcode from ck_sales {where_block}  {DYNAMIC_FILTER} {hierarchy_condition} order by {DYNAMIC_SORT}  limit {DYNAMIC_LIMIT} ",
+  "salesDetailsQuery" : "select salesdetails.* from  ck_sales_details salesdetails where salesdetails.sale_id in ({sales_ids}) ",
+  "salesHistoryQuery" : "select saleshistory.* from ck_sales_history saleshistory where saleshistory.sale_id in ({sales_ids}) ",
+  "minimalSalesDetailsQuery" : "select salesdetails.sale_id, salesdetails.batch_code, salesdetails.initial_case_quantity, salesdetails.initial_piece_quantity, salesdetails.initial_other_unit_quantity from ck_sales_details salesdetails where salesdetails.sale_id in ({sales_ids}) ",
+  "minimalSalesHistoryQuery" : "select saleshistory.sale_id, saleshistory.status from ck_sales_history saleshistory where saleshistory.sale_id in ({sales_ids}) "
+}

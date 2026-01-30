@@ -1,0 +1,82 @@
+{
+  "version" : "1.0",
+  "domain_name" : "entity",
+  "domain_type" : "flattenApiQuery",
+  "elements" : [ {
+    "name" : "Tax",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "User",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "Sales",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "Targets",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "RouteInfo",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "WareHouse",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "UserParent",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "DeliveryPJP",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "VehicleInfo",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "EntityMapping",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "GenericEntity",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "OutletDetails",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "ProductDetails",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "ProductMetaData",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "TempDeliveryPJP",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "SecondaryProduct",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "EntityParentMapping",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "ProductAuthCodeMapping",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "OrderPurchaseConstraints",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

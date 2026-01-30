@@ -1,0 +1,104 @@
+{
+  "name" : "taskScreenLayout",
+  "type" : "List",
+  "value" : [ {
+    "id" : "incentive"
+  }, {
+    "id" : "outletInsightCard",
+    "value" : [ {
+      "id" : "mtd",
+      "label" : "MTD",
+      "insights" : [ {
+        "id" : "total_order_value",
+        "label" : "Total Order Value",
+        "bgColor" : "#F6FFFE",
+        "iconPath" : "assets/svg/priority.svg",
+        "textColor" : "#00C6B1"
+      }, {
+        "id" : "total_order_quantity",
+        "label" : "Total Order Quantity",
+        "bgColor" : "#EEFBFE",
+        "iconPath" : "assets/svg/this-side-up.svg",
+        "textColor" : "#227C9D"
+      } ]
+    }, {
+      "id" : "last_10_orders",
+      "label" : "Last 10 Orders",
+      "insights" : [ {
+        "id" : "average_order_value",
+        "label" : "Average Order Value",
+        "bgColor" : "#F6FFFE",
+        "iconPath" : "assets/svg/variable.svg",
+        "textColor" : "#00C6B1"
+      }, {
+        "id" : "lines_per_call",
+        "label" : "Lines Per Call",
+        "bgColor" : "#EEFBFE",
+        "iconPath" : "assets/svg/bill_line.svg",
+        "textColor" : "#227C9D"
+      } ]
+    }, {
+      "id" : "visit_order",
+      "label" : "Visit & Order",
+      "insights" : [ {
+        "id" : "last_visit",
+        "label" : "Last Visit",
+        "bgColor" : "#F6FFFE",
+        "iconPath" : "assets/svg/arrival-time.svg",
+        "textColor" : "#00C6B1"
+      }, {
+        "id" : "last_order",
+        "label" : "Last Order",
+        "bgColor" : "#EEFBFE",
+        "iconPath" : "assets/svg/delivery-box.svg",
+        "textColor" : "#227C9D"
+      } ]
+    } ]
+  }, {
+    "id" : "outletTargetCard"
+  }, {
+    "id" : "recommendationHandler"
+  }, {
+    "id" : "crossSell",
+    "label" : "Cross Sell",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Never Bought",
+    "cardTemplate" : "verticalScrollWidget",
+    "extraDataPoint" : { },
+    "isNewTaskScreen" : "true",
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "upSell",
+    "label" : "Recover",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Top SKU Underperforming",
+    "cardTemplate" : "verticalScrollWidget",
+    "extraDataPoint" : { },
+    "isNewTaskScreen" : "true",
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "focus",
+    "label" : "Focus Products",
+    "template" : "horizontalScrollWidget",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Focus Products To Be Sold",
+    "showAddButton" : "true",
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "mss",
+    "label" : "Must Have SKUs",
+    "template" : "horizontalScrollWidget",
+    "dataSource" : "kpi",
+    "labelColor" : "#000000",
+    "description" : "Must Have SKUs List",
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "quickOrder"
+  }, {
+    "id" : "noOutletVisit"
+  } ],
+  "domainType" : "salesman_app_layout_configuration"
+}

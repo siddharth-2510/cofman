@@ -1,0 +1,277 @@
+{
+  "name" : "outletMappingFormFiled",
+  "type" : "List",
+  "value" : [ {
+    "id" : "cameraWidget",
+    "type" : "camera",
+    "label" : "",
+    "required" : true
+  }, {
+    "id" : "locationWidget",
+    "type" : "location",
+    "label" : "Current Lat/ Long:",
+    "required" : true
+  }, {
+    "id" : "distributorMappedToSalesrepList",
+    "type" : "dropdown",
+    "label" : "Distributor",
+    "required" : true
+  }, {
+    "id" : "salesrepList",
+    "type" : "dropdown",
+    "label" : "Salesman",
+    "required" : true
+  }, {
+    "id" : "distributorBeat",
+    "type" : "dropdown",
+    "label" : "Route",
+    "required" : true
+  }, {
+    "id" : "outletName",
+    "type" : "textField",
+    "label" : "Outlet Name",
+    "regex" : "^.{2,}$",
+    "required" : true,
+    "inputType" : "text",
+    "maxCharacters" : 200
+  }, {
+    "id" : "contactName",
+    "type" : "textField",
+    "label" : "Contact Person Name",
+    "regex" : "^.{2,}$",
+    "required" : true,
+    "inputType" : "text",
+    "maxCharacters" : 200
+  }, {
+    "id" : "mobile",
+    "type" : "textField",
+    "label" : "Mobile Number",
+    "regex" : "^\\\\d{10}$",
+    "enabled" : true,
+    "required" : true,
+    "inputType" : "number",
+    "maxCharacters" : 10,
+    "minCharacters" : 10
+  }, {
+    "id" : "outletWhatsappNumber",
+    "type" : "textField",
+    "label" : "Phone Number",
+    "regex" : "^\\\\d{10}$",
+    "enabled" : true,
+    "isExtAtr" : "outletWhatsappNumber",
+    "required" : false,
+    "inputType" : "number",
+    "maxCharacters" : 10,
+    "minCharacters" : 10
+  }, {
+    "id" : "email",
+    "type" : "textField",
+    "label" : "Email ID",
+    "regex" : "^.{11,}$",
+    "inputType" : "email",
+    "maxCharacters" : 100
+  }, {
+    "id" : "channel",
+    "type" : "dropDown",
+    "label" : "Outlet Channel",
+    "required" : true,
+    "impactingFields" : [ "customerSubChannel", "outletGroup", "outletClass" ]
+  }, {
+    "id" : "customerSubChannel",
+    "type" : "dropDown",
+    "label" : "Sub-channel",
+    "required" : true,
+    "valueSource" : [ "channel" ],
+    "impactingFields" : [ "outletGroup", "outletClass" ]
+  }, {
+    "id" : "outletGroup",
+    "type" : "dropDown",
+    "label" : "Outlet Group",
+    "required" : true,
+    "valueSource" : [ "customerSubChannel" ],
+    "impactingFields" : [ "outletClass" ]
+  }, {
+    "id" : "outletClass",
+    "type" : "dropDown",
+    "label" : "Outlet Class",
+    "required" : true,
+    "valueSource" : [ "outletGroup" ]
+  }, {
+    "id" : "doorNo",
+    "type" : "textField",
+    "label" : "Door No",
+    "isExtAtr" : "doorNo",
+    "required" : true,
+    "maxCharacters" : 100
+  }, {
+    "id" : "landmark",
+    "type" : "textField",
+    "label" : "Street name/Landmark",
+    "regex" : "^.{3,}$",
+    "isExtAtr" : "landmark",
+    "required" : true,
+    "maxCharacters" : 100
+  }, {
+    "id" : "stateList",
+    "type" : "dropDown",
+    "label" : "Select State",
+    "required" : true,
+    "validation" : { },
+    "isMandatory" : "true",
+    "locationKey" : "state",
+    "impactingFields" : [ "cityList" ]
+  }, {
+    "id" : "cityList",
+    "type" : "dropDown",
+    "label" : "Select city",
+    "required" : true,
+    "validation" : { },
+    "isMandatory" : "true",
+    "locationKey" : "city",
+    "valueSource" : [ "stateList" ]
+  }, {
+    "id" : "district",
+    "type" : "textField",
+    "label" : "District",
+    "regex" : "^.{3,}$",
+    "required" : true,
+    "locationKey" : "district",
+    "maxCharacters" : 100
+  }, {
+    "id" : "area",
+    "type" : "textField",
+    "label" : "Area",
+    "regex" : "^.{3,}$",
+    "required" : true,
+    "locationKey" : "area",
+    "maxCharacters" : 100
+  }, {
+    "id" : "town",
+    "type" : "textField",
+    "label" : "Town",
+    "regex" : "^.{3,}$",
+    "required" : true,
+    "locationKey" : "town",
+    "maxCharacters" : 100
+  }, {
+    "id" : "pincode",
+    "type" : "textField",
+    "label" : "Pincode",
+    "regex" : "^\\\\d{6}$",
+    "required" : true,
+    "inputType" : "number",
+    "locationKey" : "pincode",
+    "maxCharacters" : 6,
+    "minCharacters" : 6
+  }, {
+    "id" : "country",
+    "type" : "dropDown",
+    "label" : "Country",
+    "options" : [ "India" ],
+    "required" : true,
+    "locationKey" : "country"
+  }, {
+    "id" : "hierarchyLocation",
+    "type" : "textField",
+    "label" : "Hierarchy Location",
+    "enabled" : false,
+    "isExtAtr" : "distState",
+    "required" : true
+  }, {
+    "id" : "gstNo",
+    "type" : "textField",
+    "label" : "Outlet GST Number",
+    "regex" : "^[A-Za-z0-9]{15}$",
+    "inputType" : "text",
+    "maxCharacters" : 15,
+    "minCharacters" : 15
+  }, {
+    "id" : "panNumber",
+    "type" : "textField",
+    "label" : "Outlet PAN Number",
+    "regex" : "^[A-Za-z0-9]{10}$",
+    "isExtAtr" : "OutletPAN",
+    "required" : false,
+    "validation" : { },
+    "isMandatory" : "true",
+    "maxCharacters" : 10,
+    "minCharacters" : 10
+  }, {
+    "id" : "supplierName",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "supplierName"
+  }, {
+    "id" : "activity",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "activity"
+  }, {
+    "id" : "distributor",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "parent-0-1-id"
+  }, {
+    "id" : "salesrep",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "parent-0-0-id",
+    "defaultText" : "forsupervisor"
+  }, {
+    "id" : "mobTime",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "mobTime"
+  }, {
+    "id" : "approval",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "approval"
+  }, {
+    "id" : "status",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "status"
+  }, {
+    "id" : "activeStatus",
+    "type" : "autoFilledDetails",
+    "label" : "activeStatus",
+    "defaultText" : "inactive"
+  }, {
+    "id" : "address",
+    "type" : "autoFilledDetails"
+  }, {
+    "id" : "salesRepName",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "salesRepName"
+  }, {
+    "id" : "source",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "source",
+    "defaultText" : "SFA"
+  }, {
+    "id" : "mappingSource",
+    "type" : "autoFilledDetails",
+    "label" : "outletmapped",
+    "defaultText" : "outletmapped"
+  }, {
+    "id" : "pincode",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "pincode"
+  }, {
+    "id" : "activeStatusReason",
+    "type" : "autoFilledDetails",
+    "label" : "activeStatusReason",
+    "defaultText" : "ComingThroughMDM"
+  }, {
+    "id" : "preferredPaymentMode",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "preferredPaymentMode",
+    "defaultText" : "Credit"
+  }, {
+    "id" : "paymentMode",
+    "type" : "autoFilledDetails",
+    "label" : "paymentMode",
+    "defaultText" : "Credit"
+  }, {
+    "id" : "mappingSource",
+    "type" : "autoFilledDetails"
+  } ],
+  "domainType" : "outlet_mapping",
+  "description" : "outlet mapping form filed",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

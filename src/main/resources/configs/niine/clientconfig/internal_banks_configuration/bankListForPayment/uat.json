@@ -1,0 +1,53 @@
+{
+  "name" : "bankListForPayment",
+  "type" : "list",
+  "value" : [ {
+    "id" : "FINAGG",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Finagg.png",
+    "enabled" : true,
+    "bankName" : "FinAgg"
+  }, {
+    "id" : "AXIS",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Axis.png",
+    "enabled" : true,
+    "bankName" : "Axis Bank"
+  }, {
+    "id" : "SBI",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/SBI%20logo%40300x.png",
+    "enabled" : true,
+    "bankName" : "SBI"
+  } ],
+  "description" : "List of banks for bank enrollment",
+  "defaultValue" : [ {
+    "id" : "FINAGG",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Finagg.png",
+    "enabled" : true,
+    "bankName" : "FinAgg"
+  }, {
+    "id" : "AXIS",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Axis.png",
+    "enabled" : true,
+    "bankName" : "Axis Bank"
+  }, {
+    "id" : "SBI",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/SBI%20logo%40300x.png",
+    "enabled" : true,
+    "bankName" : "SBI"
+  } ],
+  "possibleVals" : [ [ {
+    "id" : "FINAGG",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Finagg.png",
+    "enabled" : true,
+    "bankName" : "FinAgg"
+  }, {
+    "id" : "AXIS",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/Axis.png",
+    "enabled" : true,
+    "bankName" : "Axis Bank"
+  }, {
+    "id" : "SBI",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/SBI%20logo%40300x.png",
+    "enabled" : true,
+    "bankName" : "SBI"
+  } ] ]
+}

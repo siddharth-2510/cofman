@@ -1,0 +1,7 @@
+{
+  "name" : "requiredWidgetIdsBeforeOtp",
+  "type" : "List",
+  "value" : [ "distributorMappedToSalesrepList", "salesrepList" ],
+  "domainType" : "outlet_mapping",
+  "description" : "check whether these fields are not empty before sending otp"
+}

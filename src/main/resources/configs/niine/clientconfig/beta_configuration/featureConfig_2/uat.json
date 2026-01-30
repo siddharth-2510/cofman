@@ -1,0 +1,122 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "outletactivity",
+    "version" : "1.0",
+    "template" : "outletactivity"
+  }, {
+    "name" : "mss",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "msltask",
+    "version" : "1.0",
+    "template" : "productTagGrouping"
+  }, {
+    "name" : "attendance",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "kpi",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "userinfo",
+    "version" : "1.0",
+    "template" : "template2"
+  }, {
+    "name" : "banner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "visitStatus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "storeIn",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "imagecapture",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "db",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletVisitBanner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "orderloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : "order"
+  }, {
+    "name" : "offers",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "metadata",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "productfilter",
+    "version" : "1.0",
+    "template" : "productfilter"
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "incentivedashboard",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "distributor",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "orderingconstraintloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "taxloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "stockavailabilityloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "locationloader",
+    "version" : "1.0",
+    "template" : "manual"
+  }, {
+    "name" : "outletstatus",
+    "version" : "1.0",
+    "template" : "supervisor"
+  }, {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "productdetails",
+    "version" : "1.0",
+    "template" : "productdetails"
+  }, {
+    "name" : "paymentcollection",
+    "version" : "1.0",
+    "template" : "dms"
+  } ],
+  "docUrl" : "",
+  "domainType" : "sde_app_feature_configuration",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

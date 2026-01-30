@@ -1,0 +1,9 @@
+{
+  "id" : "CavinKare_SalesHierarchy_Creation",
+  "name" : "Sales Hierarchy Creation",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SalesHierarchyCreationTemplate-ZUxyLWDVcRMw.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityParentMapping",
+    "transformerId" : "CavinKare_SalesHierarchy_Creation"
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "error_logger_configuration",
+  "elements" : [ {
+    "name" : "kibanaConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "errorEnums",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "errorLogServiceFilter",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "unhanldedErrorOmissionList",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

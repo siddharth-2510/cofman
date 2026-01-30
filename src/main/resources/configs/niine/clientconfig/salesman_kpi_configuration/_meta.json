@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesman_kpi_configuration",
+  "elements" : [ {
+    "name" : "kpiConfigList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpiList",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,106 @@
+{
+  "name" : "adminPanelLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "support",
+    "color" : "#df263d",
+    "label" : "Support",
+    "route" : "/dashboard/support",
+    "svgName" : "supportIcon",
+    "description" : "Customer service and ticket management"
+  }, {
+    "id" : "notification",
+    "color" : "#fad11d",
+    "label" : "Notification",
+    "route" : "/dashboard/notification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Notifications"
+  }, {
+    "id" : "couponManagement",
+    "color" : "#fad11d",
+    "label" : "Promo Management",
+    "route" : "/couponDashboard/livecouponData",
+    "svgName" : "PJPVisitPlan",
+    "description" : "Create and Manage Promos"
+  }, {
+    "id" : "updateMetaConfig",
+    "color" : "#52b894",
+    "label" : "Update MetaConfig",
+    "route" : "/dashboard/updateMetaConfig",
+    "svgName" : "Variable",
+    "description" : "Create/Update meta configuration parameters"
+  }, {
+    "id" : "triggerNotification",
+    "color" : "#fad11d",
+    "label" : "Trigger Notification",
+    "route" : "/dashboard/triggerNotification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Trigger Notification"
+  }, {
+    "id" : "manageRole",
+    "color" : "#fad11d",
+    "label" : "Manage Role",
+    "route" : "/dashboard/manageRole",
+    "svgName" : "manageRoleIcon",
+    "description" : "Create and Edit Role Access"
+  }, {
+    "id" : "firebaseConfig",
+    "color" : "#df263d",
+    "label" : "Firebase Configuration",
+    "route" : "/dashboard/firebaseConfig",
+    "svgName" : "firebaseConfigIcon",
+    "description" : "Configure Firebase services"
+  }, {
+    "id" : "updateTranslation",
+    "color" : "#df263d",
+    "label" : "Update Translation",
+    "route" : "/dashboard/updateTranslation",
+    "svgName" : "updateTranslationIcon",
+    "description" : "Easily manage and update translations"
+  }, {
+    "id" : "manageUpdateAccess",
+    "color" : "#df263d",
+    "label" : "Manage Update Access",
+    "route" : "/dashboard/manageUpdateAccess",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Create/Delete Admin users"
+  }, {
+    "id" : "fileUpload",
+    "color" : "#52b894",
+    "label" : "BlobKey Generator",
+    "route" : "/dashboard/blobKeyGenerator",
+    "svgName" : "fileUploadIcon",
+    "description" : "Get blob key of uploaded files"
+  }, {
+    "id" : "manageDisplayCapture",
+    "color" : "#df263d",
+    "label" : "Manage Display Capture",
+    "route" : "/dashboard/manageDisplayCapture",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Manage Display Capture"
+  }, {
+    "id" : "jobConfiguration",
+    "color" : "#0ABBD5",
+    "label" : "Job Configuration",
+    "route" : "/dashboard/jobsConfiguration",
+    "svgName" : "manageBannerIcon",
+    "description" : "Job Configuration"
+  }, {
+    "id" : "manageRegistry",
+    "color" : "#0ABBD5",
+    "label" : "Manage Registry",
+    "route" : "/dashboard/manageRegistry",
+    "svgName" : "Variable",
+    "description" : "Lorem ipsum dolor sit amet, consectetur"
+  }, {
+    "id" : "mdmSetUp",
+    "color" : "#F6760EFF",
+    "label" : "Mdm SetUp",
+    "route" : "/dashboard/mdmSetUp",
+    "svgName" : "manageFeedbacksIcon",
+    "description" : "MDM Setup"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Admin Panel Config",
+  "possibleVals" : [ ]
+}

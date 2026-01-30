@@ -1,0 +1,6 @@
+{
+  "id" : "NotificationReport",
+  "name" : "NotificationReport",
+  "type" : "transaction",
+  "filter" : "daterangeAndPeriod"
+}

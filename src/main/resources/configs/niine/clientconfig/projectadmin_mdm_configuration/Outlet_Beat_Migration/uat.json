@@ -1,0 +1,10 @@
+{
+  "id" : "OutletBeatMigrationTransformer",
+  "name" : "Outlet Beat Migration",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoeuat/images/outletBeatMigration-jfEXrDKhaTwY.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletDetails",
+    "skipPersist" : true,
+    "transformerId" : "OutletBeatMigrationTransformer"
+  } ]
+}

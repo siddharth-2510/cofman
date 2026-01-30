@@ -1,0 +1,105 @@
+{
+  "name" : "bucketConfiguration",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1747136721270",
+    "title" : "Order By Brand",
+    "viewAll" : false,
+    "subtitle" : "Order your favourite brands",
+    "titleColor" : "#000000",
+    "bucketDesign" : "Grid",
+    "primarySource" : "Brand",
+    "statusEnabled" : true,
+    "subTitleColor" : "#000000",
+    "secondarySource" : "Sub Brand",
+    "primarySourceOptions" : [ {
+      "id" : "Brand@Raaga",
+      "name" : "Raaga",
+      "color" : "#ffffff",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Brand_ 180x120 px-01-oWoyokZzjWqL.png",
+      "activeStatus" : true,
+      "secondarySourceOptions" : [ {
+        "id" : "Raaga@Skin Retail",
+        "name" : "Skin Retail",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-04-uoanLexFDknV.png"
+      }, {
+        "id" : "Raaga@Wax",
+        "name" : "Wax",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-03-onCvliFXVqfl.png"
+      }, {
+        "id" : "Raaga@Stemcells Facial Kit",
+        "name" : "Stemcells Facial Kit",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-05-PoHLcGxhQfjw.png"
+      }, {
+        "id" : "Raaga@De-Tan",
+        "name" : "De-Tan",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-06-WRUgglXwGQKw.png"
+      } ]
+    }, {
+      "id" : "Brand@Indica Brillumin",
+      "name" : "Indica Brillumin",
+      "color" : "#ffffff",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Brand_ 180x120 px-03-sabaZFSHxjYO.png",
+      "activeStatus" : true,
+      "secondarySourceOptions" : [ {
+        "id" : "Indica Brillumin@Cream Colour",
+        "name" : "Cream Colour",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-07-kDXlZUGelIMZ.png"
+      } ]
+    }, {
+      "id" : "Brand@Indica Inspire",
+      "name" : "Indica Inspire",
+      "color" : "#ffffff",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Brand_ 180x120 px-03-HfAyynCSybOW.png",
+      "activeStatus" : true,
+      "secondarySourceOptions" : [ {
+        "id" : "Indica Inspire@Developer",
+        "name" : "Developer",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-07-fuLFeDzRbKdj.png"
+      } ]
+    }, {
+      "id" : "Brand@Krone",
+      "name" : "Krone",
+      "color" : "#ffffff",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Brand_ 180x120 px-04-gFmfErYuZWNW.png",
+      "activeStatus" : true,
+      "secondarySourceOptions" : [ {
+        "id" : "Krone@Probotox",
+        "name" : "Probotox",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-01-yGloOuEQOLBu.png"
+      }, {
+        "id" : "Krone@Bond",
+        "name" : "Bond",
+        "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Order by Sub Brand 180x120 px-02-RHGTHtmDmIYE.png"
+      } ]
+    } ]
+  }, {
+    "id" : "1751010426705",
+    "title" : "Order by Category",
+    "viewAll" : false,
+    "subtitle" : "Browse products by category",
+    "titleColor" : "#000000",
+    "bucketDesign" : "Carousel",
+    "primarySource" : "Sub Category",
+    "statusEnabled" : true,
+    "subTitleColor" : "#000000",
+    "backgroundColor" : "#ffffff",
+    "primarySourceOptions" : [ {
+      "id" : "Sub Category@Hair Colour",
+      "name" : "Hair Colour",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/hair_colour-JMNzgdPXCgXi.png"
+    }, {
+      "id" : "Sub Category@Skin Care",
+      "name" : "Skin Care",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/skin_care-ivsifMpZUpfF.png"
+    }, {
+      "id" : "Sub Category@Hair Care",
+      "name" : "Hair Care",
+      "blobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/hair_care-EVkuDxfpVOYP.png"
+    } ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "bucket-config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

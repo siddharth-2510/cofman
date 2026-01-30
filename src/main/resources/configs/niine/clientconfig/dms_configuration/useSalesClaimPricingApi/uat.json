@@ -1,0 +1,8 @@
+{
+  "name" : "useSalesClaimPricingApi",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "If enabled, claim value for Sale Return claims is recalculated whenever SKU quantity is edited by distributor or approver using api call.",
+  "possibleVals" : [ true, false ]
+}

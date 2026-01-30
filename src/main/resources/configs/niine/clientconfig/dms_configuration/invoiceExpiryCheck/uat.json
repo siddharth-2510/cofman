@@ -1,0 +1,8 @@
+{
+  "name" : "invoiceExpiryCheck",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "It will check whether to disable add or adit feature for an invoice after 72 hours",
+  "possibleVals" : [ true, false ]
+}

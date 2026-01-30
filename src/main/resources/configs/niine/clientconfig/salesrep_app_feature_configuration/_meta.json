@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesrep_app_feature_configuration",
+  "elements" : [ {
+    "name" : "salesRepFeatureConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

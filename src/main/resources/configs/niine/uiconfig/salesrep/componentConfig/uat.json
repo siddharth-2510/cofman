@@ -1,0 +1,341 @@
+{
+  "features" : [ {
+    "id" : "sellina",
+    "param" : [ {
+      "footer" : "sellinaFooterTemplate1",
+      "navigation" : [ {
+        "icon" : "orderIcon",
+        "text" : "home",
+        "openfeature" : "sellina"
+      }, {
+        "icon" : "picosSurvey",
+        "text" : "order",
+        "openfeature" : "sellinaChat"
+      }, {
+        "icon" : "",
+        "text" : "",
+        "openfeature" : ""
+      }, {
+        "icon" : "planPJP",
+        "text" : "order tracking",
+        "openfeature" : "orderTracking"
+      }, {
+        "icon" : "moreIcon",
+        "text" : "more",
+        "openfeature" : "moreOptions"
+      } ]
+    } ],
+    "templateId" : "sellina3"
+  }, {
+    "id" : "order",
+    "param" : {
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit",
+      "label3" : "PTR",
+      "label4" : "RSP",
+      "label5" : "Unit"
+    },
+    "templateId" : "order6"
+  }, {
+    "id" : "orderTracking",
+    "param" : {
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit"
+    },
+    "templateId" : "orderTracking6"
+  }, {
+    "id" : "notification",
+    "templateId" : "notification"
+  }, {
+    "id" : "sellinaChat",
+    "param" : {
+      "offline" : true,
+      "defaultIntent" : "mustdoactions_bd_alloutlets_v1"
+    },
+    "templateId" : "sellinaChat"
+  }, {
+    "id" : "sellinaBot",
+    "param" : {
+      "offline" : false
+    },
+    "templateId" : "sellinaBot"
+  }, {
+    "id" : "adminProfile",
+    "templateId" : "adminProfile2"
+  }, {
+    "id" : "cart",
+    "param" : {
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit",
+      "label3" : "PTR",
+      "label4" : "RSP",
+      "label5" : "Unit"
+    },
+    "templateId" : "cart4"
+  }, {
+    "id" : "orderSummary",
+    "param" : {
+      "button" : true,
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit",
+      "label4" : "",
+      "label5" : "Unit",
+      "offline" : false
+    },
+    "templateId" : "orderSummary3"
+  }, {
+    "id" : "orderInvoice",
+    "templateId" : "orderInvoice5"
+  }, {
+    "id" : "competitorActivity",
+    "params" : {
+      "activity" : [ "Pricing", "Promotion Activities", "Secondary display", "NPD", "Others" ],
+      "competitor" : [ "Prodiet", "Pro Balance", "SmartHeart", "Friskies", "Alpo", "Powercat", "Others" ]
+    },
+    "templateId" : "competitorActivity2"
+  }, {
+    "id" : "selectLanguage",
+    "templateId" : "selectLanguage"
+  }, {
+    "id" : "inventory",
+    "param" : {
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit",
+      "label3" : "PTR",
+      "label4" : "RSP",
+      "label5" : "Unit",
+      "elements" : [ {
+        "id" : "inventoryqty",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "INVENTORY QTY",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "batchcode",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "BATCH CODE",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "expirydate",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "EXPIRY DATE",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "remainingshelflife",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "REMAINING SHELF LIFE",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      } ]
+    },
+    "templateId" : "inventory"
+  }, {
+    "id" : "return",
+    "param" : {
+      "label0" : "OUTER",
+      "label1" : "CTR",
+      "label2" : "Unit",
+      "label3" : "PTR",
+      "label4" : "RSP",
+      "label5" : "Unit",
+      "reasons" : [ {
+        "code" : "Q03",
+        "options" : [ "Excess delivery", "Wrong article delivered" ],
+        "description" : "Saleable"
+      }, {
+        "code" : "Q04",
+        "options" : [ "Expiry", "Damages" ],
+        "description" : "Non-Saleable"
+      }, {
+        "code" : "L01",
+        "options" : [ "inputOption" ],
+        "description" : "Others"
+      } ],
+      "copyFunc" : false,
+      "elements" : [ {
+        "id" : "returnqty",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "RETURN QTY",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "returnreason",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "RETURN REASON",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "invoice",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "INVOICE",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      }, {
+        "id" : "grn",
+        "data" : {
+          "type" : "api",
+          "value" : [ ]
+        },
+        "mode" : "active",
+        "type" : "textbox",
+        "label" : "GRN",
+        "validation" : [ {
+          "type" : "regax",
+          "value" : "regex1"
+        } ]
+      } ],
+      "templateId" : "return"
+    }
+  }, {
+    "id" : "attendance",
+    "params" : {
+      "elements" : [ {
+        "name" : "Present"
+      }, {
+        "name" : "Absent"
+      }, {
+        "name" : "Public Holiday"
+      }, {
+        "name" : "Meeting"
+      }, {
+        "name" : "Weekoff"
+      } ]
+    },
+    "templateId" : "attendance2"
+  }, {
+    "id" : "existingOutletMapping",
+    "templateId" : "existingOutletMapping1"
+  }, {
+    "id" : "moreOptions",
+    "templateId" : "moreOptions1"
+  }, {
+    "id" : "outletMapping",
+    "templateId" : "outletMapping1"
+  }, {
+    "id" : "dailyActivity",
+    "param" : {
+      "transformer" : true
+    },
+    "templateId" : "dailyActivity"
+  }, {
+    "id" : "support",
+    "templateId" : "support"
+  }, {
+    "id" : "stockReturnSummary",
+    "templateId" : "stockReturnSummary"
+  }, {
+    "id" : "stockSummary",
+    "templateId" : "stockSummary"
+  }, {
+    "id" : "deviceInfo",
+    "templateId" : "deviceInfo"
+  }, {
+    "id" : "logs",
+    "templateId" : "logs1"
+  }, {
+    "id" : "helpdesk",
+    "param" : {
+      "offline" : false,
+      "priority" : [ "Low", "Medium", "High" ],
+      "complaint" : [ "App Related", "Quality Related", "Supply Related", "Feedback", "Other Issues" ]
+    },
+    "templateId" : "helpdesk2"
+  }, {
+    "id" : "changePassword",
+    "templateId" : "changePassword"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "attendanceIcon",
+        "name" : "Attendance",
+        "featureId" : "attendance"
+      }, {
+        "icon" : "outletMappingIcon",
+        "name" : "Outlet Mapping",
+        "featureId" : "outletMapping"
+      }, {
+        "icon" : "faqIcon",
+        "name" : "FAQs",
+        "featureId" : "support"
+      }, {
+        "icon" : "supportIcon",
+        "name" : "Support",
+        "featureId" : "helpdesk"
+      }, {
+        "icon" : "aboutIcon",
+        "name" : "About",
+        "featureId" : "deviceInfo"
+      }, {
+        "icon" : "logsIcon",
+        "name" : "Logs",
+        "featureId" : "logs"
+      }, {
+        "icon" : "changePasswordIcon",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "logoutIcon1",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  } ]
+}

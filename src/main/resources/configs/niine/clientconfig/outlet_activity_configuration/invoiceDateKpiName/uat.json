@@ -1,0 +1,8 @@
+{
+  "name" : "invoiceDateKpiName",
+  "type" : "String",
+  "value" : "kpi_review_eco_drilldown_table",
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

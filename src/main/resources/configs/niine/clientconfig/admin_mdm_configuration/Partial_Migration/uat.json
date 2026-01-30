@@ -1,0 +1,13 @@
+{
+  "id" : "partialMigration",
+  "name" : "Partial Migration",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/PartialMigrationETL-QYHJTOUrEkfP.xlsx",
+  "chainingJobName" : "test",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "skipPersist" : true,
+    "operationType" : "insert",
+    "transformerId" : "userParentIntegration"
+  } ]
+}

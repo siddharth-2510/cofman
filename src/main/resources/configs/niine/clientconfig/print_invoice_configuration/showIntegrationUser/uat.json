@@ -1,0 +1,5 @@
+{
+  "name" : "showIntegrationUser",
+  "type" : "boolean",
+  "value" : true
+}

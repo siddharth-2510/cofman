@@ -1,0 +1,8 @@
+{
+  "name" : "complaintTabText",
+  "type" : "String",
+  "value" : "REQUEST STATUS",
+  "docUrl" : "",
+  "description" : "To change complaint tab text to request status",
+  "possibleVals" : [ ]
+}

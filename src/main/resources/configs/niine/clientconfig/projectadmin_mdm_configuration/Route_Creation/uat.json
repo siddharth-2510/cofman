@@ -1,0 +1,9 @@
+{
+  "id" : "RouteCreation",
+  "name" : "Route Creation",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RouteCreation-bQSoYFAqhJYB.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "transformerId" : "RouteCreation"
+  } ]
+}

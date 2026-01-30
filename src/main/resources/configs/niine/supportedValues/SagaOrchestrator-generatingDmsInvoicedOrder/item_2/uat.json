@@ -1,0 +1,12 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.EnrichOrderStep",
+  "dependencies" : [ {
+    "type" : "java.util.List",
+    "index" : "9",
+    "description" : "enrichments to skip"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.sagapreprocess.ProcessorWithSaga",
+    "index" : "2",
+    "description" : "Bean of ProcessorWithSaga"
+  } ]
+}

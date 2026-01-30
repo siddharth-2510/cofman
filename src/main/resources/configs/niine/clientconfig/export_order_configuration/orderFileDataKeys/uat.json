@@ -1,0 +1,105 @@
+{
+  "name" : "orderFileDataKeys",
+  "type" : "list",
+  "value" : [ {
+    "id" : "CustID",
+    "value" : "outletCode",
+    "defaultValue" : "000000268590"
+  }, {
+    "id" : "InvtID",
+    "value" : "batchCode",
+    "defaultValue" : "null"
+  }, {
+    "id" : "NetAmt",
+    "value" : "netAmount",
+    "defaultValue" : "null"
+  }, {
+    "id" : "SiteID",
+    "value" : "",
+    "defaultValue" : ""
+  }, {
+    "id" : "Status",
+    "value" : "0",
+    "defaultValue" : "0"
+  }, {
+    "id" : "AddDisc",
+    "value" : "AddDisc",
+    "defaultValue" : "0"
+  }, {
+    "id" : "ExpDate",
+    "value" : "ExpDate",
+    "defaultValue" : "1900-01-01"
+  }, {
+    "id" : "LineAmt",
+    "value" : "netAmount",
+    "defaultValue" : "null"
+  }, {
+    "id" : "LineQty",
+    "value" : "qty",
+    "defaultValue" : "null"
+  }, {
+    "id" : "LineRef",
+    "value" : "lineSeq",
+    "defaultValue" : "null"
+  }, {
+    "id" : "LotItem",
+    "value" : "LotItem",
+    "defaultValue" : "N"
+  }, {
+    "id" : "Remarks",
+    "value" : "remarks",
+    "defaultValue" : "null"
+  }, {
+    "id" : "SlsUnit",
+    "value" : "qtyUnit",
+    "defaultValue" : "PC"
+  }, {
+    "id" : "WhseLoc",
+    "value" : "WhseLoc",
+    "defaultValue" : "R"
+  }, {
+    "id" : "BranchID",
+    "value" : "branchId",
+    "defaultValue" : "null"
+  }, {
+    "id" : "CustDisc",
+    "value" : "CustDisc",
+    "defaultValue" : "0"
+  }, {
+    "id" : "Ordernbr",
+    "value" : "orderNumber",
+    "defaultValue" : "null"
+  }, {
+    "id" : "PAddDisc",
+    "value" : "PAddDisc",
+    "defaultValue" : "0"
+  }, {
+    "id" : "SlsPrice",
+    "value" : "price",
+    "defaultValue" : "null"
+  }, {
+    "id" : "SlsperID",
+    "value" : "loginId",
+    "defaultValue" : "null"
+  }, {
+    "id" : "LotSerNbr",
+    "value" : "LotSerNbr",
+    "defaultValue" : ""
+  }, {
+    "id" : "OrderDate",
+    "value" : "orderDate",
+    "defaultValue" : "2022-07-11"
+  }, {
+    "id" : "OrderType",
+    "value" : "NA",
+    "defaultValue" : "NA"
+  }, {
+    "id" : "PCustDisc",
+    "value" : "PCustDisc",
+    "defaultValue" : "0"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "order file data keys.",
+  "defaultValue" : "",
+  "possibleVals" : [ "" ]
+}

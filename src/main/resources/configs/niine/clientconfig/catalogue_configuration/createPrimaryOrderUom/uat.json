@@ -1,0 +1,7 @@
+{
+  "name" : "createPrimaryOrderUom",
+  "type" : "string",
+  "value" : "caseQty",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,54 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "sde_app_layout_configuration",
+  "elements" : [ {
+    "name" : "bottomBarLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homePageActionTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "morePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sfaHomePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "moreScreenLogo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homeScreenBlockWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTileOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletScreenWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletActivityTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfileWidgets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbActivityTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbProfileWidgets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "imageCapture",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitSummaryLayout",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

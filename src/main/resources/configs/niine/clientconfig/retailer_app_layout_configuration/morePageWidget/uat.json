@@ -1,0 +1,44 @@
+{
+  "name" : "morePageWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "name" : "About",
+    "type" : "moreOptions",
+    "image" : "assets/images/About.svg",
+    "label" : "About"
+  }, {
+    "name" : "Support",
+    "type" : "moreOptions",
+    "image" : "assets/images/Support.svg",
+    "label" : "Training Request"
+  }, {
+    "name" : "FAQs",
+    "type" : "moreOptions",
+    "image" : "assets/images/FAQ.svg",
+    "label" : "FAQs"
+  }, {
+    "name" : "Terms and Conditions",
+    "type" : "moreOptions",
+    "image" : "assets/svg/change_password.svg",
+    "label" : "Terms and Conditions"
+  }, {
+    "name" : "Privacy Policy",
+    "type" : "moreOptions",
+    "image" : "assets/svg/privacy_policy.svg",
+    "label" : "Privacy Policy"
+  }, {
+    "name" : "Change Password",
+    "type" : "moreOptions",
+    "image" : "assets/svg/change_password.svg",
+    "label" : "Change Password"
+  }, {
+    "name" : "Logout",
+    "type" : "moreOptions",
+    "image" : "assets/images/Logout.svg",
+    "label" : "Logout"
+  } ],
+  "docUrl" : "",
+  "description" : "more page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout", "formLayout", "reportLayout" ]
+}

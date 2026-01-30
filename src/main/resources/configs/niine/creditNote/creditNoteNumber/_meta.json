@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "creditNote",
+  "domain_type" : "creditNoteNumber",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

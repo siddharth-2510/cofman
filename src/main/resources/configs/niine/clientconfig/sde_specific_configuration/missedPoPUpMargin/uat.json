@@ -1,0 +1,10 @@
+{
+  "name" : "missedPoPUpMargin",
+  "type" : "num",
+  "value" : 10,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "to get for how much qty or percent difference missed popUp should be shown.",
+  "defaultValue" : 10,
+  "possibleVals" : [ 10, 15 ]
+}

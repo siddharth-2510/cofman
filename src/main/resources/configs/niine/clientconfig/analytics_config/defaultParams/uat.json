@@ -1,0 +1,61 @@
+{
+  "name" : "defaultParams",
+  "type" : "list",
+  "value" : [ {
+    "firebase" : {
+      "user_id" : {
+        "name" : "user_id",
+        "status" : "inactive"
+      },
+      "action_time" : {
+        "name" : "action_time",
+        "status" : "inactive"
+      },
+      "outlet_code" : {
+        "name" : "outlet_code",
+        "status" : "inactive"
+      },
+      "outlet_class" : {
+        "name" : "outlet_class",
+        "status" : "inactive"
+      },
+      "outlet_channel" : {
+        "name" : "outlet_channel",
+        "status" : "inactive"
+      },
+      "device_unique_id" : {
+        "name" : "device_unique_id",
+        "status" : "inactive"
+      }
+    },
+    "moengage" : {
+      "user_id" : {
+        "name" : "user_id",
+        "status" : "active"
+      },
+      "action_time" : {
+        "name" : "actionTime",
+        "status" : "inactive"
+      },
+      "outlet_code" : {
+        "name" : "outlet_code",
+        "status" : "inactive"
+      },
+      "outlet_class" : {
+        "name" : "outlet_class",
+        "status" : "inactive"
+      },
+      "outlet_channel" : {
+        "name" : "outlet_channel",
+        "status" : "inactive"
+      },
+      "device_unique_id" : {
+        "name" : "device_unique_id",
+        "status" : "inactive"
+      }
+    }
+  } ],
+  "docUrl" : "",
+  "description" : "list of default params",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "themeColor",
+  "type" : "string",
+  "value" : "#227c9d",
+  "docUrl" : "",
+  "description" : "theme color",
+  "possibleVals" : [ "string" ]
+}

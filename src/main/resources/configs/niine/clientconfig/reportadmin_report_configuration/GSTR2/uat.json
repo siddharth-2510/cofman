@@ -1,0 +1,37 @@
+{
+  "id" : "gstr2",
+  "name" : "GSTR2",
+  "type" : "new",
+  "filter" : "newFilter",
+  "isNewReport" : true,
+  "isNewReportUi" : true,
+  "newReportConfig" : {
+    "id" : "gstr2",
+    "name" : "GSTR2",
+    "reportName" : "GSTR2",
+    "isGSTRReport" : true,
+    "gstrYearsRange" : 2,
+    "dateRangeFilter" : true,
+    "distributorFilter" : {
+      "field" : "distributor_code",
+      "label" : "Select Distributor",
+      "enabled" : true
+    },
+    "salesHierarchyFilter" : {
+      "enabled" : true,
+      "hierarchyOrder" : [ "saleshead", "nsm", "rsm", "zm", "asm", "tsm", "tgo", "sde", "supplier" ],
+      "levelFilterField" : "salesLevel",
+      "levelFilterLabel" : "Select Level",
+      "valueFilterField" : "salesValue",
+      "valueFilterLabel" : "Select Value"
+    },
+    "shouldShowCustomFilters" : false,
+    "geographicalHierarchyFilter" : {
+      "enabled" : true,
+      "levelFilterField" : "geographicalLevel",
+      "levelFilterLabel" : "Select Geographical Level",
+      "valueFilterField" : "geographicalValue",
+      "valueFilterLabel" : "Select Geographical Value"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "supportNumber",
+  "type" : "string",
+  "value" : "04142350037",
+  "docUrl" : "",
+  "description" : "support number",
+  "possibleVals" : [ "string" ]
+}

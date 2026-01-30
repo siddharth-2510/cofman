@@ -1,0 +1,8 @@
+{
+  "blob" : null,
+  "data" : "Congratulations Retailer!\\n\\nYou can now order Coca-Cola products online (24/7) using the Coke Buddy App.\\n\\nYour order will be supplied by the Distributor in your area.\\n\\nDownload the application from the link below and log in using your mobile number and outlet ID.\\n\\nhttps://lbpl.page.link/85EH\\n\\nApplicateAI",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

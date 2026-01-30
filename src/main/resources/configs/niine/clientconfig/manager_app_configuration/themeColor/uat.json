@@ -1,0 +1,10 @@
+{
+  "name" : "themeColor",
+  "type" : "string",
+  "value" : "073fa4",
+  "docUrl" : "",
+  "domainType" : "theme_configuration",
+  "description" : "Theme Color",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "defaultCatalogueImage",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/admin_1747491197800_admin_1747115801876_Generic SKU- 512X512 px-WhDzfraOqPBc-mEWRtdDGdgXi.jpg",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "It is the image to be shown when there is no image uploaded for the product or you can say placeholder image.",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ],
+  "isValueUpdated" : true
+}

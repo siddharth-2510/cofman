@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "default_filter",
+  "domain_type" : "catalogue",
+  "elements" : [ {
+    "name" : "discount",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "productmetadata",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

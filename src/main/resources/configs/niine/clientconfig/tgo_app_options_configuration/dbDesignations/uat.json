@@ -1,0 +1,8 @@
+{
+  "name" : "dbDesignations",
+  "type" : "List",
+  "value" : [ "supplier" ],
+  "docUrl" : "",
+  "description" : "db designations",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "retailerMarginVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "order_configuration",
+  "description" : "To make retailer margin visible.",
+  "possibleVals" : [ true, false ]
+}

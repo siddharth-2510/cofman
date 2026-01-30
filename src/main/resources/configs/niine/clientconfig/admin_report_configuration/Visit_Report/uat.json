@@ -1,0 +1,6 @@
+{
+  "id" : "VisitReport",
+  "name" : "Visit Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

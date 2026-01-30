@@ -1,0 +1,9 @@
+{
+  "User" : "SELECT * FROM ck_user WHERE id={{id}}",
+  "Asset" : "SELECT * FROM ck_asset WHERE loginid={{loginid}}",
+  "Location" : "SELECT * FROM ck_location WHERE location_hierarchy={{location_hierarchy}}",
+  "UserParent" : "SELECT * FROM ck_user_parent WHERE userloginid={{userloginid}}",
+  "UserDesignation" : "SELECT COALESCE(JSON_ARRAYAGG(designation), JSON_ARRAY()) AS designations FROM ck_userdesignation WHERE login_id = ?",
+  "SupplierMetaData" : "SELECT * FROM ck_supplier_metadata WHERE user_loginid={{user_loginid}}",
+  "UserParentDetailed" : "SELECT * FROM ck_user WHERE loginid IN (SELECT parent FROM ck_user_parent WHERE userloginid={{userloginid}})"
+}

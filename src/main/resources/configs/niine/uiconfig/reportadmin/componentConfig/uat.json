@@ -1,0 +1,209 @@
+{
+  "features" : [ {
+    "id" : "reports",
+    "param" : {
+      "elements" : [ {
+        "id" : "OrderReportHCCB",
+        "name" : "Order Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "NotificationReport",
+        "name" : "NotificationReport",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "onboarding-report",
+        "name" : "On-Boarded",
+        "type" : "transaction"
+      }, {
+        "id" : "NewRegistrations",
+        "name" : "New Registrations",
+        "type" : "transaction"
+      }, {
+        "id" : "DayReportHCCB",
+        "name" : "Day Report",
+        "type" : "transaction"
+      }, {
+        "id" : "userFeedback-report",
+        "name" : "User Feedback Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "Notification_Dump",
+        "name" : "Notification_Dump",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "tracking-report",
+        "name" : "User Tracking",
+        "type" : "transaction"
+      }, {
+        "id" : "OrderComplianceReport",
+        "name" : "All Order Compliance Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "HCCBSalesReport",
+        "name" : "Sales Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UserMasterReport",
+        "name" : "User Master",
+        "type" : "master"
+      }, {
+        "id" : "ActiveOutletReport",
+        "name" : "Outlet Master Report",
+        "type" : "master"
+      }, {
+        "id" : "ProductReport",
+        "name" : "Product Report",
+        "type" : "master"
+      } ]
+    },
+    "templateId" : "reports"
+  }, {
+    "id" : "orderDashboard",
+    "templateId" : "orderDashboard"
+  }, {
+    "id" : "userAnalytics",
+    "templateId" : "userAnalytics"
+  }, {
+    "id" : "banner",
+    "templateId" : "banner"
+  }, {
+    "id" : "userSelection",
+    "templateId" : "userSelection"
+  }, {
+    "id" : "reportConfigManagement",
+    "templateId" : "reportConfigManagement"
+  }, {
+    "id" : "queryEditor",
+    "templateId" : "queryEditor"
+  }, {
+    "id" : "addSmartTrigger",
+    "templateId" : "addSmartTrigger"
+  }, {
+    "id" : "registration",
+    "templateId" : "registration"
+  }, {
+    "id" : "orderReport",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderReport"
+  }, {
+    "id" : "mdm",
+    "templateId" : "mdm"
+  }, {
+    "id" : "updateTemplateMeta",
+    "templateId" : "updateTemplateMeta"
+  }, {
+    "id" : "productCategoryImageMapping",
+    "templateId" : "productCategoryImageMapping"
+  }, {
+    "id" : "orderManagement",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderManagement"
+  }, {
+    "id" : "manageOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "manageOrder"
+  }, {
+    "id" : "viewOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "viewOrder"
+  }, {
+    "id" : "updateMetaConfig",
+    "templateId" : "updateMetaConfig"
+  }, {
+    "id" : "userManagement",
+    "templateId" : "userManagement"
+  }, {
+    "id" : "updateUser",
+    "templateId" : "updateUser"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "profile"
+      }, {
+        "icon" : "fas fa-user-lock",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  }, {
+    "id" : "sidebar",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "User Analytics",
+        "featureId" : "userAnalytics"
+      }, {
+        "icon" : "fas fa-chart-area fa-lg",
+        "name" : "Order Analytics",
+        "featureId" : "orderDashboard"
+      }, {
+        "icon" : "fas fa-bell fa-lg",
+        "name" : "Add Notification",
+        "featureId" : "userSelection"
+      }, {
+        "icon" : "fas fa-bullhorn fa-lg",
+        "name" : "Smart Trigger",
+        "featureId" : "addSmartTrigger"
+      }, {
+        "icon" : "fas fa-file-invoice fa-lg",
+        "name" : "Order Report",
+        "featureId" : "orderReport"
+      }, {
+        "icon" : "fas fa-chart-line fa-lg",
+        "name" : "Reports",
+        "featureId" : "reports"
+      }, {
+        "icon" : "fas fa-file-upload fa-lg",
+        "name" : "MDM",
+        "featureId" : "mdm"
+      }, {
+        "icon" : "fas fa-cog fa-lg",
+        "name" : "Update MetaConfig",
+        "featureId" : "updateMetaConfig"
+      }, {
+        "icon" : "fas fa-tasks fa-lg",
+        "name" : "Manage Order",
+        "featureId" : "orderManagement"
+      }, {
+        "icon" : "far fa-images fa-lg",
+        "name" : "Update Banner",
+        "featureId" : "banner"
+      }, {
+        "icon" : "fas far fa-images fa-lg",
+        "name" : "Category Upload",
+        "featureId" : "productCategoryImageMapping"
+      }, {
+        "icon" : "fas fa-user-cog fa-lg",
+        "name" : "User Management",
+        "featureId" : "userManagement"
+      } ]
+    },
+    "templateId" : "sidebar"
+  } ]
+}

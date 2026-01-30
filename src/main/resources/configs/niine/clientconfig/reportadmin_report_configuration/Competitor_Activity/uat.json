@@ -1,0 +1,6 @@
+{
+  "id" : "CompetitorActivityReport",
+  "name" : "Competitor Activity",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

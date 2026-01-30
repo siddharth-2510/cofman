@@ -1,0 +1,6 @@
+{
+  "id" : "SalesReportEB2B",
+  "name" : "Sales Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

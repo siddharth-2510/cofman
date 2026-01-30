@@ -1,0 +1,57 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "sde_app_options_configuration",
+  "elements" : [ {
+    "name" : "complaintOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "manufacturingLocationOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbVisitOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "merchandisingOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpPlanOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpFormTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "competitorOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "activityOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appApprovalPlan",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "noOrderOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attendanceStatusOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbVisitOptions_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "merchandisingOption_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitFilterOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbDesignations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankNameOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stateCityMap",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

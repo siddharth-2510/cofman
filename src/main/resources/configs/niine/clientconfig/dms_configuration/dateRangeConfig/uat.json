@@ -1,0 +1,8 @@
+{
+  "name" : "dateRangeConfig",
+  "type" : "number",
+  "value" : 90,
+  "docUrl" : "",
+  "description" : "It will provide value to for valid date range",
+  "possibleVals" : [ "number" ]
+}

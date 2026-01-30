@@ -1,0 +1,6 @@
+{
+  "type" : "GENERIC",
+  "className" : "com.applicate.services.channelkart.event.analytics.AnalyticsEventListener",
+  "description" : "Listen for new Anlytic loading events",
+  "configurations" : [ ]
+}

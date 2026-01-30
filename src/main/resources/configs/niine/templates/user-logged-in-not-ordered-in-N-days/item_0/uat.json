@@ -1,0 +1,14 @@
+{
+  "blob" : null,
+  "data" : "Hi {{data.outlet_name}},\\nWe identify that you have successfully clicked on the link that we have shared with you, but not yet placed an order. Click here to place your order now!",
+  "type" : "firebase",
+  "payload" : {
+    "blobKey" : "",
+    "category" : "",
+    "mediaUrl" : "",
+    "userName" : ""
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "dbActivityTabs",
+  "type" : "list",
+  "value" : [ {
+    "id" : "outletProfile",
+    "label" : "DB PROFILE",
+    "iconPath" : "assets/svg/outlet_profile.svg",
+    "isDefault" : true,
+    "themeColor" : "#01c6b0",
+    "storeInRequired" : ""
+  }, {
+    "id" : "dbVisit",
+    "label" : "DB VISIT",
+    "iconPath" : "assets/svg/merchandising.svg",
+    "isDefault" : true,
+    "themeColor" : "#767bfe",
+    "storeInRequired" : ""
+  }, {
+    "id" : "gateMeeting",
+    "label" : "GATE MEETING",
+    "iconPath" : "assets/svg/gate_meeting.svg",
+    "isDefault" : true,
+    "themeColor" : "#A52A2A",
+    "storeInRequired" : ""
+  } ]
+}

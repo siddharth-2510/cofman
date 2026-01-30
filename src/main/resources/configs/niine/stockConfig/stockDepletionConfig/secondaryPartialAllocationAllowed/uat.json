@@ -1,0 +1,5 @@
+{
+  "name" : "secondaryPartialAllocationAllowed",
+  "type" : "boolean",
+  "value" : "true"
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "multi_lingual_configuration",
+  "elements" : [ {
+    "name" : "supportedLanguages",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

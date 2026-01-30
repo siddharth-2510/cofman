@@ -1,0 +1,20 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.TransformOrderStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "1",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.utils.EntityUtils",
+    "index" : "2",
+    "description" : "Bean of EntityUtils"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Order",
+    "index" : "3",
+    "description" : "Order object"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "4",
+    "description" : "Old Order Status"
+  } ]
+}

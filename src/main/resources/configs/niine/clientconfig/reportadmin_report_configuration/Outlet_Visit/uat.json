@@ -1,0 +1,6 @@
+{
+  "id" : "outletVisit",
+  "name" : "Outlet Visit",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

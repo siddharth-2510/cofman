@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "metadataschema",
+  "domain_type" : "schama1",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

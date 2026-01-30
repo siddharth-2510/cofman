@@ -1,0 +1,8 @@
+{
+  "name" : "trainingRequest",
+  "type" : "String",
+  "value" : "true",
+  "docUrl" : "",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

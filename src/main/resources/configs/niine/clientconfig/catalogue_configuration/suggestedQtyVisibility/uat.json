@@ -1,0 +1,9 @@
+{
+  "name" : "suggestedQtyVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "it will show suggested qty in product card in catalogue",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

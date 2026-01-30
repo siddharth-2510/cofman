@@ -1,0 +1,28 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.UpdateSaleStatusStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.repository.SalesRepository",
+    "index" : "8",
+    "description" : "Bean of SalesRepository"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "5",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.utils.EntityUtils",
+    "index" : "0",
+    "description" : "Bean of EntityUtils"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "4",
+    "description" : "Sales db object"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "3",
+    "description" : "New sale status"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "9",
+    "description" : "New sale status reason"
+  } ]
+}

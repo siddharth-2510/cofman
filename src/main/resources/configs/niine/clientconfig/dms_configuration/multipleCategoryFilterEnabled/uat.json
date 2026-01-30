@@ -1,0 +1,8 @@
+{
+  "name" : "multipleCategoryFilterEnabled",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "It will enable multiple level filtering available",
+  "possibleVals" : [ true, false ]
+}

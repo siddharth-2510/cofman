@@ -1,0 +1,7 @@
+{
+  "data" : "https://apptech.blob.core.windows.net/luxottica/new-outlet-created-sms-hindhi.txt",
+  "type" : "sms",
+  "active" : 1,
+  "recipients" : "{{data.mobile}}",
+  "templateType" : "url"
+}

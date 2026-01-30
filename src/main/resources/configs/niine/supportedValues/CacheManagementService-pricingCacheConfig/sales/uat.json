@@ -1,0 +1,19 @@
+{
+  "filters" : [ {
+    "name" : "loginId",
+    "type" : "eq",
+    "field" : "supplier",
+    "source" : "sale.supplier"
+  }, {
+    "name" : "batchId",
+    "type" : "in",
+    "field" : "batchId",
+    "joiner" : ",",
+    "source" : "sale.salesDetails.batchId"
+  } ],
+  "cacheKey" : "loginId",
+  "defaults" : {
+    "tag" : "SFAProductMetaData",
+    "size" : "10000"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "ProductMetaData",
+  "domain_type" : "CatalogueQuery",
+  "elements" : [ {
+    "name" : "queryName",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

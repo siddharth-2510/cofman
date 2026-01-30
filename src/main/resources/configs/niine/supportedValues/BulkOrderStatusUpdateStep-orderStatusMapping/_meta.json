@@ -1,0 +1,27 @@
+{
+  "version" : "1.0",
+  "domain_name" : "supportedValues",
+  "domain_type" : "BulkOrderStatusUpdateStep-orderStatusMapping",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_1",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_2",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_3",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_4",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_5",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_6",
+    "pattern" : "FALLBACK"
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "supervisor_kpi_configuration",
+  "elements" : [ {
+    "name" : "kpiConfigList",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

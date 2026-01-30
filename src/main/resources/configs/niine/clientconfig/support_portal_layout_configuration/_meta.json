@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "support_portal_layout_configuration",
+  "elements" : [ {
+    "name" : "mainDashboardLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "adminPanelLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "uiConfigLayout",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

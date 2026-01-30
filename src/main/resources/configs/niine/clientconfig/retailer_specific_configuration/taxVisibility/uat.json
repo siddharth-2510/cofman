@@ -1,0 +1,9 @@
+{
+  "name" : "taxVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "order_configuration",
+  "description" : "",
+  "defaultValue" : true,
+  "possibleVals" : [ true, false ]
+}

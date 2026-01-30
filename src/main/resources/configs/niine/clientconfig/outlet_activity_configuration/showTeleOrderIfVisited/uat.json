@@ -1,0 +1,6 @@
+{
+  "name" : "showTeleOrderIfVisited",
+  "type" : "boolean",
+  "value" : true,
+  "description" : ""
+}

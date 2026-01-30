@@ -1,0 +1,26 @@
+{
+  "name" : "ruleMapping",
+  "type" : "List",
+  "value" : [ {
+    "svg" : "basket",
+    "color" : "#25c5b5",
+    "label" : "Cross Sell",
+    "bgcolor" : "#ecfaf9",
+    "priority" : 1,
+    "taskName" : "CROSSSELLPARENT"
+  }, {
+    "svg" : "upwardArrow",
+    "color" : "#E08270",
+    "label" : "Recover",
+    "bgcolor" : "#fcf1ef",
+    "priority" : 2,
+    "taskName" : "UPSELLPARENT"
+  }, {
+    "svg" : "dollar",
+    "color" : "#227c9d",
+    "label" : "O/T Value tgt",
+    "bgcolor" : "#eaf9fe",
+    "priority" : 3,
+    "taskName" : "SALESTARGET"
+  } ]
+}

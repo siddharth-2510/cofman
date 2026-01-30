@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "demoNumber",
+  "domain_type" : "otp",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

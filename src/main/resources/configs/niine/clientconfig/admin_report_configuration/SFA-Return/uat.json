@@ -1,0 +1,6 @@
+{
+  "id" : "ReturnReport",
+  "name" : "SFA-Return",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

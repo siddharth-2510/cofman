@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "templates",
+  "domain_type" : "Login-Nudge",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

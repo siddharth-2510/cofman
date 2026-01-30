@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesrep_app_options_configuration",
+  "elements" : [ {
+    "name" : "competitorOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "activityOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "merchandisingOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attendanceStatusOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "coolerRemarksOptions",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

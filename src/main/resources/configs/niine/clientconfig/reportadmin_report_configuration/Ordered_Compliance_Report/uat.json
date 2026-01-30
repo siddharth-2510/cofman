@@ -1,0 +1,7 @@
+{
+  "id" : "OrderComplianceReport",
+  "name" : "Ordered Compliance Report",
+  "type" : "transaction",
+  "filter" : "daterange",
+  "batchDownload" : true
+}

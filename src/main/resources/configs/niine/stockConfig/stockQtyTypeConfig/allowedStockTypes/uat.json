@@ -1,0 +1,5 @@
+{
+  "name" : "allowedStockTypes",
+  "type" : "List",
+  "value" : [ "available_qty", "committed_qty", "unsellable_qty", "in_transit_qty", "returned_qty", "on_route_qty", "blocked_qty" ]
+}

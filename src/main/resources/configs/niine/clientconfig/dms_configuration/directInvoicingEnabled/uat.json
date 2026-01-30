@@ -1,0 +1,8 @@
+{
+  "name" : "directInvoicingEnabled",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Config for distributor direct invoicing",
+  "possibleVals" : [ ]
+}

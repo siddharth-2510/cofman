@@ -1,0 +1,8 @@
+{
+  "id" : "vehicleMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/VehicleMDMUpload-CEREAPTkwTVF.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "GenericEntity",
+    "transformerId" : "dms_vehicle_master_transformer"
+  } ]
+}

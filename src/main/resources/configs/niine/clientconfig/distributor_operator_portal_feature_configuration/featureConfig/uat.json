@@ -1,0 +1,23 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "complianceDashboard2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Order Compliance-Analytics"
+  }, {
+    "name" : "ClaimsAmt",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Claims Eligibilty Criteria"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "merchandisingOption",
+  "type" : "List",
+  "value" : [ "POSM Management", "Window Visibility", "Endcap Visibility", "Sampling Activity", "Any Other Activation" ],
+  "docUrl" : "",
+  "description" : "Merchandising Option",
+  "possibleVals" : [ ]
+}

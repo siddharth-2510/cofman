@@ -1,0 +1,39 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "scheme_configuration",
+  "elements" : [ {
+    "name" : "uniqueSchemeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemesCalculationType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attributeBasedFreeItem",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "viewSchemeCount",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "usePromos",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeWithSequence",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "transformerListConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "offersTabVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "offersTabLabel",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

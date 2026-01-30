@@ -1,0 +1,9 @@
+{
+  "name" : "themeBackGroundColor",
+  "type" : "string",
+  "value" : "#EBEBEB",
+  "docUrl" : "",
+  "description" : "theme color",
+  "defaultValue" : "#EBEBEB",
+  "possibleVals" : [ "string" ]
+}

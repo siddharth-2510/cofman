@@ -1,0 +1,25 @@
+{
+  "name" : "fillColorMapping",
+  "type" : "List",
+  "value" : [ {
+    "max" : 100,
+    "min" : 95,
+    "color" : "#00C853"
+  }, {
+    "max" : 94.99,
+    "min" : 90,
+    "color" : "#FFEB3B"
+  }, {
+    "max" : 89.99,
+    "min" : 85,
+    "color" : "#FF9800"
+  }, {
+    "max" : 84.99,
+    "min" : 0,
+    "color" : "#F44336"
+  } ],
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,6 @@
+{
+  "id" : "OrderReportETLEB2B",
+  "name" : "Order Report ETL",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "attributeBasedFreeItem",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "To fetch free items based on attribute.",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

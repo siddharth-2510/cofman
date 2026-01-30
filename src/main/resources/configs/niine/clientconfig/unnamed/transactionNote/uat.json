@@ -1,0 +1,8 @@
+{
+  "name" : "transactionNote",
+  "type" : "string",
+  "value" : "Your payment is being processed",
+  "description" : "Note to be displayed when a transaction is in progress",
+  "defaultValue" : "Your payment is being processed",
+  "possibleVals" : [ "Your payment is being processed" ]
+}

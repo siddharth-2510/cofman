@@ -1,0 +1,11 @@
+{
+  "id" : "OutletCategory",
+  "name" : "Outlet Category",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/FMCGCategoryMasterTemplate-agnciqwYgaXW.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "GenericEntity",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_OutletCategory_transformer"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.SaveOrderStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.models.sagastep.EnrichOrderStep",
+    "index" : "-1",
+    "description" : "Bean of EnrichOrderStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderService",
+    "index" : "1"
+  }, {
+    "type" : "java.lang.Boolean",
+    "index" : "15",
+    "description" : "generatingInvoiceFlow true or false ? "
+  } ]
+}

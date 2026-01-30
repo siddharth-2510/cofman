@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "Pricing",
+  "domain_type" : "Pricing",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

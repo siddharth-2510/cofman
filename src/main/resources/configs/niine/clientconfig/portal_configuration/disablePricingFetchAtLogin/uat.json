@@ -1,0 +1,8 @@
+{
+  "name" : "disablePricingFetchAtLogin",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "dms",
+  "possibleVals" : [ ]
+}

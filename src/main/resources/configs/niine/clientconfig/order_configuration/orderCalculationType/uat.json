@@ -1,0 +1,9 @@
+{
+  "name" : "orderCalculationType",
+  "type" : "string",
+  "value" : "value",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Calculation is based on the type of the config : 1) value : order will be calculated and placed on the basis of total amount of the order. For ex : in unnati (ITC client) the value will be equal to the total amount in MRP .2) volume : order will be calculated and placed on the basis of total quantity . For ex : in marsBelgium the volume of the order will the total pieces of the order.",
+  "defaultValue" : "value",
+  "possibleVals" : [ "value", "volume", "value and volume" ]
+}

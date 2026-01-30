@@ -1,0 +1,10 @@
+{
+  "name" : "appName",
+  "type" : "string",
+  "value" : "CK SFAI UAT",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "AppName",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

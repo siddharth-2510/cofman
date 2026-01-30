@@ -1,0 +1,8 @@
+{
+  "name" : "showSchemeOnImageTap",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "open scheme popup on image tap",
+  "possibleVals" : [ true, false ]
+}

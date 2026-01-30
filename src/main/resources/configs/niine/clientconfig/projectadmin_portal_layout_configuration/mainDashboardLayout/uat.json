@@ -1,0 +1,53 @@
+{
+  "name" : "mainDashboardLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Analytics Dashboard",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Analytics Dashboard",
+    "sidebarOptions" : [ "Analytics", "sfaAnalytics", "saleslens" ]
+  }, {
+    "id" : "Impact Prediction",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Impact Prediction",
+    "sidebarOptions" : [ "edaQuantityCompliance", "skuSelectionCompliance", "complianceDashboard" ]
+  }, {
+    "id" : "MDM and Reports",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Reports",
+    "sidebarOptions" : [ "reports" ]
+  }, {
+    "id" : "Salescode Studio",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Salescode Studio",
+    "sidebarOptions" : [ "uiConfig", "newManageHomeScreen", "homeScreenManagement", "manageBannerStudio", "newManageBannerStudio", "manageBucketStudio", "manageBasketStudio" ]
+  }, {
+    "id" : "Performance Analytics",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Performance Analytics",
+    "sidebarOptions" : [ "integrationStatistics", "analyticsDashboard", "validations" ]
+  }, {
+    "id" : "Secondary",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Secondary",
+    "sidebarOptions" : [ "manageOutletApproval" ]
+  }, {
+    "id" : "Stocks",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Stocks",
+    "sidebarOptions" : [ "realTimeStocks", "manualStockUpdate" ]
+  }, {
+    "id" : "Claims",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Claims",
+    "sidebarOptions" : [ "openClaims", "closedClaims" ]
+  }, {
+    "id" : "MDM and Integration",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Integration",
+    "sidebarOptions" : [ "mdm2" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "dashboard Config",
+  "possibleVals" : [ ]
+}

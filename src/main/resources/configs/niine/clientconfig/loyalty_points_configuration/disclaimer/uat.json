@@ -1,0 +1,5 @@
+{
+  "name" : "disclaimer",
+  "type" : "String",
+  "value" : "Point calculation is under process for the month of {currentMonth}"
+}

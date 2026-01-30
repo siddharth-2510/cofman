@@ -1,0 +1,29 @@
+{
+  "name" : "languageConfiguration",
+  "type" : "List",
+  "value" : [ {
+    "code" : "en",
+    "name" : "defaultLanguage",
+    "origin" : "",
+    "language" : "English"
+  }, {
+    "name" : "supportedLanguages",
+    "values" : [ {
+      "code" : "en",
+      "origin" : "",
+      "language" : "English"
+    }, {
+      "code" : "hi",
+      "origin" : "हिन्दी",
+      "language" : "Hindi"
+    }, {
+      "code" : "ar",
+      "origin" : "عربي",
+      "language" : "Arabic"
+    } ]
+  } ],
+  "docUrl" : "",
+  "description" : "language configuration",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

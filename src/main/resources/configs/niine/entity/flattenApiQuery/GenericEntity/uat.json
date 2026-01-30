@@ -1,0 +1,3 @@
+{
+  "GenericEntity" : "SELECT * FROM ck_generic_object WHERE id={{id}}"
+}

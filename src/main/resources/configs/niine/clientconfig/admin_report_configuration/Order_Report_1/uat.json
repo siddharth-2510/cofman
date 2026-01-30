@@ -1,0 +1,6 @@
+{
+  "id" : "SFA-OrderReport1",
+  "name" : "Order Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

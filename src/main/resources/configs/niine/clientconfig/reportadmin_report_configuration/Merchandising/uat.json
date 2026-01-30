@@ -1,0 +1,6 @@
+{
+  "id" : "MerchandisingReport",
+  "name" : "Merchandising",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

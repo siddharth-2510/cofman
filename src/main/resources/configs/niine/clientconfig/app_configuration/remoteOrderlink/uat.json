@@ -1,0 +1,9 @@
+{
+  "name" : "remoteOrderlink",
+  "type" : "string",
+  "value" : "https://apps.apple.com/us/app/salescode/id6476537140",
+  "docUrl" : "",
+  "description" : "Message body 2 for remote order",
+  "defaultValue" : "",
+  "possibleVals" : [ ]
+}

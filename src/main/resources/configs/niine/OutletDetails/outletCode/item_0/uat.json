@@ -1,0 +1,7 @@
+{
+  "dateFormat" : "yyMMdd-",
+  "startValue" : "00001",
+  "sequenceLength" : "5",
+  "outletCodePattern" : "{{pincode}}{{sequence}}",
+  "extendedAttVariables" : "pincode"
+}

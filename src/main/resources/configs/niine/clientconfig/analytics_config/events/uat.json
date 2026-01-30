@@ -1,0 +1,912 @@
+{
+  "name" : "events",
+  "type" : "List",
+  "value" : [ {
+    "login" : {
+      "status" : "active",
+      "mappings" : {
+        "database" : {
+          "name" : "login",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type"
+          }
+        },
+        "firebase" : {
+          "name" : "login",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type",
+            "outlet_code" : "outlet_code"
+          }
+        },
+        "moengage" : {
+          "name" : "login",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type",
+            "outlet_code" : "outlet_code"
+          }
+        }
+      }
+    },
+    "logout" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "logout",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "user_id" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "user_id",
+          "params" : {
+            "user_id" : "user_id",
+            "outlet_type" : "outlet_type",
+            "outlet_class" : "outlet_class",
+            "distributor_id" : "distributor_id",
+            "outlet_channel" : "outlet_channel",
+            "device_unique_id" : "device_unique_id"
+          }
+        }
+      }
+    },
+    "no_order" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "no_order",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "purchase" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "purchase",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "order_id" : "order_id",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category"
+          }
+        }
+      }
+    },
+    "page_view" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "screen_view_custom",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "screen_view_custom",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "view_cart" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "view_cart",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category"
+          }
+        }
+      }
+    },
+    "cart_icons" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "cart_icons",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_option" : "selected_option"
+          }
+        },
+        "moengage" : {
+          "name" : "view_cart_icons",
+          "params" : {
+            "page_type" : "page_type",
+            "total_amount" : "total_amount",
+            "total_quantity" : "total_quantity",
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "icon_click",
+          "params" : {
+            "page_type" : "page_type",
+            "button_name" : "button_name"
+          }
+        }
+      }
+    },
+    "pjp_toggle" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "pjp_toggle",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "promo_type" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "promo_type",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_name" : "selected_name"
+          }
+        }
+      }
+    },
+    "add_to_cart" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "add_to_cart",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_list_id" : "item_list_id",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category",
+            "item_list_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "banner_play" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "video_play",
+          "params" : {
+            "banner_id" : "banner_id",
+            "banner_name" : "banner_name",
+            "banner_type" : "banner_type"
+          }
+        }
+      }
+    },
+    "live_update" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "live_update",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "banner_swipe" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "banner_swipe",
+          "params" : {
+            "banner_id" : "promotion_id",
+            "banner_name" : "banner_name",
+            "creative_slot" : "creative_slot",
+            "promotion_name" : "promotion_name"
+          }
+        }
+      }
+    },
+    "call_support" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "call_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "search_found" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "search",
+          "params" : {
+            "page_type" : "page_type",
+            "searched_text" : "search_item"
+          }
+        },
+        "moengage" : {
+          "name" : "search",
+          "params" : {
+            "page_type" : "page_type",
+            "searched_text" : "search_item"
+          }
+        }
+      }
+    },
+    "comp_tracking" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "comp_tracking",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "login_failure" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "login_failure",
+          "params" : {
+            "user_id" : "user_id",
+            "mobile_number" : "mobile_number"
+          }
+        }
+      }
+    },
+    "outlet_search" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "outlet_search",
+          "params" : {
+            "page_type" : "page_type",
+            "search_item" : "search_item"
+          }
+        }
+      }
+    },
+    "begin_checkout" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "begin_checkout",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category"
+          }
+        }
+      }
+    },
+    "initiate_login" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "initiate_login",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "initiate_login",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "tactical_promo" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "tactical_promo",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "view_item_list" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "view_item_list",
+          "params" : {
+            "price" : "price",
+            "item_id" : "item_id",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_list_id" : "item_list_id",
+            "item_category" : "item_category",
+            "item_category2" : "item_category2",
+            "item_list_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "cart_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "cart_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "forgot_password" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "forgot_password",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "forgot_password",
+          "params" : {
+            "method" : "method",
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "home_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "home_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "home_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "more_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "more_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "add_payment_info" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "add_payment_info",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category"
+          }
+        }
+      }
+    },
+    "remove_from_cart" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "remove_from_cart",
+          "params" : {
+            "price" : "price",
+            "value" : "value",
+            "item_id" : "item_id",
+            "currency" : "currency",
+            "quantity" : "quantity",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_brand" : "item_brand",
+            "item_list_id" : "item_list_id",
+            "item_variant" : "item_variant",
+            "product_type" : "product_type",
+            "item_category" : "item_category",
+            "item_category2" : "item_category2",
+            "item_list_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "switch_bottom_nav" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "switch_bottom_nav",
+          "params" : {
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "view_shop_by_pack" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "select_size_filter",
+          "params" : {
+            "page_type" : "page_type",
+            "packsize_name" : "selected_option"
+          }
+        },
+        "moengage" : {
+          "name" : "pack_size_selected",
+          "params" : {
+            "packsize_name" : "packsize_name"
+          }
+        }
+      }
+    },
+    "language_selection" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "language_selected",
+          "params" : {
+            "selected_language" : "selected_language"
+          }
+        }
+      }
+    },
+    "plus_button_expand" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "plus_button_expand",
+          "params" : {
+            "item_id" : "item_id",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_list_id" : "item_list_id",
+            "item_list_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "refresh_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "refresh_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "refresh_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "sales_target_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "sales_target",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "view_sales_summary" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "view_sales_summary",
+          "params" : {
+            "page_type" : "page_type",
+            "source_type" : "source_type",
+            "view_details" : "view_details"
+          }
+        }
+      }
+    },
+    "view_shop_by_brand" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "select_brand_filter",
+          "params" : {
+            "page_type" : "page_type",
+            "brand_name" : "selected_option"
+          }
+        },
+        "moengage" : {
+          "name" : "brand_selected",
+          "params" : {
+            "brand_name" : "brand_name"
+          }
+        }
+      }
+    },
+    "voice_search_found" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "voice_search",
+          "params" : {
+            "page_type" : "page_type",
+            "searched_text" : "search_item"
+          }
+        }
+      }
+    },
+    "language_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "language_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "must_sell_sku_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "focus_product",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "select_notification" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "select_notification",
+          "params" : {
+            "page_type" : "page_type",
+            "notification_name" : "notification_name"
+          }
+        },
+        "moengage" : {
+          "name" : "select_notification",
+          "params" : {
+            "page_type" : "page_type",
+            "notification_name" : "notification_name"
+          }
+        }
+      }
+    },
+    "my_orders_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "my_orders_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "plus_button_collapse" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "plus_button_collapse",
+          "params" : {
+            "item_id" : "item_id",
+            "item_name" : "item_name",
+            "page_type" : "page_type",
+            "item_list_id" : "item_list_id",
+            "item_list_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "view_all_promo_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "view_all_promo_click",
+          "params" : {
+            "basket_id" : "item_list_id",
+            "page_type" : "page_type",
+            "basket_name" : "item_list_name"
+          }
+        }
+      }
+    },
+    "account_option_select" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "account_option_select",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_option" : "selected_option"
+          }
+        },
+        "moengage" : {
+          "name" : "account_option_select",
+          "params" : {
+            "page_type" : "page_type",
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "view_shop_by_category" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "select_category_filter",
+          "params" : {
+            "page_type" : "page_type",
+            "category_name" : "selected_option"
+          }
+        },
+        "moengage" : {
+          "name" : "category_selected",
+          "params" : {
+            "category_name" : "category_name"
+          }
+        }
+      }
+    },
+    "change_password_submit" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "change_password",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        },
+        "moengage" : {
+          "name" : "change_password",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "footer_home_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "footer_home_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "view_all_product_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "view_all_product_click",
+          "params" : {
+            "page_type" : "page_type",
+            "basket_name" : "basket_name",
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "view_notification_list" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "view_notification_list",
+          "params" : {
+            "page_type" : "page_type",
+            "section_name" : "section_name"
+          }
+        },
+        "moengage" : {
+          "name" : "view_notification_list",
+          "params" : {
+            "page_type" : "page_type",
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "notification_icon_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "notification_icon_click",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "must_order_outlets_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "must_order_outlets",
+          "params" : {
+            "page_type" : "page_type"
+          }
+        }
+      }
+    },
+    "support_complaint_submit" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "support_complaint_submit",
+          "params" : {
+            "priority" : "priority",
+            "page_type" : "page_type",
+            "complaint_type" : "complaint_type"
+          }
+        },
+        "moengage" : {
+          "name" : "support_complaint_submit",
+          "params" : {
+            "priority" : "priority",
+            "page_type" : "page_type",
+            "complaint_type" : "complaint_type"
+          }
+        }
+      }
+    },
+    "switch_order_status_filter" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "switch_order_status_filter",
+          "params" : {
+            "page_type" : "page_type",
+            "section_name" : "section_name",
+            "selected_option" : "selected_option"
+          }
+        }
+      }
+    },
+    "see_all_products_hotselling" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "see_all_products_hotselling",
+          "params" : {
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "misssed_recommendation_popup" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "re_popup"
+        }
+      }
+    },
+    "see_all_products_newlaunches" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "see_all_products_newlaunches",
+          "params" : {
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "see_all_products_orderednearyou" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "see_all_products_orderednearyou",
+          "params" : {
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "see_all_products_youregularlyorder" : {
+      "status" : "active",
+      "mappings" : {
+        "moengage" : {
+          "name" : "see_all_products_youregularlyorder",
+          "params" : {
+            "section_name" : "section_name"
+          }
+        }
+      }
+    },
+    "misssed_recommendation_add_all_click" : {
+      "status" : "active",
+      "mappings" : {
+        "firebase" : {
+          "name" : "re_add_all",
+          "params" : {
+            "basket_name" : "basket_name"
+          }
+        }
+      }
+    }
+  } ]
+}

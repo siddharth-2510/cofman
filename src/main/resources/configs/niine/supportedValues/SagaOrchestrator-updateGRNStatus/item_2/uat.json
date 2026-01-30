@@ -1,0 +1,12 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.StockUpdateStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "4",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.TransformGRNInfoStep",
+    "index" : "-2",
+    "description" : "Bean of prev saga step TransformGRNInfoStep"
+  } ]
+}

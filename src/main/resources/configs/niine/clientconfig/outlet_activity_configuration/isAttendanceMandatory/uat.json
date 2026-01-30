@@ -1,0 +1,6 @@
+{
+  "name" : "isAttendanceMandatory",
+  "type" : "boolean",
+  "value" : false,
+  "description" : "Determines whether to mark attendance before visiting an outlet or not"
+}

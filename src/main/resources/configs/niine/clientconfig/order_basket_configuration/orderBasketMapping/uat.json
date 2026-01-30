@@ -1,0 +1,35 @@
+{
+  "name" : "orderBasketMapping",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1746794781883",
+    "tag" : "Hot Selling",
+    "type" : "UF",
+    "title" : "Hot Selling",
+    "status" : "active",
+    "subtitle" : "Shop high demand products",
+    "tagColor" : "",
+    "titleColor" : "#000000",
+    "subTitleColor" : "#000000",
+    "backGroundColor" : "#c0c0c0",
+    "displayImageBlobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RP0063CHOPMC02R-removebg-preview-2-AolCBSvpANIj.png",
+    "basketTitleIconBlobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/premium (1)-2-jSwyAYjLMEpq.png"
+  }, {
+    "id" : "1746794927802",
+    "tag" : "New Launches",
+    "type" : "New Launches",
+    "title" : "New Launches",
+    "status" : "active",
+    "subtitle" : "Stay ahead with new products purchases",
+    "tagColor" : "",
+    "titleColor" : "#000000",
+    "subTitleColor" : "#000000",
+    "backGroundColor" : "#DDBC99",
+    "displayImageBlobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RMW0800GLD04R-removebg-preview-2-nhvjkibxdSDI.png",
+    "basketTitleIconBlobKey" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/new-product-2-NydrXFmQwyMp.png"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "basket config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

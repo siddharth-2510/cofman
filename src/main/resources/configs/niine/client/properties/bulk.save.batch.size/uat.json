@@ -1,0 +1,4 @@
+{
+  "name" : "bulk.save.batch.size",
+  "value" : "9999999"
+}

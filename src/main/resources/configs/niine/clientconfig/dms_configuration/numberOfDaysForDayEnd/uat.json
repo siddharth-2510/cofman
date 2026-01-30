@@ -1,0 +1,8 @@
+{
+  "name" : "numberOfDaysForDayEnd",
+  "type" : "number",
+  "value" : 2,
+  "docUrl" : "",
+  "description" : "Config for default day end days check",
+  "possibleVals" : [ ]
+}

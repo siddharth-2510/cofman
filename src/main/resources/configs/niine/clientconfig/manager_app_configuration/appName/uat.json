@@ -1,0 +1,9 @@
+{
+  "name" : "appName",
+  "type" : "string",
+  "value" : "CK Sales 360",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "App Name",
+  "possibleVals" : [ "string" ]
+}

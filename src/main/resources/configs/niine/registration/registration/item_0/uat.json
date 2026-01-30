@@ -1,0 +1,9 @@
+{
+  "type" : "sms",
+  "active" : 1,
+  "dataObj" : "{'name':'admin.$name','loginId':'admin.$loginId','password':'admin.$password'}",
+  "lobText" : "$lob",
+  "mailSubject" : "Registration",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/newregistrationsms.txt",
+  "recipientText" : "admin.$mobile"
+}

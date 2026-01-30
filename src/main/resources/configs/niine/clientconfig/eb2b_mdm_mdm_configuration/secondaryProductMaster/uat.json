@@ -1,0 +1,8 @@
+{
+  "id" : "secondaryProductMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/cocaind/images/SecondaryProductMasterMDM-YFhKyWzaCfVF.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "SecondaryProduct",
+    "transformerId" : "dms_mdm_secondryProductTransformer"
+  } ]
+}

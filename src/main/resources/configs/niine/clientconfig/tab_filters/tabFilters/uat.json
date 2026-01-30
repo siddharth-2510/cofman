@@ -1,0 +1,15 @@
+{
+  "name" : "tabFilters",
+  "type" : "List",
+  "value" : [ {
+    "name" : "category"
+  }, {
+    "name" : "brand"
+  }, {
+    "name" : "subCategory"
+  } ],
+  "docUrl" : "",
+  "description" : "arrangement of tab filters",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

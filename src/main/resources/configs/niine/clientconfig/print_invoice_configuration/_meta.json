@@ -1,0 +1,27 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "print_invoice_configuration",
+  "elements" : [ {
+    "name" : "showQpsFocQty",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showBatchId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mergeInvoicesIntoSinglePdf",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceStrategyImplementation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showIntegrationUser",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableSalesmanLevelPdfSort",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceNotifierImplementation",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

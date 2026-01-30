@@ -1,0 +1,9 @@
+{
+  "id" : "mdm_targets",
+  "name" : "Sales Target",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SalesTargetsETL-fyrDHqTxqzcH.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Targets",
+    "transformerId" : "mdm_targets"
+  } ]
+}

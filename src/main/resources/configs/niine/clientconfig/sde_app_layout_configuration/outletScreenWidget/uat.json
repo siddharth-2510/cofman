@@ -1,0 +1,12 @@
+{
+  "name" : "outletScreenWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "visitStatusFilter"
+  }, {
+    "id" : "beatFilters",
+    "selection" : "single"
+  }, {
+    "id" : "outletList"
+  } ]
+}

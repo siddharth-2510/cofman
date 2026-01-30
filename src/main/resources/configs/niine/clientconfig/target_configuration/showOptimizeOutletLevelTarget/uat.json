@@ -1,0 +1,8 @@
+{
+  "name" : "showOptimizeOutletLevelTarget",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "enable the optmized outlet level target",
+  "possibleVals" : [ true, false ]
+}

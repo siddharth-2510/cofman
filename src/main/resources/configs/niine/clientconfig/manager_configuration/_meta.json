@@ -1,0 +1,30 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "manager_configuration",
+  "elements" : [ {
+    "name" : "baseUrlChannelKart",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fillColorMapping",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "searchBarText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "searchKeywords",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "rolesHierarchy",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondaryFilters",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "managerDesignations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "percentageColorMapping",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

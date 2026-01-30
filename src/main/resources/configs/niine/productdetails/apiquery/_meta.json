@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "productdetails",
+  "domain_type" : "apiquery",
+  "elements" : [ {
+    "name" : "queryName",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

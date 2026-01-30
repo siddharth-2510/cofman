@@ -1,0 +1,17 @@
+{
+  "name" : "bottomBarLayout",
+  "type" : "List",
+  "value" : [ {
+    "id" : "home",
+    "label" : "HOME"
+  }, {
+    "id" : "order-action",
+    "label" : "ORDER"
+  }, {
+    "id" : "orderTracking",
+    "label" : "ORDER TRACKING"
+  }, {
+    "id" : "more",
+    "label" : "MORE"
+  } ]
+}

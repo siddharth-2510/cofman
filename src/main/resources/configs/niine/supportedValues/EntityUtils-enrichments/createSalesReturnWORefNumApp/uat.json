@@ -1,0 +1,1 @@
+[ "com.applicate.ckcoe.enrichment.SalesDataEnrichment", "com.applicate.ckcoe.enrichment.SalesTotalMRPEnrichment", "com.applicate.services.channelkart.enrichments.repository.SalesTotalQuantityEnrichment", "com.applicate.services.channelkart.enrichments.repository.SalesTotalAmountEnrichment" ]

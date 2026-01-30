@@ -1,0 +1,18 @@
+{
+  "name" : "bannerGlobalFilter",
+  "type" : "List",
+  "value" : [ {
+    "id" : "loginId",
+    "api" : "/users?size=10000&filter=designation:supplier",
+    "label" : "Supplier ID",
+    "apiType" : "API",
+    "multiSelect" : true,
+    "filterConfig" : {
+      "filterKey" : "supplier",
+      "filterOperator" : "EQUAL"
+    }
+  } ],
+  "docUrl" : "",
+  "description" : "Global filter for banner",
+  "defaultValue" : ""
+}

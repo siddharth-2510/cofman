@@ -1,0 +1,6 @@
+{
+  "id" : "LoadoutReport",
+  "name" : "Loadout Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

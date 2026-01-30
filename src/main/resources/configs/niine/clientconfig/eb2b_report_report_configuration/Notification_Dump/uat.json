@@ -1,0 +1,6 @@
+{
+  "id" : "Notification_DumpEB2B",
+  "name" : "Notification Dump",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

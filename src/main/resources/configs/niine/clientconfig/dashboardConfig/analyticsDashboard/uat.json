@@ -1,0 +1,6 @@
+{
+  "id" : "analyticsDashboard",
+  "icon" : "impactDashboardIcon",
+  "label" : "Analytics Dashboard",
+  "sidebarOptions" : [ "analyticsDashboard", "slowQueries", "validations" ]
+}

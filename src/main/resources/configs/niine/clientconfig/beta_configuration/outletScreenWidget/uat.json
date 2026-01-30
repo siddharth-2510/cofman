@@ -1,0 +1,18 @@
+{
+  "name" : "outletScreenWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "beatFilters",
+    "template" : "salesman_beat_filter",
+    "selection" : "single"
+  }, {
+    "id" : "liveUpdate",
+    "value" : [ "LIVE" ],
+    "description" : "To display the different data and toggle in live update dashboard"
+  }, {
+    "id" : "visitStatusFilter"
+  }, {
+    "id" : "outletList"
+  } ],
+  "domainType" : "salesman_app_layout_configuration"
+}

@@ -1,0 +1,12 @@
+{
+  "config" : {
+    "designation" : "supplier"
+  },
+  "operation" : [ {
+    "operation" : "increment",
+    "destColName" : "mtdPJPCount"
+  }, {
+    "operation" : "increment",
+    "destColName" : "numOfClicks"
+  } ]
+}

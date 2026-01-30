@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "user_patter_match",
+  "domain_type" : "user_loginid",
+  "elements" : [ {
+    "name" : "test",
+    "pattern" : "PLAIN_STRING"
+  }, {
+    "name" : "Test",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

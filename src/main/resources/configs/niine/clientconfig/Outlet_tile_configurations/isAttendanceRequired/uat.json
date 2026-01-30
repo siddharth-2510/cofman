@@ -1,0 +1,8 @@
+{
+  "name" : "isAttendanceRequired",
+  "type" : "boolean",
+  "value" : "true",
+  "docUrl" : "",
+  "description" : "is attendance required before ordering",
+  "possibleVals" : [ ]
+}

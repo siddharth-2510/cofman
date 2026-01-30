@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "defaultParameters1",
+  "elements" : [ {
+    "name" : "BusinessCalendar",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "name" : "outletProfilePeriodSummary",
+  "type" : "List",
+  "value" : [ {
+    "id" : "salesValue",
+    "icon" : "assets/images/faq.png",
+    "type" : "number",
+    "label" : "MTD Sales Value"
+  }, {
+    "id" : "targetKpi",
+    "icon" : "assets/images/faq.png",
+    "type" : "number",
+    "label" : "MTD Target"
+  }, {
+    "id" : "achPerKpi",
+    "icon" : "assets/images/faq.png",
+    "type" : "percentage",
+    "label" : "ACH%"
+  }, {
+    "id" : "growthPerKpi",
+    "icon" : "assets/images/faq.png",
+    "type" : "percentage",
+    "label" : "GR%"
+  } ],
+  "domainType" : "salesman_app_layout_configuration"
+}

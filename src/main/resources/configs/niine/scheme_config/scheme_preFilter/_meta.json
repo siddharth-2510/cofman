@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "scheme_config",
+  "domain_type" : "scheme_preFilter",
+  "elements" : [ {
+    "name" : "usage_Limit",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

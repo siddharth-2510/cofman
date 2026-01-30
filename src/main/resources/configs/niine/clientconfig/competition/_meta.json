@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "competition",
+  "elements" : [ {
+    "name" : "Pricing",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Promotion_Activities",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Secondary_display",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "NPD",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

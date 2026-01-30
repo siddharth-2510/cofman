@@ -1,0 +1,32 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.loadoutsteps.UpdateInvoiceStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.pojo.DeliveryLoadoutPayload",
+    "index" : "3",
+    "description" : "deliveryLoadout"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "0",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OutletDetailsService",
+    "index" : "13",
+    "description" : "Bean of OutletDetailsService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.InvoiceCollectionService",
+    "index" : "14",
+    "description" : "Bean of InvoiceCollectionService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.CreditStatusService",
+    "index" : "15",
+    "description" : "Bean of CreditStatusService"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "12",
+    "description" : "Map of invoiceNumbers to E-invoice presence"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "1",
+    "description" : "Map of invoiceNumbers to new status"
+  } ]
+}

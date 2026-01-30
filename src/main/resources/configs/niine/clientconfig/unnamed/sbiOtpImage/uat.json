@@ -1,0 +1,8 @@
+{
+  "name" : "sbiOtpImage",
+  "type" : "string",
+  "value" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/sbi-logo-33205.png",
+  "description" : "SBI logo for otp verification screen",
+  "defaultValue" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/sbi-logo-33205.png",
+  "possibleVals" : [ "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/sbi-logo-33205.png" ]
+}

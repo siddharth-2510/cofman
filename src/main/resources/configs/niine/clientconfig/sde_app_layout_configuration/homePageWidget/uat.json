@@ -1,0 +1,34 @@
+{
+  "name" : "homePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "liveDashboard",
+    "items" : [ {
+      "id" : "pjpApproval",
+      "icon" : "assets/svg/live_horizontal_bar.svg",
+      "label" : "PJP Approval"
+    }, {
+      "id" : "deviationApproval",
+      "icon" : "assets/svg/live_horizontal_bar.svg",
+      "label" : "Deviation Approval"
+    }, {
+      "id" : "dayEnd",
+      "icon" : "assets/svg/hierarchy.svg",
+      "label" : "Day End"
+    } ]
+  }, {
+    "id" : "kpiHeading"
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communication banner v2"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

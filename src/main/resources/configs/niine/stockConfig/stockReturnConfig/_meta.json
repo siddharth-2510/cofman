@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "stockConfig",
+  "domain_type" : "stockReturnConfig",
+  "elements" : [ {
+    "name" : "goodReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "badReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockReturnDepletionKey",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

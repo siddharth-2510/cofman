@@ -1,0 +1,20 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.GenerateDiscountedInvoiceStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.client.properties.PropertyRegistry",
+    "index" : "8",
+    "description" : "Bean of PropertyRegistry"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.OrderStockDeductStep",
+    "index" : "-1",
+    "description" : "Bean of prev saga step OrderStockDeductStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "3",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "java.lang.Boolean",
+    "index" : "4",
+    "description" : "needsMinimalResponse flag from api request param"
+  } ]
+}

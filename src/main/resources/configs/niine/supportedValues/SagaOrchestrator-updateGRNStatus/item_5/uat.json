@@ -1,0 +1,8 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.TriggerPricingCalculationTaskExecutor",
+  "dependencies" : [ {
+    "type" : "java.lang.String",
+    "index" : "8",
+    "description" : "Supplier loginId"
+  } ]
+}

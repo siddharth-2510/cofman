@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "orderAmountCompare",
+  "domain_type" : "orderAmountCompare",
+  "elements" : [ {
+    "name" : "enable",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "updateLocationOnImageCapture",
+  "type" : "boolean",
+  "value" : false,
+  "description" : "Determines whether to update lat/long on image capture"
+}

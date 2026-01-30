@@ -1,0 +1,8 @@
+{
+  "prefix" : "",
+  "suffix" : "",
+  "dateFormat" : "YYYYMMdd",
+  "startValue" : "1",
+  "sequenceLength" : "5",
+  "collectionNumberPattern" : "COLL-{{dateFormat}}-{{sequence}}"
+}

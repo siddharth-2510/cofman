@@ -1,0 +1,7 @@
+{
+  "Location" : "SELECT * FROM ck_location WHERE location_hierarchy={{location_hierarchy}}",
+  "UserParent" : "SELECT * FROM ck_user_parent WHERE userloginid={{userloginid}}",
+  "CreditStatus" : "SELECT * FROM ck_credit_status WHERE loginid={{loginid}}",
+  "OutletDetails" : "SELECT * FROM ck_outlet_details WHERE id={{id}}",
+  "UserParentDetailed" : "SELECT * FROM ck_user WHERE loginid IN (SELECT parent FROM ck_user_parent WHERE userloginid={{userloginid}})"
+}

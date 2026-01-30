@@ -1,0 +1,7 @@
+{
+  "name" : "submitReturnSalesData",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

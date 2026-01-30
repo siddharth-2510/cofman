@@ -1,0 +1,5 @@
+{
+  "batchSize" : 100,
+  "topicName" : "-stockService-integration-streams",
+  "preserveOnFailure" : "true"
+}

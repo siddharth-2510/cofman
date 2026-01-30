@@ -1,0 +1,17 @@
+{
+  "id" : "deliveryPJPMaster",
+  "menuOption" : [ {
+    "id" : "import",
+    "icon" : "importIcon",
+    "label" : "Import"
+  }, {
+    "id" : "logsAndReport",
+    "icon" : "logsAndReportIcon",
+    "label" : "Logs and Reports"
+  } ],
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/cocaind/images/PjpMasterMdmUpload_template-GUPHpFmNPSxB.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "DeliveryPJP",
+    "transformerId" : "dms_mdm_deliverypjp_transformer"
+  } ]
+}

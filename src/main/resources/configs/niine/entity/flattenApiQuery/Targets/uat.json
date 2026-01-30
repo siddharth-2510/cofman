@@ -1,0 +1,3 @@
+{
+  "Targets" : "SELECT * FROM ck_targets WHERE id={{id}}"
+}

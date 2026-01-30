@@ -1,0 +1,5 @@
+{
+  "name" : "invoiceStrategyImplementation",
+  "type" : "string",
+  "value" : "com.applicate.services.channelkart.invoice.strategy.CkcoeInvoiceStrategy"
+}

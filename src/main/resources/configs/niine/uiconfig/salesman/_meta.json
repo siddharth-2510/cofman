@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "uiconfig",
+  "domain_type" : "salesman",
+  "elements" : [ {
+    "name" : "appConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "componentConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "activityOption",
+  "type" : "List",
+  "value" : [ "New Launches", "New Campaign", "New Promotions" ],
+  "docUrl" : "",
+  "description" : "Activity options",
+  "possibleVals" : [ ]
+}

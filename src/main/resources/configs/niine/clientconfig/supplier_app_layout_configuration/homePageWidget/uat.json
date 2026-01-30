@@ -1,0 +1,17 @@
+{
+  "name" : "homePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "liveDashboard"
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

@@ -1,0 +1,339 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "dms_configuration",
+  "elements" : [ {
+    "name" : "defaultMarkDiscountType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "maxValidityDaysForCreditNote",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showBothHeaderLevelDiscountedAmountAndPercentage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "restrictedSkuEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableRemainingStocksLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sequentialInvoicing",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "arsPercentage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useStockValidate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "displayOtherUnitName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableInDraftStatus",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "viewPrimaryOrdersHeaderLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fetchLimitedOrderData",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "batchIdConfiguration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useKafkaBulkFlow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showSalesReturnWithInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "salesReturnReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "viewQpsFocInSummary",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dayEndConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "numberOfDaysForDayEnd",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mandatoryStatusForDayEnd",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultStartDiffForDayEnd",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "salesReturnReasonsMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "createSecondaryOrderConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useBatchInvoicePdfApiInBulkInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disableOtherUnitNameWiseCavinKair",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableARSConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useSalesClaimPricingApi",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "grnRejectionReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "withoutOutletDetailsTransformer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "grnRejectionReasonsSku",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fetchPricingBySalesrep",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disableOrderEdit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disableCreateInvoiceDesignationBased",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disableOrderEditDesignationBased",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stocksBaseURL",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "usePromoServiceForSchemes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "realTimeStocksReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "salesReturnReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockAdjustmentReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "shippingAddressMandatory",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockTypeUpdateReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "batchwiseExpiryReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "salesReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderCancellationReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "uomConversion",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderSources",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceExpiryCheck",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceExpiryCheckValue",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useNewOrderStatusUpdateAPI",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceEditedOnceCheck",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceExpiryCheck_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceExpiryCheckValue_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceEditedOnceCheck_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "activeDmsFeatures",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "claimTypes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "claimSubTypes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "claimTypesObj",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "claimStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allowZeroCreditNoteClaims",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondarySchemesDiscountInfoKeyMapping",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondarySchemesUIConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingApiUrlPurchaseReturnsClaims",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableMOQCheck",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "grnSheetReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "hideAdditionalDistributorDiscount",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isPriceGroupRequired",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletApprovalTrackingStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "companyPortalLoginId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dateRangeConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "startDateAtLastNDays",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allowUnapprovedOutlets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultCreditLimit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultCreditDays",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiFilterKeysManageOrders",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multipleCategoryFilterEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableMultiCategoryFilterManageInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiFilterKeysManageInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useSelectedDistributorIfDesignations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showPricePerPieceViewEditGrnDetails",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mergeManageOrderInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletLocationTransformerName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showRouteNameId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderTypes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showOutletGstinLabelManageOrders",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableSKUReplacement",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiFilterKeysBulkInvoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableFocPurchaseReturnClaims",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "manageSecondaryOrderV2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "quickDateRanges",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isStockAllocationAllowed",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "performStockCheckManageOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isBulkRejectionAllowed",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryCheckoutRemovedFields",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulkInvoiceSelectionLimit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "caseUnitLabelPrimaryReturn",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitLabelPrimaryReturn",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "packUnitLabelPrimaryReturn",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allowedReturnQtyTypes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryReturnReasons",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryReturnTrackingStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primaryReturnApproval",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderVsInvoiceSection",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "directInvoicingEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "hideDeliveryDetailsInCheckout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "PrimaryOrderV2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ViewAllGrnV2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "nocDMSConfigurationEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "permissionBasedFeatureAccess",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

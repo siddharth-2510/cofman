@@ -1,0 +1,4 @@
+{
+  "name" : "Outlet and User level - Monthly ",
+  "value" : "[{'dynamicKeys': ['outletCode.outletCode','loginId.loginId', 'month', 'year'],'queryType':'Monthly'}]"
+}

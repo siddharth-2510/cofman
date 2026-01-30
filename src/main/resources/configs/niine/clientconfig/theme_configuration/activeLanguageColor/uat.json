@@ -1,0 +1,8 @@
+{
+  "name" : "activeLanguageColor",
+  "type" : "string",
+  "value" : "e08682",
+  "docUrl" : "",
+  "description" : "theme color",
+  "possibleVals" : [ "string" ]
+}

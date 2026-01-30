@@ -1,0 +1,28 @@
+{
+  "name" : "mainDashboardLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Analytics Dashboard",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Analytics Dashboard",
+    "sidebarOptions" : [ "reports2", "edaQuantityCompliance2", "skuSelectionCompliance2" ]
+  }, {
+    "id" : "MDM and Reports",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Reports",
+    "sidebarOptions" : [ "mdm", "mdmNew", "reports", "integrationPlatform" ]
+  }, {
+    "id" : "Performance Analytics",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Performance Analytics",
+    "sidebarOptions" : [ "integrationStatistics", "analyticsDashboard", "masterDataReports", "validations" ]
+  }, {
+    "id" : "MDM and Integration",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Integration",
+    "sidebarOptions" : [ "mdm2", "integrationPlatform2" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "dashboard Config",
+  "possibleVals" : [ ]
+}

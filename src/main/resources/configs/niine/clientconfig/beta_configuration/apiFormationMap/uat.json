@@ -1,0 +1,17 @@
+{
+  "name" : "apiFormationMap",
+  "type" : "list",
+  "value" : [ {
+    "baseUrl" : "/v2/items/pricing/category",
+    "feature" : "/productmetadata",
+    "filterParams" : {
+      "static" : [ ],
+      "dynamic" : [ ]
+    },
+    "staticParams" : { },
+    "dynamicParams" : [ "size", "page" ]
+  } ],
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "domainParent" : "salesman_specific_configuration"
+}

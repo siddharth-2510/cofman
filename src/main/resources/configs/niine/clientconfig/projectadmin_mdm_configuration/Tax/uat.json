@@ -1,0 +1,10 @@
+{
+  "id" : "taxMaster",
+  "name" : "Tax",
+  "entity" : "Tax",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/TaxMasterMdmUploadTemplate-njQgGhfGTsCO.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Tax",
+    "transformerId" : "dms_tax_master_transformer"
+  } ]
+}

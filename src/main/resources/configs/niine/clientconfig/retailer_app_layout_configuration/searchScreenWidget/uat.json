@@ -1,0 +1,53 @@
+{
+  "name" : "searchScreenWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "name" : "searchHistory",
+    "type" : "tab",
+    "limit" : 10,
+    "title" : "Your Recent Searches"
+  }, {
+    "name" : "crosssell",
+    "type" : "sfaProductBasket",
+    "label" : "Cross Sell",
+    "limit" : 10,
+    "svgPath" : "assets/svg/cross_sell_basket.svg"
+  }, {
+    "name" : "upsell",
+    "type" : "sfaProductBasket",
+    "label" : "UP Sell",
+    "limit" : 10,
+    "svgPath" : "assets/svg/Up sell white.svg"
+  }, {
+    "name" : "focus",
+    "type" : "sfaProductBasket",
+    "label" : "Focus",
+    "limit" : 10,
+    "svgPath" : "assets/svg/Up sell white.svg"
+  }, {
+    "name" : "BS001",
+    "type" : "tab",
+    "limit" : 10
+  }, {
+    "name" : "TR001",
+    "type" : "basket",
+    "limit" : 10
+  }, {
+    "id" : "SRCH001",
+    "name" : "shopByCategory",
+    "type" : "collectionBasket",
+    "limit" : 100
+  }, {
+    "id" : "1730213579001",
+    "name" : "shopByBrand",
+    "type" : "collectionBasket",
+    "limit" : 100
+  }, {
+    "name" : "appSchemeBanner",
+    "type" : "banner"
+  } ],
+  "docUrl" : "",
+  "description" : "search page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout" ]
+}

@@ -1,0 +1,5 @@
+{
+  "name" : "targetDisclaimer",
+  "type" : "String",
+  "value" : "Your Target & Achievement for the month of {currentMonth} is frozen"
+}

@@ -1,0 +1,6 @@
+{
+  "id" : "Notification_Dump",
+  "name" : "Notification Dump",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

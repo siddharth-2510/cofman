@@ -1,0 +1,48 @@
+{
+  "name" : "primaryOrderTrackingStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "PENDING",
+    "dmsColor" : "#F0F3FF",
+    "dmsLabel" : "Ordered",
+    "dmsLabelColor" : "#3652C4"
+  }, {
+    "id" : "INVOICED",
+    "dmsColor" : "#FBFFF2",
+    "dmsLabel" : "In Transit",
+    "dmsLabelColor" : "#7EA21C"
+  }, {
+    "id" : "DELIVERED",
+    "dmsColor" : "#EDFEFF",
+    "dmsLabel" : "Delivered",
+    "dmsLabelColor" : "#0CA6AC"
+  }, {
+    "id" : "REJECTED",
+    "dmsColor" : "#c64c001a",
+    "dmsLabel" : "Rejected",
+    "dmsLabelColor" : "#C64C00"
+  }, {
+    "id" : "CONFIRMED",
+    "dmsColor" : "#F3FCF3",
+    "dmsLabel" : "Confirmed",
+    "dmsLabelColor" : "#23C65B"
+  } ],
+  "docUrl" : "",
+  "description" : "Primary Order tracking and its subfeatures",
+  "defaultValue" : [ {
+    "id" : "PENDING",
+    "dmsColor" : "#F0F3FF",
+    "dmsLabel" : "Ordered",
+    "dmsLabelColor" : "#3652C4"
+  }, {
+    "id" : "INTRANSIT",
+    "dmsColor" : "#FBFFF2",
+    "dmsLabel" : "In Transit",
+    "dmsLabelColor" : "#7EA21C"
+  }, {
+    "id" : "DELIVERED",
+    "dmsColor" : "#EDFEFF",
+    "dmsLabel" : "Delivered",
+    "dmsLabelColor" : "#0CA6AC"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "id" : "salesmanSharingMigration",
+  "name" : "Salesman Sharing",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoeuat/images/SalesmanSharing-oQwEnfiYLWfd.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "skipPersist" : true,
+    "operationType" : "insert",
+    "transformerId" : "userParentIntegration"
+  } ]
+}

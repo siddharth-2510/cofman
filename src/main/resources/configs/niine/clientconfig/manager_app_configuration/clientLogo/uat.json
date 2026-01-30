@@ -1,0 +1,10 @@
+{
+  "name" : "clientLogo",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/bepensademo/images/SalesCode%20Cavin%20Kare%20v3-RMRrMTtXUBFy.png",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "Client Logo",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

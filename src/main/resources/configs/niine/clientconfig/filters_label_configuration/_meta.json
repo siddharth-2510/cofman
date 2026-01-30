@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "filters_label_configuration",
+  "elements" : [ {
+    "name" : "pieceSizeLabelMapping",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

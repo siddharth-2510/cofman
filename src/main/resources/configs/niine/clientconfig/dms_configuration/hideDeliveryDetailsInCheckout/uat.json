@@ -1,0 +1,8 @@
+{
+  "name" : "hideDeliveryDetailsInCheckout",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Config for hiding delivery details in secondary checkout",
+  "possibleVals" : [ ]
+}

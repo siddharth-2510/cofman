@@ -1,0 +1,11 @@
+{
+  "id" : "AttributeCreationMaster",
+  "name" : "Attribute CreationMaster",
+  "useKafka" : false,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/attributecreation-vzDbSHGGNwaB.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "GenericEntity",
+    "operationType" : "insert",
+    "transformerId" : "AttributeCreationMaster"
+  } ]
+}

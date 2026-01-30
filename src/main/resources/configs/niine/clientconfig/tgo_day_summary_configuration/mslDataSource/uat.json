@@ -1,0 +1,6 @@
+{
+  "name" : "mslDataSource",
+  "type" : "string",
+  "value" : "recommendation",
+  "description" : "data source for msl products"
+}

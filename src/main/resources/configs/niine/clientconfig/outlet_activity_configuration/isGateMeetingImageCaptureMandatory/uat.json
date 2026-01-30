@@ -1,0 +1,8 @@
+{
+  "name" : "isGateMeetingImageCaptureMandatory",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "decides whether image capturing in gate meeting is mandatory or not",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "stock-deduction-enable",
+  "domain_type" : "order",
+  "elements" : [ {
+    "name" : "enable",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

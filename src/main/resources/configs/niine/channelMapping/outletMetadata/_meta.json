@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "channelMapping",
+  "domain_type" : "outletMetadata",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

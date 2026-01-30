@@ -1,0 +1,9 @@
+{
+  "name" : "countryCode",
+  "type" : "string",
+  "value" : "IN",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "The country code of the country in which app is being used.",
+  "defaultValue" : null,
+  "possibleVals" : [ "string" ]
+}

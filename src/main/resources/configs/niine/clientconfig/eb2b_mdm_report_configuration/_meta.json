@@ -1,0 +1,54 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "eb2b_mdm_report_configuration",
+  "elements" : [ {
+    "name" : "Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report_ETL",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DeviceInfoReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Day_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_VALUE",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_Value",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Enrolled_Outlets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "NotificationReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Notification_Dump",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "errorLogServiceFilter",
+  "type" : "map",
+  "value" : {
+    "kibana" : true,
+    "slackAlert" : true
+  },
+  "description" : "Filter services to be used for recording the handled errors",
+  "defaultValue" : { }
+}

@@ -1,0 +1,10 @@
+{
+  "DELTA" : "false",
+  "BRANCH" : "ckcoe",
+  "CLIENT" : "ckcoe",
+  "jobName" : "ckcoe_integration_duck",
+  "profileName" : "jenkins",
+  "jobNameExtra" : "",
+  "skipFilesBackup" : "",
+  "DUCKDB_UTIL_BRANCH" : "ckcoe_duck_integration"
+}

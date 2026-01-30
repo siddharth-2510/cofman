@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "EB2B_Pricing",
+  "domain_type" : "config",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

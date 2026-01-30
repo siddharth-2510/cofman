@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.loadoutsteps.BulkOrderStatusUpdateStep",
+  "dependencies" : [ {
+    "type" : "java.util.Map",
+    "index" : "2",
+    "description" : "Map of orderNumbers to new Status"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderService",
+    "index" : "5",
+    "description" : "Bean of OrderService"
+  }, {
+    "type" : "com.applicate.services.channelkart.utils.EntityUtils",
+    "index" : "4",
+    "description" : "Bean of EntityUtils"
+  } ]
+}

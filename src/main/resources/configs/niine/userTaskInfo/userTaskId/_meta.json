@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "userTaskInfo",
+  "domain_type" : "userTaskId",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

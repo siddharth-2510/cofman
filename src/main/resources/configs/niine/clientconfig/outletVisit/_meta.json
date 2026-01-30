@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "outletVisit",
+  "elements" : [ {
+    "name" : "Routine_Visit",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

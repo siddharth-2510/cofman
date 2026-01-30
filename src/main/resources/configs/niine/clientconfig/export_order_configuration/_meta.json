@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "export_order_configuration",
+  "elements" : [ {
+    "name" : "createOrderFile",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFileType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFileNameFormat",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFileLocation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFileDataKeys",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

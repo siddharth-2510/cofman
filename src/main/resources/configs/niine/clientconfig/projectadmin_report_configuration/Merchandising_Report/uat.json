@@ -1,0 +1,6 @@
+{
+  "id" : "Merchandising",
+  "name" : "Merchandising Report",
+  "type" : "sfa activities",
+  "filter" : "daterange"
+}

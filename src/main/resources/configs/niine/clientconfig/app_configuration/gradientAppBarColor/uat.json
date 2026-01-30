@@ -1,0 +1,9 @@
+{
+  "name" : "gradientAppBarColor",
+  "type" : "string",
+  "value" : "#000000",
+  "docUrl" : "",
+  "description" : "Appbar background image",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

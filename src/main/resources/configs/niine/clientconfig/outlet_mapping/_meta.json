@@ -1,0 +1,69 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "outlet_mapping",
+  "elements" : [ {
+    "name" : "outletMappingFormFiled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "existingOutletMappingFields",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletMappingTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "cleanOutletMappingData",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "immediateParentTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "locationKeyMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "updateDataOnOtpVerification",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disableOutletVerification",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletVerification",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletVerificationMandatory",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "featureConnectionType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supplierNameSource",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "deduplicationRadius",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletCodeTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletMappingSyncInfo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "firstOrderFlow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "updateLocationOnImageCapture",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletMappingStatusTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requiredWidgetIdsBeforeOtp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "apiMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "creditStatus",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

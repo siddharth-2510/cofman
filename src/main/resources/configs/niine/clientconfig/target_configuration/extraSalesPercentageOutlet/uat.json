@@ -1,0 +1,8 @@
+{
+  "name" : "extraSalesPercentageOutlet",
+  "type" : "string",
+  "value" : "5",
+  "docUrl" : "",
+  "description" : "source kpi",
+  "possibleVals" : [ ]
+}

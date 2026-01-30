@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "bucket_configuration",
+  "elements" : [ {
+    "name" : "bucketConfiguration",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

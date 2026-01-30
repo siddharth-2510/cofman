@@ -1,0 +1,6 @@
+{
+  "name" : "recommendationOutletCardTemplate",
+  "type" : "String",
+  "value" : "2",
+  "description" : "Determines whether to display info card on the outlet card"
+}

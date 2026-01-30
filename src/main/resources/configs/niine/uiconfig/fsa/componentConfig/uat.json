@@ -1,0 +1,156 @@
+{
+  "features" : [ {
+    "id" : "sellina",
+    "param" : [ {
+      "footer" : "sellinaFooterTemplate1",
+      "navigation" : [ {
+        "icon" : "orderIcon",
+        "text" : "home",
+        "openfeature" : "sellina"
+      }, {
+        "icon" : "picosSurvey",
+        "text" : "order",
+        "openfeature" : "sellinaChat"
+      }, {
+        "icon" : "",
+        "text" : "",
+        "openfeature" : ""
+      }, {
+        "icon" : "planPJP",
+        "text" : "order tracking",
+        "openfeature" : "orderTracking"
+      }, {
+        "icon" : "moreIcon",
+        "text" : "more",
+        "openfeature" : "moreOptions"
+      } ]
+    } ],
+    "templateId" : "sellina3"
+  }, {
+    "id" : "order",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK",
+      "label3" : "PTR",
+      "label4" : "MRP"
+    },
+    "templateId" : "order6"
+  }, {
+    "id" : "orderTracking",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK",
+      "label3" : "PTR",
+      "label4" : "MRP"
+    },
+    "templateId" : "orderTracking6"
+  }, {
+    "id" : "notification",
+    "templateId" : "notification"
+  }, {
+    "id" : "sellinaChat",
+    "param" : {
+      "offline" : true,
+      "defaultIntent" : "mustdoactions_bd_labels_v1"
+    },
+    "templateId" : "sellinaChat"
+  }, {
+    "id" : "supplierData",
+    "templateId" : "supplierData"
+  }, {
+    "id" : "sellinaBot",
+    "param" : {
+      "offline" : false
+    },
+    "templateId" : "sellinaBot"
+  }, {
+    "id" : "adminProfile",
+    "templateId" : "adminProfile2"
+  }, {
+    "id" : "cart",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK",
+      "label3" : "PTR",
+      "label4" : "MRP"
+    },
+    "templateId" : "cart4"
+  }, {
+    "id" : "orderSummary",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK",
+      "label3" : "PTR",
+      "offline" : false
+    },
+    "templateId" : "orderSummary"
+  }, {
+    "id" : "orderInvoice",
+    "templateId" : "orderInvoice5"
+  }, {
+    "id" : "selectLanguage",
+    "templateId" : "selectLanguage"
+  }, {
+    "id" : "moreOptions",
+    "templateId" : "moreOptions1"
+  }, {
+    "id" : "dailyActivity",
+    "param" : {
+      "transformer" : true
+    },
+    "templateId" : "dailyActivity"
+  }, {
+    "id" : "support",
+    "templateId" : "support"
+  }, {
+    "id" : "regularBuy",
+    "templateId" : null
+  }, {
+    "id" : "deviceInfo",
+    "templateId" : "deviceInfo"
+  }, {
+    "id" : "logs",
+    "templateId" : "logs1"
+  }, {
+    "id" : "helpdesk",
+    "param" : {
+      "offline" : false,
+      "priority" : [ "Low", "Medium", "High" ],
+      "complaint" : [ "App Related", "Quality Related", "Supply Related", "Feedback", "Other Issues" ]
+    },
+    "templateId" : "helpdesk2"
+  }, {
+    "id" : "changePassword",
+    "templateId" : "changePassword"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "faqIcon",
+        "name" : "FAQs",
+        "featureId" : "support"
+      }, {
+        "icon" : "supportIcon",
+        "name" : "Support",
+        "featureId" : "helpdesk"
+      }, {
+        "icon" : "aboutIcon",
+        "name" : "About",
+        "featureId" : "deviceInfo"
+      }, {
+        "icon" : "logsIcon",
+        "name" : "Logs",
+        "featureId" : "logs"
+      }, {
+        "icon" : "changePasswordIcon",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "logoutIcon1",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  } ]
+}

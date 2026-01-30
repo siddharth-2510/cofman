@@ -1,0 +1,24 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "loyalty_points_configuration",
+  "elements" : [ {
+    "name" : "loyaltyBreakupList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "numberOfMonthDataToBeDisplayed",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "scoreVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loyaltyDashboardAuthorization",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loyaltyDataPoints",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

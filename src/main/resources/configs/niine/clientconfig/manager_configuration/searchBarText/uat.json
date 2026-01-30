@@ -1,0 +1,9 @@
+{
+  "name" : "searchBarText",
+  "type" : "List",
+  "value" : [ "adoption insights", "business impact", "order insights", "KPI insights", "business loss", "compliance" ],
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

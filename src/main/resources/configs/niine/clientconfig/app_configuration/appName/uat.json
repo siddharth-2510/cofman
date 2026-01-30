@@ -1,0 +1,9 @@
+{
+  "name" : "appName",
+  "type" : "string",
+  "value" : "CK Salon360",
+  "docUrl" : "",
+  "description" : "AppName",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

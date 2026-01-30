@@ -1,0 +1,8 @@
+{
+  "name" : "fetchFromSaleslens",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "FetchFromSaleslens",
+  "possibleVals" : [ ]
+}

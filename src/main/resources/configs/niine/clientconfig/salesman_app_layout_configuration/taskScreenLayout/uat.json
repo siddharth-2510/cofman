@@ -1,0 +1,40 @@
+{
+  "name" : "taskScreenLayout",
+  "type" : "List",
+  "value" : [ {
+    "id" : "incentive"
+  }, {
+    "id" : "orderRecommendationCard"
+  }, {
+    "id" : "crossSell",
+    "label" : "Cross Sell",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Never Bought",
+    "cardTemplate" : "verticalScrollWidget",
+    "extraDataPoint" : { },
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "upSell",
+    "label" : "Recover",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Top SKU Underperforming",
+    "cardTemplate" : "verticalScrollWidget",
+    "extraDataPoint" : { },
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "focus",
+    "label" : "Focus Products",
+    "template" : "horizontalScrollWidget",
+    "dataSource" : "recommendation",
+    "labelColor" : "#000000",
+    "description" : "Focus Products To Be Sold",
+    "showAddButton" : "true",
+    "descriptionColor" : "#d97978"
+  }, {
+    "id" : "oneClickBanner"
+  }, {
+    "id" : "outletVisitBanner"
+  } ]
+}

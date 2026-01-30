@@ -1,0 +1,8 @@
+{
+  "name" : "companyPortalLoginId",
+  "type" : "string",
+  "value" : "reportadmin",
+  "docUrl" : "",
+  "description" : "The designation of company portal user",
+  "possibleVals" : [ ]
+}

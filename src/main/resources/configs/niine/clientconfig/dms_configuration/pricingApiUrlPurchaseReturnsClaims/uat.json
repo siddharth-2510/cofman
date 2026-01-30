@@ -1,0 +1,11 @@
+{
+  "name" : "pricingApiUrlPurchaseReturnsClaims",
+  "type" : "object",
+  "value" : {
+    "basePath" : "/productmetadata/v1/items",
+    "queryParams" : {
+      "filter" : "priceList:{loginId} AND skuCode:{skuCode}"
+    }
+  },
+  "description" : "API config for fetching pricing info"
+}

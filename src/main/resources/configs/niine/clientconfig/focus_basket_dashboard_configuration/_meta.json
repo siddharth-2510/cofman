@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "focus_basket_dashboard_configuration",
+  "elements" : [ {
+    "name" : "incentiveDashboardAuthorization",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mappedBasket",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mappedRecommendation",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

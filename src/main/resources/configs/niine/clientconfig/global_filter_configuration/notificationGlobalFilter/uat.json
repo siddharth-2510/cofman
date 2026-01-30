@@ -1,0 +1,25 @@
+{
+  "name" : "notificationGlobalFilter",
+  "type" : "List",
+  "value" : [ {
+    "id" : "loginId",
+    "api" : "/users?size=10000&filter=designation:supplier",
+    "label" : "Distributor ID",
+    "apiType" : "API",
+    "multiSelect" : true,
+    "filterConfig" : {
+      "filterKey" : "supplier",
+      "filterOperator" : "EQUAL"
+    }
+  }, {
+    "id" : "salesrep",
+    "api" : "/users?size=10000&filter=designation:salesman",
+    "label" : "Salesrep ID",
+    "apiType" : "API",
+    "fetchId" : "loginId",
+    "multiSelect" : true
+  } ],
+  "docUrl" : "",
+  "description" : "Global filter for notification",
+  "defaultValue" : ""
+}

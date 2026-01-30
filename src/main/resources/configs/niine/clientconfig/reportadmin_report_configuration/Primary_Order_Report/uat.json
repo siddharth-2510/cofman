@@ -1,0 +1,6 @@
+{
+  "id" : "ARSOrderReport",
+  "name" : "Primary Order Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

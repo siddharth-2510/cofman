@@ -1,0 +1,8 @@
+{
+  "name" : "bankOnboardingConsentDisclaimer",
+  "type" : "string",
+  "value" : "You are choosing to disclose this information to a third party for availing of their services. Disclosure of the said information and use of the services provided by such third party is at your sole risk and responsibility. ITC shall not be liable, in any manner, for any loss, damages arising out of such disclosure or use of the services.",
+  "description" : "Disclaimer to be shown below the policy files checkbox",
+  "defaultValue" : "You are choosing to disclose this information to a third party for availing of their services. Disclosure of the said information and use of the services provided by such third party is at your sole risk and responsibility. ITC shall not be liable, in any manner, for any loss, damages arising out of such disclosure or use of the services.",
+  "possibleVals" : [ "You are choosing to disclose this information to a third party for availing of their services. Disclosure of the said information and use of the services provided by such third party is at your sole risk and responsibility. ITC shall not be liable, in any manner, for any loss, damages arising out of such disclosure or use of the services." ]
+}

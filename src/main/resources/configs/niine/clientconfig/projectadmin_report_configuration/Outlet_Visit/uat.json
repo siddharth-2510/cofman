@@ -1,0 +1,36 @@
+{
+  "id" : "outletVisit",
+  "name" : "Outlet Visit",
+  "type" : "transaction",
+  "filter" : "daterange",
+  "globalFilters" : [ {
+    "id" : "region",
+    "api" : "/locations?size=5000",
+    "type" : "custom",
+    "label" : "region",
+    "parent" : "",
+    "apiType" : "API",
+    "filterConfig" : {
+      "filterKey" : "region",
+      "paramColumn" : "region"
+    }
+  }, {
+    "id" : "state",
+    "api" : "/locations",
+    "label" : "state",
+    "parent" : "region",
+    "apiType" : "API"
+  }, {
+    "id" : "area",
+    "api" : "/locations",
+    "label" : "area",
+    "parent" : "state",
+    "apiType" : "API"
+  }, {
+    "id" : "territory",
+    "api" : "/locations",
+    "label" : "territory",
+    "parent" : "area",
+    "apiType" : "API"
+  } ]
+}

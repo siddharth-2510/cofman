@@ -1,0 +1,18 @@
+{
+  "blob" : "",
+  "data" : "Reminder to collect your today's first order.",
+  "type" : "firebase",
+  "payload" : {
+    "intent" : "mustdoactions_bd_labels_v1",
+    "blobKey" : "",
+    "endTime" : "{{execute 'addHoursToCurrentTime' params.hoursToEnd }}",
+    "feature" : "outletScreen",
+    "category" : "SmartTrigger",
+    "mediaUrl" : "",
+    "subHeading" : "No order Nudge",
+    "numberOfDays" : "1"
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.usercontext}}",
+  "referenceType" : "INLINE"
+}

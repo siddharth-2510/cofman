@@ -1,0 +1,9 @@
+{
+  "name" : "enableStockSyncOnOutletVisit",
+  "type" : "boolean",
+  "value" : "false",
+  "docUrl" : "",
+  "domainType" : "stock_configuration",
+  "description" : "Enable real-time stock updates per outlet visit",
+  "possibleVals" : [ ]
+}

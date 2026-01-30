@@ -1,0 +1,9 @@
+{
+  "name" : "openLeaderboardOnSfaActionTab",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "domainType" : "incentive_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

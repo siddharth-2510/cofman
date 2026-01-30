@@ -1,0 +1,11 @@
+{
+  "id" : "Location",
+  "name" : "Location",
+  "type" : "excel",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/LatitudeLongitudeETL-epeqMPlQVcJi (1)-TOKVDBUSWOki.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletDetails",
+    "transformerId" : "Outlet_location_Modified_transformer",
+    "skipPreprocessing" : "true"
+  } ]
+}

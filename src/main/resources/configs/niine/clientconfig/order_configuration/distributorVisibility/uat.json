@@ -1,0 +1,9 @@
+{
+  "name" : "distributorVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Visibility of Distributor/Supplier details.",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "companyDesignations",
+  "type" : "string",
+  "value" : "reportadmin",
+  "docUrl" : "",
+  "description" : "designation for company",
+  "possibleVals" : [ ]
+}

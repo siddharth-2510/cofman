@@ -1,0 +1,8 @@
+{
+  "name" : "otherUnitLabelPrimary",
+  "type" : "string",
+  "value" : "",
+  "docUrl" : "",
+  "description" : "renders the label that comes from the config",
+  "possibleVals" : [ "string" ]
+}

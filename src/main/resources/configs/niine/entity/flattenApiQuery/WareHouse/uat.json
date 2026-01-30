@@ -1,0 +1,3 @@
+{
+  "WareHouse" : "SELECT * FROM ck_ware_house WHERE id={{id}}"
+}

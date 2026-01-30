@@ -1,0 +1,6 @@
+{
+  "id" : "SellinaUsageActivityReport",
+  "name" : "Sellina Usage Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

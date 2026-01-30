@@ -1,0 +1,9 @@
+{
+  "name" : "catalogueSortingConfig",
+  "type" : "List",
+  "value" : [ ],
+  "docUrl" : "",
+  "description" : "catalogue sorting config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "orderVsInvoiceSection",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Config for showing order vs invoice sections",
+  "possibleVals" : [ ]
+}

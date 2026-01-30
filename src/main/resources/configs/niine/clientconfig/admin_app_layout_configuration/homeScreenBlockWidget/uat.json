@@ -1,0 +1,201 @@
+{
+  "name" : "homeScreenBlockWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "id" : "172042397650",
+    "name" : "Adoption Insights",
+    "type" : "adoption_insights",
+    "filter" : [ {
+      "label" : "mtd",
+      "isSelected" : true
+    }, {
+      "label" : "qtd",
+      "isSelected" : false
+    }, {
+      "label" : "ytd",
+      "isSelected" : false
+    }, {
+      "label" : "custom",
+      "isSelected" : false
+    } ],
+    "allowShare" : true,
+    "statTilesList" : [ "total_sales_rep", "active_sales_rep", "sales_rep_placed_order", "outlets_ordered" ],
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ],
+    "allowRoleAndLocation" : true
+  }, {
+    "id" : "172042397649",
+    "name" : "Business Impact",
+    "type" : "business_impact",
+    "filter" : [ {
+      "label" : "l2lm",
+      "isSelected" : false
+    }, {
+      "label" : "lm",
+      "isSelected" : false
+    }, {
+      "label" : "mtd",
+      "isSelected" : false
+    }, {
+      "label" : "qtd",
+      "isSelected" : false
+    }, {
+      "label" : "ytd",
+      "isSelected" : true
+    } ],
+    "allowShare" : true,
+    "statTilesList" : [ "incremental_sales", "cross_sell", "recover" ],
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ]
+  }, {
+    "id" : "172042397648",
+    "name" : "Order Insights",
+    "type" : "order_insights",
+    "filter" : [ {
+      "label" : "mtd",
+      "isSelected" : true
+    }, {
+      "label" : "qtd",
+      "isSelected" : false
+    }, {
+      "label" : "ytd",
+      "isSelected" : false
+    }, {
+      "label" : "custom",
+      "isSelected" : false
+    } ],
+    "allowShare" : true,
+    "tableColumns" : [ {
+      "id" : "name",
+      "label" : "nameLabel"
+    }, {
+      "id" : "totalSalesValue",
+      "label" : "Total Sales Value"
+    }, {
+      "id" : "totalOrderValue",
+      "label" : "Total Order Value"
+    }, {
+      "id" : "totalOrders",
+      "label" : "Total Orders"
+    }, {
+      "id" : "fillRate",
+      "label" : "Fill Rate"
+    } ],
+    "statTilesList" : [ "total_orders", "total_order_value", "total_sales_value", "fill_rate" ],
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ],
+    "drillDownViewTiles" : [ "statTiles", "table" ],
+    "allowRoleAndLocation" : true
+  }, {
+    "id" : "17204239764954",
+    "name" : "Key Performance Insights",
+    "type" : "kpi_performance_insights",
+    "filter" : [ {
+      "label" : "mtd",
+      "isSelected" : false
+    }, {
+      "label" : "qtd",
+      "isSelected" : false
+    }, {
+      "label" : "ytd",
+      "isSelected" : true
+    } ],
+    "allowShare" : true,
+    "filterTest" : {
+      "eco" : [ {
+        "label" : "mtd",
+        "isSelected" : true
+      } ],
+      "salesGrowth" : [ {
+        "label" : "mtd"
+      }, {
+        "label" : "qtd",
+        "isSelected" : true
+      } ],
+      "purchaseTrends" : [ {
+        "label" : "mtd",
+        "isSelected" : true
+      }, {
+        "label" : "qtd"
+      }, {
+        "label" : "ytd"
+      } ],
+      "targetVsAchievementOrder" : [ {
+        "label" : "mtd",
+        "isSelected" : true
+      }, {
+        "label" : "qtd"
+      } ],
+      "targetVsAchievementSales" : [ {
+        "label" : "mtd",
+        "isSelected" : true
+      }, {
+        "label" : "qtd"
+      } ]
+    },
+    "statTilesList" : [ "salesGrowth", "targetVsAchievementSales", "eco", "purchaseTrends" ],
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ],
+    "allowRoleAndLocation" : true
+  }, {
+    "id" : "172042397654",
+    "name" : "Field Execution Insights",
+    "type" : "field_execution_insights",
+    "filter" : [ {
+      "label" : "mtd",
+      "isSelected" : true
+    }, {
+      "label" : "l3m"
+    }, {
+      "label" : "custom"
+    } ],
+    "statTiles" : [ "PJP Compliance", "PJP Productivity", "Strike Call" ],
+    "allowShare" : true,
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ],
+    "allowRoleAndLocation" : true
+  }, {
+    "id" : "172042397653",
+    "name" : "Business Loss",
+    "type" : "business_loss",
+    "filter" : [ {
+      "label" : "mtd",
+      "isSelected" : false
+    }, {
+      "label" : "qtd",
+      "isSelected" : false
+    }, {
+      "label" : "ytd",
+      "isSelected" : false
+    } ],
+    "statTiles" : [ "absenteeism", "visit_non_compliance" ],
+    "allowShare" : true,
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ],
+    "allowRoleAndLocation" : true
+  }, {
+    "id" : "272042397654",
+    "name" : "Compliance",
+    "type" : "compliance",
+    "filter" : [ {
+      "label" : "l2lm",
+      "isSelected" : false
+    }, {
+      "label" : "lm",
+      "isSelected" : false
+    }, {
+      "label" : "mtd",
+      "isSelected" : false
+    }, {
+      "label" : "qtd",
+      "isSelected" : true
+    } ],
+    "allowShare" : true,
+    "statusEnabled" : true,
+    "secondaryFilters" : [ "roles" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "home page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout", "formLayout", "reportLayout" ]
+}

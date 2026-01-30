@@ -1,0 +1,6 @@
+{
+  "id" : "DBVisitReport",
+  "name" : "DB Visit",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

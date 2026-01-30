@@ -1,0 +1,6 @@
+{
+  "name" : "outletCodeVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Determines whether to display outletCode on the outletcard"
+}

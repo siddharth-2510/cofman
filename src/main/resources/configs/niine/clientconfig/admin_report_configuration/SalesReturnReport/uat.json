@@ -1,0 +1,13 @@
+{
+  "id" : "SalesReturnReport",
+  "name" : "SalesReturnReport",
+  "type" : "secondary",
+  "filter" : "daterange",
+  "globalFilters" : [ {
+    "id" : "loginID",
+    "api" : "/v1/query/getSuppliers",
+    "label" : "Distributor",
+    "parent" : "",
+    "multiSelect" : true
+  } ]
+}

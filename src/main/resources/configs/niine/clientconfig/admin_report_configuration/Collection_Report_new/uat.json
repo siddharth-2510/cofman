@@ -1,0 +1,6 @@
+{
+  "id" : "CollectionReport_new",
+  "name" : "Collection Report new",
+  "type" : "sfa activities",
+  "filter" : "daterange"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "usePromos",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "To make view scheme type visible.",
+  "possibleVals" : [ true, false ]
+}

@@ -1,0 +1,36 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "customer_configuration",
+  "elements" : [ {
+    "name" : "currencySymbol",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportNumber",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "currency",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "numberFormat",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dialCode",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "countryCode",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientTimeZone",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "privacyLink",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "policyUpdateTime",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "tncLink",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

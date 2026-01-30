@@ -1,0 +1,13 @@
+{
+  "unit" : "quantity",
+  "userType" : "LoginId",
+  "outletType" : "outletType",
+  "targetMode" : "quantity",
+  "targetName" : "month",
+  "targetType" : "LoginId",
+  "productType" : "brand",
+  "targetTable" : "Sales",
+  "targetCondition" : "0",
+  "target_percentages" : "100",
+  "targetConditionUnit" : "quantity"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "multiFilterKeysManageOrders",
+  "type" : "list",
+  "value" : [ "status", "salesRepName", "source", "routeIdAndName", "gstNo" ],
+  "docUrl" : "",
+  "description" : "multiple select filters from features",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "string[]" ]
+}

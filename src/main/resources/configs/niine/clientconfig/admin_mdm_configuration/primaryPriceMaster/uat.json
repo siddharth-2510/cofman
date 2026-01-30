@@ -1,0 +1,14 @@
+{
+  "id" : "primaryPriceMaster",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/cocaind/images/PrimaryPriceMasterUpload_template-xUVDNcXZJvnt.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductMetaData",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_Price_Master_transformer"
+  }, {
+    "entityName" : "ProductMetaData",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_Price_Master_PriceList_transformer"
+  } ]
+}

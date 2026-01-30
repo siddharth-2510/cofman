@@ -1,0 +1,10 @@
+{
+  "orderQuery" : "select ord.*,cu.name,cu.mobile,cod.outlet_name,cod.contactno from ck_orders ord join (select loginid,name,mobile from ck_user) cu ON ord.supplierid=cu.loginid join (select outletcode,outlet_name,contactno from ck_outlet_details) cod ON ord.outletcode= cod.outletcode where ord.id in (select id from order_ids) order by {DYNAMIC_SORT}",
+  "orderIdQuery" : "insert into order_ids select id from ck_orders ord {where_block} {DYNAMIC_FILTER} {hierarchy_condition} order by {DYNAMIC_SORT} limit {DYNAMIC_LIMIT}",
+  "minimalOrderQuery" : "select ord.id, ord.beat, ord.extended_attributes, ord.outletcode, ord.loginid, ord.source, ord.net_amount, ord.creation_time, ord.order_number, ord.outletcode, ord.supplierid, ord.status, ord.type,cu.name,cu.mobile,cod.outlet_name,cod.contactno from ck_orders ord join (select loginid,name,mobile from ck_user) cu ON ord.supplierid=cu.loginid join (select outletcode,outlet_name,contactno from ck_outlet_details) cod ON ord.outletcode= cod.outletcode where ord.id in (select id from order_ids) order by {DYNAMIC_SORT}",
+  "orderDetailsQuery" : "select ods.* from ck_order_details ods where ods.order_id in (select id from order_ids)",
+  "orderHistoryQuery" : "select coh.* from ck_order_history coh where coh.order_id in (select id from order_ids)",
+  "minimalOrderIdQuery" : "insert into order_ids select id from ck_orders ord {where_block} {DYNAMIC_FILTER} {hierarchy_condition} order by {DYNAMIC_SORT} limit {DYNAMIC_LIMIT}",
+  "minimalOrderDetailsQuery" : "select ods.order_id, ods.type, ods.batch_code, ods.case_quantity, ods.piece_quantity, ods.other_unit_quantity from ck_order_details ods where ods.order_id in (select id from order_ids)",
+  "minimalOrderHistoryQuery" : "select coh.creation_time, coh.status, coh.order_id from ck_order_history coh where coh.order_id in (select id from order_ids)"
+}

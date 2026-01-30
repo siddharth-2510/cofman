@@ -1,0 +1,8 @@
+{
+  "name" : "premiumProductsLabel",
+  "type" : "String",
+  "value" : "Premium Products",
+  "docUrl" : "",
+  "description" : "premium products label",
+  "possibleVals" : [ ]
+}

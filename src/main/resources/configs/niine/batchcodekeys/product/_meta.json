@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "batchcodekeys",
+  "domain_type" : "product",
+  "elements" : [ {
+    "name" : "skuCode",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

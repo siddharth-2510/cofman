@@ -1,0 +1,9 @@
+{
+  "name" : "outletSortingTemplate",
+  "type" : "string",
+  "value" : "location",
+  "docUrl" : "",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "decides which sorting to implement",
+  "defaultValue" : [ ]
+}

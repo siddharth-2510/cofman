@@ -1,0 +1,28 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.loadoutsteps.BulkInvoiceStatusUpdateStep",
+  "dependencies" : [ {
+    "type" : "java.util.Map",
+    "index" : "1",
+    "description" : "Map of invoiceNumbers to new status"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "2",
+    "description" : "Map of orderNumbers to new status"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "0",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.utils.EntityUtils",
+    "index" : "4",
+    "description" : "Bean of EntityUtils"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "12",
+    "description" : "Map of invoiceNumbers to e-invoice presence"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "17",
+    "description" : "Map of invoiceNumbers to old status"
+  } ]
+}

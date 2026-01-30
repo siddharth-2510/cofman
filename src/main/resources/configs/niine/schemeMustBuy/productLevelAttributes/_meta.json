@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "schemeMustBuy",
+  "domain_type" : "productLevelAttributes",
+  "elements" : [ {
+    "name" : "batchCode",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

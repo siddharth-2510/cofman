@@ -1,0 +1,56 @@
+{
+  "name" : "onboardingButtonTextConfiguration",
+  "type" : "map",
+  "value" : {
+    "sbi" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "axis" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "finagg" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    }
+  },
+  "description" : "Configurable button texts for different status",
+  "defaultValue" : {
+    "sbi" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "axis" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "finagg" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    }
+  },
+  "possibleVals" : [ {
+    "sbi" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "axis" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    },
+    "finagg" : {
+      "applyText" : "APPLY",
+      "resumeText" : "RESUME",
+      "disabledText" : "CANNOT APPLY"
+    }
+  } ]
+}

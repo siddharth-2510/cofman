@@ -1,0 +1,56 @@
+{
+  "name" : "pjpPlanOptions",
+  "type" : "List",
+  "value" : [ {
+    "id" : "marketWork",
+    "label" : "Market Work",
+    "colour" : "#000",
+    "bgColor" : "#eff8f7",
+    "textColor" : "#31c2b1"
+  }, {
+    "id" : "meeting",
+    "label" : "Meeting",
+    "colour" : "#000",
+    "bgColor" : "#eff8f7",
+    "textColor" : "#2e5bff"
+  }, {
+    "id" : "weeklyOff",
+    "label" : "Weekly Off",
+    "colour" : "#000",
+    "bgColor" : "#eff8f7",
+    "textColor" : "#face3a"
+  }, {
+    "id" : "leave",
+    "label" : "Absent",
+    "colour" : "#000",
+    "bgColor" : "#fef9e6",
+    "textColor" : "#face3a"
+  }, {
+    "id" : "inTransit",
+    "label" : "In Transit",
+    "colour" : "#000",
+    "bgColor" : "#f4f4fb",
+    "textColor" : "#9994e0"
+  }, {
+    "id" : "workFromHome",
+    "label" : "Work From Home",
+    "colour" : "#000",
+    "bgColor" : "#fef9e6",
+    "textColor" : "#4c4c4c"
+  }, {
+    "id" : "holiday",
+    "label" : "Holiday",
+    "colour" : "#000",
+    "bgColor" : "#87CEEB",
+    "textColor" : "#87CEEB"
+  }, {
+    "id" : "others",
+    "label" : "Others",
+    "colour" : "#000",
+    "bgColor" : "#87CEEB",
+    "textColor" : "#31c2b1"
+  } ],
+  "docUrl" : "",
+  "description" : "PJP Plan Options",
+  "possibleVals" : [ ]
+}

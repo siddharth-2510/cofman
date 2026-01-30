@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "templates",
+  "domain_type" : "delivery_pjp_smart_trigger",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

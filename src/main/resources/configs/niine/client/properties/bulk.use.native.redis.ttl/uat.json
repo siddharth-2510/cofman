@@ -1,0 +1,4 @@
+{
+  "name" : "bulk.use.native.redis.ttl",
+  "value" : "false"
+}

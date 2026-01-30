@@ -1,0 +1,9 @@
+{
+  "name" : "multiVariantOrder",
+  "type" : "boolean",
+  "value" : false,
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "defaultValue" : false,
+  "possibleVals" : [ false, true ]
+}

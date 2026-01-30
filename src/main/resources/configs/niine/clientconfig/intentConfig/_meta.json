@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "intentConfig",
+  "elements" : [ {
+    "name" : "intent_name",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  }, {
+    "name" : "intent_name_1",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  }, {
+    "name" : "intent_name_2",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

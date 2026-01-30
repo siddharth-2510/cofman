@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "couponPortal",
+  "domain_type" : "isNewPromoEnabled",
+  "elements" : [ {
+    "name" : "isNewPromoEnabled",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "name" : "placeHolderMeta",
+  "type" : "list",
+  "value" : [ {
+    "value" : "$ Discount",
+    "supplier" : "Distributer",
+    "batchCode" : "Skucode",
+    "coupon-life" : "Maximum Voucher Usage Threshold",
+    "coupon-title" : "Scheme Title",
+    "Coupon Summary" : "Scheme Summary",
+    "Define Coupons" : "Define Scheme",
+    "usability-limits" : "SCHEME LIMITS",
+    "item_level_coupon" : "Item Level Scheme",
+    "coupon-title-limit" : "Scheme Title can be of 60 characters",
+    "distributorDetails" : "Distributor ID",
+    "coupon-type-options" : "Scheme Type Options",
+    "coupon-id-liveCoupon" : "Scheme ID",
+    "usability-limits-tab" : "SCHEME LIMITS",
+    "showSkipMarketDetails" : "false",
+    "coupon-description-name" : "Scheme Description",
+    "coupon-type-liveOptions" : "Scheme Type",
+    "coupon-type-options-tab" : "SCHEME DEFINITION",
+    "coupon-title-liveOptions" : "Scheme Title",
+    "ALL_SELECTION_INVALID_IN_ILC" : "All Product Selection Fields Cannot be ALL in Scheme",
+    "coupon-description-placeholder" : "Write Promo description here",
+    "APPLICABLE_SLAB_RANGE_OVERLAPPING" : "Current Range is overlapping with other slab's range"
+  } ]
+}

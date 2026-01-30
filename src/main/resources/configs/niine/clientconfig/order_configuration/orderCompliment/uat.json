@@ -1,0 +1,9 @@
+{
+  "name" : "orderCompliment",
+  "type" : "list",
+  "value" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "custom order feedbacks in order invoice page. This is shown when there are 5 stars .",
+  "defaultValue" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+  "possibleVals" : [ "string[]" ]
+}

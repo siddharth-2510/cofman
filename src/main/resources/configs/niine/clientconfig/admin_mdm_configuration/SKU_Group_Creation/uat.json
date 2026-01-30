@@ -1,0 +1,12 @@
+{
+  "id" : "Cavincare_SKU_GroupCreation_transformer",
+  "name" : "SKU Group Creation",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SKUGroupCreationTemplate-JkuGJEPvPJqo.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_SKU_GroupCreation_transformer",
+    "skipPreprocessing" : "true"
+  } ]
+}

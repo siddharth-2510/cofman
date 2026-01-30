@@ -1,0 +1,6 @@
+{
+  "id" : "impactPrediction",
+  "icon" : "impactPredictionIcon",
+  "label" : "Impact Prediction",
+  "sidebarOptions" : [ "edaQuantityCompliance", "skuSelectionCompliance" ]
+}

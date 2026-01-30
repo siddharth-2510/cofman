@@ -1,0 +1,10 @@
+{
+  "name" : "createCustomSchemeText",
+  "type" : "string",
+  "value" : "false",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "To create custom description for schemes for scheme tile.",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

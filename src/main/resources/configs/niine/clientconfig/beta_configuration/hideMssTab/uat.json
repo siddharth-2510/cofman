@@ -1,0 +1,9 @@
+{
+  "name" : "hideMssTab",
+  "type" : "boolean",
+  "value" : "true",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

@@ -1,0 +1,33 @@
+{
+  "name" : "orderSources",
+  "type" : "list",
+  "value" : [ {
+    "id" : "eB2B",
+    "textColor" : "#227C9D",
+    "gradientColor" : "#DBF5FF"
+  }, {
+    "id" : "SFA",
+    "textColor" : "#00C6B1",
+    "gradientColor" : "#E3FFFC"
+  }, {
+    "id" : "PWA",
+    "textColor" : "#00C6B1",
+    "gradientColor" : "#E3FFFC"
+  }, {
+    "id" : "DMS",
+    "textColor" : "#3EC6A3",
+    "gradientColor" : "#E0FFF7"
+  }, {
+    "id" : "Tele Order",
+    "textColor" : "#CC921F",
+    "gradientColor" : "#FFF3DB"
+  }, {
+    "id" : "Remote Order",
+    "textColor" : "#5D6BDB",
+    "gradientColor" : "#DBECFF"
+  } ],
+  "docUrl" : "",
+  "description" : "Order sources",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

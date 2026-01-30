@@ -1,0 +1,8 @@
+{
+  "name" : "appbarBackgroundImage",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/admin_1715856607465_RECKITT CHRISTMAS-iSJmXawRdHEt.png",
+  "docUrl" : "",
+  "description" : "Appbar background image",
+  "possibleVals" : [ "string" ]
+}

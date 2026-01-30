@@ -1,0 +1,6 @@
+{
+  "id" : "userFeedback-reportEB2B",
+  "name" : "User Feedback Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

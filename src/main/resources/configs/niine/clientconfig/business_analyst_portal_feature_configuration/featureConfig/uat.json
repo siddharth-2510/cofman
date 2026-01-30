@@ -1,0 +1,303 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "uiConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "UI Config"
+  }, {
+    "name" : "mdm",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "integrationPlatform",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Platform"
+  }, {
+    "name" : "integrationStatistics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Statistics"
+  }, {
+    "name" : "registeredFunctions",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Registered Functions"
+  }, {
+    "name" : "integrationJob",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Job"
+  }, {
+    "name" : "splitKeyPage",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Split Key Page"
+  }, {
+    "name" : "jenkinsJobDetails",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Jenkins Job Details"
+  }, {
+    "name" : "recipientList",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Recipient List"
+  }, {
+    "name" : "configComparatorTable",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Config Comparator"
+  }, {
+    "name" : "oneClickIntegration",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "One Click Integration"
+  }, {
+    "name" : "edaQuantityCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA Quantity Compliance "
+  }, {
+    "name" : "skuSelectionCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA SKU Selection Compliance"
+  }, {
+    "name" : "Analytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Analytics"
+  }, {
+    "name" : "sfaAnalytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "SFA Analytics"
+  }, {
+    "name" : "googleAnalytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Google Analytics"
+  }, {
+    "name" : "performanceDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Firebase"
+  }, {
+    "name" : "complianceDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Order Compliance"
+  }, {
+    "name" : "manageReport",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Report"
+  }, {
+    "name" : "appTour",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Application Tour"
+  }, {
+    "name" : "appBuild",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "App Build"
+  }, {
+    "name" : "analyticsDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Performance Dashboard"
+  }, {
+    "name" : "masterDataReports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Master Data Reports"
+  }, {
+    "name" : "validations",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Validations"
+  }, {
+    "name" : "manageHomeScreen",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Homescreen"
+  }, {
+    "name" : "eventConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Event Config"
+  }, {
+    "name" : "accountStatus",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Account Status"
+  }, {
+    "name" : "createAccount",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Create Account"
+  }, {
+    "name" : "retailerPayment",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Retailer Payment"
+  }, {
+    "name" : "retailerFinance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Retailer Finance"
+  }, {
+    "name" : "retailerFinanceAdmin",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Retailer Finance Admin"
+  }, {
+    "name" : "retailerOnboarding",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Retailer Onboarding"
+  }, {
+    "name" : "adminValidationPage",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "WD Bank Account Approval"
+  }, {
+    "name" : "manageOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Order"
+  }, {
+    "name" : "manageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Banner"
+  }, {
+    "name" : "manageBucketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Bucket"
+  }, {
+    "name" : "manageBasketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Basket"
+  }, {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens"
+  }, {
+    "name" : "support",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Support"
+  }, {
+    "name" : "notification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Notification"
+  }, {
+    "name" : "fileUpload",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "BlobKey Generator"
+  }, {
+    "name" : "updateMetaConfig",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update MetaConfig"
+  }, {
+    "name" : "categoryDashboard",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Category Reports"
+  }, {
+    "name" : "brandDashboard",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Brand Reports"
+  }, {
+    "name" : "firebaseConfig",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Firebase Configuration"
+  }, {
+    "name" : "couponManagement",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Coupon Management"
+  }, {
+    "name" : "managePolicies",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Policies"
+  }, {
+    "name" : "updateTranslation",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update Translation"
+  }, {
+    "name" : "manageRegistry",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Registry"
+  }, {
+    "name" : "manageUpdateAccess",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Update Access"
+  }, {
+    "name" : "existingOutletApproval",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Existing Outlet Approval"
+  }, {
+    "name" : "outletApproval",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "New Outlet Approval"
+  }, {
+    "name" : "manageSSO",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage SSO"
+  }, {
+    "name" : "manageRole",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Role"
+  }, {
+    "name" : "deliveryDateCalender",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Delivery Date Calender"
+  }, {
+    "name" : "manageDisplayCapture",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Display Capture"
+  }, {
+    "name" : "jobConfiguration",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Job Configuration"
+  }, {
+    "name" : "triggerNotification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Trigger Notification"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

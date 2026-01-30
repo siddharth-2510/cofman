@@ -1,0 +1,13 @@
+{
+  "name" : "enableMultipleImageCapture",
+  "type" : "object",
+  "value" : {
+    "featureList" : [ "competitionTracking" ],
+    "maxFilesAllowed" : "10",
+    "minFilesRequired" : "1",
+    "enableMultipleImageCapture" : "true"
+  },
+  "description" : "to enable multiple image capture",
+  "defaultValue" : { },
+  "possibleVals" : [ ]
+}

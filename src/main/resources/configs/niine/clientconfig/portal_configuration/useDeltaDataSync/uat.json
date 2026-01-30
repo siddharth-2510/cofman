@@ -1,0 +1,8 @@
+{
+  "name" : "useDeltaDataSync",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "useDeltaDataSync",
+  "possibleVals" : [ ]
+}

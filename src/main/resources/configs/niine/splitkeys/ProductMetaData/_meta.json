@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "splitkeys",
+  "domain_type" : "ProductMetaData",
+  "elements" : [ {
+    "name" : "uploadkeys",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

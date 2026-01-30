@@ -1,0 +1,9 @@
+{
+  "name" : "loginBanners",
+  "type" : "list",
+  "value" : [ "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/WhatsApp%20Untitled%20Design-QcMjWWFpWXcA.png" ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "authentication_configuration",
+  "description" : "Login Banners to display in app",
+  "possibleVals" : [ ]
+}

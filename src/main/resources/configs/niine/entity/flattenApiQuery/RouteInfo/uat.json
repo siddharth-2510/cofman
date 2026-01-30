@@ -1,0 +1,3 @@
+{
+  "RouteInfo" : "SELECT * FROM ck_route_info WHERE id={{id}}"
+}

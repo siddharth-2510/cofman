@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "listener-config",
+  "domain_type" : "listener-cdms",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

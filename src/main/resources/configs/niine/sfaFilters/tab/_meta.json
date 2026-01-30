@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "sfaFilters",
+  "domain_type" : "tab",
+  "elements" : [ {
+    "name" : "category",
+    "pattern" : "PLAIN_STRING"
+  }, {
+    "name" : "subCategory",
+    "pattern" : "PLAIN_STRING"
+  }, {
+    "name" : "brand",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

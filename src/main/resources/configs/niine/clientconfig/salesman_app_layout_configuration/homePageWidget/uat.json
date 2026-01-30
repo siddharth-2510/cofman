@@ -1,0 +1,42 @@
+{
+  "name" : "homePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "greetingWidget"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "basket"
+  }, {
+    "id" : "liveDashboard",
+    "items" : [ {
+      "id" : "kpiReview",
+      "icon" : "assets/svg/KPI.svg",
+      "label" : "KPI Review"
+    }, {
+      "id" : "incentiveDashboard",
+      "icon" : "assets/svg/Incentive.svg",
+      "label" : "Incentive Dashboard"
+    }, {
+      "id" : "daySummary",
+      "icon" : "assets/svg/day_summary.svg",
+      "label" : "Day Summary",
+      "footer" : {
+        "text" : "Ready By 6PM",
+        "color" : "#09b5a2",
+        "svgPath" : "assets/svg/hourglass.svg",
+        "backgroundColor" : "#f3fcfb"
+      }
+    } ]
+  }, {
+    "id" : "kpiHeading"
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

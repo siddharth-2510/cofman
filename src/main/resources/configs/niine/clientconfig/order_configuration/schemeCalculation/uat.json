@@ -1,0 +1,9 @@
+{
+  "name" : "schemeCalculation",
+  "type" : "string",
+  "value" : "server",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "it is use for calculate scheme or not if yes then where it will calculate app or server",
+  "defaultValue" : "none",
+  "possibleVals" : [ "app", "server", "none" ]
+}

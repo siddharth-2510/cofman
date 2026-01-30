@@ -1,0 +1,87 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "outlet_activity_configuration",
+  "elements" : [ {
+    "name" : "enableUserLevelGeoFencing",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableMultipleImageCapture",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletCodeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isAttendanceMandatory",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mandatoryDbActivity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isGateMeetingImageCaptureMandatory",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletVisitDateKpiName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "invoiceDateKpiName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockOutletActivityForOutOfRange",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "geolocationPopupVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpBeatVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "billedTagVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletNavigation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dbNavigation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockVisitFlow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "storeInRange",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mandatoryOutletActivity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletSortingTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "cameraQuality",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitFilterCountVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableStoreOpenCheckNoOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletVisitFlow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultInProgressIfStoredin",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showTeleOrderIfVisited",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "recommendationOutletCardTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isDbCameraActivitiesMandatory",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

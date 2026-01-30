@@ -1,0 +1,3 @@
+{
+  "ProductAuthCodeMapping" : "SELECT * FROM ck_product_authcode_mapping WHERE id={{id}}"
+}

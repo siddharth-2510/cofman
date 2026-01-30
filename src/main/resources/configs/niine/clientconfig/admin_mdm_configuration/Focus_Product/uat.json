@@ -1,0 +1,9 @@
+{
+  "id" : "secondaryProductMaster2",
+  "name" : "Focus Product",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/FocusProductTemplateETL-EbnLrlGHeaff.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "SecondaryProduct",
+    "transformerId" : "focus_secondaryproduct"
+  } ]
+}

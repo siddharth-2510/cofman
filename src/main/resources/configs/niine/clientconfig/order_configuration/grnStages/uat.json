@@ -1,0 +1,28 @@
+{
+  "name" : "grnStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "OPEN",
+    "dmsColor" : "#F0F3FF",
+    "dmsLabel" : "Open",
+    "dmsLabelColor" : "#3652C4"
+  }, {
+    "id" : "ACCEPTED",
+    "dmsColor" : "#edfeff",
+    "dmsLabel" : " GRN Accepted",
+    "dmsLabelColor" : "#0ca6ac"
+  }, {
+    "id" : "PARTIALLY_REJECTED",
+    "dmsColor" : "#BF7F171a",
+    "dmsLabel" : "Partially Accepted",
+    "dmsLabelColor" : "#BF7F17"
+  }, {
+    "id" : "REJECTED",
+    "dmsColor" : "#c64c001a",
+    "dmsLabel" : "GRN Rejected",
+    "dmsLabelColor" : "#C64C00"
+  } ],
+  "docUrl" : "",
+  "description" : "stages of grn",
+  "defaultValue" : [ ]
+}

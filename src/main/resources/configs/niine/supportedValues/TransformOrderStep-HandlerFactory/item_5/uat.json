@@ -1,0 +1,5 @@
+{
+  "status" : "INVOICED",
+  "mapping" : "PENDING",
+  "operation" : "deduct"
+}

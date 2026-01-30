@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "password",
+  "domain_type" : "user",
+  "elements" : [ {
+    "name" : "default",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

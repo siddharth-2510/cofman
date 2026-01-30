@@ -1,0 +1,10 @@
+{
+  "id" : "DistributorEPODenabling",
+  "useKafka" : false,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/epod_enableTemplate-rDPtsNoBAjHp.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "operationType" : "insert",
+    "transformerId" : "DistributorEpod"
+  } ]
+}

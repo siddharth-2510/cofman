@@ -1,0 +1,14 @@
+{
+  "id" : "ProductDetails",
+  "name" : "Multiple Image Upload",
+  "type" : "excel",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/MultiImageProductViewTemplate-hfOwSZjNprFL.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductDetails",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_Multiple_Images_Product_Master_transformer",
+    "skipPreprocessing" : "true",
+    "preprocessValidationExcludeGroup" : ""
+  } ]
+}

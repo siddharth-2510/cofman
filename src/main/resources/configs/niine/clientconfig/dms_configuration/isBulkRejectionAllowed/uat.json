@@ -1,0 +1,8 @@
+{
+  "name" : "isBulkRejectionAllowed",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Config for Bulk rejection",
+  "possibleVals" : [ ]
+}

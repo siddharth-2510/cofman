@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "otpverify",
+  "domain_type" : "update_access_configuration",
+  "elements" : [ {
+    "name" : "updateAccessConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

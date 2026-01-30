@@ -1,0 +1,5 @@
+{
+  "data" : "Hi {{userName}},\\n\\nClick on the link given below to place the order:\\n {{appLink}}\\n\\nYour order will be placed to your respective distributor for fulfillment.",
+  "type" : "default",
+  "referenceType" : "inline"
+}

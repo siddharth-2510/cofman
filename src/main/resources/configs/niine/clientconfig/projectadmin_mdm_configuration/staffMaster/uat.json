@@ -1,0 +1,8 @@
+{
+  "id" : "staffMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/StaffMaster-SvwWFFhPhAaD.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "GenericEntity",
+    "transformerId" : "dms_staff_master_transformer"
+  } ]
+}

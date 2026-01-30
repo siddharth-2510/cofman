@@ -1,0 +1,26 @@
+{
+  "name" : "primaryReturnTrackingStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "ALL",
+    "dmsLabel" : "All Returns"
+  }, {
+    "id" : "APPROVED",
+    "dmsColor" : "#F0FBFF",
+    "dmsLabel" : "Approved",
+    "dmsLabelColor" : "#17B4A3"
+  }, {
+    "id" : "PENDING",
+    "dmsColor" : "#FFF9EF",
+    "dmsLabel" : "Pending",
+    "dmsLabelColor" : "#CC911F"
+  }, {
+    "id" : "REJECTED",
+    "dmsColor" : "#FFFAF7",
+    "dmsLabel" : "Rejected",
+    "dmsLabelColor" : "#C44C36"
+  } ],
+  "docUrl" : "",
+  "description" : "stages of primary return approval",
+  "defaultValue" : [ ]
+}

@@ -1,0 +1,61 @@
+{
+  "id" : "closing_stock_report",
+  "name" : "Closing Stock Report",
+  "type" : "new",
+  "filter" : "newFilter",
+  "isNewReport" : true,
+  "isNewReportUi" : true,
+  "newReportConfig" : {
+    "id" : "closing_stock_report",
+    "name" : "Closing Stock Report",
+    "reportName" : "closing_stock_report",
+    "columnsToHide" : [ "@filters", "id", "moddate", "product_status", "batch_status", "700", "600", "500", "400", "300", "200", "100", "creation_time" ],
+    "filtersToHide" : [ "product_code" ],
+    "mergedFilters" : {
+      "Product Hierarchy Level" : [ {
+        "alias" : "700",
+        "value" : "700"
+      }, {
+        "alias" : "600",
+        "value" : "600"
+      }, {
+        "alias" : "500",
+        "value" : "500"
+      }, {
+        "alias" : "400",
+        "value" : "400"
+      }, {
+        "alias" : "300",
+        "value" : "300"
+      }, {
+        "alias" : "200",
+        "value" : "200"
+      }, {
+        "alias" : "100",
+        "value" : "100"
+      } ]
+    },
+    "dateRangeFilter" : false,
+    "distributorFilter" : {
+      "field" : "distributor_code",
+      "label" : "Select Distributor",
+      "enabled" : true
+    },
+    "salesHierarchyFilter" : {
+      "enabled" : true,
+      "hierarchyOrder" : [ "saleshead", "nsm", "rsm", "zm", "asm", "tsm", "tgo", "sde", "supplier" ],
+      "levelFilterField" : "salesLevel",
+      "levelFilterLabel" : "Select Level",
+      "valueFilterField" : "salesvalue",
+      "valueFilterLabel" : "Select value"
+    },
+    "shouldShowCustomFilters" : true,
+    "geographicalHierarchyFilter" : {
+      "enabled" : true,
+      "levelFilterField" : "geographicalLevel",
+      "levelFilterLabel" : "Select Geographical Level",
+      "valueFilterField" : "geographicalvalue",
+      "valueFilterLabel" : "Select Geographicalvalue"
+    }
+  }
+}

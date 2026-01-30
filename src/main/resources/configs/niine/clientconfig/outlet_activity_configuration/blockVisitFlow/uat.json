@@ -1,0 +1,6 @@
+{
+  "name" : "blockVisitFlow",
+  "type" : "boolean",
+  "value" : true,
+  "description" : ""
+}

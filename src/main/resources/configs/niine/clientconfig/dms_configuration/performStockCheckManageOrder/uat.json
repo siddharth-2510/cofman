@@ -1,0 +1,8 @@
+{
+  "name" : "performStockCheckManageOrder",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "Config for performing stock check on manage order",
+  "possibleVals" : [ ]
+}

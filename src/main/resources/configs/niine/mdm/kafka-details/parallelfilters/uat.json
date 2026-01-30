@@ -1,0 +1,5 @@
+{
+  "batchSize" : 500,
+  "topicName" : "-promo-flink-mdm-source",
+  "preserveOnFailure" : "false"
+}

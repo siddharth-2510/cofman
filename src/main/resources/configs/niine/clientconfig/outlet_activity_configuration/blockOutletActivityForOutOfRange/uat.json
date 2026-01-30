@@ -1,0 +1,8 @@
+{
+  "name" : "blockOutletActivityForOutOfRange",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "decides whether to block outlet activity in case of out of range",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,3 @@
+{
+  "VehicleInfo" : "SELECT * FROM ck_vehicle_info WHERE id={{id}}"
+}

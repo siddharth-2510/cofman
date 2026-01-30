@@ -1,0 +1,39 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "support_configuration",
+  "elements" : [ {
+    "name" : "supportHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "complaintTabText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "reasonHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attachImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "trainingRequest",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "noComplaintsText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requestType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requestText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportCategoryList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportSubCategoryList",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "applyDiscountOnDiscountedPrice",
+  "type" : "String",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "",
+  "defaultValue" : [ ],
+  "domainParent" : "sde_specific_configuration"
+}

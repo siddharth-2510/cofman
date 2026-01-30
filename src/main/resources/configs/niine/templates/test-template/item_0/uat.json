@@ -1,0 +1,8 @@
+{
+  "blob" : null,
+  "data" : "Dear Retailer,\\n\\nPlace orders for your regular and suggested products here.\\nClick Now!!\\nDon’t forget to rate your ordering experience after placing your order.",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "salesReturnReasons",
+  "type" : "list",
+  "value" : [ "Expired (Unsaleable)", "Damaged (Unsaleable)", "Wrong Order (Saleable)", "Slow Moving (Saleable)", "Consumer Complaint (Saleable)", "Saleable", "Unsaleable" ],
+  "docUrl" : "",
+  "description" : "sales return reasons",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "string[]" ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "notificationtemplate",
+  "domain_type" : "template",
+  "elements" : [ {
+    "name" : "Welcome_Message",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,17 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "userinfo",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

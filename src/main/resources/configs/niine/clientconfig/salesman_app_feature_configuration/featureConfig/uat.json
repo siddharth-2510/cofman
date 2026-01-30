@@ -1,0 +1,137 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "batchidloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletVisitBanner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "visitStatus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "orderingconstraintloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "invoicedetails",
+    "version" : "1.0",
+    "template" : "dms"
+  }, {
+    "name" : "outletstatus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletactivity",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "attendance",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "storeinventory",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "pjp",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "incentive",
+    "version" : "1.0",
+    "template" : "v2"
+  }, {
+    "name" : "incentivedashboard",
+    "version" : "1.0",
+    "template" : "v2"
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : "order"
+  }, {
+    "name" : "offers",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "metadata",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "ordertracking",
+    "version" : "1.0",
+    "template" : "ordertracking"
+  }, {
+    "name" : "more",
+    "version" : "1.0",
+    "template" : "template1"
+  }, {
+    "name" : "secondaryproduct",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "banner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "imagecapture",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "productfilter",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "stockavailabilityloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "kpi",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "storeIn",
+    "version" : "1.0",
+    "template" : "storeIn"
+  }, {
+    "name" : "taxloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "returnrestriction",
+    "version" : "1.0",
+    "template" : "returnrestriction"
+  }, {
+    "name" : "inventoryReturn",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "locationloader",
+    "version" : "1.0",
+    "template" : "manual"
+  }, {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : ""
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

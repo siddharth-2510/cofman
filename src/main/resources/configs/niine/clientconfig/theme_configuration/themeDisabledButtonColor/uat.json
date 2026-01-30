@@ -1,0 +1,9 @@
+{
+  "name" : "themeDisabledButtonColor",
+  "type" : "string",
+  "value" : "#808080",
+  "docUrl" : "",
+  "description" : "theme color",
+  "defaultValue" : "#e08682",
+  "possibleVals" : [ "string" ]
+}

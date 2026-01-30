@@ -1,0 +1,7 @@
+{
+  "name" : "recommendationOutletCardTemplate",
+  "type" : "String",
+  "value" : "1",
+  "domainType" : "sde_specific_configuration",
+  "description" : "Determines whether to display info card on the outlet card"
+}

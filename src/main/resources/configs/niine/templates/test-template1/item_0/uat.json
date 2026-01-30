@@ -1,0 +1,8 @@
+{
+  "blob" : null,
+  "data" : "Hi! We have upgraded our App with some new features/improvement in existing features. You can update to the latest version by clicking on this",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

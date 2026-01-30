@@ -1,0 +1,8 @@
+{
+  "name" : "targetKpiName",
+  "type" : "string",
+  "value" : "kpi_sales_value_user_sales_raw_data",
+  "docUrl" : "",
+  "description" : "KPI Target name",
+  "possibleVals" : [ "target", "kpi" ]
+}

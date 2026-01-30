@@ -1,0 +1,6 @@
+{
+  "id" : "raw_order_skuEB2B",
+  "name" : "RAW Order SKU",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

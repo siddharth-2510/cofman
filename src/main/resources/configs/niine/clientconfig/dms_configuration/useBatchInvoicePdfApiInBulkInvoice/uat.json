@@ -1,0 +1,8 @@
+{
+  "name" : "useBatchInvoicePdfApiInBulkInvoice",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "id" : "mdm_productdetails_new",
+  "name" : "Product Replacement",
+  "type" : "excel",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/ProductDetails_Raaga_blob-BnecDykLgSDV.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductDetails",
+    "operationType" : "insert",
+    "transformerId" : "mdm_productdetails_new"
+  } ]
+}

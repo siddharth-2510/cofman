@@ -1,0 +1,17 @@
+{
+  "data" : "Oops! You’ve not covered these PJP outlets yet.",
+  "type" : "firebase",
+  "active" : 1,
+  "payload" : {
+    "intent" : "visitCompliance",
+    "feature" : "outletVisit",
+    "category" : "SmartTrigger",
+    "userName" : "{{data.outlet_name}}",
+    "intentText" : "Outlets that are yet to visit",
+    "subcategory" : "Escalate Alert!!",
+    "numberOfDays" : "1"
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.usercontext}}",
+  "referenceType" : "inline"
+}

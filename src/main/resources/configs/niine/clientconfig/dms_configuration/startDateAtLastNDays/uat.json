@@ -1,0 +1,8 @@
+{
+  "name" : "startDateAtLastNDays",
+  "type" : "number",
+  "value" : 1,
+  "docUrl" : "",
+  "description" : "It will set the start date range to current date minus N days",
+  "possibleVals" : [ "number" ]
+}

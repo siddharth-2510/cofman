@@ -1,0 +1,10 @@
+{
+  "type" : "email",
+  "active" : 1,
+  "dataObj" : "{'supplier':'supplier.$name','lob':'supplier.$lob','orderNo':'$orderNumber','outletCode':'outletCode.$outletCode','userName':'orderedByUser.$loginId',totalAmt:'$totalAmount',outletName:'outletCode.$outletName',orderLines:'$orderDetails'}",
+  "lobText" : "$lob",
+  "mailSubject" : "New Order #{{orderNumber}} ",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/orderemail.txt",
+  "recipientInfo" : "{'feature':'orderNotification','retailerId':'orderedByUser.$loginId','retailerName':'orderedByUser.$name','orderNo':'$orderNumber','supplierName':'supplier.$name','supplierId':'supplier.$loginId','triggeredBy':'orderedByUser.$loginId'}",
+  "recipientText" : "supplier.$email"
+}

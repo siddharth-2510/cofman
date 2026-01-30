@@ -1,0 +1,8 @@
+{
+  "name" : "sbiOtpNotes",
+  "type" : "list",
+  "value" : [ "Payment may take upto 1 minute", "Do not press the back button. If pressed you can re-initiate payment after 10 mins", "Do not close the Unnati application while the payment is in process." ],
+  "description" : "SBI otp verification screen notes",
+  "defaultValue" : [ "Payment may take upto 1 minute", "Do not press the back button. If pressed you can re-initiate payment only after 10 mins", "Do not close the Unnati application while the payment is in process." ],
+  "possibleVals" : [ [ "Payment may take upto 1 minute", "Do not press the back button. If pressed you can re-initiate payment only after 10 mins", "Do not close the Unnati application while the payment is in process." ] ]
+}

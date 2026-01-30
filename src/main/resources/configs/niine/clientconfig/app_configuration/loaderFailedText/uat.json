@@ -1,0 +1,8 @@
+{
+  "name" : "loaderFailedText",
+  "type" : "string",
+  "value" : "Some services have failed!",
+  "docUrl" : "",
+  "description" : "text to show in sfa homescreen when some loader have failed",
+  "possibleVals" : [ "string" ]
+}

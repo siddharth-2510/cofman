@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "authentication_configuration",
+  "elements" : [ {
+    "name" : "loginType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loginBanners",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "id" : "ProductReplacement",
+  "name" : "Product Replacement",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/ProductReplacementTemplate-MPpXXMGqWQYO.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "operationType" : "insert",
+    "transformerId" : "ProductReplacement"
+  } ]
+}

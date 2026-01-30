@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "firebase_config",
+  "elements" : [ {
+    "name" : "webFirebaseConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "androidFirebaseConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "iosFirebaseConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

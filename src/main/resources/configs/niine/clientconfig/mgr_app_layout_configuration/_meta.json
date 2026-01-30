@@ -1,0 +1,30 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "mgr_app_layout_configuration",
+  "elements" : [ {
+    "name" : "bottomBarLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitSummaryLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "morePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletActivityTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTileOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "searchScreenWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

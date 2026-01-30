@@ -1,0 +1,9 @@
+{
+  "name" : "ptrLabel",
+  "type" : "String",
+  "value" : "PTR",
+  "docUrl" : "",
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

@@ -1,0 +1,57 @@
+{
+  "name" : "adminPanelLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "support",
+    "color" : "#df263d",
+    "label" : "Support",
+    "route" : "/dashboard/support",
+    "svgName" : "supportIcon",
+    "description" : "Customer service and ticket management"
+  }, {
+    "id" : "managePolicies",
+    "color" : "#fad11d",
+    "label" : "Manage Policies",
+    "route" : "/dashboard/managePolicies",
+    "svgName" : "managePoliciesIcon",
+    "description" : "Create/Update terms and conditions and privacy Policy"
+  }, {
+    "id" : "updateTranslation",
+    "color" : "#df263d",
+    "label" : "Update Translation",
+    "route" : "/dashboard/updateTranslation",
+    "svgName" : "updateTranslationIcon",
+    "description" : "Create, Update Delete and manage the bucket"
+  }, {
+    "id" : "couponManagement",
+    "color" : "#fad11d",
+    "label" : "Promo Management",
+    "route" : "/couponDashboard/livecouponData",
+    "svgName" : "PJPVisitPlan",
+    "description" : "Create and Manage Promos"
+  }, {
+    "id" : "triggerNotification",
+    "color" : "#fad11d",
+    "label" : "Trigger Notification",
+    "route" : "/dashboard/triggerNotification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Trigger Notification"
+  }, {
+    "id" : "mdmSetUp",
+    "color" : "#F6760EFF",
+    "label" : "Mdm SetUp",
+    "route" : "/dashboard/mdmSetUp",
+    "svgName" : "manageFeedbacksIcon",
+    "description" : "MDM Setup"
+  }, {
+    "id" : "nocConfiguration",
+    "color" : "#df263d",
+    "label" : "NOC Configuration",
+    "route" : "/dashboard/nocManagement",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Upload NOC"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Admin Panel Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,216 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "reportadmin_report_configuration",
+  "elements" : [ {
+    "name" : "GRN_Listing_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Consolidated_Claims_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_wise_input_output_tax_report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Bill_Print_Visibility_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Bill_Print_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Purchase_Return_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Rejected_Claims_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "GSTR1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "GSTR2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "GSTR3",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Return_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Pending_Claims_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Details_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Stock_Adjustment_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Purchase_Tax_GST_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Stock_Adjustment_Report_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "GST_Product-Wise_Sales_Output_Tax_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Information_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SFA-Attendance",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Primary_Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Grouping_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Distributor_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Salesman_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Ordered_Compliance_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Mapping_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Business_Impact_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Primary_Order_Report_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Loading_Sheet_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Vs_Supply_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "New_Retailer_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Supervisor_Market_Visit_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Timespentdetail_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Stock_Type_Update_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Input_Tax_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Output_Tax_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Hsn_Code_Wise_Input_Tax_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Loading_Sheet_Product_Wise_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Current_Stock_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Closing_Stock_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Scheme_Utilization_Report_-_FMCG",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Master_Report_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Hsn_Code_Wise_Output_Tax_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Attendance_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sales_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Day_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_FullFillment_VALUE",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_Value",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "RAW_Order_SKU",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Enrolled_Outlets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "No_Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Notification_Dump",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "NotificationReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Promos_Utilisation_Sales_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DeviceInfoReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Merchandising",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SFA-Stock",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Real_Time_Stock",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DB_Visit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Visit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Competitor_Activity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Gate_Meeting",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Coverage_Report",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

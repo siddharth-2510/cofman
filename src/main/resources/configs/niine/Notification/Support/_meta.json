@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "Notification",
+  "domain_type" : "Support",
+  "elements" : [ {
+    "name" : "enabled",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

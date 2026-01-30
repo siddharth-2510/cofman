@@ -1,0 +1,14 @@
+{
+  "name" : "secondarySchemesDiscountInfoKeyMapping",
+  "type" : "object",
+  "value" : {
+    "discount" : "finalBenefit",
+    "discountId" : "promoId",
+    "discountInfo" : "promoDescription",
+    "discountType" : "promoType",
+    "discountBatchCode" : "batchCode"
+  },
+  "docUrl" : "",
+  "description" : "Key mapping for standardizing discount_info keys for secondary schemes across different LOBs",
+  "possibleVals" : [ ]
+}

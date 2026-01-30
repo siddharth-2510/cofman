@@ -1,0 +1,12 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.OutletLedgerLogStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "1",
+    "description" : "Updated Sales Return object"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.AuditLogService",
+    "index" : "11",
+    "description" : "Bean of AuditLogService"
+  } ]
+}

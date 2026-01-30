@@ -1,0 +1,9 @@
+{
+  "name" : "multiVariantHeader",
+  "type" : "string",
+  "value" : "View Similar Products",
+  "docUrl" : "",
+  "description" : "",
+  "defaultValue" : "",
+  "possibleVals" : [ ]
+}

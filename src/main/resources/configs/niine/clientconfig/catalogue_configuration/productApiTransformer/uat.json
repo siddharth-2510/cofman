@@ -1,0 +1,7 @@
+{
+  "name" : "productApiTransformer",
+  "type" : "string",
+  "value" : "ProductAPITransformer",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

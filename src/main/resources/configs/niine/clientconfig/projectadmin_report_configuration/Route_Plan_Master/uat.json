@@ -1,0 +1,6 @@
+{
+  "id" : "PJPMasterReport",
+  "name" : "Route Plan Master",
+  "type" : "master",
+  "filter" : "daterange"
+}

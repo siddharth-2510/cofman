@@ -1,0 +1,8 @@
+{
+  "name" : "storeInRange",
+  "type" : "number",
+  "value" : 100,
+  "docUrl" : "",
+  "description" : "outlet range",
+  "possibleVals" : [ "number" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "solidAppBarColor",
+  "type" : "string",
+  "value" : "#e5e5e5",
+  "docUrl" : "",
+  "description" : "Appbar background image",
+  "possibleVals" : [ "string" ]
+}

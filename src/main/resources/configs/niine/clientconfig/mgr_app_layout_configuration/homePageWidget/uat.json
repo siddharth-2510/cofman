@@ -1,0 +1,38 @@
+{
+  "name" : "homePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "skillDashboard"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "outletsMapHome"
+  }, {
+    "id" : "liveDashboard",
+    "items" : [ {
+      "id" : "kpiReview",
+      "icon" : "assets/svg/KPI.svg",
+      "label" : "KPI Review"
+    }, {
+      "id" : "incentiveDashboard",
+      "icon" : "assets/svg/Incentive.svg",
+      "label" : "Incentive Dashboard"
+    }, {
+      "id" : "eb2bUpdates",
+      "icon" : "assets/svg/eb2b.svg",
+      "label" : "EB2B Adoption"
+    }, {
+      "id" : "daySummary",
+      "icon" : "assets/svg/day_summary.svg",
+      "label" : "Day Summary"
+    } ]
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "upgrader_config",
+  "elements" : [ {
+    "name" : "upgraderConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "forceUpdateConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

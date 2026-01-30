@@ -1,0 +1,6 @@
+{
+  "id" : "studio",
+  "icon" : "salescodeStudioIcon",
+  "label" : "Salescode Studio",
+  "sidebarOptions" : [ "uiConfig", "manageRole", "firebaseConfig", "chatGpt", "appBuild" ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "templates",
+  "domain_type" : "user-logged-in-not-ordered-in-N-days",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

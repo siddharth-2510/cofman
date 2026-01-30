@@ -1,0 +1,9 @@
+{
+  "name" : "caseUnitLabel",
+  "type" : "string",
+  "value" : "CS",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "renders the exact label that comes from the config",
+  "defaultValue" : "Case",
+  "possibleVals" : [ "string" ]
+}

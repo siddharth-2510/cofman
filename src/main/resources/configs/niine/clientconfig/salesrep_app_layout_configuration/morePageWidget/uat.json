@@ -1,0 +1,39 @@
+{
+  "name" : "morePageWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "name" : "Attendance",
+    "type" : "moreOptions",
+    "image" : "assets/svg/attendance_sfa.svg",
+    "label" : "Attendance"
+  }, {
+    "name" : "Support",
+    "type" : "moreOptions",
+    "image" : "assets/images/Support.svg",
+    "label" : "Support"
+  }, {
+    "name" : "About",
+    "type" : "moreOptions",
+    "image" : "assets/images/About.svg",
+    "label" : "About"
+  }, {
+    "name" : "Logs",
+    "type" : "moreOptions",
+    "image" : "assets/svg/Logs.svg",
+    "label" : "Logs"
+  }, {
+    "name" : "Change Password",
+    "type" : "moreOptions",
+    "image" : "assets/svg/change_password.svg",
+    "label" : "Change Password"
+  }, {
+    "name" : "Logout",
+    "type" : "moreOptions",
+    "image" : "assets/images/Logout.svg",
+    "label" : "Logout"
+  } ],
+  "docUrl" : "",
+  "description" : "more page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout", "formLayout", "reportLayout" ]
+}

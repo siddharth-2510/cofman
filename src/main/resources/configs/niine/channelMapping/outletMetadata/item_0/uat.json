@@ -1,0 +1,16 @@
+{
+  "BR" : "Breeder",
+  "CL" : "Clinic",
+  "DS" : "Super Grocery",
+  "IN" : "Institution",
+  "PH" : "Pharmacy",
+  "PM" : "Modern Pharmacy",
+  "PS" : "Petshop",
+  "PV" : "Preferred Vet",
+  "TG" : "Traditional Grocery",
+  "TS" : "T Store",
+  "WG" : "Wholesale Grocery",
+  "WP" : "Wholesale Pharmacy",
+  "MGH" : "MG Hypermarket",
+  "MGS" : "MG Supermarket"
+}

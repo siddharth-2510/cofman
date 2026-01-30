@@ -1,0 +1,6 @@
+{
+  "id" : "OutletMappingReportCavin",
+  "name" : "Outlet Mapping Report",
+  "type" : "master",
+  "filter" : "daterange"
+}

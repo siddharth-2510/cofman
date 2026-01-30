@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "support",
+  "domain_type" : "supportSequence",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

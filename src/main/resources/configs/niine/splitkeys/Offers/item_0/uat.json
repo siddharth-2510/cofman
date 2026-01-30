@@ -1,0 +1,18 @@
+[ {
+  "uploadkeys" : {
+    "Offers" : {
+      "loginId" : [ ]
+    },
+    "ProductDetails" : {
+      "brand" : [ "brand" ],
+      "skuCode" : [ "skuCode" ],
+      "category" : [ "category" ],
+      "batchCode" : [ "batchCode" ],
+      "subCategory" : [ "subCategory" ]
+    }
+  }
+}, {
+  "findkeys" : {
+    "loginId" : { }
+  }
+} ]

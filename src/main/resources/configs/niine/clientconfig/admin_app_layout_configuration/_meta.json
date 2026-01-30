@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "admin_app_layout_configuration",
+  "elements" : [ {
+    "name" : "bottomBarLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "morePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homeScreenBlockWidget",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

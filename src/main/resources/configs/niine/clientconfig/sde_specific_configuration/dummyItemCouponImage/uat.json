@@ -1,0 +1,10 @@
+{
+  "name" : "dummyItemCouponImage",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/kbpldemo/images/ilc-nMWFsRqchmLJ.png",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "It is the image to be shown when there is no image uploaded for the product or you can say placeholder image.",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,6 @@
+{
+  "query" : "select ck_user.* from ck_user inner join ck_userdesignation on ck_user.loginid = ck_userdesignation.login_id inner join ck_location on ck_user.location_hierarchy = ck_location.location_hierarchy where (state = '{{state}}' or ''='{{state}}') and (city = '{{city}}' or ''='{{city}}') and (json_search(json_extract(ck_user.extended_attributes,'$.channel'),'all','{{channel}}') or ''='{{channel}}') and designation ='supplier'",
+  "native" : true,
+  "splitKey" : "supplier",
+  "itemQuery" : "select * from ck_productdetails where (batch_code= '{{batchCode}}' or ''= '{{batchCode}}')"
+}

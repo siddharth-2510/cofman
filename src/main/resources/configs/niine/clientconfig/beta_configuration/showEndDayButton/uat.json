@@ -1,0 +1,6 @@
+{
+  "name" : "showEndDayButton",
+  "type" : "boolean",
+  "value" : false,
+  "domainType" : "active_work_session_configuration"
+}

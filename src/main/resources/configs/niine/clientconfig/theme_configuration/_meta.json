@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "theme_configuration",
+  "elements" : [ {
+    "name" : "themeColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "themeBackGroundColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "themeDisabledButtonColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "activeLanguageColor",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

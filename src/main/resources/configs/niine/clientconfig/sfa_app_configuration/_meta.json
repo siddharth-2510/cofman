@@ -1,0 +1,75 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "sfa_app_configuration",
+  "elements" : [ {
+    "name" : "supportHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "complaintTabText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "reasonHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attachImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "trainingRequest",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "noComplaintsText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requestType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requestText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportCategoryList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supportSubCategoryList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appIcon",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "themeColor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientLogo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appPackageName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "iosAppPackageName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletLoginHintText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "clientLogoHeight",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loginBanners",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "defaultCatalogueImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "betaVersion",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "validDesignation",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

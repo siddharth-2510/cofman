@@ -1,0 +1,207 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "beta_configuration",
+  "elements" : [ {
+    "name" : "enableActiveWorkSessionRedirection",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useStoreInForActiveWorkSession",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletDistanceVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showEndDayButton",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showDashboardDetails",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitFilterOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "geolocationPopupVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewMSSCard",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewTaskScreenLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewMSSCard_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewTaskScreenLayout_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewMSSCard_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isNewTaskScreenLayout_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "featureConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "featureConfig_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "featureConfig_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homeScreenBlockWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpiList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "recommendationValidation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mustDoActionCard",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTabFilters",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mustDoActionCard_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTabFilters_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpiConfigList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpiConfigList_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpiConfigList_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfileWidgets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfileWidgets_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfileWidgets_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfilePeriodSummary",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfilePeriodSummary_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfilePeriodSummary_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletInfoCardVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletCodeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletAddressVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletChannelVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletSubChannelVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletClassVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletCategoryVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "daySummaryConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "daySummaryConfig_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "daySummaryConfig_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "applyDiscountOnDiscountedPrice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "applyDiscountOnDiscountedPrice_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "applyDiscountOnDiscountedPrice_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletScreenWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletScreenWidget_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletScreenWidget_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "excludedFeatureConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "excludedFeatureConfig_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletAttributesVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "monthSummaryConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "performanceSummaryLevels",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "apiFormationMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "apiFormationMap_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "apiFormationMap_2",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supplierBasedProductDisplay",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "hideMssTab",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "recommendationOutletCardTemplate",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "recommendationOutletCardTemplate_1",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

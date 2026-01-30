@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "loadout_configuration",
+  "elements" : [ {
+    "name" : "loadoutReportId",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loadoutConfigs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loadoutStages",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "loadoutSummaryCards",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "newStatusUpdateConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

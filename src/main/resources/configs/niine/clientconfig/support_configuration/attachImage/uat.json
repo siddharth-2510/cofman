@@ -1,0 +1,8 @@
+{
+  "name" : "attachImage",
+  "type" : "String",
+  "value" : "false",
+  "docUrl" : "",
+  "description" : "To check image capture required or not",
+  "possibleVals" : [ ]
+}

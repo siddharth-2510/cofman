@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "mdm",
+  "domain_type" : "duckdb-config",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

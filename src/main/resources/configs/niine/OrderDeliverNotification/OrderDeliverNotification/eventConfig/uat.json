@@ -1,0 +1,6 @@
+{
+  "type" : "email",
+  "subject" : "Order not Delivered {{activityId}}",
+  "recipient" : "retailer.email",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/orderemail.txt"
+}

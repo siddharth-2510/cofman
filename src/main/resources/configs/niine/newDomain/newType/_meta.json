@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "newDomain",
+  "domain_type" : "newType",
+  "elements" : [ {
+    "name" : "CLAIM_APPROVAL",
+    "pattern" : "MULTI_KEY_EXPLODE"
+  }, {
+    "name" : "STOCK_APPROVAL",
+    "pattern" : "MULTI_KEY_EXPLODE"
+  }, {
+    "name" : "OUTLET_UPDATE_APPROVAL",
+    "pattern" : "MULTI_KEY_EXPLODE"
+  } ]
+}

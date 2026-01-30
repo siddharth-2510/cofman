@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "tgo_app_feature_configuration",
+  "elements" : [ {
+    "name" : "featureConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "excludedFeatureConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

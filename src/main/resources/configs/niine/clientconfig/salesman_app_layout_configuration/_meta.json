@@ -1,0 +1,39 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesman_app_layout_configuration",
+  "elements" : [ {
+    "name" : "bottomBarLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "visitSummaryLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "morePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletActivityTabs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "searchScreenWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taskScreenLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletScreenWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletTileOptions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletProfileWidgets",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "homeScreenBlockWidget",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

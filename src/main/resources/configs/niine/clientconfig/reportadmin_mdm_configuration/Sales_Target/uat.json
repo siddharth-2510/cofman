@@ -1,0 +1,11 @@
+{
+  "id" : "mdm_targets",
+  "name" : "Sales Target",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SalesTargetsETL-fyrDHqTxqzcH.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Targets",
+    "operationType" : "insert",
+    "transformerId" : "Cavinkare_sales_target_transformer"
+  } ]
+}

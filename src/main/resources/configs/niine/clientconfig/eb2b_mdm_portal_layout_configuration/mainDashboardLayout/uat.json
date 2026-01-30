@@ -1,0 +1,28 @@
+{
+  "name" : "mainDashboardLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Analytics Dashboard",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Analytics Dashboard",
+    "sidebarOptions" : [ "Analytics", "reports2", "saleslens", "eb2bSaleslens" ]
+  }, {
+    "id" : "Salescode Studio",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Salescode Studio",
+    "sidebarOptions" : [ "uiConfig", "manageBannerStudio", "manageBucketStudio" ]
+  }, {
+    "id" : "Secondary",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Secondary",
+    "sidebarOptions" : [ "manageOrder" ]
+  }, {
+    "id" : "MDM and Integration",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM and Integration",
+    "sidebarOptions" : [ "mdm2" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "dashboard Config",
+  "possibleVals" : [ ]
+}

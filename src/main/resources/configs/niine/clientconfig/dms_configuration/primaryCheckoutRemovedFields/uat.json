@@ -1,0 +1,8 @@
+{
+  "name" : "primaryCheckoutRemovedFields",
+  "type" : "boolean",
+  "value" : [ "discountValue" ],
+  "docUrl" : "",
+  "description" : "Config for removing fields from primary checkout summary",
+  "possibleVals" : [ ]
+}

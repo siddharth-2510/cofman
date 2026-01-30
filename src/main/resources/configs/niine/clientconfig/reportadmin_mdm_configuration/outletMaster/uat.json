@@ -1,0 +1,10 @@
+{
+  "id" : "outletMaster",
+  "useKafka" : false,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/OutletMasterTemplateCK-fVCrsanqpKlg.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletDetails",
+    "operationType" : "insert",
+    "transformerId" : "Kavincare_DMS_outetMaster_transformer_update"
+  } ]
+}

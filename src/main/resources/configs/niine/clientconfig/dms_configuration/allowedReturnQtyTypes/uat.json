@@ -1,0 +1,8 @@
+{
+  "name" : "allowedReturnQtyTypes",
+  "type" : "boolean",
+  "value" : [ "REJECTED" ],
+  "docUrl" : "",
+  "description" : "Config for allowed return types in primary return",
+  "possibleVals" : [ ]
+}

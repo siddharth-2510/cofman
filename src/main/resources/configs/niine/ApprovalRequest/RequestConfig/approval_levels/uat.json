@@ -1,0 +1,47 @@
+{
+  "qc" : {
+    "level" : "0",
+    "expiry" : "1",
+    "on_expiry" : "approved",
+    "expiry_type" : "days",
+    "amount_to_approve" : "20000",
+    "quantity_to_approve" : {
+      "cs" : "5",
+      "pc" : "67",
+      "others" : "353"
+    }
+  },
+  "cfo" : {
+    "level" : "0",
+    "expiry" : "1",
+    "on_expiry" : "approved",
+    "expiry_type" : "days",
+    "amount_to_approve" : "20000",
+    "quantity_to_approve" : {
+      "cs" : "5",
+      "pc" : "67",
+      "others" : "353"
+    }
+  },
+  "vso" : {
+    "level" : "0",
+    "expiry" : "1",
+    "on_expiry" : "approved",
+    "expiry_type" : "days",
+    "amount_to_approve" : "20000",
+    "quantity_to_approve" : {
+      "cs" : "5",
+      "pc" : "67",
+      "others" : "353"
+    }
+  },
+  "reportadmin" : {
+    "level" : "0",
+    "amount_to_approve" : "50000",
+    "quantity_to_approve" : {
+      "cs" : "20",
+      "pc" : "200",
+      "others" : "1000"
+    }
+  }
+}

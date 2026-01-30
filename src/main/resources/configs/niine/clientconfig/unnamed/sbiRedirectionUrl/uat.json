@@ -1,0 +1,8 @@
+{
+  "name" : "sbiRedirectionUrl",
+  "type" : "string",
+  "value" : "https://corp.onlinesbi.sbi/retfinavailod/hulretailerinitial.htm",
+  "description" : "static url for sbi onboarding resume journey",
+  "defaultValue" : "https://corp.onlinesbi.sbi/retfinavailod/hulretailerinitial.htm",
+  "possibleVals" : [ "https://corp.onlinesbi.sbi/retfinavailod/hulretailerinitial.htm" ]
+}

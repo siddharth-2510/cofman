@@ -1,0 +1,8 @@
+{
+  "name" : "orderRecommendationFeedback",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "order feedback tab visibility",
+  "defaultValue" : true,
+  "possibleVals" : [ true, false ]
+}

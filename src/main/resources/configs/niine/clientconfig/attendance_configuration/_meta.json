@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "attendance_configuration",
+  "elements" : [ {
+    "name" : "statusOption",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isAttendanceMandatory",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockOutletActivityOnLeave",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isImageCaptureMandatory",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

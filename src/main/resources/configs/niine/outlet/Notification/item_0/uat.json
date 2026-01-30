@@ -1,0 +1,18 @@
+{
+  "url" : "http://channelkart.s3.ap-south-1.amazonaws.com/index.html?token=",
+  "flag" : "no",
+  "type" : "sms",
+  "payload" : {
+    "body" : "Welcome,For Registeration In Channelkart",
+    "params" : {
+      "url" : "?",
+      "dname" : "?",
+      "rname" : "?",
+      "userName" : "?",
+      "outletName" : "?"
+    }
+  },
+  "recipient" : "?",
+  "profileName" : "sms",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/colgateTemplate.txt"
+}

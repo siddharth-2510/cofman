@@ -1,0 +1,57 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "salesrepwiseoutlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "orderloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletactivity",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "pjp",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "kpi",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "userinfo",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "productdetails",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "msltask",
+    "version" : "1.0",
+    "template" : "productTagGrouping"
+  }, {
+    "name" : "incentive",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "attendance",
+    "version" : "1.0",
+    "template" : ""
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

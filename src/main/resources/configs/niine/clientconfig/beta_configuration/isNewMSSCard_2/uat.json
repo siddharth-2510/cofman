@@ -1,0 +1,6 @@
+{
+  "name" : "isNewMSSCard",
+  "type" : "boolean",
+  "value" : "true",
+  "domainType" : "tgo_app_layout_configuration"
+}

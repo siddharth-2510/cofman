@@ -1,0 +1,6 @@
+{
+  "name" : "outletProfileWidgets",
+  "type" : "List",
+  "value" : [ "contactNumber", "outletName", "outletCode", "location", "address" ],
+  "domainType" : "sde_app_layout_configuration"
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "multiVariantSortingOption",
+  "type" : "string",
+  "value" : "pieceSize",
+  "docUrl" : "",
+  "description" : "",
+  "defaultValue" : "pieceSize",
+  "possibleVals" : [ "pieceSize" ]
+}

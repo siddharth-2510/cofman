@@ -1,0 +1,26 @@
+{
+  "name" : "attendanceStatusOption",
+  "type" : "List",
+  "value" : [ {
+    "id" : "present",
+    "color" : "#5B913B",
+    "label" : "Present",
+    "isImageMandatory" : true
+  }, {
+    "id" : "absent",
+    "color" : "#F93827",
+    "label" : "Absent"
+  }, {
+    "id" : "holiday",
+    "label" : "Holiday"
+  }, {
+    "id" : "meeting",
+    "label" : "Meeting"
+  }, {
+    "id" : "weekoff",
+    "label" : "Weekoff"
+  } ],
+  "docUrl" : "",
+  "description" : "Attendance status options and colour associated with that ( curently this colour is used for supervisor day summary screen ) ",
+  "possibleVals" : [ ]
+}

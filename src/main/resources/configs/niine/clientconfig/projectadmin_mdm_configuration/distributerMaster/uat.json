@@ -1,0 +1,13 @@
+{
+  "id" : "distributerMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/DistributerMasterMDMUploadTemplate-QCBgYqkvZOeb.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletDetails",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_Distributor_master_outlet_transformer",
+    "skipPreprocessing" : "true"
+  }, {
+    "entityName" : "AccountInfo",
+    "transformerId" : "Kevin_distributer_account_info_transformer"
+  } ]
+}

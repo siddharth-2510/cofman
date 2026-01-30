@@ -1,0 +1,9 @@
+{
+  "name" : "pricingApi",
+  "type" : "String",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "order_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

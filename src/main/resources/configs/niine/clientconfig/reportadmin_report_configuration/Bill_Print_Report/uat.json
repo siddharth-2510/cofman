@@ -1,0 +1,50 @@
+{
+  "id" : "bill_print_report",
+  "name" : "Bill Print Report",
+  "type" : "new",
+  "filter" : "newFilter",
+  "isNewReport" : true,
+  "isNewReportUi" : true,
+  "newReportConfig" : {
+    "id" : "bill_print_report",
+    "name" : "Bill print Report",
+    "reportName" : "bill_print_report",
+    "isPDFReport" : true,
+    "dateRangeFilter" : true,
+    "distributorFilter" : {
+      "field" : "distributor_code",
+      "label" : "Select Distributor",
+      "enabled" : true
+    },
+    "showLast7DaysFilter" : false,
+    "salesHierarchyFilter" : {
+      "enabled" : true,
+      "hierarchyMap" : {
+        "zm" : [ "asm", "tsm" ],
+        "asm" : [ "sde", "tgo" ],
+        "nsm" : [ "rsm" ],
+        "rsm" : [ "zm" ],
+        "sde" : [ "supplier" ],
+        "tgo" : [ "supplier" ],
+        "tsm" : [ "sde", "tgo" ],
+        "saleshead" : [ "nsm" ]
+      },
+      "hierarchyOrder" : [ "saleshead", "nsm", "rsm", "zm", "asm", "tsm", "tgo", "sde", "supplier" ],
+      "levelFilterField" : "salesLevel",
+      "levelFilterLabel" : "Select Level",
+      "valueFilterField" : "salesValue",
+      "valueFilterLabel" : "Select Value"
+    },
+    "showLast3MonthsFilter" : false,
+    "customDateRangeAllowed" : "1 day",
+    "shouldShowCustomFilters" : false,
+    "shouldShowCustomDateFilter" : false,
+    "geographicalHierarchyFilter" : {
+      "enabled" : true,
+      "levelFilterField" : "geographicalLevel",
+      "levelFilterLabel" : "Select Geographical Level",
+      "valueFilterField" : "geographicalValue",
+      "valueFilterLabel" : "Select Geographical Value"
+    }
+  }
+}

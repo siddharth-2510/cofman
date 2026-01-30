@@ -1,0 +1,8 @@
+{
+  "name" : "targetUnit",
+  "type" : "string",
+  "value" : "currency",
+  "docUrl" : "",
+  "description" : "target type",
+  "possibleVals" : [ "cases", "currency" ]
+}

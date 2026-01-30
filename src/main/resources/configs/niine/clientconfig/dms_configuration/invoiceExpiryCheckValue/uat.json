@@ -1,0 +1,8 @@
+{
+  "name" : "invoiceExpiryCheckValue",
+  "type" : "number",
+  "value" : 48,
+  "docUrl" : "",
+  "description" : "It will provide value to for expiring invoice",
+  "possibleVals" : [ "number" ]
+}

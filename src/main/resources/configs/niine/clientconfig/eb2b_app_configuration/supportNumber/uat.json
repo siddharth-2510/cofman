@@ -1,0 +1,9 @@
+{
+  "name" : "supportNumber",
+  "type" : "string",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "customer_configuration",
+  "description" : "support number",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "bankNameOptions",
+  "type" : "List",
+  "value" : [ "State Bank of India", "ICICI", "HDFC", "Bank of Baroda", "Union Bank of India", "Yes Bank", "Axis Bank", "Punjab National Bank", "Other" ],
+  "docUrl" : "",
+  "description" : "bank name Options",
+  "possibleVals" : [ ]
+}

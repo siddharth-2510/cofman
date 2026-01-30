@@ -1,0 +1,7 @@
+{
+  "data" : "https://apptech.blob.core.windows.net/channelkart/colgateretail/new-outlet-created-sms-hindhi.txt",
+  "type" : "sms",
+  "active" : 1,
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "url"
+}

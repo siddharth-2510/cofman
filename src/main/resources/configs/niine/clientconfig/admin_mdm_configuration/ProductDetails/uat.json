@@ -1,0 +1,11 @@
+{
+  "id" : "ProductDetails",
+  "name" : "ProductDetails",
+  "type" : "excel",
+  "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/f1555bbf0ee545278e481955d20bb426.xlsx",
+  "transformer" : [ {
+    "entityName" : "ProductDetails",
+    "transformerId" : "mdm_productdetails",
+    "skipPreprocessing" : "true"
+  } ]
+}

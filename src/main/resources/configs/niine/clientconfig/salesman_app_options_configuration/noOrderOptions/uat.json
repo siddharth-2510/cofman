@@ -1,0 +1,8 @@
+{
+  "name" : "noOrderOptions",
+  "type" : "List",
+  "value" : [ "Owner Not Available", "Out Standing", "Stock Available", "Yesterday Leave", "Others" ],
+  "docUrl" : "",
+  "description" : "No order options",
+  "possibleVals" : [ ]
+}

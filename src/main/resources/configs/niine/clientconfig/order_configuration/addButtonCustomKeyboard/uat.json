@@ -1,0 +1,8 @@
+{
+  "name" : "addButtonCustomKeyboard",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Custom keyboard for changing quantity of sku",
+  "defaultValue" : false,
+  "possibleVals" : [ true, false ]
+}

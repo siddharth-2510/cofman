@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "cooler_configuration",
+  "elements" : [ {
+    "name" : "coolerRemarksOptions",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "homePageActionTabs",
+  "type" : "List",
+  "value" : [ {
+    "id" : "kpiActionButton",
+    "label" : "KPI Review",
+    "iconData" : "assets/svg/KPI.svg",
+    "isSelected" : false
+  }, {
+    "id" : "incentiveDashboardActionButton",
+    "label" : "Incentive Dashboard",
+    "iconData" : "assets/svg/Incentive.svg",
+    "isSelected" : false
+  }, {
+    "id" : "notificationActionButton",
+    "label" : "Notification",
+    "iconData" : "assets/svg/notification_empty.svg",
+    "isSelected" : false
+  } ]
+}

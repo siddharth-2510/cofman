@@ -1,0 +1,10 @@
+{
+  "name" : "creditStatus",
+  "type" : "Json",
+  "value" : {
+    "creditLimit" : 15000,
+    "totalDueDays" : 22,
+    "creditAvailable" : 15000
+  },
+  "description" : "credit limits to send"
+}

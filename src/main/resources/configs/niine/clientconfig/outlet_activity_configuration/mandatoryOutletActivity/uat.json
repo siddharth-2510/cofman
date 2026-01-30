@@ -1,0 +1,8 @@
+{
+  "name" : "mandatoryOutletActivity",
+  "type" : "String",
+  "value" : "null",
+  "docUrl" : "",
+  "description" : "takes us directly into asset tracking when store in",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "pricingMap",
+  "type" : "Map",
+  "value" : {
+    "1" : "supplier"
+  },
+  "docUrl" : "",
+  "description" : "Keys to be picked from Product Metadata for pricing",
+  "possibleVals" : [ true, false ]
+}

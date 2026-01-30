@@ -1,0 +1,6 @@
+{
+  "name" : "enableStoreOpenCheckNoOrder",
+  "type" : "boolean",
+  "value" : true,
+  "description" : ""
+}

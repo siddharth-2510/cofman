@@ -1,0 +1,9 @@
+{
+  "name" : "taxableBillValueVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "order_configuration",
+  "description" : "",
+  "defaultValue" : false,
+  "possibleVals" : [ false, true ]
+}

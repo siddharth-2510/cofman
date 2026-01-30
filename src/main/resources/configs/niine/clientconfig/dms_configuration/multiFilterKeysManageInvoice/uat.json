@@ -1,0 +1,9 @@
+{
+  "name" : "multiFilterKeysManageInvoice",
+  "type" : "list",
+  "value" : [ "status", "salesRepName", "source" ],
+  "docUrl" : "",
+  "description" : "multiple select filters from features",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "string[]" ]
+}

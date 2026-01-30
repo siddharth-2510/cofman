@@ -1,0 +1,24 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "retailer_app_layout_configuration",
+  "elements" : [ {
+    "name" : "homePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderScreenTabWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "chatGptEnabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bottomBarLayout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "morePageWidget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "searchScreenWidget",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

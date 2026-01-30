@@ -1,0 +1,11 @@
+{
+  "id" : "ProductDetails",
+  "name" : "Product Master",
+  "type" : "excel",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/swirevnmdemo/images/Filled_ProductDetais_ProdAuthCode_template-qtksapUjczNE.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductDetails",
+    "transformerId" : "mdm_productdetails",
+    "skipPreprocessing" : "true"
+  } ]
+}

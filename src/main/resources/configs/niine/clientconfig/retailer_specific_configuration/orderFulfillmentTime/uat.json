@@ -1,0 +1,10 @@
+{
+  "name" : "orderFulfillmentTime",
+  "type" : "number",
+  "value" : 2,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "order_configuration",
+  "description" : "orderFulfillmentTime",
+  "defaultValue" : 2,
+  "possibleVals" : [ 1, 2 ]
+}

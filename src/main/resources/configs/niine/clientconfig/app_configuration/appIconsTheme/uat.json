@@ -1,0 +1,9 @@
+{
+  "name" : "appIconsTheme",
+  "type" : "string",
+  "value" : "#808080",
+  "docUrl" : "",
+  "description" : "App icons theme color",
+  "defaultValue" : "#fff",
+  "possibleVals" : [ "string" ]
+}

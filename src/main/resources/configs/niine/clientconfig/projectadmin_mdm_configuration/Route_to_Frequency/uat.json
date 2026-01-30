@@ -1,0 +1,9 @@
+{
+  "id" : "Cavincare_dms_routetofrequency_transformer",
+  "name" : "Route to Frequency",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RouteToFrequency-QFcOJLOszCoy.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "TempDeliveryPJP",
+    "transformerId" : "Cavincare_dms_routetofrequency_transformer"
+  } ]
+}

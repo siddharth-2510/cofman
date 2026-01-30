@@ -1,0 +1,7 @@
+{
+  "id" : "DeviceInfoReportEB2B",
+  "name" : "DeviceInfoReport",
+  "type" : "transaction",
+  "filter" : "daterange",
+  "dateValidation" : true
+}

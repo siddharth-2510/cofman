@@ -1,0 +1,34 @@
+{
+  "name" : "outletActivityTabs",
+  "type" : "list",
+  "value" : [ {
+    "id" : "outletProfile",
+    "label" : "OUTLET PROFILE",
+    "iconPath" : "assets/svg/outlet_profile.svg",
+    "isDefault" : false,
+    "themeColor" : "#01c6b0",
+    "storeInRequired" : ""
+  }, {
+    "id" : "taskRecommendations",
+    "label" : "TASK RECOMMENDATIONS",
+    "iconPath" : "assets/svg/display.svg",
+    "isDefault" : true,
+    "themeColor" : "#A52A2A",
+    "storeInRequired" : "",
+    "noRecommendationLabel" : "ORDER"
+  }, {
+    "id" : "competitionTracking",
+    "label" : "COMPETITION TRACKING",
+    "iconPath" : "assets/svg/competition_tracking.svg",
+    "isDefault" : true,
+    "themeColor" : "#e1ad01",
+    "storeInRequired" : ""
+  }, {
+    "id" : "imageCapture",
+    "label" : "MERCHANDISING",
+    "iconPath" : "assets/svg/merchandising.svg",
+    "isDefault" : false,
+    "themeColor" : "#767bfe",
+    "storeInRequired" : ""
+  } ]
+}

@@ -1,0 +1,4 @@
+{
+  "name" : "Outlet - Daily ",
+  "value" : "[{'dynamicKeys': ['outletCode.outletCode','pjpDate'],'queryType':'Daily'}]"
+}

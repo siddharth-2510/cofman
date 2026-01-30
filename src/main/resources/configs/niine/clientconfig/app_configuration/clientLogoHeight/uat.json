@@ -1,0 +1,9 @@
+{
+  "name" : "clientLogoHeight",
+  "type" : "number",
+  "value" : "150",
+  "docUrl" : "",
+  "description" : "logo height",
+  "defaultValue" : 100,
+  "possibleVals" : [ "number" ]
+}

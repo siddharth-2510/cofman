@@ -1,0 +1,1 @@
+"SELECT id, login_id, outlet_id, outlet_code, supplier_code, salesrep, extended_attributes, last_modified_time, status FROM ck_outlet_metadata WHERE outlet_code IN ({outletcodes});"

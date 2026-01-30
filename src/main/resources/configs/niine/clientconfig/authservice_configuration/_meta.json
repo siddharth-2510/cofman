@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "authservice_configuration",
+  "elements" : [ {
+    "name" : "authservice",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

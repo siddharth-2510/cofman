@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "NewApprovalFlow",
+  "domain_type" : "RequestConfig",
+  "elements" : [ {
+    "name" : "CLAIM_APPROVAL",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "OUTLET_APPROVAL",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

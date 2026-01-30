@@ -1,0 +1,20 @@
+{
+  "data" : "{{params.description}}",
+  "type" : "firebase",
+  "active" : 1,
+  "social" : "true",
+  "payload" : {
+    "blobKey" : "{{params.blobKey}}",
+    "feature" : "social-notification",
+    "category" : "{{params.subject}}",
+    "mediaUrl" : "{{params.mediaUrl}}",
+    "userName" : "{{data.outlet_name}}",
+    "hoursToEnd" : "4",
+    "subHeading" : "{{params.subHeading}}",
+    "subcategory" : "{{params.subHeading}}",
+    "productCategory" : "{{params.productCategory}}"
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.usercontext}}",
+  "referenceType" : "INLINE"
+}

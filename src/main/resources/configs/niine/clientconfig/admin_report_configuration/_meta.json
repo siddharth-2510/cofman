@@ -1,0 +1,108 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "admin_report_configuration",
+  "elements" : [ {
+    "name" : "Order_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Cooler_Survey_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SFA-Attendance",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Feedback_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Promos_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Grouping_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report_ETL",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Competitor_Activity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SFA-Stock",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Merchandising",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SFA-Return",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "DeviceInfoReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Mapping_Report_Cavin",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Order_Report_1",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Visit_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Promos_Utilisation_Sales_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "NotificationReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Login",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Compliance_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Daily_Target_VS_ACH_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Usage_Activity_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Sellina_Usage_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "User_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Product_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Distributor_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Route_Master_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "OrdersReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Primary_GRN_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Loadout_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Collection_Report_new",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Bill_Print_Report",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "SalesReturnReport",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Delivery_Confirmation_Report",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

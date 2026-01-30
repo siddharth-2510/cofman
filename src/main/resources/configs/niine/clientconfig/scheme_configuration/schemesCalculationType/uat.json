@@ -1,0 +1,9 @@
+{
+  "name" : "schemesCalculationType",
+  "type" : "String",
+  "value" : "orderLevel",
+  "docUrl" : "",
+  "description" : "specifies client type for scheme calculation and flow",
+  "defaultValue" : "orderLevel",
+  "possibleVals" : [ "orderLevel", "skuLevel" ]
+}

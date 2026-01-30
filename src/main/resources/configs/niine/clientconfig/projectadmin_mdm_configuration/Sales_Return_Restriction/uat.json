@@ -1,0 +1,9 @@
+{
+  "id" : "SalesReturn_Restriction",
+  "name" : "Sales Return Restriction",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoeuat/images/StockRestricttemplate-BKRCzIiHAhSB.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "transformerId" : "Cavincare_SalesReturn_Restriction_SFA"
+  } ]
+}

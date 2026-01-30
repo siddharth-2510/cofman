@@ -1,0 +1,8 @@
+{
+  "prefix" : "",
+  "suffix" : "",
+  "dateFormat" : "ddMMyy",
+  "startValue" : "1",
+  "sequenceLength" : "5",
+  "invoiceNumberPattern" : "PRT/{{distributorFirst2Chara}}-{{dateFormat}}/{{sequence}}"
+}

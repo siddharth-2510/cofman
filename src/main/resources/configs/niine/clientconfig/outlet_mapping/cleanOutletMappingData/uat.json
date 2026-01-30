@@ -1,0 +1,13 @@
+{
+  "name" : "cleanOutletMappingData",
+  "type" : "List",
+  "value" : [ {
+    "id" : "supplierName",
+    "type" : "string",
+    "label" : "supplierName"
+  }, {
+    "id" : "userName",
+    "type" : "string",
+    "label" : "userName"
+  } ]
+}

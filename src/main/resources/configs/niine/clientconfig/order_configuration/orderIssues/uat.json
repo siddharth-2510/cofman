@@ -1,0 +1,9 @@
+{
+  "name" : "orderIssues",
+  "type" : "list",
+  "value" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "custom order issues in order invoice page. This is shown when there is less than 5 stars .",
+  "defaultValue" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+  "possibleVals" : [ "string[]" ]
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "copyCardData",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Whether to copy previous inventory card data or not",
+  "possibleVals" : [ true, false ]
+}

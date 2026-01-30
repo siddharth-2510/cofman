@@ -1,0 +1,8 @@
+{
+  "id" : "Salesman User Transformer",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/SalesmanMDM-aEZpGHCNbupL.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "transformerId" : "dms_mdm_salesman_user_transformer"
+  } ]
+}

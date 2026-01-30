@@ -1,0 +1,37 @@
+{
+  "name" : "loyaltyBreakupList",
+  "type" : "List",
+  "value" : [ {
+    "id" : "Foods_Display_Points",
+    "name" : "Food Display Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Foods_Display.png"
+  }, {
+    "id" : "PCP_Display_Points",
+    "name" : "PCP Display Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Foods_Display.png"
+  }, {
+    "id" : "Foods_Category_Growth_Points",
+    "name" : "Foods Category Growth Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Foods_Category_Growth_Points.png"
+  }, {
+    "id" : "PCP_Category_Growth_Points",
+    "name" : "PCP Category Growth Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/PCP_Category_Growth_Points.png"
+  }, {
+    "id" : "Focus_Basket_Point",
+    "name" : "Focus Basket Point",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Star_SKU_Points.png"
+  }, {
+    "id" : "Star_SKU_Points",
+    "name" : "StarSKU Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Star_SKU_Points.png"
+  }, {
+    "id" : "Tactical_Points",
+    "name" : "Tactical Points",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Tactical_Points.png"
+  }, {
+    "id" : "arrears",
+    "name" : "Arrears",
+    "image" : "https://apptech.blob.core.windows.net/itcloyalty/Arrears.png"
+  } ]
+}

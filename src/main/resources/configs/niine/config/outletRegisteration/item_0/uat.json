@@ -1,0 +1,6 @@
+{
+  "filter" : "getOutletsWithinRadius,filterRejectedOutlets",
+  "preValidateMethods" : "checkMobileNumber,validateOTP",
+  "requiredOutletMethod" : "findOutletsByMobile",
+  "outletValidationMethods" : "checkMoreThenOneOutletExists"
+}

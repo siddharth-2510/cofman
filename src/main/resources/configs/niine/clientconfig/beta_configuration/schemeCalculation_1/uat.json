@@ -1,0 +1,10 @@
+{
+  "name" : "schemeCalculation",
+  "type" : "String",
+  "value" : "offline",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "",
+  "defaultValue" : [ ],
+  "domainParent" : "tgo_specific_configuration"
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "couponPortal",
+  "domain_type" : "couponMeta",
+  "elements" : [ {
+    "name" : "couponMeta",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

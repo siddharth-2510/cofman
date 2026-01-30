@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "PostAggregateOutlet",
+  "domain_type" : "PostAggregateOutlet",
+  "elements" : [ {
+    "name" : "order",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "analyticslogin",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

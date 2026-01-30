@@ -1,0 +1,18 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "openClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Open Claims"
+  }, {
+    "name" : "closedClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Closed Claims"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,10 @@
+{
+  "id" : "Distributor VSO Mapping",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/distributorToVso_mapping-fNLOVUhUwKes (1)-NBdfuDHIibne.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "operationType" : "insert",
+    "transformerId" : "CavinKare_DistributorVSO_mapping"
+  } ]
+}

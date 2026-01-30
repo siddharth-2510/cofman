@@ -1,0 +1,478 @@
+{
+  "features" : [ {
+    "id" : "mdmDashboard",
+    "param" : {
+      "elements" : [ {
+        "id" : "division",
+        "name" : "Division"
+      }, {
+        "id" : "User",
+        "name" : "User",
+        "type" : "excel",
+        "templateurl" : "https://api.sellinademo.io/v1/media/417afce9-c1fd-4db3-a4c5-f3e6c6b87e02",
+        "transformer" : [ {
+          "entityName" : "User",
+          "transformerId" : "mdm_user"
+        } ]
+      }, {
+        "id" : "SchemeDefination",
+        "name" : "SchemeDefination",
+        "type" : "excel",
+        "templateurl" : "https://api.sellinademo.io/v1/media/417afce9-c1fd-4db3-a4c5-f3e6c6b87e02",
+        "transformer" : [ {
+          "entityName" : "SchemeDefination",
+          "transformerId" : "genericSchemeTransformer"
+        } ]
+      }, {
+        "id" : "Survey",
+        "name" : "UserEvent",
+        "type" : "excel",
+        "label" : "Survey"
+      }, {
+        "id" : "ProductDetails",
+        "name" : "ProductDetails",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/f1555bbf0ee545278e481955d20bb426.xlsx",
+        "transformer" : [ {
+          "entityName" : "ProductDetails",
+          "transformerId" : "mdm_productdetails"
+        } ]
+      }, {
+        "id" : "OutletDetails",
+        "name" : "OutletDetails",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/ckcoedemo/images/69abb5d98fb743b4a2c12b7da7c3db80.xlsx",
+        "transformer" : [ {
+          "entityName" : "OutletDetails",
+          "transformerId" : "mdm_outletdetails"
+        } ]
+      }, {
+        "id" : "ProductImage",
+        "name" : "ProductDetails",
+        "type" : "image",
+        "transformer" : [ {
+          "entityName" : "ProductDetails",
+          "transformerId" : "default_productdetails"
+        } ]
+      }, {
+        "id" : "ProductDetailsImage",
+        "name" : "ProductDetails",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/f1555bbf0ee545278e481955d20bb426.xlsx",
+        "transformer" : [ {
+          "entityName" : "ProductDetails",
+          "transformerId" : "mdm_product_details_image_master"
+        } ]
+      }, {
+        "id" : "Targets",
+        "name" : "Targets",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/ImageMaster.xlsx",
+        "transformer" : [ {
+          "entityName" : "Targets",
+          "transformerId" : "default_targets"
+        } ]
+      }, {
+        "id" : "TargetIntegrate",
+        "name" : "TargetsDash",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/ckuatunnati/images/ImageMaster.xlsx",
+        "transformer" : [ {
+          "entityName" : "Targets",
+          "transformerId" : "TargetIntegrate"
+        } ]
+      }, {
+        "id" : "userToLocation",
+        "name" : "GenericEntity",
+        "type" : "excel",
+        "label" : "Dictionary-User To Location",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/marsinduat/images/Sample%20userWiseLocation.xlsx",
+        "transformer" : [ {
+          "entityName" : "GenericEntity",
+          "transformerId" : "mdm_generic_object_location"
+        } ]
+      }, {
+        "id" : "userToDistributor",
+        "name" : "GenericEntity",
+        "type" : "excel",
+        "label" : "Dictionary-User To Distributor",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/marsinduat/images/Sample%20userWiseMappedUser.xlsx",
+        "transformer" : [ {
+          "entityName" : "GenericEntity",
+          "transformerId" : "mdm_generic_object_user"
+        } ]
+      } ],
+      "extAttrInp" : [ "AUART", "KUNNR", "PAYER", "VKBUR", "SPART", "VKORG", "VTWEG" ]
+    },
+    "templateId" : "mdmDashboard"
+  }, {
+    "id" : "reports",
+    "param" : {
+      "elements" : [ {
+        "id" : "AttendanceReport",
+        "name" : "SFA-Attendance",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "CompetitionReport",
+        "name" : "SFA-Competition",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "StockReport",
+        "name" : "SFA-Stock",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "ReturnReport",
+        "name" : "SFA-Return",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SFA-OrderReport",
+        "name" : "Order Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "VisitReport",
+        "name" : "Visit Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UsageLogin",
+        "name" : "Login",
+        "type" : "usage"
+      }, {
+        "id" : "MalaysiaComplianceReport",
+        "name" : "Compliance Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "DailyTGTvsACHReport",
+        "name" : "Daily Target VS ACH Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UsageActivityReport",
+        "name" : "Usage Activity Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SellinaUsageActivityReport",
+        "name" : "Sellina Usage Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UserReport",
+        "name" : "User Master",
+        "type" : "master"
+      }, {
+        "id" : "ActiveOutletReport",
+        "name" : "Outlet Master Report",
+        "type" : "master"
+      }, {
+        "id" : "ProductReport",
+        "name" : "Product Report",
+        "type" : "master"
+      }, {
+        "id" : "PJPMasterReport",
+        "name" : "Route Plan Master",
+        "type" : "master"
+      } ]
+    },
+    "templateId" : "reports"
+  }, {
+    "id" : "ssoConfiguration",
+    "templateId" : "ssoConfiguration"
+  }, {
+    "id" : "addScheme",
+    "templateId" : "addScheme"
+  }, {
+    "id" : "schemeManagement",
+    "templateId" : "schemeManagement"
+  }, {
+    "id" : "orderDashboard",
+    "templateId" : "orderDashboard2"
+  }, {
+    "id" : "userAnalytics",
+    "templateId" : "userAnalytics6"
+  }, {
+    "id" : "mdmApproval",
+    "templateId" : "mdmApproval"
+  }, {
+    "id" : "mdmAdminPortal",
+    "templateId" : "mdmAdminPortal"
+  }, {
+    "id" : "mdm",
+    "templateId" : "mdm"
+  }, {
+    "icon" : "fas fa-user-circle",
+    "name" : "Profile",
+    "featureId" : "adminProfile"
+  }, {
+    "id" : "jenkinsConfiguration",
+    "templateId" : "jenkinsConfiguration"
+  }, {
+    "id" : "banner",
+    "templateId" : "banner"
+  }, {
+    "id" : "manageBanners",
+    "templateId" : "manageBanners"
+  }, {
+    "id" : "manageHelpdesk",
+    "templateId" : "manageHelpdesk"
+  }, {
+    "id" : "userSelection",
+    "templateId" : "userSelection"
+  }, {
+    "id" : "reportConfigManagement",
+    "templateId" : "reportConfigManagement"
+  }, {
+    "id" : "queryEditor",
+    "templateId" : "queryEditor"
+  }, {
+    "id" : "adminProfile",
+    "templateId" : "adminProfile2"
+  }, {
+    "id" : "addSmartTrigger",
+    "templateId" : "addSmartTrigger"
+  }, {
+    "id" : "registration",
+    "templateId" : "registration"
+  }, {
+    "id" : "orderReport",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderReport"
+  }, {
+    "id" : "mdm",
+    "param" : {
+      "elements" : [ {
+        "id" : "User",
+        "name" : "User",
+        "type" : "excel",
+        "templateurl" : "https://api.sellinademo.io/v1/media/417afce9-c1fd-4db3-a4c5-f3e6c6b87e02",
+        "transformer" : [ {
+          "entityName" : "User",
+          "transformerId" : "mdm_user"
+        } ]
+      }, {
+        "id" : "Supplier",
+        "name" : "User",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/d9bfddea37384ca9b4b7e7632c4256b7.xlsx",
+        "transformer" : [ {
+          "entityName" : "User",
+          "transformerId" : "mdm_user"
+        } ]
+      }, {
+        "id" : "RecommendedOrder",
+        "name" : "RecommendedOrder",
+        "type" : "excel",
+        "transformer" : [ {
+          "entityName" : "RecommendedOrder",
+          "transformerId" : "recommendation_order"
+        } ]
+      }, {
+        "id" : "PriortyProduct",
+        "name" : "SecondaryProduct",
+        "type" : "excel",
+        "transformer" : [ {
+          "entityName" : "SecondaryProduct",
+          "transformerId" : "default_secondaryproduct"
+        } ]
+      }, {
+        "id" : "PJPVisitPlan",
+        "name" : "DeliveryPJP",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/bf1d701c02dd4824ae53718f39da5f78.xlsx",
+        "transformer" : [ {
+          "entityName" : "DeliveryPJP",
+          "transformerId" : "PJPVisit"
+        } ]
+      }, {
+        "id" : "Offers",
+        "name" : "Offers",
+        "type" : "excel",
+        "transformer" : [ {
+          "entityName" : "Offers",
+          "transformerId" : "default_offers"
+        } ]
+      }, {
+        "id" : "Sales",
+        "name" : "Sales",
+        "type" : "excel",
+        "transformer" : [ {
+          "entityName" : "Sales",
+          "transformerId" : "default_sales"
+        } ]
+      }, {
+        "id" : "OutletDetails",
+        "name" : "OutletDetails",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/ede798b5ee5c470ea6f6cf910ed178d9.xlsx",
+        "transformer" : [ {
+          "entityName" : "User",
+          "operationType" : "merge",
+          "transformerId" : "mdm_outletdetails_user"
+        }, {
+          "entityName" : "OutletDetails",
+          "transformerId" : "mdm_outletdetails"
+        } ]
+      }, {
+        "id" : "ProductDetails",
+        "name" : "ProductDetails",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/cktestmarsmaly/images/f1555bbf0ee545278e481955d20bb426.xlsx",
+        "transformer" : [ {
+          "entityName" : "ProductDetails",
+          "transformerId" : "mdm_productdetails"
+        }, {
+          "entityName" : "ProductMetaData",
+          "transformerId" : "mdm_productmetadata"
+        } ]
+      }, {
+        "id" : "ProductImage",
+        "name" : "ProductDetails",
+        "type" : "image",
+        "transformer" : [ {
+          "entityName" : "ProductDetails",
+          "transformerId" : "default_productdetails"
+        } ]
+      }, {
+        "id" : "Faq",
+        "name" : "SellinaAIQuery",
+        "type" : "excel",
+        "templateurl" : "https://apptech.blob.core.windows.net/channelkart/ckcoedemo/images/e1c226cb8ecb4b0ba42a266c419af001.xlsx?access_token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBhcHBsaWNhdGUuaW4iLCJzdG9yZWQiOiJ0cnVlIiwiZXhwIjoxNzA1OTg4ODY2LCJpYXQiOjE2MjgyMjg4NjYsIm91dGxldENvZGUiOm51bGwsImxvYiI6ImNrdWF0bWFyc21hbHkifQ.DjdYchtttDNcT0V8qo1h-75zVawvRrETcldV0LmKzSkRejcwikJS-qqGWOcwX63c3srWEIFUBuNZxelEJurthQ",
+        "transformer" : [ {
+          "entityName" : "SellinaAIQuery",
+          "transformerId" : "default_faq1"
+        } ]
+      }, {
+        "id" : "Targets",
+        "name" : "Targets",
+        "type" : "excel",
+        "transformer" : [ {
+          "entityName" : "Targets",
+          "transformerId" : "mdm_targets"
+        } ]
+      } ]
+    },
+    "templateId" : "mdm"
+  }, {
+    "id" : "updateTemplateMeta",
+    "templateId" : "updateTemplateMeta"
+  }, {
+    "id" : "productCategoryImageMapping",
+    "templateId" : "productCategoryImageMapping"
+  }, {
+    "id" : "manageClientConfig",
+    "templateId" : "manageClientConfig"
+  }, {
+    "id" : "orderManagement",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderManagement"
+  }, {
+    "id" : "manageOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "manageOrder"
+  }, {
+    "id" : "viewOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "viewOrder"
+  }, {
+    "id" : "updateMetaConfig",
+    "templateId" : "updateMetaConfig"
+  }, {
+    "id" : "userManagement",
+    "templateId" : "userManagement"
+  }, {
+    "id" : "updateUser",
+    "templateId" : "updateUser"
+  }, {
+    "id" : "mdm",
+    "templateId" : "mdm"
+  }, {
+    "id" : "mdm",
+    "templateId" : "mdm"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "profile"
+      }, {
+        "icon" : "fas fa-user-lock",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  }, {
+    "id" : "sidebar",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "User Analytics",
+        "featureId" : "userAnalytics"
+      }, {
+        "icon" : "fas fa-chart-area fa-lg",
+        "name" : "Order Analytics",
+        "featureId" : "orderDashboard"
+      }, {
+        "icon" : "fas fa-file-upload fa-lg",
+        "name" : "Data management",
+        "featureId" : "mdmDashboard"
+      }, {
+        "icon" : "fas fa-file-upload fa-lg",
+        "name" : "MDM",
+        "featureId" : "mdm"
+      }, {
+        "icon" : "fas fa-chart-line fa-lg",
+        "name" : "Reports",
+        "featureId" : "reports"
+      }, {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "Distributor Approval",
+        "featureId" : "mdmApproval"
+      }, {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "Admin Approval",
+        "featureId" : "mdmAdminPortal"
+      }, {
+        "icon" : "far fa-life-ring fa-lg",
+        "name" : "Support",
+        "featureId" : "manageHelpdesk"
+      }, {
+        "icon" : "fas fa-edit fa-lg",
+        "name" : "Add Scheme",
+        "featureId" : "addScheme"
+      }, {
+        "icon" : "fas fa-tasks fa-lg",
+        "name" : "Scheme Management",
+        "featureId" : "schemeManagement"
+      }, {
+        "icon" : "fas fa-file-upload fa-lg",
+        "name" : "Admin Activity",
+        "featureId" : "manageClientConfig"
+      } ]
+    },
+    "templateId" : "sidebar"
+  } ]
+}

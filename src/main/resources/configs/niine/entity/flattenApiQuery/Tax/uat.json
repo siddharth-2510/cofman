@@ -1,0 +1,4 @@
+{
+  "Tax" : "SELECT * FROM ck_tax WHERE id={{id}}",
+  "ProductDetails" : "SELECT * FROM ck_productdetails WHERE batch_code={{batch_code}}"
+}

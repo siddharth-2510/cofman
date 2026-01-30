@@ -1,0 +1,10 @@
+{
+  "name" : "discountRuleList",
+  "type" : "list",
+  "value" : [ "discountvaluerule", "discountvaluegrouprule", "freeitemvaluerule", "discountpercentagerule", "discountpercentagegrouprule", "freeitemrule", "freeitemgrouprule" ],
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "List of rules applicable for schemes",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "freeitemrule", "freeitemvaluerule", "discountpercentagegrouprule", "discountvaluegrouprule", "discountvaluerule" ]
+}

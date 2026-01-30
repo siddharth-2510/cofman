@@ -1,0 +1,9 @@
+{
+  "name" : "orderFileType",
+  "type" : "string",
+  "value" : "json",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "file type of order.",
+  "defaultValue" : "json",
+  "possibleVals" : [ "json" ]
+}

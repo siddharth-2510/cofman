@@ -1,0 +1,8 @@
+{
+  "id" : "eb2b_stock",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/swirevnmdemo/images/Final_Stock_ETL-Qomhcuvjmuwp.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Stock",
+    "transformerId" : "eb2b_stock"
+  } ]
+}

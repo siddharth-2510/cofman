@@ -1,0 +1,9 @@
+{
+  "name" : "claimTypes",
+  "type" : "list",
+  "value" : [ "Damage Returns", "Secondary Schemes", "Others" ],
+  "docUrl" : "",
+  "description" : "Types of claims",
+  "defaultValue" : [ "Damage Returns", "Secondary Schemes", "Others" ],
+  "possibleVals" : [ "string[]" ]
+}

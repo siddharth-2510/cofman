@@ -1,0 +1,9 @@
+{
+  "name" : "offersTabLabel",
+  "type" : "string",
+  "value" : "ACTIVE PROMOTIONS",
+  "docUrl" : "",
+  "description" : "label for offers tab .",
+  "defaultValue" : "OFFERS",
+  "possibleVals" : [ "string" ]
+}

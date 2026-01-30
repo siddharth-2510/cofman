@@ -1,0 +1,8 @@
+{
+  "name" : "orderReturn",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "Whether to show return cart page inside order cart page",
+  "possibleVals" : [ true, false ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "orderPurchase",
+  "domain_type" : "OrderConstraints",
+  "elements" : [ {
+    "name" : "columnNames",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

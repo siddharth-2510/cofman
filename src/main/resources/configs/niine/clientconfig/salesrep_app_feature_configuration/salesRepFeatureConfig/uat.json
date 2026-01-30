@@ -1,0 +1,73 @@
+{
+  "name" : "salesRepFeatureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "incentive",
+    "version" : "1.0",
+    "template" : "v1"
+  }, {
+    "name" : "incentivedashboard",
+    "version" : "1.0",
+    "template" : "v1"
+  }, {
+    "name" : "assettracking",
+    "version" : "1.0",
+    "template" : "assettracking"
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : "order"
+  }, {
+    "name" : "more",
+    "version" : "1.0",
+    "template" : "template1"
+  }, {
+    "name" : "secondaryproduct",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "banner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "productfilter",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "sellina",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "stockquantity",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "kpi",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "storeIn",
+    "version" : "1.0",
+    "template" : "storeIn"
+  }, {
+    "name" : "inventoryReturn",
+    "version" : "1.0",
+    "template" : ""
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

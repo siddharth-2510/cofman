@@ -1,0 +1,8 @@
+{
+  "name" : "loadingScreenText",
+  "type" : "string",
+  "value" : "Please wait while the data is loading...",
+  "docUrl" : "",
+  "description" : "Loading Screen Text",
+  "possibleVals" : [ "string" ]
+}

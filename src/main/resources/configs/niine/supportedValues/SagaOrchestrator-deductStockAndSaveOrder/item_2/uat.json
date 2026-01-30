@@ -1,0 +1,12 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.SaveOrderStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.models.Order",
+    "index" : "3",
+    "description" : "Order object"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderService",
+    "index" : "6",
+    "description" : "Bean of OrderService"
+  } ]
+}

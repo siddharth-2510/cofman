@@ -1,0 +1,8 @@
+{
+  "name" : "enableUserLevelGeoFencing",
+  "type" : "boolean",
+  "value" : "true",
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

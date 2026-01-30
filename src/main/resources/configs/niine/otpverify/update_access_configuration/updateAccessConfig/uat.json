@@ -1,0 +1,49 @@
+{
+  "name" : "updateAccessConfig",
+  "type" : "List",
+  "value" : [ {
+    "isAdmin" : true,
+    "userName" : "Roopin",
+    "countryCode" : "91",
+    "phoneNumber" : "8368721130"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Kunal Sir",
+    "countryCode" : "91",
+    "phoneNumber" : "8527640672"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Raja",
+    "countryCode" : "91",
+    "phoneNumber" : "8825864274"
+  }, {
+    "isAdmin" : true,
+    "userName" : "sanu",
+    "countryCode" : "91",
+    "phoneNumber" : "6381423486"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Sandesh",
+    "countryCode" : "91",
+    "phoneNumber" : "9738122827"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Dharmendra",
+    "countryCode" : "91",
+    "phoneNumber" : "8700523726"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Nikhil",
+    "countryCode" : "91",
+    "phoneNumber" : "8384962437"
+  }, {
+    "isAdmin" : true,
+    "userName" : "Kirthi",
+    "countryCode" : "91",
+    "phoneNumber" : "9071924789"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "update-access-config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "dbVisitOptions",
+  "type" : "List",
+  "value" : [ "Stock Review", "Team Monitoring", "Other" ],
+  "docUrl" : "",
+  "description" : "DB Visit Options",
+  "possibleVals" : [ ]
+}

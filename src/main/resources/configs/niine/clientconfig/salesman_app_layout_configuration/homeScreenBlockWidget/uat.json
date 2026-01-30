@@ -1,0 +1,51 @@
+{
+  "name" : "homeScreenBlockWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1",
+    "type" : "dataSyncTextScroll"
+  }, {
+    "type" : "disclaimer",
+    "disclaimers" : [ {
+      "id" : "daySummaryDisclaimer",
+      "text" : "Your daily summary is ready for review!",
+      "color" : "#09b5a2",
+      "svgPath" : "assets/svg/summary_disclaimer_icon.svg",
+      "backgroundColor" : "#f3fcfb"
+    } ]
+  }, {
+    "id" : "2",
+    "type" : "greetingWidget"
+  }, {
+    "id" : "6",
+    "type" : "mustDoAction"
+  }, {
+    "id" : "3",
+    "type" : "liveDashboard",
+    "items" : [ {
+      "id" : "kpiReview",
+      "icon" : "assets/svg/KPI.svg",
+      "label" : "KPI Review"
+    }, {
+      "id" : "incentiveDashboard",
+      "icon" : "assets/svg/Incentive.svg",
+      "label" : "Incentive Dashboard"
+    }, {
+      "id" : "daySummary",
+      "icon" : "assets/svg/day_summary.svg",
+      "label" : "Day Summary",
+      "footer" : {
+        "text" : "Ready By 6PM",
+        "color" : "#09b5a2",
+        "svgPath" : "assets/svg/hourglass.svg",
+        "backgroundColor" : "#f3fcfb"
+      }
+    } ]
+  }, {
+    "id" : "locatemyoutlet",
+    "type" : "locatemyoutlet"
+  }, {
+    "id" : "8",
+    "type" : "kpi"
+  } ]
+}

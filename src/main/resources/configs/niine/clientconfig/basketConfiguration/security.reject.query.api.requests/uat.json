@@ -1,0 +1,4 @@
+{
+  "name" : "security.reject.query.api.requests",
+  "value" : "false"
+}

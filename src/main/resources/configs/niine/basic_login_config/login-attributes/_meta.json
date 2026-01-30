@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "basic_login_config",
+  "domain_type" : "login-attributes",
+  "elements" : [ {
+    "name" : "attributes",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "conditionalAttributes",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "primaryReturnReasons",
+  "type" : "list",
+  "value" : [ "Quality Issues", "Expired products", "Damaged products", "Wrong SKU delivered", "Slow Moving SKUs" ],
+  "docUrl" : "",
+  "description" : "primary return reasons",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "string[]" ]
+}

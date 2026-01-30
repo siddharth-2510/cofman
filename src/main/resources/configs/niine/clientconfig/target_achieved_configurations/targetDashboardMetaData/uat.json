@@ -1,0 +1,33 @@
+{
+  "name" : "targetDashboardMetaData",
+  "type" : "List",
+  "value" : [ {
+    "configType" : "default",
+    "targetLogo" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/4ecd9af9f8914f6d8ddf6ccd50175606.png",
+    "disclaimers" : [ ],
+    "targetHeader" : "Target v/s Achievement Dashboard"
+  }, {
+    "configType" : "stockist",
+    "targetLogo" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/3fecc1402c6e461c94206924139f8b15.png",
+    "disclaimers" : [ "Achieve Gate Business to be eligible for Stockist Samriddhi Program and ~1% additional margin" ],
+    "targetHeader" : "Stockist Samriddhi"
+  }, {
+    "configType" : "loyalty",
+    "targetLogo" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/e547acfac7314f4da9a3ecf4490b607f.png",
+    "disclaimers" : [ "Your Target & Achievement for the month of JAN MONTH is frozen", "NOTE:This is the Dashboard for FC COMMON " ],
+    "loyaltyType" : "FC COMMON",
+    "targetHeader" : "First Club Target Dashboard "
+  }, {
+    "configType" : "loyalty",
+    "targetLogo" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/e547acfac7314f4da9a3ecf4490b607f.png",
+    "disclaimers" : [ ],
+    "loyaltyType" : "FC FOODS",
+    "targetHeader" : "First Club FOODS and common Dashboard "
+  }, {
+    "configType" : "loyalty",
+    "targetLogo" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/e547acfac7314f4da9a3ecf4490b607f.png",
+    "disclaimers" : [ "Dashboard values will be refreshed in 12 hours", "This is the Dashboard for FC UDAY" ],
+    "loyaltyType" : "FC UDAY",
+    "targetHeader" : "First Club"
+  } ]
+}

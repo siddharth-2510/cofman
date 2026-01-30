@@ -1,0 +1,5 @@
+{
+  "name" : "invoiceNotifierImplementation",
+  "type" : "string",
+  "value" : "com.applicate.services.channelkart.invoice.notification.CkcoeInvoiceNotifier"
+}

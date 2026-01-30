@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.loadoutsteps.BulkStockUpdateStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "6",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "java.lang.String",
+    "index" : "7",
+    "description" : "loadoutSource: invoice or order"
+  }, {
+    "type" : "com.applicate.services.channelkart.pojo.DeliveryLoadoutPayload",
+    "index" : "3",
+    "description" : "deliveryLoadout"
+  } ]
+}

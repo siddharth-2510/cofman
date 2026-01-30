@@ -1,0 +1,8 @@
+{
+  "name" : "invoiceEditedOnceCheck",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "It will check whether invoice has been edited once",
+  "possibleVals" : [ true, false ]
+}

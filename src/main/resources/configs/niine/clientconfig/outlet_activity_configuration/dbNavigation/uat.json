@@ -1,0 +1,6 @@
+{
+  "name" : "dbNavigation",
+  "type" : "boolean",
+  "value" : false,
+  "description" : "Determines whether to display outlet navigation map on outletcard"
+}

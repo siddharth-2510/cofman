@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.SalesReturnStockUpdateStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "1",
+    "description" : "Updated Sales Return object"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "2",
+    "description" : "bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.StockService",
+    "index" : "4",
+    "description" : "Bean of StockService"
+  } ]
+}

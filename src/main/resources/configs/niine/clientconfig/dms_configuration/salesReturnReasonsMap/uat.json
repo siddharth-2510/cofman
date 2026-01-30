@@ -1,0 +1,12 @@
+{
+  "name" : "salesReturnReasonsMap",
+  "type" : "object",
+  "value" : {
+    "Saleable" : [ "Wrong Order", "Slow Moving", "Consumer Complaint", "Saleable" ],
+    "Unsaleable" : [ "Expired", "Damaged", "Unsaleable" ]
+  },
+  "docUrl" : "",
+  "description" : "sales return reasons",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "string[]" ]
+}

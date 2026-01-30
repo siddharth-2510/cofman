@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "ScoreDetails",
+  "domain_type" : "LoyaltyConfig",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

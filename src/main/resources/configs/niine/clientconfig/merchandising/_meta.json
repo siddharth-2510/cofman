@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "merchandising",
+  "elements" : [ {
+    "name" : "Dispenser_Management",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Hanging_Management",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Jar_Management",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "POSM_management",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

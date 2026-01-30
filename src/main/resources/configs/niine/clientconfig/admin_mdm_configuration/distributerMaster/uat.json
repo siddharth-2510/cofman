@@ -1,0 +1,13 @@
+{
+  "id" : "distributerMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/DistributerMasterMDMUploadTemplate-QCBgYqkvZOeb.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletDetails",
+    "operationType" : "insert",
+    "transformerId" : "dms_mdm_distributer_outlet_transformer",
+    "skipPreprocessing" : "true"
+  }, {
+    "entityName" : "AccountInfo",
+    "transformerId" : "dms_mdm_distributer_account_info_transformer"
+  } ]
+}

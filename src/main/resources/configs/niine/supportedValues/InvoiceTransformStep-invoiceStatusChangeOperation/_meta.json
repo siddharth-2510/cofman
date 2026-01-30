@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "supportedValues",
+  "domain_type" : "InvoiceTransformStep-invoiceStatusChangeOperation",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  }, {
+    "name" : "item_1",
+    "pattern" : "FALLBACK"
+  } ]
+}

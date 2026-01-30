@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "jenkins",
+  "domain_type" : "createxmlForMdmKafkaUploader",
+  "elements" : [ {
+    "name" : "https_channelkart-report-template-demo.s3.ap-south-1.amazonaws.com_jenkinsxml_exactXMLasmdmkafkaintegration.txt",
+    "pattern" : "PLAIN_STRING"
+  } ]
+}

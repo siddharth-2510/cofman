@@ -1,0 +1,9 @@
+{
+  "name" : "orderCancellationPeriod",
+  "type" : "number",
+  "value" : 180,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Order cancellation option in the app will have this much time availability to cancel the order",
+  "defaultValue" : 0,
+  "possibleVals" : [ 1, 2 ]
+}

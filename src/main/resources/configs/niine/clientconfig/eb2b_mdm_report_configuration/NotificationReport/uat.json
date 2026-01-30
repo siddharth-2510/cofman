@@ -1,0 +1,6 @@
+{
+  "id" : "NotificationReportEB2B",
+  "name" : "NotificationReport",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

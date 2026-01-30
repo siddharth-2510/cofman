@@ -1,0 +1,137 @@
+{
+  "name" : "existingOutletMappingFields",
+  "type" : "List",
+  "value" : [ {
+    "id" : "cameraWidget",
+    "type" : "camera",
+    "label" : "",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "locationWidget",
+    "type" : "location",
+    "label" : "Current Lat/ Long:",
+    "required" : true
+  }, {
+    "id" : "outletCode",
+    "type" : "textField",
+    "label" : "Outlet Code",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "text"
+  }, {
+    "id" : "outletName",
+    "type" : "textField",
+    "label" : "Outlet Name",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "text"
+  }, {
+    "id" : "contactName",
+    "type" : "textField",
+    "label" : "Contact Person Name",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "text"
+  }, {
+    "id" : "mobile",
+    "type" : "textField",
+    "label" : "Mobile Number",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "number"
+  }, {
+    "id" : "outletWhatsappNumber",
+    "type" : "textField",
+    "label" : "Phone Number",
+    "enabled" : false,
+    "isExtAtr" : "outletWhatsappNumber",
+    "required" : false,
+    "inputType" : "number"
+  }, {
+    "id" : "email",
+    "type" : "textField",
+    "label" : "Email ID",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "email"
+  }, {
+    "id" : "beatName",
+    "type" : "textField",
+    "label" : "Route Name",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "dateofopening",
+    "type" : "textField",
+    "label" : "Date Of Opening",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "channel",
+    "type" : "dropDown",
+    "label" : "Outlet Channel",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "customerSubChannel",
+    "type" : "dropDown",
+    "label" : "Sub-channel",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "outletGroup",
+    "type" : "dropDown",
+    "label" : "Outlet Group",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "outletClass",
+    "type" : "dropDown",
+    "label" : "Outlet Class",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "address",
+    "type" : "textField",
+    "label" : "Address",
+    "enabled" : false,
+    "required" : false
+  }, {
+    "id" : "distributorName",
+    "type" : "textField",
+    "label" : "Distributor Name",
+    "enabled" : false,
+    "required" : false,
+    "inputType" : "text"
+  }, {
+    "id" : "gstNo",
+    "type" : "textField",
+    "label" : "Outlet GST Number",
+    "regex" : "^[A-Za-z0-9]{15}$",
+    "enabled" : true,
+    "required" : false,
+    "validation" : { },
+    "maxCharacters" : 15,
+    "minCharacters" : 15
+  }, {
+    "id" : "panNumber",
+    "type" : "textField",
+    "label" : "Outlet PAN Number",
+    "regex" : "^[A-Za-z0-9]{10}$",
+    "enabled" : true,
+    "isExtAtr" : "OutletPAN",
+    "required" : false,
+    "validation" : { },
+    "maxCharacters" : 10,
+    "minCharacters" : 10
+  }, {
+    "id" : "mobTime",
+    "type" : "ExtAutoFilledDetails",
+    "label" : "mobTime"
+  } ],
+  "docUrl" : "",
+  "description" : "outlet mapping form filed",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

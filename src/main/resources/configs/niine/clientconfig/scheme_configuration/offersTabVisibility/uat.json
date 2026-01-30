@@ -1,0 +1,9 @@
+{
+  "name" : "offersTabVisibility",
+  "type" : "string",
+  "value" : "true",
+  "docUrl" : "",
+  "description" : "to show active promotions tab visible .",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

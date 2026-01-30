@@ -1,0 +1,9 @@
+{
+  "name" : "loginBanner",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/admin_1747317363795_Half_banner_720x540px-mAYGBogukymP.jpg",
+  "docUrl" : "",
+  "description" : "login banner",
+  "possibleVals" : [ "string" ],
+  "isValueUpdated" : true
+}

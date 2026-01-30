@@ -1,0 +1,25 @@
+{
+  "name" : "loyaltyDataPoints",
+  "type" : "List",
+  "value" : [ {
+    "svg" : "assets/svg/opening_points.svg",
+    "name" : "opening_points",
+    "color" : "#8790DB",
+    "points" : "openingPoints"
+  }, {
+    "svg" : "assets/svg/earned_points.svg",
+    "name" : "earned_points",
+    "color" : "#3DBEAF",
+    "points" : "earnedPoints"
+  }, {
+    "svg" : "assets/svg/redeemed_points.svg",
+    "name" : "redeemed_points",
+    "color" : "#BF8256",
+    "points" : "requestedPoints"
+  }, {
+    "svg" : "assets/svg/available_points.svg",
+    "name" : "available_points",
+    "color" : "#09BBD5",
+    "points" : "availablePoints"
+  } ]
+}

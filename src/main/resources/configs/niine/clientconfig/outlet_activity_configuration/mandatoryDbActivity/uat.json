@@ -1,0 +1,8 @@
+{
+  "name" : "mandatoryDbActivity",
+  "type" : "List",
+  "value" : [ "gateMeeting" ],
+  "docUrl" : "",
+  "description" : "mandatory activity before store out",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,3 @@
+{
+  "SecondaryProduct" : "SELECT * FROM ck_secondary_product WHERE id={{id}}"
+}

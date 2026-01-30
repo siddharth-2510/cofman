@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "config",
+  "elements" : [ {
+    "name" : "Salescode",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

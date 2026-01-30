@@ -1,0 +1,20 @@
+{
+  "name" : "bottomBarLayout",
+  "type" : "List",
+  "value" : [ {
+    "id" : "home",
+    "label" : "HOME"
+  }, {
+    "id" : "order",
+    "label" : "MY ORDERS"
+  }, {
+    "id" : "orderTracking",
+    "label" : "MY ORDERS"
+  }, {
+    "id" : "cart",
+    "label" : "CART"
+  }, {
+    "id" : "more",
+    "label" : "MORE"
+  } ]
+}

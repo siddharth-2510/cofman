@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "MultiEntitySheet",
+  "domain_type" : "MDMConfig",
+  "elements" : [ {
+    "name" : "promoentity",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

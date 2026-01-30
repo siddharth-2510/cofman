@@ -1,0 +1,4 @@
+{
+  "name" : "security.strict.access.check.enabled",
+  "value" : "false"
+}

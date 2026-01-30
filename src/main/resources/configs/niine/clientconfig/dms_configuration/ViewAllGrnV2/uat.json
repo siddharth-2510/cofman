@@ -1,0 +1,8 @@
+{
+  "name" : "ViewAllGrnV2",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "View all GRN New Ui",
+  "possibleVals" : [ true, false ]
+}

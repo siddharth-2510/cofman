@@ -1,0 +1,9 @@
+{
+  "id" : "OutletCategory",
+  "name" : "Outlet Category",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/FMCGCategoryMasterTemplate-agnciqwYgaXW.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "GenericEntity",
+    "transformerId" : "outlet_category"
+  } ]
+}

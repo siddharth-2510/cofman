@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "schemeIdentifier",
+  "domain_type" : "outlet",
+  "elements" : [ {
+    "name" : "columnNames",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

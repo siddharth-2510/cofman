@@ -1,0 +1,6 @@
+{
+  "name" : "defaultInProgressIfStoredin",
+  "type" : "boolean",
+  "value" : true,
+  "description" : ""
+}

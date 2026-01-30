@@ -1,0 +1,9 @@
+{
+  "name" : "productType",
+  "type" : "String",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "support_configuration",
+  "description" : "To change complaint type text to request product training",
+  "possibleVals" : [ ]
+}

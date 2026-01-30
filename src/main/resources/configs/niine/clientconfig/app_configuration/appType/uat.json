@@ -1,0 +1,9 @@
+{
+  "name" : "appType",
+  "type" : "string",
+  "value" : "SFA",
+  "docUrl" : "",
+  "description" : "App type - retailer or SFA",
+  "defaultValue" : "Retailer",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,233 @@
+{
+  "features" : [ {
+    "id" : "reports",
+    "param" : {
+      "elements" : [ {
+        "id" : "AttendanceReport",
+        "name" : "SFA-Attendance",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "CompetitionReport",
+        "name" : "SFA-Competition",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "StockReport",
+        "name" : "SFA-Stock",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "ReturnReport",
+        "name" : "SFA-Return",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SFA-OrderReport",
+        "name" : "Order Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "VisitReport",
+        "name" : "Visit Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UsageLogin",
+        "name" : "Login",
+        "type" : "usage"
+      }, {
+        "id" : "MalaysiaComplianceReport",
+        "name" : "Compliance Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "DailyTGTvsACHReport",
+        "name" : "Daily Target VS ACH Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UsageActivityReport",
+        "name" : "Usage Activity Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "SellinaUsageActivityReport",
+        "name" : "Sellina Usage Report",
+        "type" : "transaction",
+        "filter" : "daterange"
+      }, {
+        "id" : "UserReport",
+        "name" : "User Master",
+        "type" : "master"
+      }, {
+        "id" : "ActiveOutletReport",
+        "name" : "Outlet Master Report",
+        "type" : "master"
+      }, {
+        "id" : "ProductReport",
+        "name" : "Product Report",
+        "type" : "master"
+      }, {
+        "id" : "PJPMasterReport",
+        "name" : "Route Plan Master",
+        "type" : "master"
+      } ]
+    },
+    "templateId" : "reports"
+  }, {
+    "id" : "ssoConfiguration",
+    "templateId" : "ssoConfiguration"
+  }, {
+    "id" : "addScheme",
+    "templateId" : "addScheme"
+  }, {
+    "id" : "schemeManagement",
+    "templateId" : "schemeManagement"
+  }, {
+    "id" : "orderDashboard",
+    "templateId" : "orderDashboard2"
+  }, {
+    "id" : "intentDesigner",
+    "templateId" : "intentDesigner"
+  }, {
+    "id" : "userAnalytics",
+    "templateId" : "userAnalytics6"
+  }, {
+    "icon" : "fas fa-user-circle",
+    "name" : "Profile",
+    "featureId" : "adminProfile"
+  }, {
+    "id" : "jenkinsConfiguration",
+    "templateId" : "jenkinsConfiguration"
+  }, {
+    "id" : "banner",
+    "templateId" : "banner"
+  }, {
+    "id" : "manageBanners",
+    "templateId" : "manageBanners"
+  }, {
+    "id" : "manageHelpdesk",
+    "templateId" : "manageHelpdesk"
+  }, {
+    "id" : "userSelection",
+    "templateId" : "userSelection"
+  }, {
+    "id" : "reportConfigManagement",
+    "templateId" : "reportConfigManagement"
+  }, {
+    "id" : "queryEditor",
+    "templateId" : "queryEditor"
+  }, {
+    "id" : "adminProfile",
+    "templateId" : "adminProfile2"
+  }, {
+    "id" : "addSmartTrigger",
+    "templateId" : "addSmartTrigger"
+  }, {
+    "id" : "registration",
+    "templateId" : "registration"
+  }, {
+    "id" : "orderReport",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderReport"
+  }, {
+    "id" : "updateTemplateMeta",
+    "templateId" : "updateTemplateMeta"
+  }, {
+    "id" : "productCategoryImageMapping",
+    "templateId" : "productCategoryImageMapping"
+  }, {
+    "id" : "manageClientConfig",
+    "templateId" : "manageClientConfig"
+  }, {
+    "id" : "orderManagement",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderManagement"
+  }, {
+    "id" : "manageOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "manageOrder"
+  }, {
+    "id" : "viewOrder",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "viewOrder"
+  }, {
+    "id" : "updateMetaConfig",
+    "templateId" : "updateMetaConfig"
+  }, {
+    "id" : "userManagement",
+    "templateId" : "userManagement"
+  }, {
+    "id" : "updateUser",
+    "templateId" : "updateUser"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "profile"
+      }, {
+        "icon" : "fas fa-user-lock",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    },
+    "templateId" : "header"
+  }, {
+    "id" : "sidebar",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-chart-bar fa-lg",
+        "name" : "User Analytics",
+        "featureId" : "userAnalytics"
+      }, {
+        "icon" : "fas fa-chart-area fa-lg",
+        "name" : "Order Analytics",
+        "featureId" : "orderDashboard"
+      }, {
+        "icon" : "fas fa-chart-line fa-lg",
+        "name" : "Reports",
+        "featureId" : "reports"
+      }, {
+        "icon" : "far fa-images fa-lg",
+        "name" : "Create Banner",
+        "featureId" : "banner"
+      }, {
+        "icon" : "far fa-life-ring fa-lg",
+        "name" : "Support",
+        "featureId" : "manageHelpdesk"
+      }, {
+        "icon" : "fas fa-edit fa-lg",
+        "name" : "Add Scheme",
+        "featureId" : "addScheme"
+      }, {
+        "icon" : "fas fa-tasks fa-lg",
+        "name" : "Scheme Management",
+        "featureId" : "schemeManagement"
+      }, {
+        "icon" : "fas fa-file-upload fa-lg",
+        "name" : "Admin Activity",
+        "featureId" : "manageClientConfig"
+      } ]
+    },
+    "templateId" : "sidebar"
+  } ]
+}

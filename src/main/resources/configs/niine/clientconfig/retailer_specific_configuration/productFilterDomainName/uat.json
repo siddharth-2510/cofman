@@ -1,0 +1,9 @@
+{
+  "name" : "productFilterDomainName",
+  "type" : "String",
+  "value" : "filters",
+  "docUrl" : "",
+  "domainType" : "tab_filters",
+  "description" : "",
+  "defaultValue" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "competitorOption",
+  "type" : "List",
+  "value" : [ "Competitor 1", "Competitor 2", "Competitor 3" ],
+  "docUrl" : "",
+  "description" : "Competitor options",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,5 @@
+{
+  "category" : "OrderDeliveryStatus",
+  "description" : "Fetching delivery status from the user if order status is not delivered for X no of days .",
+  "subcategory" : ""
+}

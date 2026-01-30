@@ -1,0 +1,6 @@
+{
+  "id" : "OrderReport",
+  "name" : "Order Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

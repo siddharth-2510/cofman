@@ -1,0 +1,8 @@
+{
+  "name" : "targetType",
+  "type" : "string",
+  "value" : "value",
+  "docUrl" : "",
+  "description" : "target type",
+  "possibleVals" : [ "value", "volume" ]
+}

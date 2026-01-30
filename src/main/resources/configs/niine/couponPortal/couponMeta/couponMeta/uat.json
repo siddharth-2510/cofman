@@ -1,0 +1,38 @@
+{
+  "name" : "couponMeta",
+  "type" : "list",
+  "value" : [ {
+    "schemePlayground" : "false",
+    "Recurrence_Options" : [ {
+      "DefineNthPurchase" : false
+    }, {
+      "Usability" : true
+    }, {
+      "ActivePeriod" : true
+    }, {
+      "ActiveTime" : true
+    } ],
+    "Coupon_Step_Options" : [ "Define Coupons", "Create Banner", "Coupon Summary" ],
+    "Coupon_Type_Options" : [ {
+      "value" : "item_level_coupon",
+      "description" : "This type allows you to create a coupon applicable on individual item levels among items in the product universe"
+    }, {
+      "value" : "bundle_+_total_order_value",
+      "description" : "This type allows you to create a coupon with multiple SKUs and provide a discount basis final order value"
+    }, {
+      "value" : "bundle",
+      "description" : "This type allows you to create a coupon on group of SKUs"
+    }, {
+      "value" : "total_order_value",
+      "description" : "This type allows you to create a coupon that provides discount basis final order value."
+    }, {
+      "value" : "total_order_welcome",
+      "description" : "This type allows you to create a coupon that provides discount basis final order value applied only once lifetime"
+    } ],
+    "Calculation_Method_Options" : [ {
+      "value" : "percentage"
+    }, {
+      "value" : "value"
+    } ]
+  } ]
+}

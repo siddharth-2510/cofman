@@ -1,0 +1,6 @@
+{
+  "id" : "DailyTGTvsACHReport",
+  "name" : "Daily Target VS ACH Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

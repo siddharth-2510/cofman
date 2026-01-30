@@ -1,0 +1,6 @@
+{
+  "stockDays" : 5,
+  "subChannels" : [ "FMCG-RAAGA" ],
+  "skipZeroPricing" : true,
+  "pricingExpiryDays" : 1
+}

@@ -1,0 +1,9 @@
+{
+  "name" : "claimSubTypes",
+  "type" : "list",
+  "value" : [ "Sale Returns", "Purchase Returns", "All Excl. Tov", "Total Order Value", "Display/Visibility", "Asset Installation" ],
+  "docUrl" : "",
+  "description" : "Subtypes of claims",
+  "defaultValue" : [ "Sale Returns", "Purchase Returns", "All Excl. Tov", "Total Order Value", "Display/Visibility", "Asset Installation" ],
+  "possibleVals" : [ "string[]" ]
+}

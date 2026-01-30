@@ -1,0 +1,8 @@
+{
+  "name" : "dbVisitOptions",
+  "type" : "List",
+  "value" : [ "PJP Visit", "Other" ],
+  "docUrl" : "",
+  "description" : "DB Visit Options",
+  "possibleVals" : [ ]
+}

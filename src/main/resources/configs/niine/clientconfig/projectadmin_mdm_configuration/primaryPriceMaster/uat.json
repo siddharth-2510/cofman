@@ -1,0 +1,8 @@
+{
+  "id" : "primaryPriceMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/cocaind/images/PrimaryPriceMasterUpload_template-xUVDNcXZJvnt.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "ProductMetaData",
+    "transformerId" : "dms_primary_price_productmetadata_transformer_cocaind"
+  } ]
+}

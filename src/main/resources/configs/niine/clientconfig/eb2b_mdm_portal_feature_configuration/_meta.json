@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "eb2b_mdm_portal_feature_configuration",
+  "elements" : [ {
+    "name" : "featureConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "appPackageName",
+  "type" : "string",
+  "value" : "com.applicate.cavinkaresfademo.app",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "App package name",
+  "defaultValue" : "com.applicate.applicateai.app",
+  "possibleVals" : [ "string" ]
+}

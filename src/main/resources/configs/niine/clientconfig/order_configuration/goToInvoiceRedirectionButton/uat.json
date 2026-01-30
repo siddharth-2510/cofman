@@ -1,0 +1,6 @@
+{
+  "name" : "goToInvoiceRedirectionButton",
+  "type" : "boolean",
+  "value" : "true",
+  "description" : "Show button for redirection to view invoice page"
+}

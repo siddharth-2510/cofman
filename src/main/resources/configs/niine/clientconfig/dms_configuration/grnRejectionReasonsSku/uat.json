@@ -1,0 +1,30 @@
+{
+  "name" : "grnRejectionReasonsSku",
+  "type" : "list",
+  "value" : [ {
+    "id" : "damagedGoods",
+    "label" : "Damaged Goods"
+  }, {
+    "id" : "incorrectItemsDelivered",
+    "label" : "Incorrect Items Delivered"
+  }, {
+    "id" : "expiredProducts",
+    "label" : "Expired Products"
+  }, {
+    "id" : "qualityIssues",
+    "label" : "Quality Issues"
+  }, {
+    "id" : "packagingIssues",
+    "label" : "Packaging Issues"
+  }, {
+    "id" : "mismatchInQuantity",
+    "label" : "Mismatch in Quantity"
+  }, {
+    "id" : "non-complianceWithOrderSpecs",
+    "label" : "Non-compliance with Order Specs"
+  } ],
+  "docUrl" : "",
+  "description" : "grnRejectionReasonsSku",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

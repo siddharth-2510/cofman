@@ -1,0 +1,5 @@
+{
+  "name" : "goodReasons",
+  "type" : "List",
+  "value" : [ "Ordered by Mistake", "Stock in hand", "cancelled order", "Wrong Order", "Slow Moving", "Consumer Complaint", "Wrong Order (Saleable)", "Slow Moving (Saleable)", "Consumer Complaint (Saleable)", "Saleable" ]
+}

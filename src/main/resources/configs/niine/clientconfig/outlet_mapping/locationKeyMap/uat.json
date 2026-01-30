@@ -1,0 +1,15 @@
+{
+  "name" : "locationKeyMap",
+  "type" : "Json",
+  "value" : {
+    "area" : "area",
+    "town" : "town",
+    "region" : "region",
+    "country" : "country",
+    "pincode" : "pincode",
+    "cityList" : "city",
+    "district" : "district",
+    "landmark" : "landmark",
+    "stateList" : "state"
+  }
+}

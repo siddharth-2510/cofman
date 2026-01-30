@@ -1,0 +1,7 @@
+{
+  "name" : "isImageCaptureMandatory",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

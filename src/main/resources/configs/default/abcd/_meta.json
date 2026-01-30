@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "abcd",
+  "domain_type" : "",
+  "elements" : [ {
+    "name" : "firstConfi",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,6 @@
+{
+  "id" : "MalaysiaComplianceReport",
+  "name" : "Compliance Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

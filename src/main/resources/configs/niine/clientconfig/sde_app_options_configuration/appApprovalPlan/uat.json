@@ -1,0 +1,8 @@
+{
+  "name" : "appApprovalPlan",
+  "type" : "String",
+  "value" : "1",
+  "docUrl" : "",
+  "description" : "Pjp Approval Level",
+  "possibleVals" : [ ]
+}

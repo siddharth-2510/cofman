@@ -1,0 +1,1 @@
+"select extended_attributes->>'$.expiryDt' as expiryDate,loginid,price_list,pack_ptr,case_ptr,other_unit_ptr,batch_code,sku_code,batch_id from ck_productmetadata where loginid = '{{loginId}}' and active_status = '{{activeStatus}}'"

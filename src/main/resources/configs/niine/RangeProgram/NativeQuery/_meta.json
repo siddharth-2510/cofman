@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "RangeProgram",
+  "domain_type" : "NativeQuery",
+  "elements" : [ {
+    "name" : "nativeQuery",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

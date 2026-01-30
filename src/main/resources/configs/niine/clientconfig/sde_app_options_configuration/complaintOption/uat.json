@@ -1,0 +1,8 @@
+{
+  "name" : "complaintOption",
+  "type" : "List",
+  "value" : [ "Customer Feedback", "Other Issues" ],
+  "docUrl" : "",
+  "description" : "feedback options",
+  "possibleVals" : [ ]
+}

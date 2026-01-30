@@ -1,0 +1,5 @@
+{
+  "name" : "deduplicationRadius",
+  "type" : "String",
+  "value" : "100"
+}

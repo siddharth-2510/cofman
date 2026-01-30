@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "image",
+  "domain_type" : "notification",
+  "elements" : [ {
+    "name" : "blobkey",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,11 @@
+{
+  "id" : "creditNoteBulkTransformer",
+  "name" : "Credit Note bulk ETL",
+  "useKafka" : false,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/crediteNoteTemplate-HWOWZJsVRNdL.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "CreditNote",
+    "operationType" : "insert",
+    "transformerId" : "creditNoteBulkTransformer"
+  } ]
+}

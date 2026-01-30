@@ -1,0 +1,8 @@
+{
+  "name" : "outletDistanceVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "outlet_activity_configuration",
+  "description" : "Determines whether to show the distance from outlet on outlet card or not",
+  "domainParent" : "salesman_specific_configuration"
+}

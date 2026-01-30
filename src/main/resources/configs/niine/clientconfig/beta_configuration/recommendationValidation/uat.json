@@ -1,0 +1,16 @@
+{
+  "name" : "recommendationValidation",
+  "type" : "list",
+  "value" : [ {
+    "colors" : {
+      "low" : "#ff0022",
+      "high" : "#0dff00",
+      "medium" : "#fff700"
+    },
+    "pastAchDays" : 180,
+    "thresholdLow" : "0.9",
+    "thresholdHigh" : "0.7",
+    "pastAchTransactions" : 6
+  } ],
+  "domainType" : "salesman_must_do_action_configuration"
+}

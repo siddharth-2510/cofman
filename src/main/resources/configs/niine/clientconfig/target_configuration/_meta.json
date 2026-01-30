@@ -1,0 +1,27 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "target_configuration",
+  "elements" : [ {
+    "name" : "extraSalesPercentageOutlet",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showOptimizeOutletLevelTarget",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetUnit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetLevel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetSource",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetKpiName",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

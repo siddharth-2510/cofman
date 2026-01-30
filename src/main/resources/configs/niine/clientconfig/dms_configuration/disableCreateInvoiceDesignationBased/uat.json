@@ -1,0 +1,10 @@
+{
+  "name" : "disableCreateInvoiceDesignationBased",
+  "value" : {
+    "enable" : true,
+    "rolesNotAllowedForOrderEdit" : [ "eb2b_mdm", "eb2b_report" ]
+  },
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

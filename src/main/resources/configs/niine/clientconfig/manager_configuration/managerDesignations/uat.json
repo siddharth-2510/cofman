@@ -1,0 +1,9 @@
+{
+  "name" : "managerDesignations",
+  "type" : "List<String>",
+  "value" : "[asm,tsm,admin,projectadmin,reportadmin,saleshead,nsm,rsm,zm]",
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.StockDeductStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "1",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.TransformOrderStep",
+    "index" : "-1",
+    "description" : "Bean of prev saga step TransformOrderStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Order",
+    "index" : "3",
+    "description" : "Order object"
+  } ]
+}

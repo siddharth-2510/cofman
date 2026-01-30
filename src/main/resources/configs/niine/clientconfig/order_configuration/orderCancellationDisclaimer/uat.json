@@ -1,0 +1,9 @@
+{
+  "name" : "orderCancellationDisclaimer",
+  "type" : "String",
+  "value" : "Before you cancel, please let us know the reason to help us improve our services.",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Order Cancel Disclaimer",
+  "defaultValue" : "Before you cancel, please let us know the reason to help us improve our services",
+  "possibleVals" : [ ]
+}

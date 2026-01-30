@@ -1,0 +1,8 @@
+{
+  "blob" : null,
+  "data" : "Congratulations on successfully logging in on Coke Buddy App!\\nOrder Coca-Cola products from the Coke Buddy app to avail of special schemes.\\nhttps://lbpl.page.link/85EH\\nFor any assistance contact your sales rep.\\nApplicateAI",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

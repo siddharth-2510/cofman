@@ -1,0 +1,3 @@
+{
+  "UserParent" : "SELECT * FROM ck_user_parent WHERE id={{id}}"
+}

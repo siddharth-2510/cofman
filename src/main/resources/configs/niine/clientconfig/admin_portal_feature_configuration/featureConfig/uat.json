@@ -1,0 +1,243 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "manageRegistry",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Registry"
+  }, {
+    "name" : "edaQuantityCompliance2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA Quantity Compliance-Analytics"
+  }, {
+    "name" : "uiConfigNew",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Config Setup"
+  }, {
+    "name" : "skuSelectionCompliance2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA SKU Selection Compliance-Analytics"
+  }, {
+    "name" : "complianceDashboard2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Order Compliance-Analytics"
+  }, {
+    "name" : "reports2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports-Analytics"
+  }, {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "integrationPlatform2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Platform-Integration"
+  }, {
+    "name" : "realTimeStocks",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Real Time Stocks"
+  }, {
+    "name" : "manualStockUpdate",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manual Stock Adjustment"
+  }, {
+    "name" : "batchAndExpiryManagement",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Batch & Expiry Management"
+  }, {
+    "name" : "uiConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "UI Config"
+  }, {
+    "name" : "appBuild",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "App Build"
+  }, {
+    "name" : "support",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Support"
+  }, {
+    "name" : "notification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Notification"
+  }, {
+    "name" : "couponManagement",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Coupon Management"
+  }, {
+    "name" : "updateMetaConfig",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update MetaConfig"
+  }, {
+    "name" : "triggerNotification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Trigger Notification"
+  }, {
+    "name" : "manageRole",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Role"
+  }, {
+    "name" : "firebaseConfig",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Firebase Configuration"
+  }, {
+    "name" : "manageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Banner"
+  }, {
+    "name" : "manageBucketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bucket"
+  }, {
+    "name" : "manageBasketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Basket"
+  }, {
+    "name" : "updateTranslation",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update Translation"
+  }, {
+    "name" : "viewPrimaryOrders",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View Primary Orders"
+  }, {
+    "name" : "createSecondaryOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Create New Order"
+  }, {
+    "name" : "bulkInvoice",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bulk Invoice"
+  }, {
+    "name" : "manageInvoice",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Invoices"
+  }, {
+    "name" : "manageUpdateAccess",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Update Access"
+  }, {
+    "name" : "grn",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View All GRNs"
+  }, {
+    "name" : "createPrimaryOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Place New Order"
+  }, {
+    "name" : "manageOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Orders"
+  }, {
+    "name" : "deliverySettlement",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Loadouts"
+  }, {
+    "name" : "updatedFlowMDM",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Updated MDM"
+  }, {
+    "name" : "mdmSetUp",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Mdm SetUp"
+  }, {
+    "name" : "loadoutDeliveryConfirmation",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Delivery Confirmation"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "credit",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Credit"
+  }, {
+    "name" : "fileUpload",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "BlobKey Generator"
+  }, {
+    "name" : "configComparatorTable",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Config Comparator"
+  }, {
+    "name" : "manageDisplayCapture",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Display Capture"
+  }, {
+    "name" : "jobConfiguration",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Job Configuration"
+  }, {
+    "name" : "historicalDataTabs",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Historical Data Information"
+  }, {
+    "name" : "ClaimsAmt",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Claims Eligibilty Criteria"
+  }, {
+    "name" : "claimsFrequency",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Claims Generation Frequency"
+  }, {
+    "name" : "primarySaleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Primary Saleslens"
+  }, {
+    "name" : "secondarySaleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Secondary Saleslens"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

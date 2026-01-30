@@ -1,0 +1,11 @@
+{
+  "id" : "fullMigration",
+  "name" : "Full Migration",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoeuat/images/FullCustomerMigration-bOEMPFrdKlJC.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "skipPersist" : true,
+    "operationType" : "insert",
+    "transformerId" : "userParentIntegration"
+  } ]
+}

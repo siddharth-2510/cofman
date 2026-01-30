@@ -1,0 +1,13 @@
+{
+  "name" : "supportedLanguages",
+  "type" : "List",
+  "value" : [ {
+    "code" : "en",
+    "origin" : "English",
+    "language" : "English"
+  } ],
+  "docUrl" : "",
+  "description" : "language configuration",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

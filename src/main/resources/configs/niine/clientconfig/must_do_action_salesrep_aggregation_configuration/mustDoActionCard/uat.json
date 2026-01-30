@@ -1,0 +1,46 @@
+{
+  "name" : "mustDoActionCard",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesTarget",
+    "unit" : "INR",
+    "color" : "#17C3B2",
+    "avgAch" : "70000",
+    "heading" : "SALES TARGET",
+    "actionTag" : "Sales Target",
+    "extraLabel" : "EXTRA",
+    "subHeading" : "Must Achieve Today",
+    "targetLabel" : "TASK",
+    "regularLabel" : "REGULAR",
+    "avgValueLabel" : "",
+    "salesTargetLabel" : "SALES TARGET"
+  }, {
+    "id" : "mustOrderOutlets",
+    "unit" : "Stores",
+    "color" : "#e04a0b",
+    "avgAch" : "16",
+    "heading" : "MUST ORDER",
+    "actionTag" : "Must Order",
+    "subHeading" : "To Drive Effective Call",
+    "targetLabel" : "TASK",
+    "avgValueLabel" : "",
+    "totalPjpLabel" : "TOTAL PJP",
+    "mustOrderLabel" : "MUST ORDER"
+  }, {
+    "id" : "focus",
+    "unit" : "Stores",
+    "color" : "#227C9D",
+    "avgAch" : "",
+    "heading" : "FOCUS PRODUCTS",
+    "actionTag" : "Focus Products",
+    "focusLabel" : "FOCUS PRODUCTS",
+    "subHeading" : "Focus Products To Be Sold",
+    "targetLabel" : "TASK",
+    "avgValueLabel" : "",
+    "totalPjpLabel" : "TOTAL PJP"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "list of must do actions",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "Map[]" ]
+}

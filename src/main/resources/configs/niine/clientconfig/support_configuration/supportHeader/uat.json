@@ -1,0 +1,8 @@
+{
+  "name" : "supportHeader",
+  "type" : "String",
+  "value" : "Training Request",
+  "docUrl" : "",
+  "description" : "To change page header to training request",
+  "possibleVals" : [ ]
+}

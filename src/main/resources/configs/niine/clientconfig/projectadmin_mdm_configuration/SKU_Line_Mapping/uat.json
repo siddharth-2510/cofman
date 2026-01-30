@@ -1,0 +1,9 @@
+{
+  "id" : "Cavincare_SKULine_Mapping_transformer",
+  "name" : "SKU Line Mapping",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/salesmanskulineMDM-CHJWpQMkhTDa.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "TempMasterMapping",
+    "transformerId" : "Cavincare_SKULine_Mapping_transformer"
+  } ]
+}

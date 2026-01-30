@@ -1,0 +1,6 @@
+{
+  "id" : "GateMeetingReport",
+  "name" : "Gate Meeting",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

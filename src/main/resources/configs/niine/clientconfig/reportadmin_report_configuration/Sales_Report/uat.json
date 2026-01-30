@@ -1,0 +1,6 @@
+{
+  "id" : "SalesReport",
+  "name" : "Sales Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

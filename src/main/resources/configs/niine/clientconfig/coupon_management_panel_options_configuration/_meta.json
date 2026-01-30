@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "coupon_management_panel_options_configuration",
+  "elements" : [ {
+    "name" : "adminPortalConfiguration",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

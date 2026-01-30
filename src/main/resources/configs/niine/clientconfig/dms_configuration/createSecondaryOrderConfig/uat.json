@@ -1,0 +1,49 @@
+{
+  "name" : "createSecondaryOrderConfig",
+  "type" : "json",
+  "value" : {
+    "beats" : {
+      "index" : 3,
+      "label" : "Select Route:",
+      "enable" : true
+    },
+    "billDate" : {
+      "index" : 2,
+      "label" : "Bill Date:",
+      "enable" : true
+    },
+    "customer" : {
+      "index" : 4,
+      "label" : "Select Outlet:",
+      "enable" : true
+    },
+    "salesRep" : {
+      "index" : 1,
+      "label" : "Select Sales Rep:",
+      "enable" : true
+    },
+    "deliveryDate" : {
+      "index" : 5,
+      "label" : "Delivery Date:",
+      "enable" : true
+    },
+    "paymentMethod" : {
+      "index" : 7,
+      "label" : "Payment Method:",
+      "enable" : true
+    },
+    "orderTypeLabel" : {
+      "index" : 0,
+      "label" : "Order Type:",
+      "enable" : true
+    },
+    "shippingAddress" : {
+      "index" : 6,
+      "label" : "Shipping Address:",
+      "enable" : true
+    }
+  },
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "",
+  "possibleVals" : [ ]
+}

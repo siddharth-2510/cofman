@@ -1,0 +1,8 @@
+{
+  "blob" : "https://apptech.blob.core.windows.net/channelkart/abinbev/templates-sms-abinbev-magnum-corona-budweiser-schemes-english.txt",
+  "data" : "https://apptech.blob.core.windows.net/channelkart/abinbev/templates-sms-abinbev-magnum-corona-budweiser-schemes-english.txt",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "URL"
+}

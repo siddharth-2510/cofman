@@ -1,0 +1,8 @@
+{
+  "name" : "nocDMSConfigurationEnabled",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Enable NOC compliance in DMS portal",
+  "possibleVals" : [ true, false ]
+}

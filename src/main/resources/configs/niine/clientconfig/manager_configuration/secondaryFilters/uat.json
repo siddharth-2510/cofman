@@ -1,0 +1,9 @@
+{
+  "name" : "secondaryFilters",
+  "type" : "List",
+  "value" : "[roles]",
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

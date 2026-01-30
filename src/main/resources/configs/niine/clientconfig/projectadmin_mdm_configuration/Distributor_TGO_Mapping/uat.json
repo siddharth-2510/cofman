@@ -1,0 +1,9 @@
+{
+  "id" : "EntityParentMapping",
+  "name" : "Distributor TGO Mapping",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/DistributorTgoMappingTemplate-vXpNSlIJMHCZ.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityParentMapping",
+    "transformerId" : "CavinKare_DistributorTGO_mapping"
+  } ]
+}

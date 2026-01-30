@@ -1,0 +1,8 @@
+{
+  "name" : "sbiOtpTimer",
+  "type" : "string",
+  "value" : "03:00",
+  "description" : "SBI otp initial timer value",
+  "defaultValue" : "03:00",
+  "possibleVals" : [ "03:00" ]
+}

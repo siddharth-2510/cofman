@@ -1,0 +1,6 @@
+{
+  "sequenceLength" : "5",
+  "sequencePrefix" : "RBAC",
+  "sequenceSuffix" : "",
+  "sequenceStartValue" : "1"
+}

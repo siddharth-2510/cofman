@@ -1,0 +1,10 @@
+{
+  "name" : "showViewAllForSchemes",
+  "type" : "string",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "To show view all button even when the length of the scheme list is 1.",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

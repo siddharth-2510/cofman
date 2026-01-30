@@ -1,0 +1,8 @@
+{
+  "name" : "dayEndConfig",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "Config for Day end Feature",
+  "possibleVals" : [ ]
+}

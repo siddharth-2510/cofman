@@ -1,0 +1,95 @@
+{
+  "name" : "loadoutConfigs",
+  "type" : "object",
+  "value" : {
+    "Rsu" : {
+      "RouteMaintained" : false,
+      "DisplayLoadSummary" : true,
+      "maxDeliveryDateOffset" : 15
+    },
+    "Preseller" : {
+      "DateFilter" : "creationTime",
+      "SummaryKeys" : [ {
+        "key" : "salesRepOrRoute",
+        "label" : "Salesrep"
+      }, {
+        "key" : "totalOutlets",
+        "label" : "Total Outlets"
+      }, {
+        "key" : "creationTime",
+        "label" : "Invoice Date"
+      }, {
+        "key" : "totalProducts",
+        "label" : "Total products"
+      }, {
+        "key" : "totalQty",
+        "label" : "Total QTY"
+      }, {
+        "key" : "totalAmount",
+        "label" : "Total Amount"
+      } ],
+      "OrderActions" : {
+        "DisplayEyeIcon" : true,
+        "DisplayDownloadIcon" : true
+      },
+      "FiltersConfig" : [ {
+        "key" : "salesRepOrRoute",
+        "label" : "Sales Rep",
+        "order" : 1,
+        "isNecessary" : true,
+        "multiSelect" : true
+      }, {
+        "key" : "creationTime",
+        "label" : "Invoice Date",
+        "order" : 4,
+        "isNecessary" : true,
+        "multiSelect" : false
+      } ],
+      "InvoiceActions" : {
+        "DisplayEyeIcon" : true,
+        "DisplayDownloadIcon" : true
+      },
+      "LoadoutActions" : {
+        "DisplayEyeIcon" : true,
+        "DisplayDownloadIcon" : true
+      },
+      "VehicleUOMKeys" : {
+        "GM" : 0.001,
+        "KG" : 1,
+        "gm" : 0.001,
+        "kg" : 1,
+        "GRAM" : 0.001,
+        "gram" : 0.001,
+        "KiloGram" : 1,
+        "kilogram" : 1
+      },
+      "RouteMaintained" : false,
+      "DisplayLoadSummary" : false,
+      "LoadslipColumnLabel" : "Pack size",
+      "LoadslipGroupByField" : "pieceSize",
+      "SalesmanDesignations" : [ "deliveryboy" ],
+      "SalesrepDesignations" : [ "salesman" ],
+      "DataDisplayPreference" : [ {
+        "type" : "order",
+        "visible" : false
+      }, {
+        "type" : "invoice",
+        "visible" : true
+      } ],
+      "IsStockServiceEnabled" : true,
+      "MaxDeliveryDateOffset" : 1,
+      "MinDeliveryDateOffset" : 15,
+      "EnableVehicleAssignment" : false,
+      "EnableSalesmanAssignment" : false,
+      "MaxInvoiceSelectionLimit" : 500,
+      "SalesDataApiTemplateVersion" : "version2",
+      "EnableDeliveryDateAssignment" : false,
+      "IsVehicleAllocationNecessary" : false,
+      "IsSalesmanAllocationNecessary" : true,
+      "EnableStgExcelLoadoutSheetDownload" : true
+    }
+  },
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "All delivery loadout configurations",
+  "possibleVals" : [ ]
+}

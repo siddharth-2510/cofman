@@ -1,0 +1,61 @@
+[ {
+  "type" : "s3",
+  "attributes" : [ {
+    "name" : "hideUrl"
+  }, {
+    "name" : "secureFileName"
+  }, {
+    "name" : "uploadAsync"
+  }, {
+    "name" : "directory"
+  }, {
+    "name" : "accessKey"
+  }, {
+    "name" : "secretKey"
+  }, {
+    "name" : "bucketName"
+  }, {
+    "name" : "region"
+  } ],
+  "displayName" : "Amazon S3"
+}, {
+  "type" : "azure",
+  "attributes" : [ {
+    "name" : "hideUrl"
+  }, {
+    "name" : "secureFileName"
+  }, {
+    "name" : "uploadAsync"
+  }, {
+    "name" : "directory"
+  }, {
+    "name" : "accountName"
+  }, {
+    "name" : "accountKey"
+  }, {
+    "name" : "container"
+  } ],
+  "displayName" : "Microsoft Azure"
+}, {
+  "type" : "sftp",
+  "attributes" : [ {
+    "name" : "hideUrl"
+  }, {
+    "name" : "secureFileName"
+  }, {
+    "name" : "uploadAsync"
+  }, {
+    "name" : "directory"
+  }, {
+    "name" : "port"
+  }, {
+    "name" : "userName"
+  }, {
+    "name" : "password"
+  }, {
+    "name" : "host"
+  }, {
+    "name" : "remoteDirectory"
+  } ],
+  "displayName" : "SFTP"
+} ]

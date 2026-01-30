@@ -1,0 +1,17 @@
+{
+  "name" : "paymentModes",
+  "type" : "List",
+  "value" : [ {
+    "id" : "cash",
+    "label" : "Cash"
+  }, {
+    "id" : "cheque",
+    "label" : "Cheque"
+  }, {
+    "id" : "upi",
+    "label" : "UPI"
+  } ],
+  "docUrl" : "",
+  "description" : "payment modes",
+  "possibleVals" : [ ]
+}

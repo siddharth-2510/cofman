@@ -1,0 +1,11 @@
+{
+  "name" : "outletMappingSyncInfo",
+  "type" : "List",
+  "value" : [ {
+    "feature" : "Existing",
+    "syncSource" : "online"
+  }, {
+    "feature" : "new",
+    "syncSource" : "online"
+  } ]
+}

@@ -1,0 +1,202 @@
+{
+  "features" : [ {
+    "id" : "support",
+    "templateId" : "support"
+  }, {
+    "id" : "deviceInfo",
+    "param" : {
+      "showExtraUserInfo" : "true"
+    },
+    "templateId" : "deviceInfo"
+  }, {
+    "id" : "banner",
+    "templateId" : "banner"
+  }, {
+    "id" : "order",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "order"
+  }, {
+    "id" : "cart",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "cart"
+  }, {
+    "id" : "homepageComponentsTemporary",
+    "param" : [ {
+      "type" : "",
+      "feature" : "DSAbsent"
+    }, {
+      "type" : "Banner",
+      "feature" : "appSpecificBanner"
+    }, {
+      "type" : "Banner",
+      "feature" : "CommunicationBanner"
+    }, {
+      "type" : "",
+      "feature" : "UnforgivableSKUTemplate"
+    }, {
+      "type" : "Banner",
+      "feature" : "OneClickOrder"
+    }, {
+      "type" : "Bucket",
+      "feature" : "ShopByPackSize"
+    }, {
+      "type" : "Bucket",
+      "feature" : "ShopByCategory"
+    }, {
+      "type" : "Bucket",
+      "feature" : "ShopByBrand"
+    }, {
+      "type" : "Basket",
+      "feature" : "8"
+    }, {
+      "type" : "Dashboard",
+      "feature" : "IncentiveTargetDashboard"
+    }, {
+      "type" : "Basket",
+      "feature" : "RegularlyBuyProducts"
+    }, {
+      "type" : "Basket",
+      "feature" : "0"
+    }, {
+      "type" : "Banner",
+      "feature" : "needBasedBasketBanner1"
+    }, {
+      "type" : "Dashboard",
+      "feature" : "targetAchievementDashboard"
+    }, {
+      "type" : "Banner",
+      "feature" : "PromoBannerOne_comp"
+    }, {
+      "type" : "Basket",
+      "feature" : "BestSellerProductsTemplate"
+    }, {
+      "type" : "Banner",
+      "feature" : "needBasedBasketBanner2"
+    }, {
+      "type" : "Basket",
+      "feature" : "YouMayAlsoLikeTemplate"
+    }, {
+      "type" : "Banner",
+      "feature" : "PromoBannerTwo"
+    }, {
+      "type" : "Basket",
+      "feature" : "needBasedBasketBanner3"
+    }, {
+      "type" : "Banner",
+      "feature" : "NewLaunchProduct"
+    }, {
+      "type" : "Basket",
+      "feature" : "FirstReserveProducts"
+    }, {
+      "type" : "Basket",
+      "feature" : "SecondReserveProducts"
+    }, {
+      "type" : "Basket",
+      "feature" : "ThirdReserveProducts"
+    }, {
+      "type" : "Banner",
+      "feature" : "TopScheme"
+    }, {
+      "type" : "",
+      "feature" : "orderCancellationDiv"
+    } ]
+  }, {
+    "id" : "homePage",
+    "param" : {
+      "footerelements" : [ {
+        "icon" : "homeIcon",
+        "name" : "Home",
+        "featureId" : "homePage"
+      }, {
+        "icon" : "orderTruckIcon1",
+        "name" : "My Orders",
+        "featureId" : "orderTracking"
+      }, {
+        "icon" : "cartIcon1",
+        "name" : "cart",
+        "featureId" : "cart"
+      }, {
+        "icon" : "moreIcon1",
+        "name" : "more",
+        "featureId" : "moreOptions"
+      } ]
+    },
+    "templateId" : "homePage17"
+  }, {
+    "id" : "orderSummary",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderSummary"
+  }, {
+    "id" : "orderTracking",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderTracking"
+  }, {
+    "id" : "orderInvoice",
+    "param" : {
+      "issue" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+      "compliment" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ]
+    },
+    "templateId" : "orderInvoice1"
+  }, {
+    "id" : "notification",
+    "templateId" : "notification"
+  }, {
+    "id" : "supplier",
+    "templateId" : "supplier"
+  }, {
+    "id" : "recommendedOrder",
+    "templateId" : "recommendedOrder"
+  }, {
+    "id" : "retailerProfile",
+    "templateId" : "retailerProfile3"
+  }, {
+    "id" : "helpdesk",
+    "param" : {
+      "offline" : false,
+      "priority" : [ "Low", "Medium", "High" ],
+      "complaint" : [ "App Related", "Quality Related", "Supply Related", "Feedback", "Other Issues" ]
+    },
+    "templateId" : "helpdesk"
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "retailerProfile"
+      }, {
+        "icon" : "fas fa-file-alt",
+        "name" : "About",
+        "featureId" : "deviceInfo"
+      }, {
+        "icon" : "far fa-question-circle",
+        "name" : "Support",
+        "featureId" : "helpdesk"
+      }, {
+        "icon" : "fas fa-headset",
+        "name" : "FAQs",
+        "featureId" : "support"
+      }, {
+        "icon" : "fas fa-user-lock",
+        "name" : "Change Password",
+        "featureId" : "changePassword"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    }
+  } ]
+}

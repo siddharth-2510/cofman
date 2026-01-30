@@ -1,0 +1,16 @@
+{
+  "name" : "forceUpdateConfig",
+  "type" : "list",
+  "value" : [ {
+    "bodyMsg" : "A new version of app is available in the store. Please update your app to use all the amazing features.",
+    "appStoreId" : "",
+    "headingMsg" : "Update Your Application To The Latest Version",
+    "showForceUpdate" : false,
+    "latestIosVersion" : "1.0.0",
+    "latestAndroidVersion" : "1.5.5"
+  } ],
+  "docUrl" : "",
+  "description" : "app update config",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

@@ -1,0 +1,7 @@
+{
+  "name" : "isAttendanceMandatory",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

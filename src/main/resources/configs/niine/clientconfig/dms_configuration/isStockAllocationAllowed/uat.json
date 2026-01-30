@@ -1,0 +1,8 @@
+{
+  "name" : "isStockAllocationAllowed",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ true, false ]
+}

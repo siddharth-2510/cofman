@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "supportedValues",
+  "domain_type" : "productFocDesignations",
+  "elements" : [ {
+    "name" : "designations",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

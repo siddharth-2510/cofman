@@ -1,0 +1,8 @@
+{
+  "name" : "signInApiTransformer",
+  "type" : "string",
+  "value" : "UserSigninTransformer",
+  "docUrl" : "",
+  "description" : "signin transformer",
+  "possibleVals" : [ ]
+}

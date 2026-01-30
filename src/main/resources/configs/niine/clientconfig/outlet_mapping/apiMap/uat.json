@@ -1,0 +1,9 @@
+{
+  "name" : "apiMap",
+  "type" : "Json",
+  "value" : {
+    "create" : "/outletDetails/registerFinanceData",
+    "update" : "/outletDetails/update"
+  },
+  "description" : "api to use for outletmapping"
+}

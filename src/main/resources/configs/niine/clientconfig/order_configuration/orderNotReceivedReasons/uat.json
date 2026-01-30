@@ -1,0 +1,4 @@
+{
+  "name" : "orderNotReceivedReasons",
+  "value" : [ "DS did not picked the call", "Refused to take the delivery of items ordered", "I did not placed the order for these items", "Products received were of expiry date", "Other reason" ]
+}

@@ -1,0 +1,9 @@
+{
+  "id" : "stockTypeUpdate",
+  "name" : "Stock Type Update",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/StockTypeUpdatedFile-PcREsdrkDojx.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Stock",
+    "transformerId" : "Stock_Type_Update_Micro_Service"
+  } ]
+}

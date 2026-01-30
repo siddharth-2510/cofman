@@ -1,0 +1,40 @@
+{
+  "workflow" : [ {
+    "parallel" : false,
+    "approvers" : [ {
+      "expiry" : "20",
+      "on_expiry" : "APPROVED",
+      "designation" : "vso",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "AND"
+  }, {
+    "parallel" : false,
+    "approvers" : [ {
+      "expiry" : "72",
+      "on_expiry" : "APPROVED",
+      "designation" : "qc",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "AND"
+  }, {
+    "parallel" : false,
+    "approvers" : [ {
+      "expiry" : "72",
+      "on_expiry" : "APPROVED",
+      "designation" : "cfo",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "AND"
+  } ],
+  "revertUrl" : "nourl",
+  "callbackUrl" : "https://claims-demo.salescode.ai/v1/claims/processApproval",
+  "isEventRequired" : false,
+  "midStepCallbackRequired" : true
+}

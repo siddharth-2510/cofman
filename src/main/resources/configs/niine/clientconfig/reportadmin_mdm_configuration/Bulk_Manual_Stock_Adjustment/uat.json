@@ -1,0 +1,9 @@
+{
+  "id" : "manualStockAdjustment",
+  "name" : "Bulk Manual Stock Adjustment",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/ManualStockAdjustmentTemplate-XpKDTFlzHSRw.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "Stock",
+    "transformerId" : "Manual_Bulk_Stock_Adjustment_Micro_Service"
+  } ]
+}

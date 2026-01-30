@@ -1,0 +1,21 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "pjp",
+  "elements" : [ {
+    "name" : "Market_Work",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Meeting",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Weekly_Off",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Leave",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "In_Transit",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

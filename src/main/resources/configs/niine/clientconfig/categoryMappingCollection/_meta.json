@@ -1,0 +1,27 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "categoryMappingCollection",
+  "elements" : [ {
+    "name" : "categoryId_1",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_2",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_3",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_4",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_5",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_6",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "categoryId_7",
+    "pattern" : "ID_FIELD"
+  } ]
+}

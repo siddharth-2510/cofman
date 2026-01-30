@@ -1,0 +1,7 @@
+{
+  "name" : "startTime",
+  "type" : "string",
+  "value" : "01:00:00",
+  "description" : "Start time when day summary is available in local time",
+  "possibleVals" : "18:00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "distributor_portal_layout_configuration",
+  "elements" : [ {
+    "name" : "salescodeStudioFeatures",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

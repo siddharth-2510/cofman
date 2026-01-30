@@ -1,0 +1,148 @@
+{
+  "name" : "adminPanelLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "support",
+    "color" : "#df263d",
+    "label" : "Support",
+    "route" : "/dashboard/support",
+    "svgName" : "supportIcon",
+    "description" : "Customer service and ticket management"
+  }, {
+    "id" : "notification",
+    "color" : "#fad11d",
+    "label" : "Notification",
+    "route" : "/dashboard/notification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Notifications"
+  }, {
+    "id" : "fileUpload",
+    "color" : "#52b894",
+    "label" : "BlobKey Generator",
+    "route" : "/dashboard/blobKeyGenerator",
+    "svgName" : "fileUploadIcon",
+    "description" : "Get blob key of uploaded files"
+  }, {
+    "id" : "updateMetaConfig",
+    "color" : "#52b894",
+    "label" : "Update MetaConfig",
+    "route" : "/dashboard/updateMetaConfig",
+    "svgName" : "Variable",
+    "description" : "Create/Update meta configuration parameters"
+  }, {
+    "id" : "categoryDashboard",
+    "color" : "#0ABBD5",
+    "label" : "Category Reports",
+    "route" : "/dashboard/categoryDashboard",
+    "svgName" : "manageBannerIcon",
+    "description" : "View and Download Category based Reports"
+  }, {
+    "id" : "brandDashboard",
+    "color" : "#0ABBD5",
+    "label" : "Brand Reports",
+    "route" : "/dashboard/brandDashboard",
+    "svgName" : "manageBannerIcon",
+    "description" : "View and Download Brand based Reports"
+  }, {
+    "id" : "firebaseConfig",
+    "color" : "#df263d",
+    "label" : "Firebase Configuration",
+    "route" : "/dashboard/firebaseConfig",
+    "svgName" : "firebaseConfigIcon",
+    "description" : "Configure Firebase services"
+  }, {
+    "id" : "couponManagement",
+    "color" : "#fad11d",
+    "label" : "Coupon Management",
+    "route" : "/couponDashboard/livecouponData",
+    "svgName" : "PJPVisitPlan",
+    "description" : "Create and Manage Coupons"
+  }, {
+    "id" : "managePolicies",
+    "color" : "#fad11d",
+    "label" : "Manage Policies",
+    "route" : "/dashboard/managePolicies",
+    "svgName" : "managePoliciesIcon",
+    "description" : "Create/Update terms and conditions and privacy Policy"
+  }, {
+    "id" : "updateTranslation",
+    "color" : "#df263d",
+    "label" : "Update Translation",
+    "route" : "/dashboard/updateTranslation",
+    "svgName" : "updateTranslationIcon",
+    "description" : "Create, Update Delete and manage the bucket"
+  }, {
+    "id" : "manageRegistry",
+    "color" : "#0ABBD5",
+    "label" : "Manage Registry",
+    "route" : "/dashboard/manageRegistry",
+    "svgName" : "Variable",
+    "description" : "Lorem ipsum dolor sit amet, consectetur"
+  }, {
+    "id" : "manageUpdateAccess",
+    "color" : "#df263d",
+    "label" : "Manage Update Access",
+    "route" : "/dashboard/manageUpdateAccess",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Create/Delete Admin users"
+  }, {
+    "id" : "existingOutletApproval",
+    "color" : "#df263d",
+    "label" : "Existing Outlet Approval",
+    "route" : "/dashboard/outletMapping",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Existing Outlet Approval"
+  }, {
+    "id" : "outletApproval",
+    "color" : "#df263d",
+    "label" : "New Outlet Approval",
+    "route" : "/dashboard/outletApproval",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "New Outlet Approval"
+  }, {
+    "id" : "manageSSO",
+    "color" : "#0ABBD5",
+    "label" : "Manage SSO",
+    "route" : "/dashboard/manageSSO",
+    "svgName" : "manageBannerIcon",
+    "description" : "Manage SAML , API , OAUTH2"
+  }, {
+    "id" : "manageRole",
+    "color" : "#fad11d",
+    "label" : "Manage Role",
+    "route" : "/dashboard/manageRole",
+    "svgName" : "manageRoleIcon",
+    "description" : "Create and Edit Role Access"
+  }, {
+    "id" : "deliveryDateCalender",
+    "color" : "#df263d",
+    "label" : "Delivery Date Calender",
+    "route" : "/dashboard/deliveryDateCalender",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Delivery Date Calender"
+  }, {
+    "id" : "manageDisplayCapture",
+    "color" : "#df263d",
+    "label" : "Manage Display Capture",
+    "route" : "/dashboard/manageDisplayCapture",
+    "svgName" : "manageUpdateAccessIcon",
+    "description" : "Manage Display Capture"
+  }, {
+    "id" : "jobConfiguration",
+    "color" : "#0ABBD5",
+    "label" : "Job Configuration",
+    "route" : "/dashboard/jobsConfiguration",
+    "svgName" : "manageBannerIcon",
+    "description" : "Job Configuration"
+  }, {
+    "id" : "triggerNotification",
+    "color" : "#fad11d",
+    "label" : "Trigger Notification",
+    "route" : "/dashboard/triggerNotification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Trigger Notification"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Admin Panel Config",
+  "possibleVals" : [ ]
+}

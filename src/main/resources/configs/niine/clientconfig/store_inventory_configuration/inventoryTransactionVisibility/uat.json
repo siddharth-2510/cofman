@@ -1,0 +1,7 @@
+{
+  "name" : "inventoryTransactionVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "description" : "Whether to show previous inventory qty and  last inventory date in store inventory card",
+  "possibleVals" : [ true, false ]
+}

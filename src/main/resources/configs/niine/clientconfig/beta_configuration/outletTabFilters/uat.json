@@ -1,0 +1,28 @@
+{
+  "name" : "outletTabFilters",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesTarget",
+    "heading" : "TOTAL",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/total_outlets.svg"
+  }, {
+    "id" : "mustOrderOutlets",
+    "heading" : "MUST ORDER",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/must_order_outlets.svg"
+  }, {
+    "id" : "focus",
+    "heading" : "FOCUS",
+    "subHeading" : "PRODUCTS",
+    "tabSvgPath" : "assets/svg/focus_products.svg"
+  }, {
+    "id" : "mss",
+    "heading" : "MSS DISTRIBUTION",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/focus_products.svg",
+    "supervisorHeading" : "MSS DISTRIBUTION",
+    "supervisorTabSvgPath" : "assets/svg/focus_products.svg"
+  } ],
+  "domainType" : "salesman_must_do_action_configuration"
+}

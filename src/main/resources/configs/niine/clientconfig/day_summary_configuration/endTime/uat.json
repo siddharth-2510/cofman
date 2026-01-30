@@ -1,0 +1,7 @@
+{
+  "name" : "endTime",
+  "type" : "string",
+  "value" : "23:59:59",
+  "description" : "End time when day summary is available in local time",
+  "possibleVals" : "23:59:59"
+}

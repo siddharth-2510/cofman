@@ -1,0 +1,10 @@
+{
+  "id" : "RouteSalesmanMigrationTransformer",
+  "name" : "Route Salesman Migration",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/routeSalesmanMigrationTemplate-rUHPcwYMKDVx.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "RouteInfo",
+    "skipPersist" : true,
+    "transformerId" : "RouteSalesmanMigrationTransformer"
+  } ]
+}

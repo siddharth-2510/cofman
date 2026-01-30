@@ -1,0 +1,3 @@
+{
+  "ProductMetaData" : "SELECT * FROM ck_productmetadata WHERE id={{id}}"
+}

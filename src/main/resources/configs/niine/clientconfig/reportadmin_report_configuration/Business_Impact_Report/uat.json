@@ -1,0 +1,6 @@
+{
+  "id" : "ImpactReport",
+  "name" : "Business Impact Report",
+  "type" : "transaction",
+  "filter" : "periodfilter"
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "upiPaymentInProgressConfigurations",
+  "value" : {
+    "title" : "Payment In Progress!!",
+    "message" : "Open PSP Apps and complete the payment"
+  },
+  "description" : "Configurable texts for Upi payment in progress screen",
+  "defaultValue" : {
+    "title" : "Payment In Progress!!",
+    "message" : "Open PSP Apps and complete the payment"
+  },
+  "possibleVals" : [ {
+    "title" : "Payment In Progress!!",
+    "message" : "Open PSP Apps and complete the payment"
+  } ]
+}

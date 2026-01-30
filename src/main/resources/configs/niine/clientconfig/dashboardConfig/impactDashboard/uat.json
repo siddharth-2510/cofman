@@ -1,0 +1,6 @@
+{
+  "id" : "impactDashboard",
+  "icon" : "impactDashboardIcon",
+  "label" : "Impact Dashboard",
+  "sidebarOptions" : [ "complianceDashboard", "businessImpact" ]
+}

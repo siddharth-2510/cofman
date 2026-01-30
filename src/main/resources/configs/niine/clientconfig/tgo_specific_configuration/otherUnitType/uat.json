@@ -1,0 +1,8 @@
+{
+  "name" : "otherUnitType",
+  "type" : "Map",
+  "value" : "dynamic",
+  "docUrl" : "",
+  "domainType" : "catalogue_configuration",
+  "possibleVals" : [ true, false ]
+}

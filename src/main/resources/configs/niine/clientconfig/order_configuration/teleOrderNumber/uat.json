@@ -1,0 +1,9 @@
+{
+  "name" : "teleOrderNumber",
+  "type" : "string",
+  "value" : "8527640672",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

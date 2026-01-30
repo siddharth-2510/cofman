@@ -1,0 +1,30 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "eb2b_mdm_mdm_configuration",
+  "elements" : [ {
+    "name" : "SchemeDefination",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "stockNew",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductImage",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "outletMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "distributerMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "secondaryProductMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Product_Master",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "EB2B_Promotions",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "stockConfig",
+  "domain_type" : "stockDepletionConfig",
+  "elements" : [ {
+    "name" : "stockDepletionKey",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "secondaryPartialAllocationAllowed",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "skuReplacementAllowed",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

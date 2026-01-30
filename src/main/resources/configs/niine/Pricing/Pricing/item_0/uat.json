@@ -1,0 +1,16 @@
+{
+  "lob" : "ckcoedemo",
+  "appId" : "integration",
+  "groupId" : "integration_stream_",
+  "features" : [ ],
+  "requestId" : "integration_stream_",
+  "topicName" : "testPricingTopicMain",
+  "submittedBy" : "integration_user",
+  "transformerInfo" : [ {
+    "entityName" : "OutletProductInfo",
+    "operationType" : "insert",
+    "transformerId" : "lbpl_priceTransformerTest",
+    "skipPreprocessing" : "false"
+  } ],
+  "preserveOnFailure" : true
+}

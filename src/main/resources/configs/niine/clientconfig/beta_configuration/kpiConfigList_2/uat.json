@@ -1,0 +1,794 @@
+{
+  "name" : "kpiConfigList",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesValue",
+    "title" : "SALES VALUE UPDATE",
+    "kpiName" : "kpi_sales_value_user_sales_raw_data",
+    "tabSvgPath" : "./assets/svg/jnj_sales_icon.svg",
+    "data_points" : [ {
+      "id" : "sales_value",
+      "type" : "number",
+      "unit" : "%",
+      "label" : "",
+      "validation" : {
+        "type" : "range",
+        "range" : [ {
+          "color" : "#01B202",
+          "endValue" : "max",
+          "startValue" : "100"
+        }, {
+          "color" : "#F09D1E",
+          "endValue" : "99.99",
+          "startValue" : "85.0"
+        }, {
+          "color" : "#ED433E",
+          "endValue" : "84.99",
+          "startValue" : "min"
+        } ]
+      }
+    }, {
+      "id" : "prd_ach",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "MTD ACH"
+    }, {
+      "id" : "prd_tgt",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "MTH TGT"
+    }, {
+      "id" : "qtr_ach",
+      "type" : "number",
+      "unit" : "%",
+      "label" : "QTR ACH",
+      "order" : "3"
+    }, {
+      "id" : "qtr_tgt",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "QTR TGT",
+      "order" : "4"
+    } ],
+    "detail_summary" : [ {
+      "id" : "supervisor_sm_card",
+      "type" : "card",
+      "title" : "SALES VALUE UPDATE",
+      "data_points" : [ {
+        "id" : "achPer",
+        "type" : "percentage",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalOutletCount",
+        "type" : "number",
+        "label" : "TOTAL NO. OF OUTLET",
+        "order" : "1"
+      }, {
+        "id" : "outletWith100perTGTAch",
+        "type" : "number",
+        "label" : "OUTLET WITH 100% TGT ACH",
+        "order" : "2"
+      }, {
+        "id" : "totalNoOrderOutletCount",
+        "type" : "number",
+        "label" : "OUTLETS WITH NO ORDERS IN MTD",
+        "order" : "3"
+      } ]
+    }, {
+      "id" : "supervisor_sm_card_previous_month",
+      "type" : "card",
+      "title" : "SALES VALUE UPDATE",
+      "data_points" : [ {
+        "id" : "achPerLM",
+        "type" : "percentage",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalOutletCountLM",
+        "type" : "number",
+        "label" : "TOTAL NO. OF OUTLET",
+        "order" : "1"
+      }, {
+        "id" : "outletWith100perTGTAchLM",
+        "type" : "number",
+        "label" : "OUTLET WITH 100% TGT ACH",
+        "order" : "2"
+      }, {
+        "id" : "totalNoOrderOutletCountLM",
+        "type" : "number",
+        "label" : "OUTLETS WITH NO ORDERS IN MTD",
+        "order" : "3"
+      } ]
+    }, {
+      "id" : "toggleListView",
+      "type" : "button",
+      "toggle_list" : [ {
+        "id" : "outlet_toggle",
+        "label" : "Outlet"
+      }, {
+        "id" : "brand_toggle",
+        "label" : "Brand"
+      } ]
+    }, {
+      "id" : "timeFilterDropDownList",
+      "type" : "dropdown",
+      "dropdown_list" : [ {
+        "id" : "current_month",
+        "label" : "Current Month"
+      }, {
+        "id" : "previous_month",
+        "label" : "Previous Month"
+      } ]
+    }, {
+      "id" : "salesrep_sm_card",
+      "type" : "card",
+      "kpiName" : "kpi_sales_value_user_level_using_raw_data",
+      "data_points" : [ {
+        "id" : "totalOutletCount",
+        "type" : "number",
+        "label" : "TOTAL NO. OF OUTLET",
+        "order" : "1"
+      }, {
+        "id" : "outletWith100perTGTAch",
+        "type" : "number",
+        "label" : "OUTLET WITH 100% TGT ACH",
+        "order" : "2"
+      }, {
+        "id" : "totalNoOrderOutletCount",
+        "type" : "number",
+        "label" : "OUTLETS WITH NO ORDERS",
+        "order" : "3"
+      }, {
+        "id" : "achPer",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "order" : "4",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "salesrep_sm_card_previous_month",
+      "type" : "card",
+      "kpiName" : "kpi_sales_value_user_level_using_raw_data",
+      "data_points" : [ {
+        "id" : "totalOutletCountLM",
+        "type" : "number",
+        "label" : "TOTAL NO. OF OUTLET",
+        "order" : "1"
+      }, {
+        "id" : "outletWith100perTGTAchLM",
+        "type" : "number",
+        "label" : "OUTLET WITH 100% TGT ACH",
+        "order" : "2"
+      }, {
+        "id" : "totalNoOrderOutletCountLM",
+        "type" : "number",
+        "label" : "OUTLETS WITH NO ORDERS",
+        "order" : "3"
+      }, {
+        "id" : "achPerLM",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "order" : "4",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "sales_value_outlet_list",
+      "type" : "table",
+      "kpiName" : "kpi_review_sales_value_outlet_list_raw_data",
+      "data_points" : [ {
+        "id" : "outletName",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "prdTgt",
+        "label" : "MTH TGT"
+      }, {
+        "id" : "ptdAch",
+        "label" : "MTD ACH"
+      }, {
+        "id" : "achPer",
+        "label" : "MTD ACH%"
+      } ]
+    }, {
+      "id" : "sales_value_outlet_list_previous_month",
+      "type" : "table",
+      "kpiName" : "kpi_review_sales_value_outlet_list_raw_data",
+      "data_points" : [ {
+        "id" : "outletName",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "prdTgtLM",
+        "label" : "MTH TGT"
+      }, {
+        "id" : "ptdAchLM",
+        "label" : "MTD ACH"
+      }, {
+        "id" : "achPerLM",
+        "label" : "MTD ACH%"
+      } ]
+    }, {
+      "id" : "sales_value_brand_list",
+      "type" : "table",
+      "kpiName" : "kpi_sales_value_brand_raw",
+      "data_points" : [ {
+        "id" : "brandName",
+        "label" : "Brand Name"
+      }, {
+        "id" : "last3PeriodAchAvg",
+        "label" : "AVG L3M ACH"
+      }, {
+        "id" : "ptdAch",
+        "label" : "MTH ACH"
+      } ]
+    }, {
+      "id" : "sales_value_brand_list_previous_month",
+      "type" : "table",
+      "kpiName" : "kpi_sales_value_brand_raw",
+      "data_points" : [ {
+        "id" : "brandName",
+        "label" : "Brand Name"
+      }, {
+        "id" : "last3PeriodAchAvgLM",
+        "label" : "AVG L3M ACH"
+      }, {
+        "id" : "ptdAchLM",
+        "label" : "MTH ACH"
+      } ]
+    } ],
+    "actionTabColour" : "#1cd4be"
+  }, {
+    "id" : "productiveCall",
+    "title" : "PRODUCTIVE CALL",
+    "kpiName" : "kpi_productive_user_period",
+    "tabSvgPath" : "./assets/svg/jnj_productive.svg",
+    "data_points" : [ {
+      "id" : "productive_call",
+      "type" : "number",
+      "unit" : "%",
+      "label" : "",
+      "validation" : {
+        "type" : "range",
+        "range" : [ {
+          "color" : "#01B202",
+          "endValue" : "max",
+          "startValue" : "100"
+        }, {
+          "color" : "#F09D1E",
+          "endValue" : "99.99",
+          "startValue" : "85.0"
+        }, {
+          "color" : "#ED433E",
+          "endValue" : "84.99",
+          "startValue" : "min"
+        } ]
+      }
+    }, {
+      "id" : "totalCall",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "PLANNED CALLS",
+      "order" : "1"
+    }, {
+      "id" : "actualCalls",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "COMPLETED CALLS",
+      "order" : "2"
+    }, {
+      "id" : "productiveCall",
+      "type" : "number",
+      "unit" : "CS",
+      "label" : "PRODUCTIVE CALLS",
+      "order" : "3"
+    }, {
+      "id" : "pjpCompliancePer",
+      "type" : "number",
+      "unit" : "%",
+      "label" : "PJP COMPLIANCE",
+      "order" : "4"
+    } ],
+    "detail_summary" : [ {
+      "id" : "supervisor_sm_card",
+      "type" : "card",
+      "title" : "PRODUCTIVE CALL",
+      "data_points" : [ {
+        "id" : "achPer",
+        "type" : "percentage",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalCall",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PLANNED CALLS",
+        "order" : "1"
+      }, {
+        "id" : "actualCalls",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "COMPLETED CALLS",
+        "order" : "2"
+      }, {
+        "id" : "productiveCall",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PRODUCTIVE CALLS",
+        "order" : "3"
+      }, {
+        "id" : "pjpCompliancePer",
+        "type" : "number",
+        "unit" : "%",
+        "label" : "PJP COMPLIANCE",
+        "order" : "4"
+      } ]
+    }, {
+      "id" : "supervisor_sm_card_previous_month",
+      "type" : "card",
+      "title" : "PRODUCTIVE CALL",
+      "data_points" : [ {
+        "id" : "achPerLM",
+        "type" : "percentage",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalCallLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PLANNED CALLS",
+        "order" : "1"
+      }, {
+        "id" : "actualCallsLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "COMPLETED CALLS",
+        "order" : "2"
+      }, {
+        "id" : "productiveCallLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PRODUCTIVE CALLS",
+        "order" : "3"
+      }, {
+        "id" : "pjpCompliancePerLM",
+        "type" : "number",
+        "unit" : "%",
+        "label" : "PJP COMPLIANCE",
+        "order" : "4"
+      } ]
+    }, {
+      "id" : "toggleListView",
+      "type" : "button",
+      "toggle_list" : [ {
+        "id" : "outlet_toggle",
+        "label" : "Outlet"
+      } ]
+    }, {
+      "id" : "timeFilterDropDownList",
+      "type" : "dropdown",
+      "dropdown_list" : [ {
+        "id" : "current_month",
+        "label" : "Current Month"
+      }, {
+        "id" : "previous_month",
+        "label" : "Previous Month"
+      } ]
+    }, {
+      "id" : "salesrep_sm_card",
+      "type" : "card",
+      "kpiName" : "kpi_productive_user_period",
+      "data_points" : [ {
+        "id" : "totalCall",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PLANNED CALLS",
+        "order" : "1"
+      }, {
+        "id" : "actualCalls",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "COMPLETED CALLS",
+        "order" : "2"
+      }, {
+        "id" : "productiveCall",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PRODUCTIVE CALLS",
+        "order" : "3"
+      }, {
+        "id" : "pjpCompliancePer",
+        "type" : "number",
+        "unit" : "%",
+        "label" : "PJP COMPLIANCE",
+        "order" : "4"
+      }, {
+        "id" : "achPer",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "salesrep_sm_card_previous_month",
+      "type" : "card",
+      "kpiName" : "kpi_productive_user_period",
+      "data_points" : [ {
+        "id" : "totalCallLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PLANNED CALLS",
+        "order" : "1"
+      }, {
+        "id" : "actualCallsLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "COMPLETED CALLS",
+        "order" : "2"
+      }, {
+        "id" : "productiveCallLM",
+        "type" : "number",
+        "unit" : "CS",
+        "label" : "PRODUCTIVE CALLS",
+        "order" : "3"
+      }, {
+        "id" : "pjpCompliancePerLM",
+        "type" : "number",
+        "unit" : "%",
+        "label" : "PJP COMPLIANCE",
+        "order" : "4"
+      }, {
+        "id" : "achPerLM",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "productive_call_outlet_list",
+      "type" : "table",
+      "kpiName" : "kpi_productive_outlet",
+      "data_points" : [ {
+        "id" : "outletNameOutletCode",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "lastBilledOn",
+        "label" : "Last Billed On"
+      }, {
+        "id" : "lastPlannedDate",
+        "label" : "Last Planned On"
+      } ]
+    }, {
+      "id" : "productive_call_outlet_list_previous_month",
+      "type" : "table",
+      "kpiName" : "kpi_productive_outlet",
+      "data_points" : [ {
+        "id" : "outletNameOutletCode",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "lastBilledOnLM",
+        "label" : "Last Billed On"
+      }, {
+        "id" : "lastPlannedDateLM",
+        "label" : "Last Planned On"
+      } ]
+    } ],
+    "actionTabColour" : "#D90E4B"
+  }, {
+    "id" : "mslDistribution",
+    "title" : "FOCUS SKU SALES",
+    "tabSvgPath" : "./assets/svg/jnj_msl.svg",
+    "detail_summary" : [ {
+      "id" : "supervisor_sm_card",
+      "type" : "card",
+      "title" : "FOCUS SKU SALES",
+      "kpiName" : "kpi_msl_user",
+      "dataSource" : "kpi",
+      "data_points" : [ {
+        "id" : "achPer",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "order" : "3",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalOutlet",
+        "type" : "number",
+        "label" : "UNIQUE OUTLETS",
+        "order" : "1"
+      }, {
+        "id" : "uniqueTarget",
+        "type" : "number",
+        "label" : "UNIQUE FOCUS PRODUCTS",
+        "order" : "2"
+      } ]
+    }, {
+      "id" : "supervisor_sm_card_previous_month",
+      "type" : "card",
+      "title" : "FOCUS SKU SALES",
+      "kpiName" : "kpi_msl_user",
+      "dataSource" : "kpi",
+      "data_points" : [ {
+        "id" : "achPerLM",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "order" : "3",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      }, {
+        "id" : "totalOutletLM",
+        "type" : "number",
+        "label" : "UNIQUE OUTLETS",
+        "order" : "1"
+      }, {
+        "id" : "uniqueTargetLM",
+        "type" : "number",
+        "label" : "UNIQUE FOCUS PRODUCTS",
+        "order" : "2"
+      } ]
+    }, {
+      "id" : "timeFilterDropDownList",
+      "type" : "dropdown",
+      "dropdown_list" : [ {
+        "id" : "current_month",
+        "label" : "Current Month"
+      }, {
+        "id" : "previous_month",
+        "label" : "Previous Month"
+      } ]
+    }, {
+      "id" : "salesrep_sm_card",
+      "type" : "card",
+      "kpiName" : "kpi_msl_user",
+      "data_points" : [ {
+        "id" : "uniqueTarget",
+        "type" : "number",
+        "label" : "UNIQUE FOCUS PRODUCTS"
+      }, {
+        "id" : "totalOutlet",
+        "type" : "number",
+        "label" : "TOTAL OUTLETS"
+      }, {
+        "id" : "achPer",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "salesrep_sm_card_previous_month",
+      "type" : "card",
+      "kpiName" : "kpi_msl_user",
+      "data_points" : [ {
+        "id" : "uniqueTarget",
+        "type" : "number",
+        "label" : "UNIQUE FOCUS PRODUCTS"
+      }, {
+        "id" : "totalOutlet",
+        "type" : "number",
+        "label" : "TOTAL OUTLETS"
+      }, {
+        "id" : "achPer",
+        "unit" : "%",
+        "label" : "MTD ACH%",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#01B202",
+            "endValue" : "max",
+            "startValue" : "100"
+          }, {
+            "color" : "#F09D1E",
+            "endValue" : "99.99",
+            "startValue" : "85.0"
+          }, {
+            "color" : "#ED433E",
+            "endValue" : "84.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "msl_outlet_list",
+      "type" : "table",
+      "kpiName" : "kpi_msl_outlet_list",
+      "data_points" : [ {
+        "id" : "outletNameOutletCode",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "mslCountTgt",
+        "label" : "Focus Product TGT"
+      }, {
+        "id" : "mslCountAch",
+        "label" : "Focus Product ACH"
+      }, {
+        "id" : "achPer",
+        "label" : "TGT ACH%"
+      } ]
+    }, {
+      "id" : "msl_outlet_list_previous_month",
+      "type" : "table",
+      "kpiName" : "kpi_msl_outlet_list",
+      "data_points" : [ {
+        "id" : "outletNameOutletCode",
+        "label" : "Outlet Name - Outlet Code"
+      }, {
+        "id" : "mslCountTgt",
+        "label" : "Focus Product TGT"
+      }, {
+        "id" : "mslCountAch",
+        "label" : "Focus Product ACH"
+      }, {
+        "id" : "achPer",
+        "label" : "TGT ACH%"
+      } ]
+    } ],
+    "actionTabColour" : "#517847"
+  } ],
+  "domainType" : "sde_kpi_configuration",
+  "description" : "list of KPIs to be displayed in the app",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "Map[]" ]
+}

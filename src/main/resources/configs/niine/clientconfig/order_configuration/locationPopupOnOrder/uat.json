@@ -1,0 +1,9 @@
+{
+  "name" : "locationPopupOnOrder",
+  "type" : "boolean",
+  "value" : "false",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "Show android location permission popup when the home screen load first time",
+  "possibleVals" : [ ]
+}

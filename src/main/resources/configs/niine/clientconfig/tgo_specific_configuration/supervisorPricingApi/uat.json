@@ -1,0 +1,9 @@
+{
+  "name" : "supervisorPricingApi",
+  "type" : "String",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

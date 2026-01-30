@@ -1,0 +1,9 @@
+{
+  "name" : "billedTagVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "decides whether to display outlet billing status for the month or not",
+  "defaultValue" : [ ]
+}

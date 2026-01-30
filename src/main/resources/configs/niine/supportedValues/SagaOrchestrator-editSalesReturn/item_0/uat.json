@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.UnsaleableSalesReturnFilterStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "0",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "java.util.List",
+    "index" : "5",
+    "description" : "List containing the Sales Return object"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "6",
+    "description" : "Original Sales Return object"
+  } ]
+}

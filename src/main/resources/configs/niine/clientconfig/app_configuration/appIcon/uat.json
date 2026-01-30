@@ -1,0 +1,10 @@
+{
+  "name" : "appIcon",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/admin_1747908603986_CK_Salon_360_for-emygnRsouckw.png",
+  "docUrl" : "",
+  "description" : "App Icon",
+  "defaultValue" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/admin_1719833410238_SFAI-ScpDAvYhpdBn.png",
+  "possibleVals" : [ "string" ],
+  "isValueUpdated" : true
+}

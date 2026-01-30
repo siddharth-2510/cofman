@@ -1,0 +1,11 @@
+{
+  "name" : "enableMOQCheck",
+  "type" : "boolean",
+  "value" : {
+    "enable" : true,
+    "rolesAllowedForMOQ" : [ "supplier" ]
+  },
+  "docUrl" : "",
+  "description" : "It will check whether the sku quantity is above the minimum billable quantity",
+  "possibleVals" : [ ]
+}

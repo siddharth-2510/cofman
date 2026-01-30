@@ -1,0 +1,51 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "mdmConfig",
+  "elements" : [ {
+    "name" : "Division",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Variable",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "User",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "SupplierMaster",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "OutletDetails",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductDetails",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Targets",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "PJPVisitPlan",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "SecondaryProduct",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "ProductImage",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "Device_Info",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "faq",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "SchemeDefination",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "userToLocation",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "userToDistributor",
+    "pattern" : "ID_FIELD"
+  } ]
+}

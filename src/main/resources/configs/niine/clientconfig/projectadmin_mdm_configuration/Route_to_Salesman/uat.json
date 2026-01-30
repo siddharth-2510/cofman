@@ -1,0 +1,9 @@
+{
+  "id" : "Route Info Transformer",
+  "name" : "Route to Salesman",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/routesalesman-kgYjCJHHJEen.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "RouteInfo",
+    "transformerId" : "kevin_route_info_transformer"
+  } ]
+}

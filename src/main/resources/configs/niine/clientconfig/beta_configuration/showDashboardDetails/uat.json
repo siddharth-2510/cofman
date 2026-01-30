@@ -1,0 +1,8 @@
+{
+  "name" : "showDashboardDetails",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "domainType" : "attendance_configuration",
+  "possibleVals" : [ true, false ]
+}

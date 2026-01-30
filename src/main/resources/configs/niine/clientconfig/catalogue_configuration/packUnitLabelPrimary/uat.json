@@ -1,0 +1,7 @@
+{
+  "name" : "packUnitLabelPrimary",
+  "type" : "string",
+  "value" : "Pc",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

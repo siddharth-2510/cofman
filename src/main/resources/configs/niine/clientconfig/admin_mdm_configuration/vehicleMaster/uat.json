@@ -1,0 +1,8 @@
+{
+  "id" : "vehicleMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/VehicleMDMUpload-XpLBIrfhpINF-jxizJxQISzUb.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "VehicleInfo",
+    "transformerId" : "dms_vehicle_master_transformer"
+  } ]
+}

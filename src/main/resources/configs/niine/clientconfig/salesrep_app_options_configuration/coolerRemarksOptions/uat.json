@@ -1,0 +1,8 @@
+{
+  "name" : "coolerRemarksOptions",
+  "type" : "List",
+  "value" : [ "Excellent", "Good", "Needs Improvement" ],
+  "docUrl" : "",
+  "description" : "Cooler Option",
+  "possibleVals" : [ ]
+}

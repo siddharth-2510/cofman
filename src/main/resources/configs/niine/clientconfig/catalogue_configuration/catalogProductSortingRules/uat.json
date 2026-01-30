@@ -1,0 +1,14 @@
+{
+  "name" : "catalogProductSortingRules",
+  "type" : "object",
+  "value" : [ {
+    "priority" : [ {
+      "id" : "3770",
+      "values" : [ "Ambient Dairy", "Bakery Division", "Beverages", "Coty", "Dairy Cold Chain", "Others", "Personal Care", "Digital First Brands", "Professional Care", "Snacks", "Foods" ],
+      "attribute" : "category"
+    } ],
+    "sortOrder" : [ ]
+  } ],
+  "docUrl" : "",
+  "description" : "Catalog product sorting rules"
+}

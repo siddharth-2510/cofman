@@ -1,0 +1,59 @@
+{
+  "name" : "scoreVisibility",
+  "type" : "List",
+  "value" : [ {
+    "outletClass" : "FC FOODS",
+    "visibilityLoyaltyPoints" : [ {
+      "loyaltyPoint" : "Foods_Display_Points",
+      "targetPoints" : [ "Foods_Display", "Noodles_Basket", "Confectionary_Ladi_And_Jar", "Biscuits_SOS", "Noodles_SOS", "Snacks_SOS", "Snacks_Ladi", "Juices_SOS", "Ghee_SOS", "Spices_SOS", "Confectionary_Facings", "VA_Atta_Top_Pack", "WW_Atta_SOS" ]
+    }, {
+      "loyaltyPoint" : "PCP_Display_Points",
+      "targetPoints" : [ "PCP_Display", "Soap_SOS", "Deodorant_SOS", "SG_HW_BW_Facings", "Shower_Gel_Facings", "Handwash_Facings", "Bodywash_Facings", "Floor_Cleaner_Facings", "Hand_Sanitizer_Facings", "Hand_Sanitizer_Asset", "Pocket_Perfume_Asset" ]
+    }, {
+      "loyaltyPoint" : "Foods_Category_Growth_Points",
+      "targetPoints" : [ "Foods-Snacks<Rs. 20", "Foods Overall" ]
+    } ]
+  }, {
+    "outletClass" : "FC UDAY",
+    "visibilityLoyaltyPoints" : [ {
+      "loyaltyPoint" : "Foods_Display_Points",
+      "targetPoints" : [ "Foods_Display", "Noodles_Basket", "Confectionary_Ladi_And_Jar", "Biscuits_SOS", "Noodles_SOS", "Snacks_SOS", "Snacks_Ladi", "Juices_SOS", "Ghee_SOS", "Spices_SOS", "Confectionary_Facings", "VA_Atta_Top_Pack", "WW_Atta_SOS" ]
+    }, {
+      "loyaltyPoint" : "PCP_Display_Points",
+      "targetPoints" : [ "PCP_Display", "Soap_SOS", "Deodorant_SOS", "SG_HW_BW_Facings", "Shower_Gel_Facings", "Handwash_Facings", "Bodywash_Facings", "Floor_Cleaner_Facings", "Hand_Sanitizer_Facings", "Hand_Sanitizer_Asset", "Pocket_Perfume_Asset" ]
+    }, {
+      "loyaltyPoint" : "Foods_Category_Growth_Points",
+      "targetPoints" : [ "Foods-Snacks<Rs. 20" ]
+    }, {
+      "loyaltyPoint" : "PCP_Category_Growth_Points",
+      "targetPoints" : [ "Foods-Whole Wheat Atta" ]
+    } ]
+  }, {
+    "outletClass" : "FC COMMON",
+    "visibilityLoyaltyPoints" : [ {
+      "loyaltyPoint" : "Foods_Display_Points",
+      "targetPoints" : [ "Foods_Display", "Noodles_Basket", "Confectionary_Ladi_And_Jar", "Biscuits_SOS", "Noodles_SOS", "Snacks_SOS", "Snacks_Ladi", "Juices_SOS", "Ghee_SOS", "Spices_SOS", "Confectionary_Facings", "VA_Atta_Top_Pack", "WW_Atta_SOS" ]
+    }, {
+      "loyaltyPoint" : "PCP_Display_Points",
+      "targetPoints" : [ "PCP_Display", "Soap_SOS", "Deodorant_SOS", "SG_HW_BW_Facings", "Shower_Gel_Facings", "Handwash_Facings", "Bodywash_Facings", "Floor_Cleaner_Facings", "Hand_Sanitizer_Facings", "Hand_Sanitizer_Asset", "Pocket_Perfume_Asset" ]
+    }, {
+      "loyaltyPoint" : "Foods_Category_Growth_Points",
+      "targetPoints" : [ "Foods-Snacks<Rs. 20" ]
+    }, {
+      "loyaltyPoint" : "PCP_Category_Growth_Points",
+      "targetPoints" : [ "PCP" ]
+    } ]
+  }, {
+    "outletClass" : "FC PCP",
+    "visibilityLoyaltyPoints" : [ {
+      "loyaltyPoint" : "Foods_Display_Points",
+      "targetPoints" : [ "Foods_Display", "Noodles_Basket", "Confectionary_Ladi_And_Jar", "Biscuits_SOS", "Noodles_SOS", "Snacks_SOS", "Snacks_Ladi", "Juices_SOS", "Ghee_SOS", "Spices_SOS", "Confectionary_Facings", "VA_Atta_Top_Pack", "WW_Atta_SOS" ]
+    }, {
+      "loyaltyPoint" : "PCP_Display_Points",
+      "targetPoints" : [ "PCP_Display", "Soap_SOS", "Deodorant_SOS", "SG_HW_BW_Facings", "Shower_Gel_Facings", "Handwash_Facings", "Bodywash_Facings", "Floor_Cleaner_Facings", "Hand_Sanitizer_Facings", "Hand_Sanitizer_Asset", "Pocket_Perfume_Asset" ]
+    }, {
+      "loyaltyPoint" : "PCP_Category_Growth_Points",
+      "targetPoints" : [ "PCP" ]
+    } ]
+  } ]
+}

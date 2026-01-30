@@ -1,0 +1,8 @@
+{
+  "name" : "primaryReturnApproval",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "Config for setting the approval flow of primary return",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "tab_filters",
+  "elements" : [ {
+    "name" : "tabFilters",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

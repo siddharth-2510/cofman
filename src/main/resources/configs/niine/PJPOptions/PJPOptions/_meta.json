@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "PJPOptions",
+  "domain_type" : "PJPOptions",
+  "elements" : [ {
+    "name" : "Outlet_and_User_level_-_Monthly",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Beat_and_User_level_-_Weekly",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_-_Weekly",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "Outlet_-_Daily",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,18 @@
+{
+  "name" : "outletMappingTabs",
+  "type" : "List",
+  "value" : [ {
+    "id" : "existing",
+    "name" : "EXISTING"
+  }, {
+    "id" : "new",
+    "name" : "NEW"
+  }, {
+    "id" : "Status",
+    "name" : "Status"
+  } ],
+  "docUrl" : "",
+  "description" : "outlet mapping screen tabs list",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

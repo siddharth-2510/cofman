@@ -1,0 +1,7 @@
+{
+  "name" : "betaVersion",
+  "type" : "list",
+  "value" : [ "5.2.5", "5.2.6" ],
+  "docUrl" : "",
+  "description" : ""
+}

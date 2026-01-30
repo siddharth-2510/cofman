@@ -1,0 +1,14 @@
+{
+  "name" : "incentiveDashboardAuthorization",
+  "type" : "List",
+  "value" : [ {
+    "id" : "fc_foods",
+    "name" : "FC FOODS"
+  }, {
+    "id" : "fc_common",
+    "name" : "FC COMMON"
+  }, {
+    "id" : "eb2b",
+    "name" : "eb2b"
+  } ]
+}

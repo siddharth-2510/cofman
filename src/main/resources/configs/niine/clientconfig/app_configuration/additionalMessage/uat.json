@@ -1,0 +1,9 @@
+{
+  "name" : "additionalMessage",
+  "type" : "string",
+  "value" : "\\n \\nYour orders will be supplied by the authorized distributor of your area.\\n \\nHappy Ordering!",
+  "docUrl" : "",
+  "description" : "Message body 3 for remote order",
+  "defaultValue" : "",
+  "possibleVals" : [ ]
+}

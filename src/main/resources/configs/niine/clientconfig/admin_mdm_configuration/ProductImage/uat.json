@@ -1,0 +1,8 @@
+{
+  "id" : "ProductImage",
+  "icon" : "https://d2nvw4ekms3xzy.cloudfront.net/salind/images/ui-theme-config-logo-bRrCdIOEuNQn.png",
+  "parentIcon" : "https://d2nvw4ekms3xzy.cloudfront.net/salind/images/ui-theme-config-logo-bRrCdIOEuNQn.png",
+  "description" : "Includes essential information regarding the user.",
+  "parentTemplate" : "Product Master",
+  "parentDescription" : "Contains detailed information about all users within the system."
+}

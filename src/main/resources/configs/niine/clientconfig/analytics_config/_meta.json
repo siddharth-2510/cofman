@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "analytics_config",
+  "elements" : [ {
+    "name" : "defaultParams",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "events",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

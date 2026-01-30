@@ -1,0 +1,50 @@
+{
+  "name" : "adminPanelLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "support",
+    "color" : "#df263d",
+    "label" : "Support",
+    "route" : "/dashboard/support",
+    "svgName" : "supportIcon",
+    "description" : "Customer service and ticket management"
+  }, {
+    "id" : "notification",
+    "color" : "#fad11d",
+    "label" : "Notification",
+    "route" : "/dashboard/notification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Notifications"
+  }, {
+    "id" : "managePolicies",
+    "color" : "#fad11d",
+    "label" : "Manage Policies",
+    "route" : "/dashboard/managePolicies",
+    "svgName" : "managePoliciesIcon",
+    "description" : "Create/Update terms and conditions and privacy Policy"
+  }, {
+    "id" : "updateTranslation",
+    "color" : "#df263d",
+    "label" : "Update Translation",
+    "route" : "/dashboard/updateTranslation",
+    "svgName" : "updateTranslationIcon",
+    "description" : "Create, Update Delete and manage the bucket"
+  }, {
+    "id" : "triggerNotification",
+    "color" : "#fad11d",
+    "label" : "Trigger Notification",
+    "route" : "/dashboard/triggerNotification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Trigger Notification"
+  }, {
+    "id" : "couponManagement",
+    "color" : "#fad11d",
+    "label" : "Coupon Management",
+    "route" : "/couponDashboard/livecouponData",
+    "svgName" : "PJPVisitPlan",
+    "description" : "Create and Manage Coupons"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Admin Panel Config",
+  "possibleVals" : [ ]
+}

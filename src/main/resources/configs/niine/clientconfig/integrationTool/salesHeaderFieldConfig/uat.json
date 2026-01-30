@@ -1,0 +1,81 @@
+[ {
+  "formatter" : true,
+  "columnName" : "INVOICE_DATE",
+  "isRequired" : true,
+  "displayName" : "Invoice Date"
+}, {
+  "formatter" : false,
+  "columnName" : "INVOICE_NUMBER",
+  "isRequired" : true,
+  "displayName" : "Invoice Number"
+}, {
+  "formatter" : false,
+  "columnName" : "SALES_MAN",
+  "isRequired" : true,
+  "displayName" : "Sales Person"
+}, {
+  "formatter" : false,
+  "columnName" : "SALES_MAN_NAME",
+  "isRequired" : false,
+  "displayName" : "Sales Person Name"
+}, {
+  "formatter" : false,
+  "columnName" : "OUTLET_CODE",
+  "isRequired" : true,
+  "displayName" : "Outlet Code"
+}, {
+  "formatter" : false,
+  "columnName" : "OUTLET_NAME",
+  "isRequired" : false,
+  "displayName" : "Outlet Name"
+}, {
+  "formatter" : false,
+  "columnName" : "GROSS_AMOUNT",
+  "isRequired" : false,
+  "displayName" : "Gross Amount"
+}, {
+  "formatter" : false,
+  "columnName" : "NET_AMOUNT",
+  "isRequired" : true,
+  "displayName" : "Net Amount"
+}, {
+  "formatter" : false,
+  "columnName" : "PIECE_QUANTITY",
+  "isRequired" : true,
+  "displayName" : "Piece Quantity"
+}, {
+  "formatter" : false,
+  "columnName" : "CASE_QUANTITY",
+  "isRequired" : false,
+  "displayName" : "Case Quantity"
+}, {
+  "formatter" : false,
+  "columnName" : "CASE_2_PIECE_CONVERTER",
+  "isRequired" : false,
+  "displayName" : "Case To Piece Quantity"
+}, {
+  "formatter" : false,
+  "columnName" : "ORDER_NUMBER",
+  "isRequired" : false,
+  "displayName" : "Order Number"
+}, {
+  "formatter" : false,
+  "columnName" : "SKU_CODE",
+  "isRequired" : true,
+  "displayName" : "Product Code"
+}, {
+  "formatter" : false,
+  "columnName" : "SKU_NAME",
+  "isRequired" : false,
+  "displayName" : "Product Name"
+}, {
+  "formatter" : false,
+  "columnName" : "DISTRIBUTOR_SKU_CODE",
+  "isRequired" : false,
+  "displayName" : "Distributor Product Name"
+}, {
+  "formatter" : false,
+  "columnName" : "PRICE",
+  "isRequired" : false,
+  "displayName" : "Price"
+} ]

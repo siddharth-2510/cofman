@@ -1,0 +1,5 @@
+{
+  "name" : "outletProfileWidgets",
+  "type" : "List",
+  "value" : [ "outletName", "outletCode", "contactNumber", "location", "address" ]
+}

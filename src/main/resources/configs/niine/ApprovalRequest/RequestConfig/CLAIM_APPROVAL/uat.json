@@ -1,0 +1,4 @@
+{
+  "flow" : [ [ "vso" ], [ "qc" ], [ "cfo" ] ],
+  "callBackUrl" : "https://claims-demo.salescode.ai/v1/claims/approval/approve/%s"
+}

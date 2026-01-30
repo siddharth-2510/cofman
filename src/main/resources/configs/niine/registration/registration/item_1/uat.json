@@ -1,0 +1,9 @@
+{
+  "type" : "email",
+  "active" : 1,
+  "dataObj" : "{'name':'admin.$name','loginId':'admin.$loginId','password':'admin.$password'}",
+  "lobText" : "$lob",
+  "mailSubject" : "Registration Successfull",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/newregistrationemail.txt",
+  "recipientText" : "admin.$email"
+}

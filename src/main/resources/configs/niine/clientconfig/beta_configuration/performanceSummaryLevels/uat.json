@@ -1,0 +1,14 @@
+{
+  "name" : "performanceSummaryLevels",
+  "type" : "List",
+  "value" : [ {
+    "levelId" : "day",
+    "levelLabel" : "Daily Summary"
+  }, {
+    "levelId" : "month",
+    "levelLabel" : "Monthly Summary"
+  } ],
+  "domainType" : "salesman_day_summary_configuration",
+  "description" : "different levels / view of the performance summary feature ",
+  "possibleVals" : [ ]
+}

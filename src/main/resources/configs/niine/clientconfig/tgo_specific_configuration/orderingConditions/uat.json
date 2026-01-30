@@ -1,0 +1,27 @@
+{
+  "name" : "orderingConditions",
+  "type" : "object",
+  "value" : {
+    "type" : [ ],
+    "criteria" : [ ],
+    "skuLevel_type" : [ "min" ],
+    "skuLevel_criteria" : [ "quantity" ]
+  },
+  "docUrl" : "",
+  "domainType" : "order_configuration",
+  "description" : "",
+  "possibleVals" : [ {
+    "type" : [ "min", "max" ],
+    "criteria" : [ "value", "quantity" ],
+    "sku_type" : [ "min", "max" ],
+    "condition" : "&",
+    "max_value" : 0,
+    "min_value" : 0,
+    "max_quantity" : 0,
+    "min_quantity" : 0,
+    "sku_criteria" : [ "value", "quantity" ],
+    "sku_min_quantity" : "true",
+    "max_value_visibility" : "false",
+    "min_value_visibility" : "false"
+  } ]
+}

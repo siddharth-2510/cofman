@@ -1,0 +1,9 @@
+{
+  "name" : "requestText",
+  "type" : "String",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "support_configuration",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

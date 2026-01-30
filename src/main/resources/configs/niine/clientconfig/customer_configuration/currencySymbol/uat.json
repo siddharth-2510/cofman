@@ -1,0 +1,9 @@
+{
+  "name" : "currencySymbol",
+  "type" : "string",
+  "value" : "₹",
+  "docUrl" : "",
+  "description" : "currency Symbol",
+  "defaultValue" : "INR",
+  "possibleVals" : [ "string" ]
+}

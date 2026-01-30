@@ -1,0 +1,6 @@
+{
+  "name" : "cameraQuality",
+  "type" : "number",
+  "value" : 20,
+  "description" : "Determines the image quality of the camera"
+}

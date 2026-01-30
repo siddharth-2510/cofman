@@ -1,0 +1,7 @@
+{
+  "entity" : "com.applicate.services.channelkart.models.Offers",
+  "fields" : [ {
+    "pattern" : "SUP-%s",
+    "fieldName" : "discountId"
+  } ]
+}

@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "catalogue_sorting_options",
+  "elements" : [ {
+    "name" : "catalogueSortingConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

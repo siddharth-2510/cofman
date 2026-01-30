@@ -1,0 +1,6 @@
+{
+  "id" : "PromosReport",
+  "name" : "Promos Report",
+  "type" : "Promo",
+  "filter" : "daterange"
+}

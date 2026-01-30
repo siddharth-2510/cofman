@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "recommendedOrder",
+  "domain_type" : "batchSize",
+  "elements" : [ {
+    "name" : "batchSize",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,5 @@
+{
+  "name" : "chatGptEnabled",
+  "type" : "String",
+  "value" : "false"
+}

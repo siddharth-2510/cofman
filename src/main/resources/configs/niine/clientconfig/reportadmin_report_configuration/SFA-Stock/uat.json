@@ -1,0 +1,6 @@
+{
+  "id" : "StockReport",
+  "name" : "SFA-Stock",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

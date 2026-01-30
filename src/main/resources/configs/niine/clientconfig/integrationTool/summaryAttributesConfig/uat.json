@@ -1,0 +1,80 @@
+[ {
+  "name" : "jobName",
+  "value" : "",
+  "displayName" : "Integration Job Name"
+}, {
+  "name" : "lob",
+  "value" : "",
+  "displayName" : "Customer Account Name (lob)"
+}, {
+  "name" : "profileName",
+  "value" : "",
+  "displayName" : "Profile Name"
+}, {
+  "name" : "entityName",
+  "value" : "",
+  "displayName" : "Record Type",
+  "defaultValue" : "Sales"
+}, {
+  "name" : "startsWith",
+  "value" : "",
+  "displayName" : "Starts With Pattern",
+  "defaultValue" : ""
+}, {
+  "name" : "mapperName",
+  "value" : "",
+  "displayName" : "Mapper Name"
+}, {
+  "name" : "mapper",
+  "value" : "",
+  "visibility" : true,
+  "displayName" : "Mapper Info"
+}, {
+  "name" : "streamType",
+  "value" : "local",
+  "options" : [ "local", "kafka" ],
+  "visibility" : true,
+  "displayName" : "Streaming Type"
+}, {
+  "name" : "skipPreProcess",
+  "value" : "false",
+  "options" : [ "true", "false" ],
+  "visibility" : true,
+  "displayName" : "Skip PreProcessing"
+}, {
+  "name" : "transformerId",
+  "value" : "",
+  "dependsOn" : {
+    "value" : "-1",
+    "fieldName" : "streamType"
+  },
+  "displayName" : "Transformer Id"
+}, {
+  "name" : "headers",
+  "value" : "",
+  "visibility" : true,
+  "displayName" : "Headers"
+}, {
+  "name" : "delimiter",
+  "value" : "",
+  "visibility" : true,
+  "displayName" : "Delimiter"
+}, {
+  "name" : "encoding",
+  "value" : "",
+  "visibility" : true,
+  "displayName" : "Encoding"
+}, {
+  "name" : "passKey",
+  "value" : "",
+  "visibility" : false,
+  "displayName" : "Pass Key"
+}, {
+  "name" : "outProfileName",
+  "visibility" : true,
+  "displayName" : "Output Profile Name"
+}, {
+  "name" : "entityFileNameMapping",
+  "visibility" : true,
+  "displayName" : "Entity File Name Mapping"
+} ]

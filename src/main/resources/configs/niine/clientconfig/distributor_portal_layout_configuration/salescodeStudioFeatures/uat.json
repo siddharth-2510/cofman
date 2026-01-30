@@ -1,0 +1,22 @@
+{
+  "name" : "salescodeStudioFeatures",
+  "type" : "list",
+  "value" : [ {
+    "id" : "replOrderEdit",
+    "questionsToDisable" : [ ]
+  }, {
+    "id" : "manualPrimaryOrderDay",
+    "questionsToDisable" : [ ]
+  }, {
+    "id" : "invoiceEditing",
+    "questionsToDisable" : [ ]
+  }, {
+    "id" : "maximumDraftLimit",
+    "questionsToDisable" : [ ]
+  }, {
+    "id" : "draftValidity",
+    "questionsToDisable" : [ ]
+  } ],
+  "description" : "features that will be enabled on salescode studio",
+  "possibleVals" : [ ]
+}

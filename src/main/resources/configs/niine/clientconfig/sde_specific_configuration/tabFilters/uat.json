@@ -1,0 +1,13 @@
+{
+  "name" : "tabFilters",
+  "type" : "List",
+  "value" : [ {
+    "name" : "category"
+  }, {
+    "name" : "subCategory"
+  }, {
+    "name" : "brand"
+  } ],
+  "domainType" : "tab_filters",
+  "description" : "arrangement of tab filters"
+}

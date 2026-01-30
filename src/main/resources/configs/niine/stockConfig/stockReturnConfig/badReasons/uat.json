@@ -1,0 +1,5 @@
+{
+  "name" : "badReasons",
+  "type" : "List",
+  "value" : [ "Damaged", "Expired <90 days", "Expired >90 days", "Rodent Bite", "Expired", "Unsaleable" ]
+}

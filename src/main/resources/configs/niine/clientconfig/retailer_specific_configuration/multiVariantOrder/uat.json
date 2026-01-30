@@ -1,0 +1,8 @@
+{
+  "name" : "multiVariantOrder",
+  "type" : "boolean",
+  "value" : false,
+  "description" : "",
+  "defaultValue" : false,
+  "possibleVals" : [ false, true ]
+}

@@ -1,0 +1,16 @@
+{
+  "name" : "orderReturnReason",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1",
+    "reason" : "Saleable",
+    "otherReason" : [ "Wrong Order", "Slow Moving", "Consumer Complaint" ]
+  }, {
+    "id" : "unsaleable",
+    "reason" : "Unsaleable",
+    "otherReason" : [ "Expired", "Damaged" ]
+  } ],
+  "docUrl" : "",
+  "description" : "return reason in stock return",
+  "possibleVals" : [ ]
+}

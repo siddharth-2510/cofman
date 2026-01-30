@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "salesrep_day_summary_configuration",
+  "elements" : [ {
+    "name" : "daySummaryConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "startTime",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "endTime",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mslDataSource",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

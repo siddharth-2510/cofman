@@ -1,0 +1,8 @@
+{
+  "name" : "couponFilterVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "",
+  "possibleVals" : [ true, false ]
+}

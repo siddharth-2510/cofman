@@ -1,0 +1,7 @@
+{
+  "name" : "pjpLabel",
+  "type" : "String",
+  "value" : "",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "Determines whether to show pjp toggle and what should be the value to display on toggle"
+}

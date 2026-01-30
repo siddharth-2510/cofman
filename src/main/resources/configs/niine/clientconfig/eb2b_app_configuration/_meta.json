@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "eb2b_app_configuration",
+  "elements" : [ {
+    "name" : "supportNumber",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

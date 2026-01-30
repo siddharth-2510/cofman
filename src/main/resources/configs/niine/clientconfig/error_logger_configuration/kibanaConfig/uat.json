@@ -1,0 +1,10 @@
+{
+  "name" : "kibanaConfig",
+  "type" : "map",
+  "value" : {
+    "url" : "https://nwr2i6tkja.execute-api.ap-south-1.amazonaws.com",
+    "apiKey" : "nPIgLR74OHynBbVROsjq9sWLKnbGeQ4u",
+    "enableKibana" : true
+  },
+  "description" : "Kibana Auth Config"
+}

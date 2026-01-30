@@ -1,0 +1,53 @@
+{
+  "name" : "mainDashboardLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Analytics Dashboard",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Analytics Dashboard",
+    "sidebarOptions" : [ "reports2", "edaQuantityCompliance2", "skuSelectionCompliance2", "complianceDashboard2", "historicalDataTabs", "secondarySaleslens", "primarySaleslens" ]
+  }, {
+    "id" : "MDM and Reports",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Reports",
+    "sidebarOptions" : [ "reports", "configComparatorTable", "updatedFlowMDM" ]
+  }, {
+    "id" : "Salescode Studio",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Salescode Studio",
+    "sidebarOptions" : [ "uiConfig", "ClaimsAmt", "claimsFrequency", "manageBannerStudio", "manageBucketStudio", "manageBasketStudio", "uiConfigNew", "appBuild" ]
+  }, {
+    "id" : "Primary",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Primary",
+    "sidebarOptions" : [ "createPrimaryOrder", "viewPrimaryOrders", "grn" ]
+  }, {
+    "id" : "Stocks",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Stocks",
+    "sidebarOptions" : [ "realTimeStocks", "batchAndExpiryManagement", "manualStockUpdate" ]
+  }, {
+    "id" : "Delivery",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Delivery",
+    "sidebarOptions" : [ "deliverySettlement" ]
+  }, {
+    "id" : "Credit",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Credit",
+    "sidebarOptions" : [ "credit" ]
+  }, {
+    "id" : "MDM and Integration",
+    "icon" : "salescodeStudioIcon",
+    "label" : "MDM",
+    "sidebarOptions" : [ "mdm2", "integrationPlatform2" ]
+  }, {
+    "id" : "Settlements",
+    "icon" : "salescodeStudioIcon",
+    "label" : "Settlements",
+    "sidebarOptions" : [ "loadoutDeliveryConfirmation" ]
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "dashboard Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,27 @@
+{
+  "id" : "scheme-promo",
+  "icon" : "https://d2nvw4ekms3xzy.cloudfront.net/salind/images/Group 61722@2x-odNcjqtKioND.png",
+  "name" : "EB2B Promotions",
+  "useKafka" : true,
+  "description" : "This master contains data regarding all schemes.",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/eb2bSchemes-KWEfbSKrntlQ.xlsx",
+  "chainingJobName" : "test",
+  "transformerInfo" : [ {
+    "entityName" : "definition",
+    "operationType" : "merge",
+    "transformerId" : "CkcoePromosTransformer"
+  }, {
+    "entityName" : "parallelfilters",
+    "operationType" : "merge",
+    "transformerId" : "CkcoePromosTransformer"
+  }, {
+    "entityName" : "verticalfilters",
+    "operationType" : "merge",
+    "transformerId" : "CkcoePromosTransformer"
+  }, {
+    "entityName" : "productmeta",
+    "operationType" : "merge",
+    "transformerId" : "CkcoePromosTransformer"
+  } ],
+  "isOptionalMaster" : "true"
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "clientLogo",
+  "type" : "string",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/Cavin%20Kare%20SFA%20App%20Details-HLltbcBSqqlN.png",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "Client Logo",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

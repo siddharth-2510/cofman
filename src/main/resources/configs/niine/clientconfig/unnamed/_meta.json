@@ -1,0 +1,66 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "unnamed",
+  "elements" : [ {
+    "name" : "sbiRedirectionUrl",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sbiOtpImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sbiOtpNotes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "sbiOtpTimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "creditInfoPopup",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "transactionNote",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankListForPayment",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankEnrollmentSectionHeader",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankPolicyFiles",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankOnboardingConsentDisclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "onboardingStateSelect",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "vintageKeys",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "onboardingButtonTextConfiguration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "axisPaymentInProgressConfigurations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "upiPaymentInProgressConfigurations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "finaggNumberChangedPopupText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "finaggValidatePanPopupText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bankEnrollementODLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "upiIntegration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "upiOptionLabel",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

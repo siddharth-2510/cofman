@@ -1,0 +1,3 @@
+{
+  "EntityMapping" : "SELECT * FROM ck_entity_mapping WHERE id={{id}}"
+}

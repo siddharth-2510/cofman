@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "sales",
+  "domain_type" : "recalculatedInvoiceNumber",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

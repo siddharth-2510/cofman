@@ -1,0 +1,15 @@
+{
+  "blob" : null,
+  "data" : "Reminder to collect your today's first order.",
+  "type" : "firebase",
+  "payload" : {
+    "blobKey" : "",
+    "category" : "SMART TRIGGER",
+    "mediaUrl" : "",
+    "userName" : "",
+    "subcategory" : "HURRY UP!!!"
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

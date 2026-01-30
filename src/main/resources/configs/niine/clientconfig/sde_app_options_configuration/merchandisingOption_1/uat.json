@@ -1,0 +1,8 @@
+{
+  "name" : "merchandisingOption",
+  "type" : "List",
+  "value" : [ "Dispenser Management", "Hanging Management", "Jar Management", "POSM Management" ],
+  "docUrl" : "",
+  "description" : "Merchandising Options",
+  "possibleVals" : [ ]
+}

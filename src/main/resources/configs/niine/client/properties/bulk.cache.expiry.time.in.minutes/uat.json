@@ -1,0 +1,4 @@
+{
+  "name" : "bulk.cache.expiry.time.in.minutes",
+  "value" : "10"
+}

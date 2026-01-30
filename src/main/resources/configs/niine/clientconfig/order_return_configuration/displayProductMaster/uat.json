@@ -1,0 +1,7 @@
+{
+  "name" : "displayProductMaster",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

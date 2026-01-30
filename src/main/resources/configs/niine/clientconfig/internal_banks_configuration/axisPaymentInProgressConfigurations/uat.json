@@ -1,0 +1,16 @@
+{
+  "name" : "axisPaymentInProgressConfigurations",
+  "value" : {
+    "title" : "Payment In Progress!!",
+    "message" : "We have successfully uploaded the invoice for payment processing to Axis Bank. Payment shall be processed in 2 hours"
+  },
+  "description" : "Configurable texts for Axis payment in progress screen",
+  "defaultValue" : {
+    "title" : "Payment In Progress!!",
+    "message" : "We have successfully uploaded the invoice for payment processing to Axis Bank. Payment shall be processed in 2 hours"
+  },
+  "possibleVals" : [ {
+    "title" : "Payment In Progress!!",
+    "message" : "We have successfully uploaded the invoice for payment processing to Axis Bank. Payment shall be processed in 2 hours"
+  } ]
+}

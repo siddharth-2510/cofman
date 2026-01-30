@@ -1,0 +1,39 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "portal_configuration",
+  "elements" : [ {
+    "name" : "signInApiTransformer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "coeAPI",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fetchFromSaleslens",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "rolesPresent",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "appTypeAndDesignationInfo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disablePricingFetchAtLogin",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dms",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "useDeltaDataSync",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dataSyncManagerConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "companyDesignations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "reportFormat",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

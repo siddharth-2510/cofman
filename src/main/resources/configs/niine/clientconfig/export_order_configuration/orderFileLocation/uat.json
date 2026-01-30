@@ -1,0 +1,9 @@
+{
+  "name" : "orderFileLocation",
+  "type" : "string",
+  "value" : "Documents/eBiz4DPPC/Sellina",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "file location of order.",
+  "defaultValue" : "file:///storage/emulated/0/Documents/",
+  "possibleVals" : [ "" ]
+}

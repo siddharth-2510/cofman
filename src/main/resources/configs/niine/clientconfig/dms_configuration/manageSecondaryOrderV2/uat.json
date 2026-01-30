@@ -1,0 +1,8 @@
+{
+  "name" : "manageSecondaryOrderV2",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "Manage Secondary Order New Ui",
+  "possibleVals" : [ true, false ]
+}

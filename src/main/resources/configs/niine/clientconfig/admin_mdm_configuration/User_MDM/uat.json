@@ -1,0 +1,22 @@
+{
+  "id" : "Cavincare_UserMDM_transformer",
+  "name" : "User MDM",
+  "menuOption" : [ {
+    "id" : "import",
+    "icon" : "importIcon",
+    "label" : "Import"
+  }, {
+    "id" : "logsAndReport",
+    "icon" : "logsAndReportIcon",
+    "label" : "Logs and Reports"
+  }, {
+    "id" : "viewsAndEdit",
+    "icon" : "viewsAndEditIcon",
+    "label" : "View and Edit"
+  } ],
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/UserMappingTemplateETL-kTalAuPIkxaC.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "transformerId" : "Cavincare_UserMDM_transformer"
+  } ]
+}

@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "logs_configuration",
+  "elements" : [ {
+    "name" : "failedLogsNavigationBlockedRoutes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockNavigationForFailedLogs",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockUserTimeRestriction",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

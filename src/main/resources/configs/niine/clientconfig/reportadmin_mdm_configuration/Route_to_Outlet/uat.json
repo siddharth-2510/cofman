@@ -1,0 +1,11 @@
+{
+  "id" : "Cavincare_dms_routetooutlet_transformer",
+  "name" : "Route to Outlet",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RoutetoOutlet-usoKRQxwtoEy.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "operationType" : "insert",
+    "transformerId" : "Cavincare_dms_routetooutlet_transformer"
+  } ]
+}

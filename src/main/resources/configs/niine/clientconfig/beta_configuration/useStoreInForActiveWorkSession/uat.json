@@ -1,0 +1,6 @@
+{
+  "name" : "useStoreInForActiveWorkSession",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "active_work_session_configuration"
+}

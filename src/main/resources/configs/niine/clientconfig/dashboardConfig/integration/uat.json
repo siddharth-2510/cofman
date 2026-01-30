@@ -1,0 +1,6 @@
+{
+  "id" : "integration",
+  "icon" : "databaseIcon",
+  "label" : "Integration & Plugins",
+  "sidebarOptions" : [ "mdm", "integrationPlatform", "integrationStatistics", "registeredFunctions", "integrationJob", "splitKeyPage", "jenkinsJobDetails", "recipientList", "configComparatorTable", "dataCheckup", "oneClickIntegration", "manageReport" ]
+}

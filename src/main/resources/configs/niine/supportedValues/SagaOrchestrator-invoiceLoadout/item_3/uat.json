@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.loadoutsteps.LoadoutStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.LoadoutHelperService",
+    "index" : "8",
+    "description" : "Bean of LoadoutHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.pojo.DeliveryLoadoutPayload",
+    "index" : "3",
+    "description" : "deliveryLoadout"
+  }, {
+    "type" : "java.util.Map",
+    "index" : "17",
+    "description" : "Map of invoiceNumbers to old status"
+  } ]
+}

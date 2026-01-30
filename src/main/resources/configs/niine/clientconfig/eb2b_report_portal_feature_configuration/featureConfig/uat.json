@@ -1,0 +1,68 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "uiConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "UI Config"
+  }, {
+    "name" : "Analytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Analytics"
+  }, {
+    "name" : "reports2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports-Analytics"
+  }, {
+    "name" : "manageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Banner"
+  }, {
+    "name" : "manageBucketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bucket"
+  }, {
+    "name" : "support",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Support"
+  }, {
+    "name" : "notification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Notification"
+  }, {
+    "name" : "managePolicies",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Policies"
+  }, {
+    "name" : "manageOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Orders"
+  }, {
+    "name" : "manageInvoice",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Invoices"
+  }, {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens"
+  }, {
+    "name" : "eb2bSaleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens: EB2B"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

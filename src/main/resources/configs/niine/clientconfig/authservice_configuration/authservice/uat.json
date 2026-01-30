@@ -1,0 +1,8 @@
+{
+  "name" : "authservice",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "description" : "authserviceFeature",
+  "possibleVals" : [ ]
+}

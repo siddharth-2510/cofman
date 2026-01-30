@@ -1,0 +1,8 @@
+{
+  "name" : "androidAppId",
+  "type" : "string",
+  "value" : "65dda36e2a1cca50362bfcc1",
+  "docUrl" : "",
+  "description" : "android app last build Id of completed build",
+  "possibleVals" : [ "string" ]
+}

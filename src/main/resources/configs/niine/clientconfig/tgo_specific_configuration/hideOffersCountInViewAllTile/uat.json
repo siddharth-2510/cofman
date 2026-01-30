@@ -1,0 +1,10 @@
+{
+  "name" : "hideOffersCountInViewAllTile",
+  "type" : "string",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "To hide offers count in view all tile.",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

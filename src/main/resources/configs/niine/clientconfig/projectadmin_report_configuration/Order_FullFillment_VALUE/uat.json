@@ -1,0 +1,6 @@
+{
+  "id" : "orderfullfilment_value",
+  "name" : "Order FullFillment VALUE",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

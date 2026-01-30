@@ -1,0 +1,9 @@
+{
+  "name" : "orderCancellationReasons",
+  "type" : "list",
+  "value" : [ "⁠Stock not available", "Promos have expired", "Order placed by mistake", "Previous payment pending" ],
+  "docUrl" : "",
+  "description" : "Order cancellation reasons",
+  "defaultValue" : [ "⁠Stock not available", "Promos have expired", "Order placed by mistake", "Previous payment pending" ],
+  "possibleVals" : [ "string[]" ]
+}

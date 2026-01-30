@@ -1,0 +1,8 @@
+{
+  "blob" : null,
+  "data" : "Hi {{data.outlet_name}},\\nWe have sent you a link for placing orders through SMS. \\nOur system records show that you haven't clicked on the link since last {{days}} days. Can you please have a look and the link and start using the app.\\nIf you face any issues with ordering on the link please contact us. \\nSharing the Link again for you to check and place your orders: http://ckcoedemo.sellinademo.io/index.html",
+  "type" : "sms",
+  "profile" : "gupshup",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

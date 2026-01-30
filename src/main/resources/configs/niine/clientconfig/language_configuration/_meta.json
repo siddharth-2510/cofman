@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "language_configuration",
+  "elements" : [ {
+    "name" : "languageConfiguration",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

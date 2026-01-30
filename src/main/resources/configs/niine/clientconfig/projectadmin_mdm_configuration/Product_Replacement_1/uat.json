@@ -1,0 +1,9 @@
+{
+  "id" : "ProductReplacement",
+  "name" : "Product Replacement",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/ProductReplacementTemplate-MPpXXMGqWQYO.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "EntityMapping",
+    "transformerId" : "ProductReplacement"
+  } ]
+}

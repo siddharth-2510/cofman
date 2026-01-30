@@ -1,0 +1,6 @@
+{
+  "name" : "pjpLabel",
+  "type" : "String",
+  "value" : "PJP",
+  "description" : "Determines whether to show pjp toggle and what should be the value to display on toggle"
+}

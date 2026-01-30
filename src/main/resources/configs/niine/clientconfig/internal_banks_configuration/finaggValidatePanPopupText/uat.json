@@ -1,0 +1,9 @@
+{
+  "name" : "finaggValidatePanPopupText",
+  "type" : "String",
+  "value" : "Your Mobile Number is updated with FinAgg. Validate your PAN number before initiaing payment",
+  "docUrl" : "",
+  "description" : "Configurable texts for popup text in validate pan of finagg payment flow",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

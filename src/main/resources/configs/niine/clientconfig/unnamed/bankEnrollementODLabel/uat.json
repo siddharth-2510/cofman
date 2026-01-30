@@ -1,0 +1,20 @@
+{
+  "name" : "bankEnrollementODLabel",
+  "type" : "map",
+  "value" : {
+    "sbi" : "inb_reference_number",
+    "axis" : "od_account_number",
+    "finagg" : "od_account_number"
+  },
+  "description" : "Configurable texts for OD Number label text on bank enrollment form page",
+  "defaultValue" : {
+    "sbi" : "inb_reference_number",
+    "axis" : "od_account_number",
+    "finagg" : "od_account_number"
+  },
+  "possibleVals" : [ {
+    "sbi" : "inb_reference_number",
+    "axis" : "od_account_number",
+    "finagg" : "od_account_number"
+  } ]
+}

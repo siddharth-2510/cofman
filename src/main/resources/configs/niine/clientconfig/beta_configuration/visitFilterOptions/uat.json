@@ -1,0 +1,30 @@
+{
+  "name" : "visitFilterOptions",
+  "type" : "List",
+  "value" : [ {
+    "id" : "ALL",
+    "label" : "ALL"
+  }, {
+    "id" : "MTD NO ORDER",
+    "label" : "MTD NO ORDER"
+  }, {
+    "id" : "NOT VISITED",
+    "label" : "NOT VISITED"
+  }, {
+    "id" : "IN PROGRESS",
+    "label" : "IN PROGRESS"
+  }, {
+    "id" : "VISITED",
+    "label" : "VISITED"
+  }, {
+    "id" : "VISIT ORDER",
+    "label" : "PRODUCTIVE"
+  }, {
+    "id" : "TELE ORDER",
+    "label" : "TELE ORDER"
+  } ],
+  "docUrl" : "",
+  "domainType" : "salesman_app_options_configuration",
+  "description" : "Visit Status filter options",
+  "possibleVals" : [ ]
+}

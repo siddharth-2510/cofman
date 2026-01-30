@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "order_basket_configuration",
+  "elements" : [ {
+    "name" : "orderBasketMapping",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

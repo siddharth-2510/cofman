@@ -1,0 +1,24 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.RevertStockTransactionStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.services.OrderStockHelperService",
+    "index" : "1",
+    "description" : "Bean of OrderStockHelperService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "5",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.sagastep.InvoiceTransformStep",
+    "index" : "-1",
+    "description" : "Bean of prev saga step InvoiceTransformStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.models.Sales",
+    "index" : "4",
+    "description" : "Sales db object"
+  }, {
+    "type" : "java.lang.Boolean",
+    "index" : "12",
+    "description" : "true"
+  } ]
+}

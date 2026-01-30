@@ -1,0 +1,150 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "sde_specific_configuration",
+  "elements" : [ {
+    "name" : "openLeaderboardOnSfaActionTab",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "geolocationPopupVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "supervisorPricingApi",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pricingApi",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "pjpLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "blockVisitFlow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletsVisibilityConditions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "minOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "skuLabelMinOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeCalculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "retailerMarginVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "taxVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "stockVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enableStockSyncOnOutletVisit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderFeedback",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiVariantOrder",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "tabFilters",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productFilterDomainName",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ptrLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "customSchemeDescriptionVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "createCustomSchemeText",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeWithSequence",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "hideOffersCountInViewAllTile",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showViewAllForSchemes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "couponVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dummyCouponImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dummyItemCouponImage",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "couponFilterVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemeSlabVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "uniqueSchemeVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showFreeProductLabel",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "offersTabVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "discountRuleList",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "attributeBasedFreeItem",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showMissedSchemePopUp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "missedPoPUpMargin",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "schemesCalculationType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mergeSchemeWithOuletInfo",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "usePromos",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "transformerListConfig",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "apiFormationMap",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "orderingConditions",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outletMappingFormFiled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "showDistributorAndSalesrepDropdown",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "requiredWidgetIdsBeforeOtp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "otherUnitType",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "multiUOMSelection",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

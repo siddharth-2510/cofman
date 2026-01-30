@@ -1,0 +1,309 @@
+{
+  "version" : "1.0",
+  "domain_name" : "client",
+  "domain_type" : "properties",
+  "elements" : [ {
+    "name" : "use.new.stock.order.step",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "unlimited.expiry.roles",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.native.range.program",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "skip.retailer.in.user.hierarchy.sync",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "order.amount.roundOff.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disable.integration.history.table",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "dms.pending.order.days",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "default.collection.outlet.type",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.outlet.prepared.statement",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "save.token.in.db",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "report.password.enabled.designations",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "convert.date.filter.to.utc.for.order.get",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "create.grn.for.invoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mutiple.uom.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fetch.kpi.data.by.supervisor",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "kpi.designation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "disable.price.validation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bifurcate.scheme.by.slab.in.fetch.api",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.productmetadata.price.doubletarnsient",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "remove.token.on.logout",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "saga.preprocess.wrapper",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ENABLE_INSIGHTS_INTEGRATION",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "outlet.update.access.via.beat",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "integration.save.kafka.record",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "convertion_of_free_item",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.bulk.native.save",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "security.strict.token.check.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "channelkart.new.promo.service",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "do.tax.calculation",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "security.reject.query.api.requests",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "update.route.on.user.parent.migration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "is.first.order.mapping.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "create.delivery.info.for.invoice",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "channelkart.new.stock.service",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "portal.session.duration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.short.token",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.metrics.integration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "filter.by.available.stock",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "basic.parent.info.access",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "activate.product.pricing.flow",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "separate.sku.details.by.batch.id",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allow.duplicate.sku.in.single.order",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "default.mark.discount.type",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "security.strict.access.check.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "deactivated.user.on.full.user.parent.migration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ignore.order.validateapi.validation.failure",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "report.password.salescode.authorization.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primary.generate.random.batch.id",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulk.save.batch.size",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.beta.suppliers",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "create.custom.invoice.number",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "custom.user.pjp.and.deviation.queries",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "block.delivery.confirmation.based.on.credit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.single.batch.per.sku.expiry.filter",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "CREATE_DELIVERY_INFO_FOR_INVOICE",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.insights.integration.mdm",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "roundoff.nativeCdmMapper",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "set.outletcode.as.order.loginid",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "userCacheProperties",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.insights.integration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulk.use.native.redis.ttl",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "application.category",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "encrypt.new.tokens",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "productCacheProperties",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "check.stock.in.pricing",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.productmetadata.case.mrp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "compare.final.orderinfo.quantity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.mark.discount",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "ignore.order.details.with.zero.quantity",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "product.details.master.code",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "find.single.supplier.in.hierarchymetadat",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allow.user.signup",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.new.scheme.endpoint",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.outletproductInfo.mrp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.insights.integration.streamlet",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "fetch.user.with.designation.supplier.or.ss",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "get.schemes.native.query",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "mutiple.uom.enabled.on.sales",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "generate.distributor.wise.invoice.number.sequence",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulk.order.kafka.batch.size",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "collections.module.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "channelkart.new.report.service",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "consider.nearest.slab",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "primary.invoice.recalculate.same.tax",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "credit.collection.by.invoice.enabled",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "short.token.length",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "block.invoicing.for.blocked.outlet",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "consider.stock.while.fetching.products",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "api.size.param.max.limit",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "set.mobile.number.in.forgot.password.if.null",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "calculate.on.min.qty",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.sku.replacement",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "enable.integration.history.streamlet",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "allow.all.user.to.fetch.outlet.metadata",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "update.app.used.time.for.these.analytics.events",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "app.session.duration",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.productmetadata.mrp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "use.productmetadata.other.unit.mrp",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulk.cache.expiry.time.in.minutes",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "bulk.invoice.kafka.batch.size",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "is.outelt.approval.enabled",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

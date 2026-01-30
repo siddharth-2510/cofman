@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "OrderDeliverNotification",
+  "domain_type" : "OrderDeliverNotification",
+  "elements" : [ {
+    "name" : "eventConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "payloadConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "notificationConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

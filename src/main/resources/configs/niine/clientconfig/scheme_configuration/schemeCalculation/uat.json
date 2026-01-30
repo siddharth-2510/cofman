@@ -1,0 +1,8 @@
+{
+  "name" : "schemeCalculation",
+  "type" : "String",
+  "value" : "offline",
+  "description" : "",
+  "defaultValue" : "offline",
+  "possibleVals" : [ "offline", "server" ]
+}

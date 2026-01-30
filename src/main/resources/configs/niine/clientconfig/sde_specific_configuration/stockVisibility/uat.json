@@ -1,0 +1,9 @@
+{
+  "name" : "stockVisibility",
+  "type" : "boolean",
+  "value" : "true",
+  "docUrl" : "",
+  "domainType" : "stock_configuration",
+  "description" : "",
+  "possibleVals" : [ ]
+}

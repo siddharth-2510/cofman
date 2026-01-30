@@ -1,0 +1,73 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "reports2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports-Analytics"
+  }, {
+    "name" : "edaQuantityCompliance2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA Quantity Compliance-Analytics"
+  }, {
+    "name" : "skuSelectionCompliance2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA SKU Selection Compliance-Analytics"
+  }, {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "integrationPlatform2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Platform-Integration"
+  }, {
+    "name" : "mdm",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM"
+  }, {
+    "name" : "mdmNew",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM Upload"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "integrationStatistics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Statistics"
+  }, {
+    "name" : "integrationPlatform",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Platform"
+  }, {
+    "name" : "analyticsDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Performance Dashboard"
+  }, {
+    "name" : "masterDataReports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Master Data Reports"
+  }, {
+    "name" : "validations",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Validations"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "creditInfoPopup",
+  "type" : "string",
+  "value" : "Avail interest-free days with on-time payments",
+  "description" : "Text to be shown in credit info popup",
+  "defaultValue" : "Avail interest-free days with on-time payments",
+  "possibleVals" : [ "Avail interest-free days with on-time payments" ]
+}

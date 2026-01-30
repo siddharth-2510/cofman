@@ -1,0 +1,50 @@
+{
+  "name" : "morePageWidget",
+  "type" : "widgetLayout",
+  "value" : [ {
+    "name" : "SupervisorDaySummary",
+    "type" : "moreOptions",
+    "image" : "assets/svg/day_summary.svg",
+    "label" : "Day Summary"
+  }, {
+    "name" : "Attendance",
+    "type" : "moreOptions",
+    "image" : "assets/svg/attendance_sfa.svg",
+    "label" : "Attendance"
+  }, {
+    "name" : "Outlet Mapping",
+    "type" : "moreOptions",
+    "image" : "assets/svg/OutletMapping.svg",
+    "label" : "Outlet Mapping"
+  }, {
+    "name" : "Logs",
+    "type" : "moreOptions",
+    "image" : "assets/svg/Logs.svg",
+    "label" : "Logs"
+  }, {
+    "name" : "Data Sync",
+    "type" : "moreOptions",
+    "image" : "assets/svg/appbarRefresh.svg",
+    "label" : "Data Sync"
+  }, {
+    "name" : "Change Password",
+    "type" : "moreOptions",
+    "image" : "assets/svg/change_password.svg",
+    "label" : "Change Password"
+  }, {
+    "name" : "About",
+    "type" : "moreOptions",
+    "image" : "assets/images/About.svg",
+    "label" : "About"
+  }, {
+    "name" : "Logout",
+    "type" : "moreOptions",
+    "image" : "assets/images/Logout.svg",
+    "label" : "Logout"
+  } ],
+  "docUrl" : "",
+  "domainType" : "cdo_app_layout_configuration",
+  "description" : "more page layout config",
+  "defaultValue" : null,
+  "possibleVals" : [ "widgetLayout", "formLayout", "reportLayout" ]
+}

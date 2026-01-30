@@ -1,0 +1,9 @@
+{
+  "name" : "otherUnitType",
+  "type" : "string",
+  "value" : "dynamic",
+  "docUrl" : "",
+  "description" : "",
+  "defaultValue" : "",
+  "possibleVals" : [ "string" ]
+}

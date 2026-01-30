@@ -1,0 +1,5 @@
+{
+  "name" : "disableOutletVerification",
+  "type" : "boolean",
+  "value" : false
+}

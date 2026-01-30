@@ -1,0 +1,14 @@
+{
+  "name" : "outletTileOptions",
+  "type" : "List",
+  "value" : [ {
+    "id" : "Tele Order",
+    "svgPath" : "assets/svg/teleOrder.svg"
+  }, {
+    "id" : "Visit Order",
+    "svgPath" : "assets/svg/visitOrder.svg"
+  } ],
+  "docUrl" : "",
+  "description" : "Outlet tile options",
+  "possibleVals" : [ ]
+}

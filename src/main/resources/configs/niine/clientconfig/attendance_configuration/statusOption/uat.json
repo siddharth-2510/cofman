@@ -1,0 +1,24 @@
+{
+  "name" : "statusOption",
+  "type" : "List",
+  "value" : [ {
+    "id" : "present",
+    "label" : "Present",
+    "isImageMandatory" : true
+  }, {
+    "id" : "absent",
+    "label" : "Absent"
+  }, {
+    "id" : "holiday",
+    "label" : "Holiday"
+  }, {
+    "id" : "meeting",
+    "label" : "Meeting"
+  }, {
+    "id" : "weekoff",
+    "label" : "Weekoff"
+  } ],
+  "docUrl" : "",
+  "description" : "Attendance status options",
+  "possibleVals" : [ ]
+}

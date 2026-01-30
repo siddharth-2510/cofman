@@ -1,0 +1,8 @@
+{
+  "name" : "outletLocationTransformerName",
+  "type" : "string",
+  "value" : "cavin_location_transformer",
+  "docUrl" : "",
+  "description" : "",
+  "possibleVals" : [ ]
+}

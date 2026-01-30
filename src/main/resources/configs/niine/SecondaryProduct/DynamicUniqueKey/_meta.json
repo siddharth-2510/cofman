@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "SecondaryProduct",
+  "domain_type" : "DynamicUniqueKey",
+  "elements" : [ {
+    "name" : "getConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "dynamicKeys",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

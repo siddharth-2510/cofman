@@ -1,0 +1,21 @@
+{
+  "type" : "CDM",
+  "className" : "com.applicate.services.channelkart.event.listeners.GenericCdmPostProcessListener",
+  "description" : "Listen CDM events and run custom scripts",
+  "configurations" : [ {
+    "name" : "script",
+    "type" : "textarea",
+    "required" : true
+  }, {
+    "name" : "language",
+    "type" : "dropdown",
+    "values" : [ "javascript" ],
+    "required" : true
+  }, {
+    "name" : "cdm",
+    "required" : true
+  }, {
+    "name" : "operation",
+    "required" : true
+  } ]
+}

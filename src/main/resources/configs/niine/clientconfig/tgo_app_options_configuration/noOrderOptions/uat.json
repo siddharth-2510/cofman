@@ -1,0 +1,8 @@
+{
+  "name" : "noOrderOptions",
+  "type" : "List",
+  "value" : [ "Credit issue", "Last stock available", "Shop owner not available", "Login by mistake", "Others" ],
+  "docUrl" : "",
+  "description" : "No order options",
+  "possibleVals" : [ ]
+}

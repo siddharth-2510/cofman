@@ -1,0 +1,4 @@
+{
+  "name" : "security.strict.token.check.enabled",
+  "value" : "true"
+}

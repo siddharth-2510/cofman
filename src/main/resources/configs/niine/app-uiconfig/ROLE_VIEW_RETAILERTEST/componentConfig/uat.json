@@ -1,0 +1,140 @@
+{
+  "features" : [ {
+    "id" : "order",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "order"
+  }, {
+    "id" : "cart",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "cart"
+  }, {
+    "id" : "homePage",
+    "param" : {
+      "footerelements" : [ {
+        "icon" : "sellinaIcon",
+        "name" : "Home",
+        "featureId" : "homePage"
+      }, {
+        "icon" : "orderTruckIcon1",
+        "name" : "My Orders",
+        "featureId" : "orderTracking"
+      }, {
+        "icon" : "cartIcon1",
+        "name" : "cart",
+        "featureId" : "cart"
+      }, {
+        "icon" : "moreIcon1",
+        "name" : "more",
+        "featureId" : "moreOptions"
+      } ]
+    },
+    "templateId" : "homePage7"
+  }, {
+    "id" : "orderSummary",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderSummary"
+  }, {
+    "id" : "orderTracking",
+    "param" : {
+      "label1" : "CASE",
+      "label2" : "PACK"
+    },
+    "templateId" : "orderTracking"
+  }, {
+    "id" : "orderInvoice",
+    "param" : {
+      "issue" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ],
+      "compliment" : [ "Ease of Order", "App Experience", "Delivery", "Delivery Time" ]
+    },
+    "templateId" : "orderInvoice"
+  }, {
+    "id" : "notification",
+    "templateId" : "notification"
+  }, {
+    "id" : "recommendedOrder",
+    "templateId" : "recommendedOrder"
+  }, {
+    "id" : "retailerProfile",
+    "templateId" : "retailerProfile"
+  }, {
+    "id" : "helpdesk",
+    "param" : {
+      "offline" : false,
+      "priority" : [ "Low", "Medium", "High" ],
+      "complaint" : [ "App Related", "Quality Related", "Supply Related", "Feedback", "Other Issues" ]
+    },
+    "templateId" : "helpdesk"
+  }, {
+    "id" : "footerElements",
+    "param" : [ {
+      "icon" : "sellinaIcon",
+      "text" : "Home Test",
+      "openfeature" : "homePage"
+    }, {
+      "icon" : "orderTruckIcon1",
+      "text" : "My Orders",
+      "openfeature" : "orderTracking"
+    }, {
+      "icon" : "cartIcon1",
+      "text" : "cart",
+      "openfeature" : "cart"
+    }, {
+      "icon" : "moreIcon1",
+      "text" : "more",
+      "openfeature" : "order"
+    } ]
+  }, {
+    "id" : "sidebar",
+    "param" : [ {
+      "icon" : "faqIcon",
+      "name" : "FAQs",
+      "featureId" : "support"
+    }, {
+      "icon" : "supportIcon",
+      "name" : "Support",
+      "featureId" : "helpdesk"
+    }, {
+      "icon" : "aboutIcon",
+      "name" : "About",
+      "featureId" : "deviceInfo"
+    }, {
+      "icon" : "logsIcon",
+      "name" : "Logs",
+      "featureId" : "logs"
+    }, {
+      "icon" : "changePasswordIcon",
+      "name" : "Change Password",
+      "featureId" : "changePassword"
+    }, {
+      "icon" : "logoutIcon1",
+      "name" : "Logout",
+      "featureId" : "logout"
+    } ]
+  }, {
+    "id" : "header",
+    "param" : {
+      "elements" : [ {
+        "icon" : "fas fa-user-circle",
+        "name" : "Profile",
+        "featureId" : "retailerProfile"
+      }, {
+        "icon" : "far fa-question-circle",
+        "name" : "Support",
+        "featureId" : "helpdesk"
+      }, {
+        "icon" : "fas fa-sign-out-alt",
+        "name" : "Logout",
+        "featureId" : "logout"
+      } ]
+    }
+  } ]
+}

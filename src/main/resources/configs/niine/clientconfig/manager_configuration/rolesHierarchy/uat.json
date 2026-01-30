@@ -1,0 +1,58 @@
+{
+  "name" : "rolesHierarchy",
+  "type" : "Map",
+  "value" : {
+    "zm" : {
+      "asm" : [ "tgo", "sde" ],
+      "sde" : [ "ss", "supplier" ],
+      "tgo" : [ "ss", "supplier" ],
+      "tsm" : [ "tgo", "sde" ],
+      "root" : [ "asm", "tsm" ]
+    },
+    "asm" : {
+      "ss" : [ "subd" ],
+      "sde" : [ "ss", "supplier" ],
+      "tgo" : [ "ss", "supplier" ],
+      "root" : [ "tgo", "sde" ],
+      "supplier" : [ "salesman" ]
+    },
+    "nsm" : {
+      "zm" : [ "asm", "tsm" ],
+      "rsm" : [ "zm" ],
+      "root" : [ "rsm" ]
+    },
+    "rsm" : {
+      "zm" : [ "asm", "tsm" ],
+      "asm" : [ "tgo", "sde" ],
+      "tsm" : [ "tgo", "sde" ],
+      "root" : [ "zm" ]
+    },
+    "tsm" : {
+      "ss" : [ "subd" ],
+      "sde" : [ "ss", "supplier" ],
+      "tgo" : [ "ss", "supplier" ],
+      "root" : [ "tgo", "sde" ],
+      "supplier" : [ "salesman" ]
+    },
+    "admin" : {
+      "nsm" : [ "rsm" ],
+      "root" : [ "saleshead" ],
+      "saleshead" : [ "nsm" ]
+    },
+    "saleshead" : {
+      "nsm" : [ "rsm" ],
+      "rsm" : [ "zm" ],
+      "root" : [ "nsm" ]
+    },
+    "reportadmin" : {
+      "nsm" : [ "rsm" ],
+      "root" : [ "saleshead" ],
+      "saleshead" : [ "nsm" ]
+    },
+    "projectadmin" : {
+      "nsm" : [ "rsm" ],
+      "root" : [ "saleshead" ],
+      "saleshead" : [ "nsm" ]
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "clientLogoHeight",
+  "type" : "number",
+  "value" : "75",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "logo height",
+  "defaultValue" : 100,
+  "possibleVals" : [ "number" ]
+}

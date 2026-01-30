@@ -1,0 +1,11 @@
+{
+  "id" : "companyMaster",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/CompanyMasterMDMUploadUpdatedTemplate-VAcugxsvwpim.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "User",
+    "transformerId" : "dms_mdm_company_user"
+  }, {
+    "entityName" : "AccountInfo",
+    "transformerId" : "dms_mdm_company_account_info_transformer"
+  } ]
+}

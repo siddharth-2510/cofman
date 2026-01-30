@@ -1,0 +1,113 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "assettracking",
+    "version" : "1.0",
+    "template" : "assettracking"
+  }, {
+    "name" : "favouriteskus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "incentive",
+    "version" : "1.0",
+    "template" : "v1"
+  }, {
+    "name" : "incentivedashboard",
+    "version" : "1.0",
+    "template" : "v1"
+  }, {
+    "name" : "faq",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : "order"
+  }, {
+    "name" : "banner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "recommendation",
+    "version" : "1.0",
+    "template" : "recommendation"
+  }, {
+    "name" : "productfilter",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "sellina",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "attendance",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "storeinventory",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletactivity",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "kpi",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "ordertracking",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "pjp",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "salesrep",
+    "version" : "1.0",
+    "template" : "salesrep"
+  }, {
+    "name" : "visitStatus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "secondaryproduct",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "inventoryReturn",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "offers",
+    "version" : "1.0",
+    "template" : "offers"
+  }, {
+    "name" : "locationloader",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outletVisitBanner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "invoicedetails",
+    "version" : "1.0",
+    "template" : ""
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

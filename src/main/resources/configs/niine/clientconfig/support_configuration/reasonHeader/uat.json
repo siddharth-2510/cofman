@@ -1,0 +1,8 @@
+{
+  "name" : "reasonHeader",
+  "type" : "String",
+  "value" : "Request",
+  "docUrl" : "",
+  "description" : "To change reason to request",
+  "possibleVals" : [ ]
+}

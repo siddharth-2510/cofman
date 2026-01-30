@@ -1,0 +1,5 @@
+{
+  "name" : "dbProfileWidgets",
+  "type" : "List",
+  "value" : [ "contactNumber", "address" ]
+}

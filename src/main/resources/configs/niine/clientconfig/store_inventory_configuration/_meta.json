@@ -1,0 +1,15 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "store_inventory_configuration",
+  "elements" : [ {
+    "name" : "stockInventoryFields",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "inventoryTransactionVisibility",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "copyCardData",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

@@ -1,0 +1,5 @@
+{
+  "name" : "updateDataOnOtpVerification",
+  "type" : "boolean",
+  "value" : true
+}

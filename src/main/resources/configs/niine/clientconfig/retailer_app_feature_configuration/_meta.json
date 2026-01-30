@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "retailer_app_feature_configuration",
+  "elements" : [ {
+    "name" : "featureConfig",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

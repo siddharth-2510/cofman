@@ -1,0 +1,24 @@
+{
+  "workflow" : [ {
+    "parallel" : false,
+    "approvers" : [ {
+      "expiry" : "20",
+      "on_expiry" : "APPROVED",
+      "designation" : "salesexecutive",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    }, {
+      "expiry" : "20",
+      "on_expiry" : "APPROVED",
+      "designation" : "admin",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "OR"
+  } ],
+  "revertUrl" : "nourl",
+  "callbackUrl" : "https://webhook.site/6157c5ca-b2e5-4500-8745-878ecfd7b690",
+  "isEventRequired" : true
+}

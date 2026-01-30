@@ -1,0 +1,7 @@
+{
+  "name" : "unhanldedErrorOmissionList",
+  "type" : "list",
+  "value" : [ "SocketException", "Instance of 'Error'", "HandshakeException" ],
+  "description" : "List of errors to be omitted when recording unhandled errors",
+  "defaultValue" : [ ]
+}

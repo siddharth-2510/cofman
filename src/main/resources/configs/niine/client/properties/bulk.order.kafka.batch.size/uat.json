@@ -1,0 +1,4 @@
+{
+  "name" : "bulk.order.kafka.batch.size",
+  "value" : "10"
+}

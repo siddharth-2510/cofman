@@ -1,0 +1,4 @@
+{
+  "name" : "integration.save.kafka.record",
+  "value" : "true"
+}

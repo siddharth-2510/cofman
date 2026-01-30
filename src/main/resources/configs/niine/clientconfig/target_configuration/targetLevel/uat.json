@@ -1,0 +1,8 @@
+{
+  "name" : "targetLevel",
+  "type" : "string",
+  "value" : "month",
+  "docUrl" : "",
+  "description" : "Calculation of tgt/ach on monthly/period basis",
+  "possibleVals" : [ "month", "period" ]
+}

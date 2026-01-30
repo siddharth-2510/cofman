@@ -1,0 +1,12 @@
+{
+  "name" : "newStatusUpdateConfig",
+  "type" : "object",
+  "value" : {
+    "order" : "OUT FOR DELIVERY",
+    "invoice" : "OUT FOR DELIVERY"
+  },
+  "docUrl" : "",
+  "description" : "new status update values for invoice/order",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

@@ -1,0 +1,44 @@
+{
+  "name" : "claimTypesObj",
+  "type" : "object",
+  "value" : {
+    "DAMAGERETURNS" : {
+      "id" : "DAMAGERETURNS",
+      "label" : "Damage Returns",
+      "subTypes" : {
+        "SALERETURNS" : {
+          "id" : "SALERETURNS",
+          "path" : "saleReturns",
+          "label" : "Sale Returns",
+          "description" : "Raise claims for SKUs returned by customers during secondary due to damage, defects or other issues.",
+          "requiresMonth" : true
+        },
+        "PURCHASERETURNS" : {
+          "id" : "PURCHASERETURNS",
+          "path" : "purchaseReturns",
+          "label" : "Purchase Returns",
+          "description" : "Raise claims for purchased stock that is unsellable.",
+          "requiresMonth" : false
+        }
+      },
+      "selectLabel" : "Select Damaged Returns"
+    },
+    "SECONDARYSCHEMES" : {
+      "id" : "SECONDARYSCHEMES",
+      "label" : "Secondary Schemes",
+      "subTypes" : {
+        "ALLEXCLTOV" : {
+          "id" : "ALLEXCLTOV",
+          "path" : "secondarySchemes",
+          "label" : "All Excl. Tov",
+          "description" : "Raise claims for all types of secondary schemes (except Total order value discount)",
+          "requiresMonth" : true
+        }
+      },
+      "selectLabel" : "Select Scheme Type"
+    }
+  },
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "",
+  "possibleVals" : [ ]
+}

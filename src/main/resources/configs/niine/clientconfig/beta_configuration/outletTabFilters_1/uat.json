@@ -1,0 +1,34 @@
+{
+  "name" : "outletTabFilters",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesTarget",
+    "heading" : "TOTAL",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/total_outlets.svg",
+    "supervisorHeading" : "SALES TARGET",
+    "supervisorTabSvgPath" : "assets/svg/jnj_sales_icon.svg"
+  }, {
+    "id" : "mustOrderOutlets",
+    "heading" : "MUST ORDER",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/must_order_outlets.svg",
+    "supervisorHeading" : "MUST ORDER",
+    "supervisorTabSvgPath" : "assets/svg/must_order.svg"
+  }, {
+    "id" : "focus",
+    "heading" : "FOCUS PRODUCT",
+    "subHeading" : "STORES",
+    "tabSvgPath" : "assets/svg/focus_products.svg",
+    "supervisorHeading" : "FOCUS PRODUCTS",
+    "supervisorTabSvgPath" : "assets/svg/home.svg"
+  }, {
+    "id" : "mss",
+    "heading" : "MSS DISTRIBUTION",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/focus_products.svg",
+    "supervisorHeading" : "MSS DISTRIBUTION",
+    "supervisorTabSvgPath" : "assets/svg/focus_products.svg"
+  } ],
+  "domainType" : "must_do_action_salesrep_aggregation_configuration"
+}

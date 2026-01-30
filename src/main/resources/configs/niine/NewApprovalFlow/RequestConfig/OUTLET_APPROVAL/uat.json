@@ -1,0 +1,16 @@
+{
+  "workflow" : [ {
+    "parallel" : false,
+    "approvers" : [ {
+      "expiry" : "20",
+      "on_expiry" : "APPROVED",
+      "designation" : "reportadmin",
+      "permissions" : "Action",
+      "resolverType" : "HIERARCHY",
+      "resolverConfig" : { }
+    } ],
+    "condition" : "AND"
+  } ],
+  "revertUrl" : "nourl",
+  "isEventRequired" : true
+}

@@ -1,0 +1,49 @@
+{
+  "name" : "homeScreenBlockWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1",
+    "type" : "dataSyncTextScroll"
+  }, {
+    "id" : "444",
+    "name" : "test outlet screen",
+    "type" : "Banner",
+    "label" : "Market Working",
+    "bannerIds" : [ "5b121609-d28d-4dd6-bb80-7b832e998ecd" ],
+    "bannerType" : "template38",
+    "statusEnabled" : true
+  }, {
+    "id" : "444",
+    "name" : "test outlet screen",
+    "type" : "Banner",
+    "label" : "Outlet Visit",
+    "bannerIds" : [ "058bd271-e386-475a-923b-d9eaff8f75ad" ],
+    "bannerType" : "template38",
+    "statusEnabled" : true
+  }, {
+    "id" : "6",
+    "type" : "mustDoAction"
+  }, {
+    "id" : "7",
+    "type" : "liveDashboard",
+    "items" : [ {
+      "id" : "kpiReview",
+      "icon" : "assets/svg/KPI.svg",
+      "label" : "KPI Review",
+      "backgroundColor" : "#0054a6"
+    }, {
+      "id" : "incentiveDashboard",
+      "icon" : "assets/svg/Incentive.svg",
+      "label" : "Incentive Dashboard",
+      "backgroundColor" : "#e6f2ff"
+    }, {
+      "id" : "notification",
+      "icon" : "assets/svg/notification_empty.svg",
+      "label" : "Notification",
+      "backgroundColor" : "#e6f2ff"
+    } ]
+  }, {
+    "id" : "8",
+    "type" : "kpi"
+  } ]
+}

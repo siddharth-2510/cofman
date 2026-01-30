@@ -1,0 +1,8 @@
+{
+  "name" : "validDesignation",
+  "type" : "string",
+  "value" : "salesman,tgo,sde",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : ""
+}

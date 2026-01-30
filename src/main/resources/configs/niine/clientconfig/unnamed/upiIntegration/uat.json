@@ -1,0 +1,8 @@
+{
+  "name" : "upiIntegration",
+  "type" : "boolean",
+  "value" : "true",
+  "description" : "config for showing upi options for payment",
+  "defaultValue" : "false",
+  "possibleVals" : [ "true", "false" ]
+}

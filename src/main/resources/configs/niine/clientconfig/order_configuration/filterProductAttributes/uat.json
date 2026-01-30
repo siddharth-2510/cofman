@@ -1,0 +1,9 @@
+{
+  "name" : "filterProductAttributes",
+  "type" : "list",
+  "value" : [ "category", "subCategory", "brand" ],
+  "docUrl" : "",
+  "description" : "",
+  "defaultValue" : [ "category" ],
+  "possibleVals" : [ "string[]" ]
+}

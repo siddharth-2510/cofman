@@ -1,0 +1,45 @@
+{
+  "name" : "invoiceStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "ALL",
+    "dmsLabel" : "All Invoices"
+  }, {
+    "id" : "INVOICED",
+    "dmsColor" : "#EDF7FF",
+    "dmsLabel" : "Invoiced",
+    "dmsLabelColor" : "#118EEB"
+  }, {
+    "id" : "PARTIALLY INVOICED",
+    "dmsColor" : "#F3FCF3",
+    "dmsLabel" : "Partially Invoiced",
+    "dmsLabelColor" : "#23C65B"
+  }, {
+    "id" : "CANCELLED",
+    "dmsColor" : "#FFF9F8",
+    "dmsLabel" : "Cancelled",
+    "dmsLabelColor" : "#C44C36"
+  }, {
+    "id" : "OUT FOR DELIVERY",
+    "color" : "#1E1E1E",
+    "label" : "OUT FOR DELIVERY",
+    "dmsColor" : "#fffae2",
+    "dmsLabel" : "Out For Delivery",
+    "labelColor" : "",
+    "dmsLabelColor" : "#cda501"
+  }, {
+    "id" : "DELIVERED",
+    "dmsColor" : "#EAFFF4",
+    "dmsLabel" : "Delivered",
+    "dmsLabelColor" : "#029847"
+  }, {
+    "id" : "PARTIAL DELIVERED",
+    "dmsColor" : "#F0FBFF",
+    "dmsLabel" : "Partially Delivered",
+    "dmsLabelColor" : "#17B4A3"
+  } ],
+  "docUrl" : "",
+  "description" : "Invoice stages",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

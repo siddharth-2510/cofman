@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "DeliveryPJP",
+  "domain_type" : "hierarchyConfig",
+  "elements" : [ {
+    "name" : "item_0",
+    "pattern" : "FALLBACK"
+  } ]
+}

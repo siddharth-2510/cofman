@@ -1,0 +1,4 @@
+{
+  "cdms" : [ "MetaData", "Order", "User" ],
+  "operations" : "all"
+}

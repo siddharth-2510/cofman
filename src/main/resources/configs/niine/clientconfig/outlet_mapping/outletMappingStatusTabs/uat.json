@@ -1,0 +1,17 @@
+{
+  "name" : "outletMappingStatusTabs",
+  "type" : "List",
+  "value" : [ {
+    "id" : "Pending",
+    "label" : "Pending"
+  }, {
+    "id" : "firstOrder",
+    "label" : "First Order"
+  }, {
+    "id" : "Approved",
+    "label" : "Approved"
+  }, {
+    "id" : "Rejected",
+    "label" : "Rejected"
+  } ]
+}

@@ -1,0 +1,118 @@
+{
+  "name" : "percentageColorMapping",
+  "type" : "List",
+  "value" : {
+    "eco" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 30
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 51
+    } ],
+    "Strike Call" : [ {
+      "color" : "FFFF8282",
+      "threshold" : 0
+    }, {
+      "color" : "FF00C6B1",
+      "threshold" : 50
+    }, {
+      "color" : "FF00BE41",
+      "threshold" : 71
+    } ],
+    "salesGrowth" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 70
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 90
+    } ],
+    "PJP Compliance" : [ {
+      "color" : "FFFF8282",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "threshold" : 50
+    }, {
+      "color" : "FF00BE41",
+      "threshold" : 71
+    } ],
+    "npdContribution" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 30
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 51
+    } ],
+    "PJP Productivity" : [ {
+      "color" : "FFFF8282",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "threshold" : 50
+    }, {
+      "color" : "FF00BE41",
+      "threshold" : 71
+    } ],
+    "focusProductContribution" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 30
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 51
+    } ],
+    "targetVsAchievementOrder" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FFFFC452",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 50
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 100
+    } ],
+    "targetVsAchievementSales" : [ {
+      "color" : "FFFF8282",
+      "iconPath" : "assets/images/decliningGraph.svg",
+      "threshold" : 0
+    }, {
+      "color" : "FF00C6B1",
+      "iconPath" : "assets/images/neutralGraph.svg",
+      "threshold" : 50
+    }, {
+      "color" : "FF00BE41",
+      "iconPath" : "assets/images/positiveGraph.svg",
+      "threshold" : 81
+    } ]
+  },
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

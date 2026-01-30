@@ -1,0 +1,12 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.OrderStatusUpdateStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.models.sagastep.RetrieveGRNInfoStep",
+    "index" : "-1",
+    "description" : "Bean of prev saga step RetrieveGRNInfoStep"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.OrderService",
+    "index" : "1",
+    "description" : "Bean of OrderService"
+  } ]
+}

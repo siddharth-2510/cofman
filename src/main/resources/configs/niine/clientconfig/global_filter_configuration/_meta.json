@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "global_filter_configuration",
+  "elements" : [ {
+    "name" : "bannerGlobalFilter",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "notificationGlobalFilter",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

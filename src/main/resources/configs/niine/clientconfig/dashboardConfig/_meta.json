@@ -1,0 +1,24 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "dashboardConfig",
+  "elements" : [ {
+    "name" : "studio",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "integration",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "impactPrediction",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "liveDashboard",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "impactDashboard",
+    "pattern" : "ID_FIELD"
+  }, {
+    "name" : "analyticsDashboard",
+    "pattern" : "ID_FIELD"
+  } ]
+}

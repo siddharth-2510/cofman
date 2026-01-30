@@ -1,0 +1,588 @@
+{
+  "2022" : {
+    "offset" : 0,
+    "periodConfig" : {
+      "1" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "2" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "3" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "4" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "5" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "6" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "7" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "8" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "9" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "10" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "11" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "12" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      }
+    }
+  },
+  "2023" : {
+    "offset" : 0,
+    "periodConfig" : {
+      "1" : {
+        "weeks" : 4,
+        "periodDays" : 27,
+        "weekConfig" : {
+          "4" : {
+            "weekDays" : 6
+          },
+          "weekDays" : 7
+        }
+      },
+      "2" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "3" : {
+        "weeks" : 5,
+        "periodDays" : 35,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "4" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "5" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 6
+        }
+      },
+      "6" : {
+        "weeks" : 5,
+        "periodDays" : 35,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "7" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "8" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "9" : {
+        "weeks" : 5,
+        "periodDays" : 35,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "10" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "11" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "12" : {
+        "weeks" : 6,
+        "periodDays" : 36,
+        "weekConfig" : {
+          "6" : {
+            "weekDays" : 1
+          },
+          "weekDays" : 7
+        }
+      }
+    }
+  },
+  "2024" : {
+    "offset" : 0,
+    "periodConfig" : {
+      "1" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "2" : {
+        "weeks" : 5,
+        "periodDays" : 29,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 1
+          },
+          "weekDays" : 7
+        }
+      },
+      "3" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "4" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "5" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "6" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "7" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "8" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "9" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "10" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "11" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "12" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      }
+    }
+  },
+  "2025" : {
+    "offset" : 0,
+    "periodConfig" : {
+      "1" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "2" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "3" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "4" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "5" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "6" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "7" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "8" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "9" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "10" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "11" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "12" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      }
+    }
+  },
+  "2026" : {
+    "offset" : 0,
+    "periodConfig" : {
+      "1" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "2" : {
+        "weeks" : 4,
+        "periodDays" : 28,
+        "weekConfig" : {
+          "weekDays" : 7
+        }
+      },
+      "3" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "4" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "5" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "6" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "7" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "8" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "9" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "10" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      },
+      "11" : {
+        "weeks" : 5,
+        "periodDays" : 30,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 2
+          },
+          "weekDays" : 7
+        }
+      },
+      "12" : {
+        "weeks" : 5,
+        "periodDays" : 31,
+        "weekConfig" : {
+          "5" : {
+            "weekDays" : 3
+          },
+          "weekDays" : 7
+        }
+      }
+    }
+  }
+}

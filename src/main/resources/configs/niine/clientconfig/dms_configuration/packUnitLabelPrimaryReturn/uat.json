@@ -1,0 +1,8 @@
+{
+  "name" : "packUnitLabelPrimaryReturn",
+  "type" : "string",
+  "value" : "PC",
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

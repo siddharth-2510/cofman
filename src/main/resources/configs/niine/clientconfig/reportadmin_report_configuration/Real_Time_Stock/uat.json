@@ -1,0 +1,11 @@
+{
+  "id" : "RealTimeStockReport",
+  "name" : "Real Time Stock",
+  "type" : "stock audit",
+  "globalFilters" : [ {
+    "id" : "loggedInUser",
+    "api" : "/v1/query/getSuppliersDMS",
+    "label" : "Distributor",
+    "parent" : ""
+  } ]
+}

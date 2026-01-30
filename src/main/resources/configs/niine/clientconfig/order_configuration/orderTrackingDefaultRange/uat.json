@@ -1,0 +1,9 @@
+{
+  "name" : "orderTrackingDefaultRange",
+  "type" : "number",
+  "value" : 7,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "In orderTracking, fromDate is 2 months from today for retailer and for other designation it is today itself for normal orders by default. For saveOrder it is 15 days from today by default. Using this configuration we can set it n days from today where n is orderTrackingDefaultRange",
+  "defaultValue" : 0,
+  "possibleVals" : [ 1, "n" ]
+}

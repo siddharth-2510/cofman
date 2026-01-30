@@ -1,0 +1,10 @@
+{
+  "name" : "iosAppPackageName",
+  "type" : "string",
+  "value" : "com.applicate.ckcoesfa.app",
+  "docUrl" : "",
+  "domainType" : "app_configuration",
+  "description" : "App package name",
+  "defaultValue" : "com.applicate.applicateai.app",
+  "possibleVals" : [ "string" ]
+}

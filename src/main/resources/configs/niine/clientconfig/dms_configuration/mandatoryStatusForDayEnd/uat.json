@@ -1,0 +1,8 @@
+{
+  "name" : "mandatoryStatusForDayEnd",
+  "type" : "list",
+  "value" : [ "Invoicing", "Loadout", "Settlement" ],
+  "docUrl" : "",
+  "description" : "Config for default mandatory activities for dayend",
+  "possibleVals" : [ ]
+}

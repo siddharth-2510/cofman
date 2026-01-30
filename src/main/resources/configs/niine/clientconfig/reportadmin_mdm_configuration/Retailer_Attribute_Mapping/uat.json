@@ -1,0 +1,11 @@
+{
+  "id" : "RetailerAttributeMappingTransformer",
+  "name" : "Retailer Attribute Mapping",
+  "useKafka" : false,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/RetailerAttributeMapping-HoVbgLMMAScD.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OutletMapping",
+    "operationType" : "insert",
+    "transformerId" : "RetailerAttributeMappingTransformer"
+  } ]
+}

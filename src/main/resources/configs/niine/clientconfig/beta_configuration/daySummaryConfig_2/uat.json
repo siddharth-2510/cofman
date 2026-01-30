@@ -1,0 +1,340 @@
+{
+  "name" : "daySummaryConfig",
+  "type" : "list",
+  "value" : [ {
+    "id" : "buisnessOverview",
+    "label" : "Business Overview",
+    "datapoints" : [ {
+      "id" : "salesAnalytics",
+      "datapoints" : [ {
+        "id" : "target",
+        "type" : "number",
+        "label" : "Today's Target",
+        "labelColor" : "#8c9197"
+      }, {
+        "id" : "ach",
+        "type" : "number",
+        "label" : "Today's Ach",
+        "labelColor" : "#8c9197"
+      }, {
+        "id" : "achPer",
+        "type" : "percentage",
+        "unit" : "%",
+        "color" : "#1b86a0",
+        "label" : "Ach%",
+        "labelColor" : "#1b86a0",
+        "validation" : {
+          "type" : "range",
+          "range" : [ {
+            "color" : "#00C6B1",
+            "endValue" : "max",
+            "startValue" : "70"
+          }, {
+            "color" : "#E8890A",
+            "endValue" : "69.99",
+            "startValue" : "50"
+          }, {
+            "color" : "#D90000",
+            "endValue" : "49.99",
+            "startValue" : "min"
+          } ]
+        }
+      } ]
+    }, {
+      "id" : "buisnessKpis",
+      "label" : "Business KPIs",
+      "datapoints" : [ {
+        "id" : "aov",
+        "type" : "number",
+        "color" : "#1abeaf",
+        "label" : "Average Order Value",
+        "labelColor" : "#8c9197"
+      }, {
+        "id" : "lpc",
+        "type" : "number",
+        "color" : "#287ea0",
+        "label" : "Lines per Call",
+        "labelColor" : "#8c9197"
+      } ]
+    }, {
+      "id" : "outletsOnboardedKpis",
+      "label" : "testing",
+      "datapoints" : [ {
+        "id" : "outletsOnboarded",
+        "type" : "number",
+        "color" : "#4E738D",
+        "label" : "Outlets Onboarded Today",
+        "svgPath" : "assets/svg/outlet.svg",
+        "labelColor" : "#8c9197"
+      } ],
+      "backgroundColor" : "#E3F6F4"
+    }, {
+      "id" : "mslAnalytics",
+      "label" : "FOCUS",
+      "svgPath" : "",
+      "datapoints" : [ {
+        "id" : "outletOrdered",
+        "color" : "#00C6B1",
+        "label" : "Ordered Outlet",
+        "minQty" : 0,
+        "labelColor" : "#6F6F6F",
+        "backgroundColor" : "#f4fbfb"
+      }, {
+        "id" : "orderValue",
+        "color" : "#227C9D",
+        "label" : "Ordered Value",
+        "labelColor" : "#6F6F6F",
+        "backgroundColor" : "#f4fbfb"
+      } ]
+    } ],
+    "disclaimer" : ""
+  }, {
+    "id" : "visitAnalysis",
+    "label" : "Visit Analysis",
+    "datapoints" : [ {
+      "id" : "plannedVisit",
+      "color" : "#1b869f",
+      "label" : "Planned Visits",
+      "svgPath" : "assets/svg/planned_visit.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "actualVisit",
+      "color" : "#4e545b",
+      "label" : "Actual Visits",
+      "svgPath" : "assets/svg/actual_visit.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "pjpVisit",
+      "color" : "#4e545b",
+      "label" : "PJP Visits",
+      "svgPath" : "assets/svg/pjp_visit.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "pjpCompliance",
+      "unit" : "%",
+      "label" : "PJP Compliance",
+      "svgPath" : "assets/svg/non_pjp_visit.svg",
+      "validation" : {
+        "type" : "range",
+        "range" : [ {
+          "color" : "#00C6B1",
+          "endValue" : "max",
+          "startValue" : "70"
+        }, {
+          "color" : "#E8890A",
+          "endValue" : "69.99",
+          "startValue" : "50"
+        }, {
+          "color" : "#D90000",
+          "endValue" : "49.99",
+          "startValue" : "min"
+        } ]
+      }
+    } ],
+    "disclaimer" : "Unique visit per outlet is considered in Actual Visit"
+  }, {
+    "id" : "productivityAnalysis",
+    "label" : "Productivity Analysis",
+    "datapoints" : [ {
+      "id" : "plannedVisit",
+      "type" : "value",
+      "color" : "#237c9e",
+      "label" : "Total Visit",
+      "svgPath" : "assets/svg/actual_visit.svg"
+    }, {
+      "id" : "prodCall",
+      "type" : "value",
+      "color" : "#237c9e",
+      "label" : "Total Productive Visit",
+      "svgPath" : "assets/svg/total_productive_call.svg"
+    }, {
+      "id" : "prodPer",
+      "type" : "percentage",
+      "unit" : "%",
+      "color" : "#000000",
+      "label" : "Productivity",
+      "svgPath" : "assets/svg/productivity.svg",
+      "validation" : {
+        "type" : "range",
+        "range" : [ {
+          "color" : "#00C6B1",
+          "endValue" : "max",
+          "startValue" : "70"
+        }, {
+          "color" : "#E8890A",
+          "endValue" : "69.99",
+          "startValue" : "50"
+        }, {
+          "color" : "#D90000",
+          "endValue" : "49.99",
+          "startValue" : "min"
+        } ]
+      }
+    }, {
+      "id" : "pjpProdCall",
+      "color" : "#237c9e",
+      "label" : "PJP Productive Call",
+      "svgPath" : "assets/svg/pjp_productive_call.svg"
+    }, {
+      "id" : "nonPjpProdCall",
+      "color" : "#237c9e",
+      "label" : "Out of PJP Productive Calls",
+      "svgPath" : "assets/svg/out_of_pjp_productive_call.svg"
+    } ],
+    "disclaimer" : "All visits considered in Total Visits"
+  }, {
+    "id" : "buisnessImpact",
+    "label" : "Buisness Impact",
+    "recover" : {
+      "id" : "recover",
+      "datapoints" : [ {
+        "id" : "rowImage",
+        "type" : "image",
+        "color" : "#ffffff",
+        "svgPath" : "assets/svg/Up sell white.svg",
+        "backgroundColor" : "#e4727d"
+      }, {
+        "id" : "skuCompliance",
+        "type" : "percentage",
+        "unit" : "%",
+        "color" : "#e4727d",
+        "label" : "SKU COMPLIANCE",
+        "labelColor" : "#237c9c"
+      }, {
+        "id" : "orderedValue",
+        "label" : "ORDERED VALUE"
+      }, {
+        "id" : "outletOrdered",
+        "label" : "IMPACTED OUTLETS"
+      } ]
+    },
+    "crossSell" : {
+      "id" : "crossSell",
+      "datapoints" : [ {
+        "id" : "rowImage",
+        "type" : "image",
+        "color" : "#ffffff",
+        "svgPath" : "assets/svg/cross sell white.svg",
+        "backgroundColor" : "#32c2b0"
+      }, {
+        "id" : "skuCompliance",
+        "type" : "percentage",
+        "unit" : "%",
+        "color" : "#32c2b0",
+        "label" : "SKU COMPLIANCE",
+        "labelColor" : "#237c9c"
+      }, {
+        "id" : "orderedValue",
+        "label" : "ORDERED VALUE"
+      }, {
+        "id" : "outletOrdered",
+        "label" : "IMPACTED OUTLETS"
+      } ]
+    }
+  }, {
+    "id" : "collectionSummary",
+    "label" : "Collection Summary",
+    "datapoints" : [ {
+      "id" : "totalCollectionCount",
+      "type" : "quantity",
+      "color" : "#4e545b",
+      "label" : "Total Collection Count",
+      "svgPath" : "assets/svg/total_collection_count.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "totalCollectionValue",
+      "type" : "amount",
+      "color" : "#4e545b",
+      "label" : "Total Collection Value",
+      "svgPath" : "assets/svg/total_collection_value.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "totalCollectionValue_byCash",
+      "type" : "amount",
+      "color" : "#4e545b",
+      "label" : "By Cash",
+      "svgPath" : "assets/svg/collection_by_cash.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "totalCollectionValue_byCheque",
+      "type" : "amount",
+      "color" : "#4e545b",
+      "label" : "By Cheque",
+      "svgPath" : "assets/svg/collection_by_cheque.svg",
+      "labelColor" : "#4a5058"
+    }, {
+      "id" : "totalCollectionValue_byUPI",
+      "type" : "amount",
+      "color" : "#4e545b",
+      "label" : "By UPI",
+      "svgPath" : "assets/svg/collection_by_upi.svg",
+      "labelColor" : "#4a5058"
+    } ],
+    "disclaimer" : ""
+  }, {
+    "id" : "salesReturnSummary",
+    "label" : "Sales Return Summary",
+    "datapoints" : [ {
+      "id" : "salesReturnCount",
+      "type" : "number",
+      "color" : "#4e545b",
+      "label" : "Sales Returns Logged",
+      "svgPath" : "assets/svg/invoice_collection.svg",
+      "labelColor" : "#4a5058",
+      "extra_data_point" : "salesReturnOutletCount"
+    }, {
+      "id" : "salesReturnValue",
+      "type" : "amount",
+      "color" : "#4e545b",
+      "label" : "Sales Returns Value",
+      "svgPath" : "assets/svg/no_invoice_collection.svg",
+      "labelColor" : "#4a5058"
+    } ],
+    "disclaimer" : ""
+  }, {
+    "id" : "skuLevelSummary",
+    "label" : "SKU Level Summary",
+    "datapoints" : [ {
+      "id" : "skuLevelSummary_KPIs",
+      "datapoints" : [ {
+        "id" : "uniqueLines",
+        "type" : "number",
+        "color" : "#1abeaf",
+        "label" : "Total Lines",
+        "labelColor" : "#8c9197"
+      }, {
+        "id" : "totalUniqueSku",
+        "type" : "number",
+        "color" : "#287ea0",
+        "label" : "Unique Lines",
+        "labelColor" : "#8c9197"
+      } ],
+      "designations" : [ ]
+    }, {
+      "id" : "skuLevelSummary_table",
+      "type" : "table",
+      "datapoints" : [ {
+        "id" : "uniqueSKU",
+        "labels" : [ "SKU Description" ]
+      }, {
+        "id" : "uniqueOutlets",
+        "type" : "quantity",
+        "labels" : [ "Unique", "Outlets" ]
+      }, {
+        "id" : "normalizedQuantity",
+        "type" : "quantity",
+        "labels" : [ "Quantity", "(PC)" ]
+      }, {
+        "id" : "totalValue",
+        "type" : "currency",
+        "labels" : [ "Total Value", "(INR)" ]
+      } ],
+      "designations" : [ ]
+    } ],
+    "disclaimer" : ""
+  } ],
+  "domainType" : "sde_day_summary_configuration",
+  "description" : "Day Summary configuration",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "[]" ]
+}

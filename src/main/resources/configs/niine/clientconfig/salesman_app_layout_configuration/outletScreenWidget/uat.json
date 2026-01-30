@@ -1,0 +1,16 @@
+{
+  "name" : "outletScreenWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "beatFilters",
+    "selection" : "single"
+  }, {
+    "id" : "liveUpdate",
+    "value" : [ "LIVE" ],
+    "description" : "To display the different data and toggle in live update dashboard"
+  }, {
+    "id" : "visitStatusFilter"
+  }, {
+    "id" : "outletList"
+  } ]
+}

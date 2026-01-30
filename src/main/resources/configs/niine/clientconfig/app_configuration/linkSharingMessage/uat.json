@@ -1,0 +1,9 @@
+{
+  "name" : "linkSharingMessage",
+  "type" : "string",
+  "value" : "Hello And Welcome,\\n\\nNow you can order products for your shop with just a click on the link below: ",
+  "docUrl" : "",
+  "description" : "Message body 1 for remote order",
+  "defaultValue" : "",
+  "possibleVals" : [ ]
+}

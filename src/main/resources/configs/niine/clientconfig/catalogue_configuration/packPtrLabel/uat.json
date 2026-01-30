@@ -1,0 +1,9 @@
+{
+  "name" : "packPtrLabel",
+  "type" : "string",
+  "value" : "Per Piece ",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "renders the label that comes from the config",
+  "defaultValue" : "Per Piece",
+  "possibleVals" : [ "string" ]
+}

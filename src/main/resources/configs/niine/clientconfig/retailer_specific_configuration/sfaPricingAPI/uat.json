@@ -1,0 +1,9 @@
+{
+  "name" : "sfaPricingAPI",
+  "type" : "String",
+  "value" : "false",
+  "docUrl" : "",
+  "domainType" : "order_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

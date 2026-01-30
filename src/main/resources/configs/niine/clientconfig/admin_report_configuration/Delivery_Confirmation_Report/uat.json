@@ -1,0 +1,6 @@
+{
+  "id" : "DeliveryConfirmationReport",
+  "name" : "Delivery Confirmation Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

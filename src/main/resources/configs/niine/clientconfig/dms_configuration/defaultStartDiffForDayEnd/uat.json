@@ -1,0 +1,8 @@
+{
+  "name" : "defaultStartDiffForDayEnd",
+  "type" : "string",
+  "value" : "01-12-2025",
+  "docUrl" : "",
+  "description" : "Config for default start date if last day end date is not present",
+  "possibleVals" : [ ]
+}

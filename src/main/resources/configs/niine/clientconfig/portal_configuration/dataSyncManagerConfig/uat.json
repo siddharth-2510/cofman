@@ -1,0 +1,12 @@
+{
+  "name" : "dataSyncManagerConfig",
+  "type" : "string",
+  "value" : [ {
+    "model" : "OutletDetails",
+    "indexDb" : "OutletList",
+    "syncTimeInMinutes" : 10
+  } ],
+  "docUrl" : "",
+  "description" : "useDeltaDataSync",
+  "possibleVals" : [ ]
+}

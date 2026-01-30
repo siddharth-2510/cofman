@@ -1,0 +1,4 @@
+{
+  "name" : "Beat and User level - Weekly ",
+  "value" : "[{'dynamicKeys': ['beat','loginId.loginId'],'queryType':'Weekly'}]"
+}

@@ -1,0 +1,48 @@
+{
+  "name" : "homeScreenBlockWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "1",
+    "type" : "dataSyncTextScroll"
+  }, {
+    "id" : "1750077966951",
+    "name" : "activeworksession",
+    "type" : "activeworksession",
+    "statusEnabled" : true
+  }, {
+    "id" : "2",
+    "type" : "greetingWidget"
+  }, {
+    "id" : "6",
+    "type" : "mustDoAction"
+  }, {
+    "id" : "locatemyoutlet",
+    "type" : "locatemyoutlet"
+  }, {
+    "id" : "3",
+    "type" : "liveDashboard",
+    "items" : [ {
+      "id" : "kpiReview",
+      "icon" : "assets/svg/KPI.svg",
+      "label" : "KPI Review"
+    }, {
+      "id" : "incentiveDashboard",
+      "icon" : "assets/svg/Incentive.svg",
+      "label" : "Incentive Dashboard"
+    }, {
+      "id" : "daySummary",
+      "icon" : "assets/svg/day_summary.svg",
+      "label" : "Performance Summary",
+      "footer" : {
+        "text" : "Ready By 6PM",
+        "color" : "#09b5a2",
+        "svgPath" : "assets/svg/hourglass.svg",
+        "backgroundColor" : "#f3fcfb"
+      }
+    } ]
+  }, {
+    "id" : "8",
+    "type" : "kpi"
+  } ],
+  "domainType" : "salesman_app_layout_configuration"
+}

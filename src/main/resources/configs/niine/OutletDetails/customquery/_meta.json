@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "outletdetails",
+  "domain_type" : "customquery",
+  "elements" : [ {
+    "name" : "outletMetadataQuery",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

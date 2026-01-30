@@ -1,0 +1,8 @@
+{
+  "prefix" : "",
+  "suffix" : "",
+  "dateFormat" : "dd-MM",
+  "startValue" : "1",
+  "sequenceLength" : "3",
+  "debitNotePattern" : "DN/{{dateFormat}}/{{sequence}}"
+}

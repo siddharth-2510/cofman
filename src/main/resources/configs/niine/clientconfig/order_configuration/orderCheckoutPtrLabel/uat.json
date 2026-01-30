@@ -1,0 +1,9 @@
+{
+  "name" : "orderCheckoutPtrLabel",
+  "type" : "string",
+  "value" : "PRICE",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "renders the label that comes from the config",
+  "defaultValue" : "PTR",
+  "possibleVals" : [ "string" ]
+}

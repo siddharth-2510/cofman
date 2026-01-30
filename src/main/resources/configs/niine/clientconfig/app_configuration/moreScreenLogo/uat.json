@@ -1,0 +1,9 @@
+{
+  "name" : "moreScreenLogo",
+  "type" : "image",
+  "value" : "https://d2nvw4ekms3xzy.cloudfront.net/swirevnmdemo/images/poweredByLogo-atnedcyXbJGl-gMEUqKrzYSXH.png",
+  "docUrl" : "",
+  "description" : "about screen client logo",
+  "defaultValue" : null,
+  "possibleVals" : "string"
+}

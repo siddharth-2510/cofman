@@ -1,0 +1,8 @@
+{
+  "name" : "uiConfigLayout",
+  "type" : "list",
+  "value" : [ "App", "Order", "Order Tracking", "Cart", "Checkout", "Catalogue", "Schemes", "HelpDesk Options", "Theme", "Customer", "Homescreen", "Login Page", "Language", "Footer", "More Options", "Slack Alerts", "Filter labels", "Password Config", "Password Complexity", "outlet ActivityTabs", "SFA Configuration" ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "UI Config Features",
+  "possibleVals" : [ ]
+}

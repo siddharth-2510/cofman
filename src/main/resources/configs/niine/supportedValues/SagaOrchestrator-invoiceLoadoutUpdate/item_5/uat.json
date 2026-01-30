@@ -1,0 +1,16 @@
+{
+  "step" : "com.applicate.services.channelkart.models.sagastep.OutletLedgerLogStep",
+  "dependencies" : [ {
+    "type" : "com.applicate.services.channelkart.pojo.DeliveryLoadoutPayload",
+    "index" : "3",
+    "description" : "deliveryLoadout"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.SalesService",
+    "index" : "0",
+    "description" : "Bean of SalesService"
+  }, {
+    "type" : "com.applicate.services.channelkart.services.AuditLogService",
+    "index" : "16",
+    "description" : "Bean of AuditLogService"
+  } ]
+}

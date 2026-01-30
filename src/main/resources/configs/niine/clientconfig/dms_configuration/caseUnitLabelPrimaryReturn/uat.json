@@ -1,0 +1,8 @@
+{
+  "name" : "caseUnitLabelPrimaryReturn",
+  "type" : "string",
+  "value" : "Cs",
+  "domainType" : "catalogue_configuration",
+  "description" : "",
+  "possibleVals" : [ "string" ]
+}

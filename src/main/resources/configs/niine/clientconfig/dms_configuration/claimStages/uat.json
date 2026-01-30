@@ -1,0 +1,34 @@
+{
+  "name" : "claimStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "Approved",
+    "dmsColor" : "#F0FBFF",
+    "dmsLabel" : "Approved",
+    "dmsLabelColor" : "#17B4A3"
+  }, {
+    "id" : "Requested",
+    "dmsColor" : "#FFF9EF",
+    "dmsLabel" : "Requested",
+    "dmsLabelColor" : "#CC911F"
+  }, {
+    "id" : "Rejected",
+    "dmsColor" : "#FFFAF7",
+    "dmsLabel" : "Rejected",
+    "dmsLabelColor" : "#C44C36"
+  }, {
+    "id" : "Partially Approved",
+    "dmsColor" : "#E6FFFE",
+    "dmsLabel" : "Partially Approved",
+    "dmsLabelColor" : "#139D98"
+  }, {
+    "id" : "ALL",
+    "dmsColor" : "#007bff",
+    "dmsLabel" : "All",
+    "dmsLabelColor" : "#007bff"
+  } ],
+  "docUrl" : "",
+  "description" : "Claim stages",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

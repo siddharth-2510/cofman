@@ -1,0 +1,7 @@
+{
+  "filterTestingDataInQuery" : true,
+  "filterTestingDataInReport" : true,
+  "filterTestingDataInEntityAPI" : true,
+  "filterTestingDataInAggregation" : true,
+  "filterTestingDataInPostProcessing" : true
+}

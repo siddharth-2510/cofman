@@ -1,0 +1,23 @@
+{
+  "name" : "outletTabFilters",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesTarget",
+    "heading" : "TOTAL",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/total_outlets.svg",
+    "supervisorHeading" : "Sales Target"
+  }, {
+    "id" : "mustOrderOutlets",
+    "heading" : "MUST ORDER",
+    "subHeading" : "OUTLETS",
+    "tabSvgPath" : "assets/svg/must_order_outlets.svg",
+    "supervisorHeading" : "Must Order"
+  }, {
+    "id" : "focus",
+    "heading" : "FOCUS PRODUCT",
+    "subHeading" : "STORES",
+    "tabSvgPath" : "assets/svg/focus_products.svg",
+    "supervisorHeading" : "Focus Products"
+  } ]
+}

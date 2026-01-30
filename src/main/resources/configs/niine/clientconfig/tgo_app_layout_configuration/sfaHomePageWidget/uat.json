@@ -1,0 +1,34 @@
+{
+  "name" : "sfaHomePageWidget",
+  "type" : "List",
+  "value" : [ {
+    "id" : "dataSyncTextScroll"
+  }, {
+    "id" : "mustDoAction"
+  }, {
+    "id" : "outletsMapHome"
+  }, {
+    "id" : "basket"
+  }, {
+    "id" : "liveDashboard",
+    "items" : [ {
+      "id" : "pjpApproval",
+      "icon" : "assets/svg/live_horizontal_bar.svg",
+      "label" : "PJP Approval"
+    }, {
+      "id" : "deviationApproval",
+      "icon" : "assets/svg/live_horizontal_bar.svg",
+      "label" : "Deviation Approval"
+    }, {
+      "id" : "dayEnd",
+      "icon" : "assets/svg/hierarchy.svg",
+      "label" : "Day End"
+    } ]
+  }, {
+    "id" : "kpi"
+  }, {
+    "id" : "topSchemeBanner"
+  }, {
+    "id" : "communicationBanner"
+  } ]
+}

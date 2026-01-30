@@ -1,0 +1,32 @@
+{
+  "name" : "loadoutSummaryCards",
+  "type" : "object",
+  "value" : {
+    "sumaryCardValues" : [ {
+      "bgColor" : "#EDF0FF",
+      "boldColor" : "#1F40CC",
+      "helperText" : "Total No. Of Loadouts",
+      "boldHeading" : "-"
+    }, {
+      "bgColor" : "#ffedea",
+      "boldColor" : "#c44c36",
+      "helperText" : "In-Draft Loadouts",
+      "boldHeading" : "-"
+    }, {
+      "bgColor" : "#f0fbfe",
+      "boldColor" : "#11b5a3",
+      "helperText" : "Delivered Loadouts",
+      "boldHeading" : "-"
+    }, {
+      "bgColor" : "#fffaef",
+      "boldColor" : "#cd9321",
+      "helperText" : "In-Transit Loadouts",
+      "boldHeading" : "-"
+    } ],
+    "displaySummaryCards" : true
+  },
+  "docUrl" : "",
+  "description" : "Loadout summary cards",
+  "defaultValue" : [ ],
+  "possibleVals" : [ [ ] ]
+}

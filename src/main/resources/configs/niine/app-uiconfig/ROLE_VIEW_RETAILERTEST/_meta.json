@@ -1,0 +1,14 @@
+{
+  "version" : "1.0",
+  "domain_name" : "app-uiconfig",
+  "domain_type" : "ROLE_VIEW_RETAILERTEST",
+  "elements" : [ {
+    "name" : "appConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  }, {
+    "name" : "componentConfig",
+    "pattern" : "MULTI_KEY_EXPLODE",
+    "group" : "group_0"
+  } ]
+}

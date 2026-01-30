@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "jwtTokenValidation",
+  "domain_type" : "lastPasswordResetDate",
+  "elements" : [ {
+    "name" : "enableLastePasswResetDateValidation",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

@@ -1,0 +1,8 @@
+{
+  "name" : "supportCategoryList",
+  "type" : "List",
+  "value" : [ "Raaga - Skin", "Raaga - Hair", "Krone - Haircare", "Indica - Hair Care" ],
+  "docUrl" : "",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

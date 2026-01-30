@@ -1,0 +1,9 @@
+{
+  "name" : "schemeCalculation",
+  "type" : "String",
+  "value" : "server",
+  "docUrl" : "",
+  "domainType" : "scheme_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

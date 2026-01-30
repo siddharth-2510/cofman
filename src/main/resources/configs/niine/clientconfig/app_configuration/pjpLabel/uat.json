@@ -1,0 +1,9 @@
+{
+  "name" : "pjpLabel",
+  "type" : "string",
+  "value" : "PJP",
+  "docUrl" : "",
+  "description" : "PJP label in outlet screen",
+  "defaultValue" : "PJP",
+  "possibleVals" : [ "PJP", "CPG" ]
+}

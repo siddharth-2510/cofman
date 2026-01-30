@@ -1,0 +1,38 @@
+{
+  "name" : "appTypeAndDesignationInfo",
+  "value" : [ {
+    "id" : "sfa",
+    "label" : "Sfa",
+    "designations" : [ {
+      "id" : "salesman",
+      "label" : "Salesman"
+    } ]
+  }, {
+    "id" : "dms",
+    "label" : "DMS",
+    "designations" : [ {
+      "id" : "distributor",
+      "label" : "Distributor"
+    } ]
+  }, {
+    "id" : "eb2b",
+    "label" : "EB2B",
+    "designations" : [ {
+      "id" : "retailer",
+      "label" : "Retailer"
+    } ]
+  }, {
+    "id" : "supervisor",
+    "label" : "Supervisor",
+    "designations" : [ {
+      "id" : "sde",
+      "label" : "SDE"
+    }, {
+      "id" : "tgo",
+      "label" : "TGO"
+    } ]
+  } ],
+  "docUrl" : "",
+  "description" : "we are using this config object to get the all avaiable supported apptypes and apptype specific designations in this lob",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,6 @@
+{
+  "id" : "orderfulfilmentskuEB2B",
+  "name" : "Order FullFillment SKU",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

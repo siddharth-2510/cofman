@@ -1,0 +1,8 @@
+{
+  "name" : "bankEnrollmentSectionHeader",
+  "type" : "string",
+  "value" : "Enroll in Retail Finance",
+  "description" : "Section header text for bank list discovery on home screen",
+  "defaultValue" : "Enroll in Retail Finance",
+  "possibleVals" : [ "Enroll in Retail Finance" ]
+}

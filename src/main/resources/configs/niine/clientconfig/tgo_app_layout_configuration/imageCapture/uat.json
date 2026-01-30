@@ -1,0 +1,45 @@
+{
+  "name" : "imageCapture",
+  "type" : "List",
+  "value" : [ {
+    "id" : "imageType1",
+    "hint" : "Select image type",
+    "type" : "dropdown"
+  }, {
+    "id" : "displayImage1",
+    "type" : "camera",
+    "imageSize" : "4",
+    "provideGallery" : false
+  }, {
+    "id" : "imageType2",
+    "hint" : "Select image type",
+    "type" : "dropdown"
+  }, {
+    "id" : "displayImage2",
+    "type" : "camera",
+    "imageSize" : "4",
+    "provideGallery" : false
+  }, {
+    "id" : "imageType3",
+    "hint" : "Select image type",
+    "type" : "dropdown"
+  }, {
+    "id" : "displayImage3",
+    "type" : "camera",
+    "imageSize" : "4",
+    "provideGallery" : false
+  }, {
+    "id" : "imageType4",
+    "hint" : "Select image type",
+    "type" : "dropdown"
+  }, {
+    "id" : "displayImage4",
+    "type" : "camera",
+    "imageSize" : "4",
+    "provideGallery" : false
+  } ],
+  "docUrl" : "",
+  "description" : "image capture screen widget list",
+  "defaultValue" : null,
+  "possibleVals" : "list"
+}

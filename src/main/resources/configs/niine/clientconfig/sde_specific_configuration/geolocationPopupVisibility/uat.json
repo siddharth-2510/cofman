@@ -1,0 +1,9 @@
+{
+  "name" : "geolocationPopupVisibility",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "",
+  "domainType" : "outlet_activity_configuration",
+  "description" : "",
+  "defaultValue" : [ ]
+}

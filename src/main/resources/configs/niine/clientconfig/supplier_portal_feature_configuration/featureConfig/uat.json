@@ -1,0 +1,143 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "auditTrails",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Audit Trails"
+  }, {
+    "name" : "loadoutDeliveryConfirmation",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Delivery Confirmation"
+  }, {
+    "name" : "realTimeStocks",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Real Time Stocks"
+  }, {
+    "name" : "outletWiseCredit",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Outlet Wise Credit"
+  }, {
+    "name" : "distributorStockTypeUpdate",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Stock Type Update"
+  }, {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "manageOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Orders"
+  }, {
+    "name" : "bulkInvoice",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bulk Invoice"
+  }, {
+    "name" : "saleReturns",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Sale Returns"
+  }, {
+    "name" : "creditNote",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Credit Note"
+  }, {
+    "name" : "debitNote",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Debit Note"
+  }, {
+    "name" : "deliverySettlement",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Loadouts"
+  }, {
+    "name" : "grn",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View All GRNs"
+  }, {
+    "name" : "createPrimaryOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Place New Order"
+  }, {
+    "name" : "collection",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Collection"
+  }, {
+    "name" : "viewClaimsStatus",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View Claim Status"
+  }, {
+    "name" : "outletLedger",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View Outlet Ledger"
+  }, {
+    "name" : "viewPrimaryOrders",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "View Primary Orders"
+  }, {
+    "name" : "createNewClaim",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Create New Claim"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens"
+  }, {
+    "name" : "manageOutletApproval",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "New Outlet Approval Status"
+  }, {
+    "name" : "createSecondaryOrder",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manual Billing"
+  }, {
+    "name" : "manageInvoice",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Invoices"
+  }, {
+    "name" : "manageStockAllocation",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Stock Allocation"
+  }, {
+    "name" : "primaryReturn",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Primary Return"
+  }, {
+    "name" : "homePage",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Home"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

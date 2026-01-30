@@ -1,0 +1,44 @@
+{
+  "name" : "orderReturnFields",
+  "type" : "List",
+  "value" : [ {
+    "id" : "returnReason",
+    "type" : "dropDown",
+    "label" : "Reason",
+    "validation" : { }
+  }, {
+    "id" : "returnQtyCS",
+    "type" : "textField",
+    "label" : "RETURN QTY (CS)",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "returnQtyPC",
+    "type" : "textField",
+    "label" : "RETURN QTY (PC)",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "returnQtyOther",
+    "type" : "textField",
+    "label" : "STR",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "batchId",
+    "type" : "dropdown",
+    "label" : "BATCH ID",
+    "required" : "true",
+    "validation" : { }
+  }, {
+    "id" : "invoice",
+    "type" : "textField",
+    "label" : "INVOICE",
+    "validation" : { }
+  }, {
+    "id" : "mrp",
+    "type" : "textField",
+    "label" : "MRP",
+    "validation" : { }
+  } ]
+}

@@ -1,0 +1,12 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "Outlet_tile_configurations",
+  "elements" : [ {
+    "name" : "isDropdownVisible",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "isAttendanceRequired",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

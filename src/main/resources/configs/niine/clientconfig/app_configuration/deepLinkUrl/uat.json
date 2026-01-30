@@ -1,0 +1,9 @@
+{
+  "name" : "deepLinkUrl",
+  "type" : "string",
+  "value" : "ckcoedemo.salescode.ai",
+  "docUrl" : "",
+  "description" : "Deep Link URL",
+  "defaultValue" : "www.salescode.in",
+  "possibleVals" : [ "string" ]
+}

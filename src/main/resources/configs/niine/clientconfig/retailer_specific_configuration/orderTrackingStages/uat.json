@@ -1,0 +1,88 @@
+{
+  "name" : "orderTrackingStages",
+  "type" : "list",
+  "value" : [ {
+    "id" : "ALL",
+    "color" : "#0070C0",
+    "label" : "ALL",
+    "dmsLabel" : "All Orders",
+    "labelColor" : ""
+  }, {
+    "id" : "PENDING",
+    "color" : "#0070C0",
+    "label" : "PLACED",
+    "dmsColor" : "#F0F3FF",
+    "dmsLabel" : "Pending",
+    "labelColor" : "",
+    "dmsLabelColor" : "#4F69D1"
+  }, {
+    "id" : "REJECTED,CANCELLED",
+    "color" : "#1E1E1E",
+    "label" : "REJECTED",
+    "dmsColor" : "#FFF9F8",
+    "dmsLabel" : "Cancelled",
+    "labelColor" : "",
+    "dmsLabelColor" : "#C44C36"
+  }, {
+    "id" : "PARTIALLY CONFIRMED",
+    "color" : "#002060",
+    "label" : "PARTIALLY CONFIRMED",
+    "dmsColor" : "#F3FCF3",
+    "dmsLabel" : "Partially Confirmed",
+    "labelColor" : "",
+    "dmsLabelColor" : "#23C65B"
+  }, {
+    "id" : "INVOICED",
+    "color" : "#002060",
+    "label" : "CONFIRMED",
+    "dmsColor" : "#F3FCF3",
+    "dmsLabel" : "Confirmed",
+    "labelColor" : "",
+    "dmsLabelColor" : "#23C65B"
+  }, {
+    "id" : "OUT FOR DELIVERY",
+    "color" : "#1E1E1E",
+    "label" : "OUT FOR DELIVERY",
+    "dmsColor" : "#fffae2",
+    "dmsLabel" : "Out For Delivery",
+    "labelColor" : "",
+    "dmsLabelColor" : "#cda501"
+  }, {
+    "id" : "DELIVERED,PARTIAL DELIVERED",
+    "color" : "#1E1E1E",
+    "label" : "DELIVERED",
+    "dmsColor" : "#EAFFF4",
+    "dmsLabel" : "Delivered",
+    "labelColor" : "",
+    "dmsLabelColor" : "#029847"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "order_configuration",
+  "description" : "Order tracking and its subfeatures",
+  "defaultValue" : [ {
+    "id" : "PENDING",
+    "color" : "#0070C0",
+    "label" : "PLACED"
+  }, {
+    "id" : "CONFIRMED",
+    "color" : "#002060",
+    "label" : "CONFIRMED"
+  }, {
+    "id" : "REJECTED",
+    "color" : "#1E1E1E",
+    "label" : "REJECTED"
+  } ],
+  "possibleVals" : [ [ {
+    "id" : "PENDING",
+    "color" : "#0070C0",
+    "label" : "PLACED"
+  }, {
+    "id" : "CONFIRMED",
+    "color" : "#002060",
+    "label" : "CONFIRMED"
+  }, {
+    "id" : "REJECTED",
+    "color" : "#1E1E1E",
+    "label" : "REJECTED"
+  } ] ]
+}

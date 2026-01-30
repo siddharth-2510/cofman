@@ -1,0 +1,9 @@
+{
+  "name" : "supplierSource",
+  "type" : "string",
+  "value" : "pricing",
+  "docUrl" : "",
+  "description" : "send pricing supplier in order request body",
+  "defaultValue" : "pricing",
+  "possibleVals" : [ "string" ]
+}

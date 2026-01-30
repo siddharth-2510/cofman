@@ -1,0 +1,9 @@
+{
+  "name" : "executionTaskVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "The random num generator for execution tasks functionality",
+  "defaultValue" : false,
+  "possibleVals" : [ ]
+}

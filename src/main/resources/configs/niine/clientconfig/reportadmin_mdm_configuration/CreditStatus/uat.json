@@ -1,0 +1,10 @@
+{
+  "id" : "CreditStatus",
+  "name" : "CreditStatus",
+  "type" : "excel",
+  "templateUrl" : "https://apptech.blob.core.windows.net/channelkart/itcvissfaindemo/images/CreditStatus-rBSzEudVeXiU.xlsx",
+  "transformer" : [ {
+    "entityName" : "CreditStatus",
+    "transformerId" : "mdm_credit_status_transformer"
+  } ]
+}

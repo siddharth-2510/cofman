@@ -1,0 +1,8 @@
+{
+  "prefix" : "",
+  "suffix" : "",
+  "dateFormat" : "yy",
+  "startValue" : "1",
+  "sequenceLength" : "3",
+  "invoiceNumberPattern" : "{{distributorCode}}_CKBIL{{dateFormat}}{{sequence}}"
+}

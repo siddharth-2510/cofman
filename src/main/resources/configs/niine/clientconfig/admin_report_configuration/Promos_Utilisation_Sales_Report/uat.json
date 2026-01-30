@@ -1,0 +1,6 @@
+{
+  "id" : "SchemeUtilisationSalesReport",
+  "name" : "Promos Utilisation Sales Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

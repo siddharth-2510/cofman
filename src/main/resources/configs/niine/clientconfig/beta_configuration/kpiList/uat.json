@@ -1,0 +1,9 @@
+{
+  "name" : "kpiList",
+  "type" : "list",
+  "value" : [ "kpi_sales_value_user_sales_raw_data", "kpi_sales_value_user_level_using_raw_data", "kpi_review_sales_value_outlet_list_raw_data", "kpi_sales_value_brand_raw", "kpi_productive_user_period", "kpi_productive_outlet", "kpi_msl_user", "kpi_msl_outlet_list", "kpi_review_eco_drilldown_table_raw", "kpi_review_eco_drilldown_table", "kpi_last_x_transaction_user", "kpi_msl_sku_level_v2" ],
+  "domainType" : "salesman_kpi_configuration",
+  "description" : "list of KPI Names which will be sent in the api request body when the kpi loader runs",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

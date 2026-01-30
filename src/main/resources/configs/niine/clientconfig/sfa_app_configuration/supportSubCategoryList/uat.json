@@ -1,0 +1,9 @@
+{
+  "name" : "supportSubCategoryList",
+  "type" : "List",
+  "value" : "null",
+  "docUrl" : "",
+  "domainType" : "support_configuration",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

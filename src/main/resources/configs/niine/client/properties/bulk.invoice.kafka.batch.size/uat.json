@@ -1,0 +1,4 @@
+{
+  "name" : "bulk.invoice.kafka.batch.size",
+  "value" : "9999999"
+}

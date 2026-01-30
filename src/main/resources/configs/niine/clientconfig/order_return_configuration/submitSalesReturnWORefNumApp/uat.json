@@ -1,0 +1,7 @@
+{
+  "name" : "submitSalesReturnWORefNumApp",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "possibleVals" : [ true, false ]
+}

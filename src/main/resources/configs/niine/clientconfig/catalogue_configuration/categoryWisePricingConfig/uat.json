@@ -1,0 +1,9 @@
+{
+  "name" : "categoryWisePricingConfig",
+  "type" : "boolean",
+  "value" : true,
+  "docUrl" : "",
+  "description" : "outlet category wise pricing change",
+  "defaultValue" : "true",
+  "possibleVals" : [ true, false ]
+}

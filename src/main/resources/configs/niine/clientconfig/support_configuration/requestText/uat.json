@@ -1,0 +1,8 @@
+{
+  "name" : "requestText",
+  "type" : "String",
+  "value" : "Request",
+  "docUrl" : "",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

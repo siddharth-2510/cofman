@@ -1,0 +1,9 @@
+{
+  "name" : "loginType",
+  "type" : "string",
+  "value" : "otpAndPassword",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "login type",
+  "defaultValue" : "password",
+  "possibleVals" : [ "password", "otp", "otpAndPassword", "jnj" ]
+}

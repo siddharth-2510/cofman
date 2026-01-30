@@ -1,0 +1,18 @@
+{
+  "version" : "1.0",
+  "domain_name" : "clientconfig",
+  "domain_type" : "target_achieved_configurations",
+  "elements" : [ {
+    "name" : "targetDisclaimer",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "nonZeroTargetData",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetDashboardMetaData",
+    "pattern" : "NAME_FIELD"
+  }, {
+    "name" : "targetDashboardParameterSequence",
+    "pattern" : "NAME_FIELD"
+  } ]
+}

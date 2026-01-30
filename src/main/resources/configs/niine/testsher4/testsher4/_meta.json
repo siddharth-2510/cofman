@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "testsher4",
+  "domain_type" : "testsher4",
+  "elements" : [ {
+    "name" : "k",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

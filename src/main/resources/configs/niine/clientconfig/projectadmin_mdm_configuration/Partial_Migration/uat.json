@@ -1,0 +1,11 @@
+{
+  "id" : "partialMigration",
+  "name" : "Partial Migration",
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoeuat/images/PartialMigration-RiNKUSDdTvQJ.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "UserParent",
+    "skipPersist" : true,
+    "operationType" : "insert",
+    "transformerId" : "userParentIntegration"
+  } ]
+}

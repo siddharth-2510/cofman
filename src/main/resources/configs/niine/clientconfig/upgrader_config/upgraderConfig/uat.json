@@ -1,0 +1,14 @@
+{
+  "name" : "upgraderConfig",
+  "type" : "List",
+  "value" : [ {
+    "messages" : { },
+    "showLater" : true,
+    "showIgnore" : true,
+    "minutesUntilAlertAgain" : 5
+  } ],
+  "docUrl" : "",
+  "description" : "Configurations for upgrader alert pop up.",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

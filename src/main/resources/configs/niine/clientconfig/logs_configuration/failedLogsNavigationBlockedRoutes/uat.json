@@ -1,0 +1,8 @@
+{
+  "name" : "failedLogsNavigationBlockedRoutes",
+  "type" : "List",
+  "value" : [ "/homeScreen", "/outletScreen", "/outlet-detailed-screen", "order" ],
+  "description" : "",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,20 @@
+{
+  "name" : "quickDateRanges",
+  "type" : "array",
+  "value" : [ {
+    "days" : 0,
+    "label" : "Today"
+  }, {
+    "days" : 7,
+    "label" : "Past Week"
+  }, {
+    "days" : 31,
+    "label" : "Past Month"
+  }, {
+    "days" : 90,
+    "label" : "Past 3 Months"
+  } ],
+  "docUrl" : "",
+  "description" : "Predefined quick date ranges for date picker",
+  "possibleVals" : [ ]
+}

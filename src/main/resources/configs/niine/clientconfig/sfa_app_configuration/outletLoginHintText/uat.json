@@ -1,0 +1,10 @@
+{
+  "name" : "outletLoginHintText",
+  "type" : "string",
+  "value" : "Login ID",
+  "docUrl" : "",
+  "domainType" : "authentication_configuration",
+  "description" : "hint text",
+  "defaultValue" : "User Name",
+  "possibleVals" : [ ]
+}

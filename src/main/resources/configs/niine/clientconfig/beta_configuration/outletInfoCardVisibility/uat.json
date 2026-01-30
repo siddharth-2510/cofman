@@ -1,0 +1,8 @@
+{
+  "name" : "outletInfoCardVisibility",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "outlet_activity_configuration",
+  "description" : "Determines whether to display outletCode on the outletcard",
+  "domainParent" : "salesman_specific_configuration"
+}

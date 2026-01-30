@@ -1,0 +1,11 @@
+{
+  "id" : "moq_template",
+  "name" : "MOQ",
+  "useKafka" : true,
+  "templateUrl" : "https://d2nvw4ekms3xzy.cloudfront.net/ckcoedemo/images/MOQTemplate-doHLhbsyQNXE.xlsx",
+  "transformerInfo" : [ {
+    "entityName" : "OrderPurchaseConstraints",
+    "operationType" : "insert",
+    "transformerId" : "OrderPurchaseConstraintTransformer_ckcoe"
+  } ]
+}

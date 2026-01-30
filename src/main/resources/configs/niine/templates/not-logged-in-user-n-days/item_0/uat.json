@@ -1,0 +1,14 @@
+{
+  "blob" : null,
+  "data" : "Hi {{data.outlet_name}},\\nWe identify that you haven’t clicked on the link that we have shared with you. Click here to start using the app!",
+  "type" : "firebase",
+  "payload" : {
+    "blobKey" : "",
+    "category" : "",
+    "mediaUrl" : "",
+    "userName" : ""
+  },
+  "profile" : "firebase",
+  "recipients" : "{{data.mobile}}",
+  "referenceType" : "INLINE"
+}

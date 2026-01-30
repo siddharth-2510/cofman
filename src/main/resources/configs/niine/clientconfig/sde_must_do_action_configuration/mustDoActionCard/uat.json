@@ -1,0 +1,36 @@
+{
+  "name" : "mustDoActionCard",
+  "type" : "list",
+  "value" : [ {
+    "id" : "salesTarget",
+    "unit" : "INR",
+    "color" : "#17C3B2",
+    "avgAch" : "70000",
+    "heading" : "SALES TARGET",
+    "actionTag" : "Sales Target",
+    "subHeading" : "Must Achieve Today",
+    "avgValueLabel" : ""
+  }, {
+    "id" : "mustOrderOutlets",
+    "unit" : "Stores",
+    "color" : "#e04a0b",
+    "avgAch" : "16",
+    "heading" : "MUST ORDER OUTLETS",
+    "actionTag" : "Must Order Outlets",
+    "subHeading" : "To Drive Effective Call",
+    "avgValueLabel" : ""
+  }, {
+    "id" : "focus",
+    "unit" : "Stores",
+    "color" : "#227C9D",
+    "avgAch" : "12",
+    "heading" : "FOCUS PRODUCTS",
+    "actionTag" : "Must Sell SKUs",
+    "subHeading" : "Focus Products To Be Sold",
+    "avgValueLabel" : ""
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "list of must do actions",
+  "defaultValue" : [ ],
+  "possibleVals" : [ "Map[]" ]
+}

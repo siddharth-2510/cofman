@@ -1,0 +1,9 @@
+{
+  "name" : "unitLabel",
+  "type" : "string",
+  "value" : "Unit",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "renders the exact label that comes from the config",
+  "defaultValue" : "Unit",
+  "possibleVals" : [ "string" ]
+}

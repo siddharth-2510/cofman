@@ -1,0 +1,17 @@
+{
+  "sos" : { },
+  "focusproduct" : {
+    "account" : {
+      "value" : "account",
+      "operator" : " = "
+    },
+    "Date(startTime)" : {
+      "value" : "$CURDATE()",
+      "operator" : " <= "
+    },
+    "locationHierarchy" : {
+      "value" : "locationHierarchy.city",
+      "operator" : " like "
+    }
+  }
+}

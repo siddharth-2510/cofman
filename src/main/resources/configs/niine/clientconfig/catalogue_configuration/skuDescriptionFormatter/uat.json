@@ -1,0 +1,9 @@
+{
+  "name" : "skuDescriptionFormatter",
+  "type" : "string",
+  "value" : "captialize",
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Tells what format should be used and corresponding handlebar helper runs. Helpers : CapitalizeText , upperCaseValue",
+  "defaultValue" : "",
+  "possibleVals" : [ "captialize", "noFormatter", "uppercase", "lowercase" ]
+}

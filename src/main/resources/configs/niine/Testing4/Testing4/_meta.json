@@ -1,0 +1,9 @@
+{
+  "version" : "1.0",
+  "domain_name" : "Testing4",
+  "domain_type" : "Testing4",
+  "elements" : [ {
+    "name" : "key",
+    "pattern" : "SINGLE_KEY_OBJECT"
+  } ]
+}

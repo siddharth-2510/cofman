@@ -1,0 +1,10 @@
+{
+  "name" : "offersTabVisibility",
+  "type" : "boolean",
+  "value" : false,
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "domainType" : "scheme_configuration",
+  "description" : "To make uom visible.",
+  "defaultValue" : true,
+  "possibleVals" : [ true, false ]
+}

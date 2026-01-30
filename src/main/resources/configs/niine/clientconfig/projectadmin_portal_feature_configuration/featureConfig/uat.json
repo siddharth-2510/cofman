@@ -1,0 +1,153 @@
+{
+  "name" : "featureConfig",
+  "type" : "list",
+  "value" : [ {
+    "name" : "analyticsDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Performance Dashboard"
+  }, {
+    "name" : "support",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Support"
+  }, {
+    "name" : "notification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Notification"
+  }, {
+    "name" : "managePolicies",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Manage Policies"
+  }, {
+    "name" : "updateTranslation",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Update Translation"
+  }, {
+    "name" : "triggerNotification",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Trigger Notification"
+  }, {
+    "name" : "sfaAnalytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "SFA Analytics"
+  }, {
+    "name" : "saleslens",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Saleslens"
+  }, {
+    "name" : "edaQuantityCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA Quantity Compliance "
+  }, {
+    "name" : "complianceDashboard",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Order Compliance"
+  }, {
+    "name" : "skuSelectionCompliance",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "EDA SKU Selection Compliance"
+  }, {
+    "name" : "integrationStatistics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Integration Statistics"
+  }, {
+    "name" : "validations",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Validations"
+  }, {
+    "name" : "uiConfig",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "UI Config"
+  }, {
+    "name" : "manageOutletApproval",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Outlet Approval"
+  }, {
+    "name" : "openClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Open Claims"
+  }, {
+    "name" : "closedClaims",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Closed Claims"
+  }, {
+    "name" : "manageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Banner"
+  }, {
+    "name" : "manageBucketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Bucket"
+  }, {
+    "name" : "manageBasketStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Basket"
+  }, {
+    "name" : "manualStockUpdate",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manual Stock Adjustment"
+  }, {
+    "name" : "reports",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Reports"
+  }, {
+    "name" : "mdm2",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "MDM-Integration"
+  }, {
+    "name" : "realTimeStocks",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Real Time Stocks"
+  }, {
+    "name" : "Analytics",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Analytics"
+  }, {
+    "name" : "homeScreenManagement",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "HomeScreen Management"
+  }, {
+    "name" : "couponManagement",
+    "version" : "1.0",
+    "template" : "adminPanel",
+    "displayName" : "Coupon Management"
+  }, {
+    "name" : "newManageHomeScreen",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Blocks2"
+  }, {
+    "name" : "newManageBannerStudio",
+    "version" : "1.0",
+    "template" : "mainDashboard",
+    "displayName" : "Manage Banner2"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "role Config",
+  "possibleVals" : [ ]
+}

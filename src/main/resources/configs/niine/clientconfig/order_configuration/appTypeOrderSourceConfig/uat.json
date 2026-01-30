@@ -1,0 +1,9 @@
+{
+  "name" : "appTypeOrderSourceConfig",
+  "type" : "boolean",
+  "value" : true,
+  "domainType" : "order_configuration",
+  "description" : "it will change order source and type",
+  "defaultValue" : true,
+  "possibleVals" : [ true, false ]
+}

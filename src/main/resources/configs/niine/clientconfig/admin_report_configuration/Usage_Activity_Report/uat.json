@@ -1,0 +1,6 @@
+{
+  "id" : "UsageActivityReport",
+  "name" : "Usage Activity Report",
+  "type" : "transaction",
+  "filter" : "daterange"
+}

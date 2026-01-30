@@ -1,0 +1,9 @@
+{
+  "name" : "baseUrlChannelKart",
+  "type" : "String",
+  "value" : "https://demo.salescode.ai",
+  "docUrl" : "",
+  "description" : "admin portal config",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

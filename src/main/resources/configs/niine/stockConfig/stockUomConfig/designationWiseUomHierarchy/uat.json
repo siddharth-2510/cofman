@@ -1,0 +1,9 @@
+{
+  "name" : "designationWiseUomHierarchy",
+  "type" : "List",
+  "value" : {
+    "supplier" : [ "caseQty", "otherQty", "pieceQty" ],
+    "distributor" : [ "caseQty", "otherQty", "pieceQty" ],
+    "superstockist" : [ "caseQty", "otherQty", "pieceQty" ]
+  }
+}

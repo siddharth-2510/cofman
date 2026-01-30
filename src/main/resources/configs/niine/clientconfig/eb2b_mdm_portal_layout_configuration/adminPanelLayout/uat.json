@@ -1,0 +1,29 @@
+{
+  "name" : "adminPanelLayout",
+  "type" : "list",
+  "value" : [ {
+    "id" : "support",
+    "color" : "#df263d",
+    "label" : "Support",
+    "route" : "/dashboard/support",
+    "svgName" : "supportIcon",
+    "description" : "Customer service and ticket management"
+  }, {
+    "id" : "notification",
+    "color" : "#fad11d",
+    "label" : "Notification",
+    "route" : "/dashboard/notification",
+    "svgName" : "notificationsIcon",
+    "description" : "Create Notifications"
+  }, {
+    "id" : "managePolicies",
+    "color" : "#fad11d",
+    "label" : "Manage Policies",
+    "route" : "/dashboard/managePolicies",
+    "svgName" : "managePoliciesIcon",
+    "description" : "Create/Update terms and conditions and privacy Policy"
+  } ],
+  "docUrl" : "https://applicate.atlassian.net/l/cp/90s18da0",
+  "description" : "Admin Panel Config",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,65 @@
+{
+  "name" : "featureConfig",
+  "type" : "List",
+  "value" : [ {
+    "name" : "favouriteskus",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "order",
+    "version" : "1.0",
+    "template" : "order"
+  }, {
+    "name" : "more",
+    "version" : "1.0",
+    "template" : "template1"
+  }, {
+    "name" : "locateme",
+    "version" : "1.0",
+    "template" : "template1"
+  }, {
+    "name" : "secondaryproduct",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "banner",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "productfilter",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "dashboard",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "offers",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "outlets",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "faq",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "profile",
+    "version" : "1.0",
+    "template" : "template"
+  }, {
+    "name" : "stockquantity",
+    "version" : "1.0",
+    "template" : ""
+  }, {
+    "name" : "inventoryReturn",
+    "version" : "1.0",
+    "template" : ""
+  } ],
+  "docUrl" : "",
+  "description" : "features of Channelkart",
+  "defaultValue" : [ ],
+  "possibleVals" : [ ]
+}

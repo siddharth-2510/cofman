@@ -1,0 +1,7 @@
+{
+  "name" : "multiUOMSelection",
+  "type" : "String",
+  "value" : "null",
+  "domainType" : "catalogue_configuration",
+  "possibleVals" : [ true, false ]
+}

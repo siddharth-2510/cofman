@@ -1,0 +1,4 @@
+{
+  "tableName" : "sales",
+  "loyaltyMode" : "score"
+}

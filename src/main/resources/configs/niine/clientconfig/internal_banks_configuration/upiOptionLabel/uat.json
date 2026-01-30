@@ -1,0 +1,14 @@
+{
+  "name" : "upiOptionLabel",
+  "type" : "string",
+  "value" : {
+    "id" : "AXISUPI",
+    "image" : "https://apptech.blob.core.windows.net/channelkart/demounnati/images/bd054d96a97048e4b531e2f47c517be5.png",
+    "enabled" : true,
+    "bankName" : "AXISUPI"
+  },
+  "docUrl" : "",
+  "description" : "",
+  "defaultValue" : "",
+  "possibleVals" : [ "object" ]
+}

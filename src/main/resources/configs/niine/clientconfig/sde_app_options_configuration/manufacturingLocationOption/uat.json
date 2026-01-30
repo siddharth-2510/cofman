@@ -1,0 +1,8 @@
+{
+  "name" : "manufacturingLocationOption",
+  "type" : "List",
+  "value" : [ "Chennai", "Manesar", "Rudrapur", "Imported" ],
+  "docUrl" : "",
+  "description" : "manufacturing location options",
+  "possibleVals" : [ ]
+}

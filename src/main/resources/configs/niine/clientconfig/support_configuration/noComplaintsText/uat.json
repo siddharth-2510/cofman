@@ -1,0 +1,8 @@
+{
+  "name" : "noComplaintsText",
+  "type" : "String",
+  "value" : "No Request",
+  "docUrl" : "",
+  "description" : "Request Tab",
+  "possibleVals" : [ ]
+}

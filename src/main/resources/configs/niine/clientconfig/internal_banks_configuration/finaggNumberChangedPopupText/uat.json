@@ -1,0 +1,9 @@
+{
+  "name" : "finaggNumberChangedPopupText",
+  "type" : "String",
+  "value" : "Your Mobile Number is yet to get updated with Finagg. Please wait for some time!",
+  "docUrl" : "",
+  "description" : "Configurable texts for popup text in finagg payment flow",
+  "defaultValue" : null,
+  "possibleVals" : [ ]
+}

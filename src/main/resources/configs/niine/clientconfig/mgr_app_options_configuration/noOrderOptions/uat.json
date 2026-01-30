@@ -1,0 +1,8 @@
+{
+  "name" : "noOrderOptions",
+  "type" : "List",
+  "value" : [ "Sufficient Inventory", "Price Concerns", "Lack of Promotions", "Limited Product Variety" ],
+  "docUrl" : "",
+  "description" : "No order options",
+  "possibleVals" : [ ]
+}

@@ -1,0 +1,6 @@
+{
+  "supplier" : {
+    "User" : "loginId",
+    "OutletDetails" : "outletCode"
+  }
+}

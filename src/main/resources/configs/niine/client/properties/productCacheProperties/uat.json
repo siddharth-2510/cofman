@@ -1,0 +1,4 @@
+{
+  "name" : "productCacheProperties",
+  "value" : "batch_code,sku_code,sku_description,mrp,piece_size,piece_size_desc,product_code,size"
+}

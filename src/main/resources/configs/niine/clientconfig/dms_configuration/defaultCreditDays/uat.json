@@ -1,0 +1,8 @@
+{
+  "name" : "defaultCreditDays",
+  "type" : "number",
+  "value" : "22",
+  "docUrl" : "",
+  "description" : "It will set the default credit days",
+  "possibleVals" : [ "string" ]
+}
