@@ -88,22 +88,31 @@ public class MergeService {
 
     /**
      * Validate all configs before processing
-     * - For INSERT/UPDATE on any LOB, default must exist (either in batch or on filesystem)
+     * - For INSERT/UPDATE on non-default LOBs, default must exist (either in batch or on filesystem)
+     * - Default LOB can be created/updated freely without this check
      */
     private List<String> validateConfigs(List<DomainConfig> configs) {
         List<String> errors = new ArrayList<>();
 
         for (DomainConfig config : configs) {
-            if (config.getAction() == Action.INSERT || config.getAction() == Action.UPDATE) {
-                if (!isDefaultPresent(config.getDomainName(), config.getDomainType(), configs)) {
-                    errors.add("Default LOB must exist for: " +
-                            config.getDomainName() + "/" + config.getDomainType());
-                }
+            // Skip validation for default LOB - it can be created/updated freely
+            if (DEFAULT_LOB.equals(config.getLob())) {
+                continue;
             }
 
-            // Validate env is provided for non-default LOBs on INSERT/UPDATE
-            if (!DEFAULT_LOB.equals(config.getLob()) &&
-                    (config.getAction() == Action.INSERT || config.getAction() == Action.UPDATE)) {
+            // For non-default LOBs, check if default exists
+            if (config.getAction() == Action.INSERT || config.getAction() == Action.UPDATE) {
+                if (!isDefaultPresent(config.getDomainName(), config.getDomainType(), configs)) {
+                    errors.add(String.format(
+                            "Default LOB must exist before creating/updating '%s'. " +
+                                    "Please create default LOB configuration for %s/%s first.",
+                            buildKey(config),
+                            config.getDomainName(),
+                            config.getDomainType()
+                    ));
+                }
+
+                // Validate env is provided for non-default LOBs on INSERT/UPDATE
                 if (config.getEnv() == null || config.getEnv().isEmpty()) {
                     errors.add("Environment required for non-default LOB: " + buildKey(config));
                 }
@@ -115,6 +124,7 @@ public class MergeService {
 
     /**
      * Check if default LOB exists for given domain (in batch or on filesystem)
+     * Checks for ANY environment file (ALL, UAT, Dev, Demo, Prod, etc.)
      */
     private boolean isDefaultPresent(String domainName, String domainType, List<DomainConfig> configs) {
         // Check if default is being inserted/updated in this batch
@@ -128,7 +138,7 @@ public class MergeService {
             return true;
         }
 
-        // Check filesystem
+        // Check filesystem - meta file existence indicates default LOB config exists
         ConfigPath path = ConfigPath.builder()
                 .basePath(basePath)
                 .lob(DEFAULT_LOB)
@@ -248,9 +258,8 @@ public class MergeService {
     private String buildKey(DomainConfig config) {
         return config.getLob() + "/" + config.getDomainName() + "/" + config.getDomainType();
     }
+
     public List<ReconstructResult> getReconstructedConfig(String lob,String name,String type){
         return new ReconstructService(fileService).reconstruct(lob,name,type);
     }
-
-
 }

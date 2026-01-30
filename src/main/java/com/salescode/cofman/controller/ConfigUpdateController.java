@@ -37,6 +37,8 @@ import java.util.*;
 @Slf4j
 public class ConfigUpdateController {
 
+    private static final String DEFAULT_LOB = "default";
+
     @Value("${config.base-path:src/main/resources/configs}")
     private String basePath;
 
@@ -77,6 +79,16 @@ public class ConfigUpdateController {
         List<String> successes = new ArrayList<>();
 
         try {
+            // Validate configs before processing
+            List<String> validationErrors = validateConfigs(oldConfigs, newConfigs);
+            if (!validationErrors.isEmpty()) {
+                return ResponseEntity.badRequest().body(Map.of(
+                        "success", false,
+                        "message", "Validation failed",
+                        "errors", validationErrors
+                ));
+            }
+
             // Build a map of old configs by key for lookup
             Map<String, Map<String, Object>> oldByKey = new HashMap<>();
             for (Map<String, Object> oldConfig : oldConfigs) {
@@ -140,10 +152,84 @@ public class ConfigUpdateController {
     }
 
     /**
+     * Validate configs before processing
+     * - For non-default LOBs being inserted/updated, ensure default LOB exists
+     */
+    private List<String> validateConfigs(List<Map<String, Object>> oldConfigs,
+                                         List<Map<String, Object>> newConfigs) {
+        List<String> errors = new ArrayList<>();
+
+        // Build set of configs being created/updated in this request
+        Set<String> configsInBatch = new HashSet<>();
+        for (Map<String, Object> config : newConfigs) {
+            String domainName = getString(config, "domainName", "");
+            String domainType = getString(config, "domainType", "");
+            String lob = getString(config, "lob", DEFAULT_LOB);
+
+            String configKey = domainName + "|" + domainType + "|" + lob;
+            configsInBatch.add(configKey);
+        }
+
+        // Validate each new config
+        for (Map<String, Object> config : newConfigs) {
+            String lob = getString(config, "lob", DEFAULT_LOB);
+            String domainName = getString(config, "domainName", "");
+            String domainType = getString(config, "domainType", "");
+            String env = getString(config, "env", "ALL");
+
+            // Skip validation for default LOB
+            if (DEFAULT_LOB.equals(lob)) {
+                continue;
+            }
+
+            // For non-default LOBs, check if default exists
+            String defaultConfigKey = domainName + "|" + domainType + "|" + DEFAULT_LOB;
+
+            // Check if default is being created in this batch
+            boolean defaultInBatch = configsInBatch.contains(defaultConfigKey);
+
+            // Check if default exists on filesystem
+            boolean defaultOnFilesystem = isDefaultPresentOnFilesystem(domainName, domainType);
+
+            if (!defaultInBatch && !defaultOnFilesystem) {
+                errors.add(String.format(
+                        "Default LOB must exist before creating/updating '%s/%s' for LOB '%s'. " +
+                                "Please create default LOB configuration for %s/%s first.",
+                        domainName, domainType, lob, domainName, domainType
+                ));
+            }
+
+            // Validate env is provided for non-default LOBs
+            if (env == null || env.isEmpty() || "null".equals(env)) {
+                errors.add(String.format(
+                        "Environment required for non-default LOB: %s/%s/%s",
+                        lob, domainName, domainType
+                ));
+            }
+        }
+
+        return errors;
+    }
+
+    /**
+     * Check if default LOB config exists on filesystem
+     */
+    private boolean isDefaultPresentOnFilesystem(String domainName, String domainType) {
+        ConfigPath path = ConfigPath.builder()
+                .basePath(basePath)
+                .lob(DEFAULT_LOB)
+                .domainName(domainName)
+                .domainType(domainType)
+                .build();
+
+        return fileService.fileExists(path.toMetaPath());
+    }
+
+    /**
      * Replace old config with new (full replacement)
      */
     private void processReplace(Map<String, Object> oldConfig, Map<String, Object> newConfig) {
-        String lob = getString(newConfig, "lob", "default");
+        String lob = getString(newConfig, "lob", DEFAULT_LOB);
         String domainName = getString(newConfig, "domainName", "");
         String domainType = getString(newConfig, "domainType", "");
         String env = getString(newConfig, "env", "ALL");
@@ -168,7 +254,7 @@ public class ConfigUpdateController {
      * Insert new config or merge elements with existing
      */
     private void processInsertOrMerge(Map<String, Object> newConfig) {
-        String lob = getString(newConfig, "lob", "default");
+        String lob = getString(newConfig, "lob", DEFAULT_LOB);
         String domainName = getString(newConfig, "domainName", "");
         String domainType = getString(newConfig, "domainType", "");
         String env = getString(newConfig, "env", "ALL");
@@ -193,7 +279,7 @@ public class ConfigUpdateController {
      * Merge new elements into existing config (only adds/updates specified elements)
      */
     private void mergeElements(Map<String, Object> newConfig, ConfigPath configPath, String env) {
-        String lob = getString(newConfig, "lob", "default");
+        String lob = getString(newConfig, "lob", DEFAULT_LOB);
         String domainName = getString(newConfig, "domainName", "");
         String domainType = getString(newConfig, "domainType", "");
 
@@ -251,7 +337,7 @@ public class ConfigUpdateController {
      * Delete config entirely
      */
     private void processDelete(Map<String, Object> config) {
-        String lob = getString(config, "lob", "default");
+        String lob = getString(config, "lob", DEFAULT_LOB);
         String domainName = getString(config, "domainName", "");
         String domainType = getString(config, "domainType", "");
 
@@ -273,7 +359,7 @@ public class ConfigUpdateController {
      * Write a complete config to filesystem
      */
     private void writeConfig(Map<String, Object> config) {
-        String lob = getString(config, "lob", "default");
+        String lob = getString(config, "lob", DEFAULT_LOB);
         String domainName = getString(config, "domainName", "");
         String domainType = getString(config, "domainType", "");
         String env = getString(config, "env", "ALL");
@@ -337,7 +423,7 @@ public class ConfigUpdateController {
     private String buildConfigKey(Map<String, Object> config) {
         return getString(config, "domainName", "") + "|" +
                 getString(config, "domainType", "") + "|" +
-                getString(config, "lob", "default") + "|" +
+                getString(config, "lob", DEFAULT_LOB) + "|" +
                 getString(config, "env", "ALL");
     }
 
@@ -357,7 +443,7 @@ public class ConfigUpdateController {
     public ResponseEntity<List<String>> getAllLobs() {
         try {
             Set<String> lobs = new TreeSet<>();
-            lobs.add("default"); // Always include default
+            lobs.add(DEFAULT_LOB); // Always include default
 
             java.nio.file.Path configRoot = java.nio.file.Paths.get(basePath);
             if (java.nio.file.Files.exists(configRoot)) {
@@ -370,7 +456,7 @@ public class ConfigUpdateController {
             return ResponseEntity.ok(new ArrayList<>(lobs));
         } catch (Exception e) {
             log.error("Failed to get LOBs: {}", e.getMessage());
-            return ResponseEntity.ok(List.of("default"));
+            return ResponseEntity.ok(List.of(DEFAULT_LOB));
         }
     }
 
