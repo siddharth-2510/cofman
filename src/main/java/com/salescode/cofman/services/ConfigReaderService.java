@@ -26,6 +26,8 @@ public class ConfigReaderService {
     @Value("${config.base-path:src/main/resources/configs}")
     private String basePath;
 
+
+
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     /**
@@ -108,28 +110,33 @@ public class ConfigReaderService {
                     // Create target element directory
                     Files.createDirectories(targetElementDir);
 
-                    if (env != null) {
-                        // Copy only specific environment file
-                        Path sourceEnvFile = sourceElementDir.resolve(env + ".json");
-                        Path targetEnvFile = targetElementDir.resolve(env + ".json");
-
-                        if (Files.exists(sourceEnvFile)) {
-                            Files.copy(sourceEnvFile, targetEnvFile, StandardCopyOption.REPLACE_EXISTING);
-                        }
+                    // Determine which environments to copy
+                    List<String> envsToCopy;
+                    if (env != null && "ALL".equalsIgnoreCase(env)) {
+                        envsToCopy = List.of("uat", "demo", "prod");
+                    } else if (env != null) {
+                        envsToCopy = List.of(env);
                     } else {
                         // Copy all environment files
+                        envsToCopy = new ArrayList<>();
                         try (Stream<Path> files = Files.list(sourceElementDir)) {
                             files.filter(Files::isRegularFile)
                                     .filter(f -> f.toString().endsWith(".json"))
                                     .forEach(sourceFile -> {
-                                        try {
-                                            String fileName = sourceFile.getFileName().toString();
-                                            Path targetFile = targetElementDir.resolve(fileName);
-                                            Files.copy(sourceFile, targetFile, StandardCopyOption.REPLACE_EXISTING);
-                                        } catch (IOException e) {
-                                            throw new RuntimeException("Failed to copy file: " + sourceFile, e);
-                                        }
+                                        String fileName = sourceFile.getFileName().toString();
+                                        String envName = fileName.substring(0, fileName.length() - 5);
+                                        envsToCopy.add(envName);
                                     });
+                        }
+                    }
+
+                    // Copy the specified environment files
+                    for (String envName : envsToCopy) {
+                        Path sourceEnvFile = sourceElementDir.resolve(envName + ".json");
+                        Path targetEnvFile = targetElementDir.resolve(envName + ".json");
+
+                        if (Files.exists(sourceEnvFile)) {
+                            Files.copy(sourceEnvFile, targetEnvFile, StandardCopyOption.REPLACE_EXISTING);
                         }
                     }
                 }
@@ -189,6 +196,43 @@ public class ConfigReaderService {
         return summaries;
     }
 
+
+    public Map<String, List<String>> getDomainsAndTypes(String lob) {
+
+        String targetLob = (lob != null && !lob.isEmpty()) ? lob : DEFAULT_LOB;
+        Path lobPath = Paths.get(basePath).resolve(targetLob);
+
+        Map<String, List<String>> result = new LinkedHashMap<>();
+
+        if (!Files.exists(lobPath) || !Files.isDirectory(lobPath)) {
+            return result;
+        }
+
+        try (Stream<Path> domainDirs = Files.list(lobPath)) {
+            domainDirs.filter(Files::isDirectory).forEach(domainDir -> {
+                String domainName = domainDir.getFileName().toString();
+
+                try (Stream<Path> typeDirs = Files.list(domainDir)) {
+                    List<String> types = typeDirs
+                            .filter(Files::isDirectory)
+                            .map(p -> p.getFileName().toString())
+                            .toList();
+
+                    if (!types.isEmpty()) {
+                        result.put(domainName, types);
+                    }
+                } catch (IOException e) {
+                    log.error("Error reading types for domain {}", domainName, e);
+                }
+            });
+        } catch (IOException e) {
+            log.error("Error reading domains for lob {}", targetLob, e);
+        }
+
+        return result;
+    }
+
+
     /**
      * Get all configurations for a specific LOB and environment
      *
@@ -197,6 +241,16 @@ public class ConfigReaderService {
      * @return List of configuration objects with domain, type, element details
      */
     public List<Map<String, Object>> getConfigsByLobAndEnv(String lob, String env) {
+        // Handle "ALL" environment - return data from all three environments
+        if ("ALL".equalsIgnoreCase(env)) {
+            List<Map<String, Object>> results = new ArrayList<>();
+            List<String> envs = List.of("uat", "demo", "prod");
+            for (String e : envs) {
+                results.addAll(getConfigsByLobAndEnv(lob, e));
+            }
+            return results;
+        }
+
         List<Map<String, Object>> results = new ArrayList<>();
         String targetLob = (lob != null && !lob.isEmpty()) ? lob : DEFAULT_LOB;
         Path lobPath = Paths.get(basePath).resolve(targetLob);
@@ -415,6 +469,92 @@ public class ConfigReaderService {
     }
 
     /**
+     * Get all dynamic values per environment for the default LOB.
+     * Returns structure: [ { "uat": { "promoServiceUrl": "...", ... } }, { "demo": { ... } }, { "prod": { ... } } ]
+     * Reuses getConfigsByLobAndEnv to read configs per env, then merges element names -> values per env.
+     */
+    public List<Map<String, Object>> getDynamicValuesForAllEnvs() {
+        List<Map<String, Object>> result = new ArrayList<>();
+        Path dynamicDir = Paths.get(basePath, "dynamicValues");
+
+        if (!Files.exists(dynamicDir) || !Files.isDirectory(dynamicDir)) {
+            return result;
+        }
+
+        Map<String, Object> demo = readDynamicEnv(dynamicDir, "DEMO");
+        Map<String, Object> uat  = readDynamicEnv(dynamicDir, "UAT");
+        Map<String, Object> prod = readDynamicEnv(dynamicDir, "PROD");
+
+        if (!demo.isEmpty()) result.add(Map.of("DEMO", demo));
+        if (!uat.isEmpty())  result.add(Map.of("UAT", uat));
+        if (!prod.isEmpty()) result.add(Map.of("PROD", prod));
+
+        // ALL → PROD (explicit & predictable)
+        if (!prod.isEmpty()) {
+            result.add(Map.of("ALL", prod));
+        }
+
+        return result;
+    }
+    private Map<String, Object> readDynamicEnv(Path baseDir, String env) {
+        Path file = baseDir.resolve(env + ".json");
+        if (!Files.exists(file)) {
+            return Collections.emptyMap();
+        }
+
+        try {
+            JsonNode node = objectMapper.readTree(file.toFile());
+            return objectMapper.convertValue(node, Map.class);
+        } catch (IOException e) {
+            return Collections.emptyMap();
+        }
+    }
+
+
+
+    /**
+     * Discover all environment names for a LOB by scanning element dirs for *.json filenames.
+     */
+    private Set<String> listEnvNames(String lob) {
+        Set<String> envNames = new LinkedHashSet<>();
+        Path lobPath = Paths.get(basePath).resolve(lob);
+
+        if (!Files.exists(lobPath) || !Files.isDirectory(lobPath)) {
+            return envNames;
+        }
+
+        try (Stream<Path> domainDirs = Files.list(lobPath)) {
+            domainDirs.filter(Files::isDirectory).forEach(domainDir -> {
+                try (Stream<Path> typeDirs = Files.list(domainDir)) {
+                    typeDirs.filter(Files::isDirectory).forEach(typeDir -> {
+                        Path metaPath = typeDir.resolve(META_FILE);
+                        if (!Files.exists(metaPath)) return;
+                        try {
+                            MetaFile metaFile = objectMapper.readValue(metaPath.toFile(), MetaFile.class);
+                            if (metaFile.getElements() != null) {
+                                for (var el : metaFile.getElements()) {
+                                    Path elementDir = typeDir.resolve(el.getName());
+                                    if (!Files.exists(elementDir) || !Files.isDirectory(elementDir)) return;
+                                    try (Stream<Path> files = Files.list(elementDir)) {
+                                        files.filter(f -> f.toString().endsWith(".json"))
+                                                .map(f -> {
+                                                    String name = f.getFileName().toString();
+                                                    return name.substring(0, name.length() - 5);
+                                                })
+                                                .forEach(envNames::add);
+                                    } catch (IOException ignored) {}
+                                }
+                            }
+                        } catch (IOException ignored) {}
+                    });
+                } catch (IOException ignored) {}
+            });
+        } catch (IOException ignored) {}
+
+        return envNames;
+    }
+
+    /**
      * Get specific element value
      *
      * @param domainName Domain name
@@ -425,6 +565,22 @@ public class ConfigReaderService {
      */
     public Object getElementValue(String domainName, String domainType, String name, String lob, String env) {
         String targetLob = (lob != null && !lob.isEmpty()) ? lob : DEFAULT_LOB;
+
+        // Handle "ALL" environment - return values from all three environments
+        if ("ALL".equalsIgnoreCase(env)) {
+            Map<String, Object> allEnvs = new LinkedHashMap<>();
+            List<String> envs = List.of("uat", "demo", "prod");
+
+            for (String e : envs) {
+                Object value = getElementValue(domainName, domainType, name, lob, e);
+                if (value != null) {
+                    allEnvs.put(e, value);
+                }
+            }
+
+            return allEnvs.isEmpty() ? null : allEnvs;
+        }
+
         Path configRoot = Paths.get(basePath);
         Path elementDir = configRoot.resolve(targetLob).resolve(domainName).resolve(domainType).resolve(name);
 

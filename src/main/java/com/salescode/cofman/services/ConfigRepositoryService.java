@@ -1,36 +1,79 @@
 package com.salescode.cofman.services;
 
-
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.salescode.cofman.exception.ConfigNotFoundException;
 import com.salescode.cofman.exception.ConfigOperationException;
 import com.salescode.cofman.exception.InvalidMetaException;
+import com.salescode.cofman.model.dto.ConfigPath;
 import com.salescode.cofman.model.dto.MetaFile;
 import lombok.Getter;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.*;
 import java.util.stream.Stream;
 
 /**
- * Service for file I/O operations.
- * Handles reading/writing JSON files, creating directories, etc.
+ * Repository Service - Foundation layer for all file I/O operations.
+ * Extracted from ConfigFileService with NO logic changes.
+ *
+ * Consolidates:
+ * - ConfigFileService (100%)
+ * - All ConfigPath building logic from other services
+ * - All file existence checks
+ * - All meta file operations
  */
+@Slf4j
 @Getter
-public class ConfigFileService {
-    
+public class ConfigRepositoryService {
+
     private final ObjectMapper objectMapper;
     private final String basePath;
-    
-    public ConfigFileService(String basePath) {
+
+    public ConfigRepositoryService(String basePath) {
         this.basePath = basePath;
         this.objectMapper = new ObjectMapper();
         this.objectMapper.enable(SerializationFeature.INDENT_OUTPUT);
     }
-    
+
+    // ==================== PATH BUILDING (Extracted from all services) ====================
+
+    public ConfigPath buildPath(String lob, String domainName, String domainType) {
+        return ConfigPath.builder()
+                .basePath(basePath)
+                .lob(lob)
+                .domainName(domainName)
+                .domainType(domainType)
+                .build();
+    }
+
+    public ConfigPath buildPathWithElement(String lob, String domainName, String domainType, String elementName) {
+        return ConfigPath.builder()
+                .basePath(basePath)
+                .lob(lob)
+                .domainName(domainName)
+                .domainType(domainType)
+                .elementName(elementName)
+                .build();
+    }
+
+    public ConfigPath buildPathWithEnv(String lob, String domainName, String domainType, String elementName, String env) {
+        return ConfigPath.builder()
+                .basePath(basePath)
+                .lob(lob)
+                .domainName(domainName)
+                .domainType(domainType)
+                .elementName(elementName)
+                .env(env)
+                .build();
+    }
+
+    // ==================== FROM ConfigFileService (NO CHANGES) ====================
+
     /**
      * Ensure directory exists, create if necessary
      */
@@ -42,7 +85,7 @@ public class ConfigFileService {
                     "Failed to create directory: " + path, e);
         }
     }
-    
+
     /**
      * Write JSON value to file
      */
@@ -51,11 +94,11 @@ public class ConfigFileService {
             ensureDirectory(filePath.getParent());
             objectMapper.writeValue(filePath.toFile(), value);
         } catch (IOException e) {
-            throw new ConfigOperationException("writeJson", 
+            throw new ConfigOperationException("writeJson",
                     "Failed to write JSON to: " + filePath, e);
         }
     }
-    
+
     /**
      * Write JsonNode to file
      */
@@ -64,11 +107,11 @@ public class ConfigFileService {
             ensureDirectory(filePath.getParent());
             objectMapper.writeValue(filePath.toFile(), value);
         } catch (IOException e) {
-            throw new ConfigOperationException("writeJsonNode", 
+            throw new ConfigOperationException("writeJsonNode",
                     "Failed to write JSON to: " + filePath, e);
         }
     }
-    
+
     /**
      * Read JSON file as JsonNode
      */
@@ -79,11 +122,11 @@ public class ConfigFileService {
         try {
             return objectMapper.readTree(filePath.toFile());
         } catch (IOException e) {
-            throw new ConfigOperationException("readJsonNode", 
+            throw new ConfigOperationException("readJsonNode",
                     "Failed to read JSON from: " + filePath, e);
         }
     }
-    
+
     /**
      * Read MetaFile from _meta.json
      */
@@ -98,28 +141,28 @@ public class ConfigFileService {
                     "Failed to parse meta file", e);
         }
     }
-    
+
     /**
      * Write MetaFile to _meta.json
      */
     public void writeMetaFile(Path metaFilePath, MetaFile metaFile) {
         writeJson(metaFilePath, metaFile);
     }
-    
+
     /**
      * Check if file exists
      */
     public boolean fileExists(Path path) {
         return Files.exists(path);
     }
-    
+
     /**
      * Check if directory exists
      */
     public boolean directoryExists(Path path) {
         return Files.exists(path) && Files.isDirectory(path);
     }
-    
+
     /**
      * Delete file
      */
@@ -127,11 +170,11 @@ public class ConfigFileService {
         try {
             Files.deleteIfExists(path);
         } catch (IOException e) {
-            throw new ConfigOperationException("deleteFile", 
+            throw new ConfigOperationException("deleteFile",
                     "Failed to delete file: " + path, e);
         }
     }
-    
+
     /**
      * Delete directory recursively
      */
@@ -145,16 +188,16 @@ public class ConfigFileService {
                         try {
                             Files.delete(p);
                         } catch (IOException e) {
-                            throw new ConfigOperationException("deleteDirectory", 
+                            throw new ConfigOperationException("deleteDirectory",
                                     "Failed to delete: " + p, e);
                         }
                     });
         } catch (IOException e) {
-            throw new ConfigOperationException("deleteDirectory", 
+            throw new ConfigOperationException("deleteDirectory",
                     "Failed to walk directory: " + path, e);
         }
     }
-    
+
     /**
      * Copy file
      */
@@ -163,11 +206,11 @@ public class ConfigFileService {
             ensureDirectory(target.getParent());
             Files.copy(source, target);
         } catch (IOException e) {
-            throw new ConfigOperationException("copyFile", 
+            throw new ConfigOperationException("copyFile",
                     "Failed to copy from " + source + " to " + target, e);
         }
     }
-    
+
     /**
      * Copy directory recursively
      */
@@ -182,16 +225,16 @@ public class ConfigFileService {
                         Files.copy(sourcePath, targetPath);
                     }
                 } catch (IOException e) {
-                    throw new ConfigOperationException("copyDirectory", 
+                    throw new ConfigOperationException("copyDirectory",
                             "Failed to copy: " + sourcePath, e);
                 }
             });
         } catch (IOException e) {
-            throw new ConfigOperationException("copyDirectory", 
+            throw new ConfigOperationException("copyDirectory",
                     "Failed to walk directory: " + source, e);
         }
     }
-    
+
     /**
      * List subdirectories in a directory
      */
@@ -202,7 +245,7 @@ public class ConfigFileService {
         try {
             return Files.list(path).filter(Files::isDirectory);
         } catch (IOException e) {
-            throw new ConfigOperationException("listSubdirectories", 
+            throw new ConfigOperationException("listSubdirectories",
                     "Failed to list directories in: " + path, e);
         }
     }
