@@ -17,7 +17,13 @@ public enum ElementPattern {
      * Example: {"id": 123, "type": "card"}
      */
     ID_FIELD,
-    
+
+    /**
+     * Dict with "type" field - store whole object, return as-is
+     * Example: {"className": "com.applicate.*", "type": "card"}
+     */
+    TYPE_FIELD,
+
     /**
      * Plain string value - store string, return as-is
      * Example: "visa"

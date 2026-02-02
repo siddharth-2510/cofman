@@ -256,6 +256,7 @@ public class ReconstructService {
                 return wrapper;
                 
             case NAME_FIELD:
+            case TYPE_FIELD:
             case ID_FIELD:
             case PLAIN_STRING:
             case PRIMITIVE:

@@ -56,6 +56,18 @@ public class ElementParser {
             ));
             return parsed;
         }
+
+
+        if (element.isObject() && element.has("type")) {
+            String type = element.get("type").asText();
+            parsed.add(new ConfigElement(
+                    FileNameSanitizer.sanitize(type),
+                    ElementPattern.TYPE_FIELD,
+                    null,
+                    element
+            ));
+            return parsed;
+        }
         
         // Pattern 3: plain string
         if (element.isTextual()) {
@@ -164,6 +176,10 @@ public class ElementParser {
         
         if (element.isObject() && element.has("id")) {
             return ElementPattern.ID_FIELD;
+        }
+
+        if (element.isObject() && element.has("type")) {
+            return ElementPattern.TYPE_FIELD;
         }
         
         if (element.isTextual() && !element.asText().trim().isEmpty()) {
