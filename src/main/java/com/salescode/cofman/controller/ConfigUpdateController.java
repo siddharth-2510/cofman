@@ -3,9 +3,11 @@ package com.salescode.cofman.controller;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.salescode.cofman.model.dto.ConfigPath;
+import com.salescode.cofman.services.ConfigApprovalService;
 import com.salescode.cofman.services.ConfigRepositoryService;
 import com.salescode.cofman.services.ConfigTransformService;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -45,28 +47,29 @@ public class ConfigUpdateController {
         this.transformService = new ConfigTransformService(repository);
     }
 
-    /**
-     * POST /api/config/update
-     *
-     * Request body: {
-     *   "old": [ DomainConfigEntity, ... ],  // Configs to replace/delete
-     *   "new": [ DomainConfigEntity, ... ]   // Configs to add/update
-     * }
-     *
-     * Each DomainConfigEntity: {
-     *   "domainName": "string",
-     *   "domainType": "string",
-     *   "lob": "string",
-     *   "env": "string",
-     *   "elements": [
-     *     { "name": "string", "pattern": "string", "value": any }
-     *   ]
-     * }
-     */
+    @Autowired
+    private ConfigApprovalService configApprovalService;
+
     @PostMapping("/update")
     public ResponseEntity<Map<String, Object>> updateConfigs(
-            @RequestBody Map<String, List<Map<String, Object>>> request) {
+            @RequestBody Map<String, List<Map<String, Object>>> request,
+            @RequestHeader(value = "X-Requested-By", required = false) String requestedBy) {
 
+        configApprovalService.requestConfigUpdateApproval(
+                request,
+                requestedBy != null ? requestedBy : "unknown"
+        );
+
+        return ResponseEntity.ok(Map.of(
+                "success", true,
+                "message", "Config update request sent for approval via Slack"
+        ));
+    }
+
+    /**
+     * Execute config update - ONLY called from SlackApprovalService after approval
+     */
+    public Map<String, Object> executeConfigUpdate(Map<String, List<Map<String, Object>>> request) {
         List<Map<String, Object>> oldConfigs = request.getOrDefault("old", Collections.emptyList());
         List<Map<String, Object>> newConfigs = request.getOrDefault("new", Collections.emptyList());
 
@@ -74,21 +77,16 @@ public class ConfigUpdateController {
         List<String> successes = new ArrayList<>();
 
         try {
-            // Validate configs before processing
+            // Validate
             List<String> validationErrors = validateConfigs(oldConfigs, newConfigs);
             if (!validationErrors.isEmpty()) {
-                return ResponseEntity.badRequest().body(Map.of(
-                        "success", false,
-                        "message", "Validation failed",
-                        "errors", validationErrors
-                ));
+                return Map.of("success", false, "errors", validationErrors);
             }
 
-            // Build a map of old configs by key for lookup
+            // Build old configs map
             Map<String, Map<String, Object>> oldByKey = new HashMap<>();
             for (Map<String, Object> oldConfig : oldConfigs) {
-                String key = buildConfigKey(oldConfig);
-                oldByKey.put(key, oldConfig);
+                oldByKey.put(buildConfigKey(oldConfig), oldConfig);
             }
 
             // Process new configs
@@ -98,51 +96,37 @@ public class ConfigUpdateController {
 
                 try {
                     if (matchingOld != null) {
-                        // Has matching old config -> REPLACE (delete old, write new)
                         processReplace(matchingOld, newConfig);
                         successes.add("Replaced: " + key);
                     } else {
-                        // No matching old -> INSERT or MERGE
                         processInsertOrMerge(newConfig);
                         successes.add("Added/Merged: " + key);
                     }
                 } catch (Exception e) {
                     errors.add(key + ": " + e.getMessage());
-                    log.error("Failed to process config {}: {}", key, e.getMessage(), e);
                 }
             }
 
-            // Process remaining old configs (no matching new -> DELETE)
+            // Process deletes
             for (Map.Entry<String, Map<String, Object>> entry : oldByKey.entrySet()) {
                 try {
                     processDelete(entry.getValue());
                     successes.add("Deleted: " + entry.getKey());
                 } catch (Exception e) {
                     errors.add(entry.getKey() + ": " + e.getMessage());
-                    log.error("Failed to delete config {}: {}", entry.getKey(), e.getMessage(), e);
                 }
             }
 
-            Map<String, Object> response = new LinkedHashMap<>();
-            response.put("success", errors.isEmpty());
-            response.put("processed", successes.size());
-            response.put("successes", successes);
-
-            if (!errors.isEmpty()) {
-                response.put("errors", errors);
-                response.put("message", "Completed with " + errors.size() + " error(s)");
-                return ResponseEntity.ok(response);
-            }
-
-            response.put("message", "All configs updated successfully");
-            return ResponseEntity.ok(response);
+            return Map.of(
+                    "success", errors.isEmpty(),
+                    "processed", successes.size(),
+                    "successes", successes,
+                    "errors", errors
+            );
 
         } catch (Exception e) {
-            log.error("Update failed: {}", e.getMessage(), e);
-            return ResponseEntity.badRequest().body(Map.of(
-                    "success", false,
-                    "message", e.getMessage()
-            ));
+            log.error("Update failed", e);
+            return Map.of("success", false, "message", e.getMessage());
         }
     }
 

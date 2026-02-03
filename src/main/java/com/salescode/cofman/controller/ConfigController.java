@@ -49,15 +49,7 @@ public class ConfigController {
         return ResponseEntity.ok(configs);
     }
 
-    @GetMapping("deploy/{lob}/{env}")
-    public Map<String,Boolean> deploy(@PathVariable String lob,@PathVariable String env){
-        return lobService.pushToEnv(env, lob);
-    }
 
-    @GetMapping("deploy/{lob}/{env}/{name}/{type}")
-    public boolean deployOne(@PathVariable String lob,@PathVariable String env,@PathVariable String name,@PathVariable String type){
-        return lobService.pushToEnv(name,type,lob,env);
-    }
 
     /**
      * GET /api/configs/dynamic-values
