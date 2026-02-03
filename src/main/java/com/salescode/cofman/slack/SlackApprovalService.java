@@ -62,6 +62,91 @@ public class SlackApprovalService {
             throw new RuntimeException("Failed to send Slack approval", e);
         }
     }
+    /**
+     * Update the original Slack message to show approval/rejection status
+     */
+    public void updateMessageStatus(String channelId, String messageTs,
+                                    String status, String approvedBy, String dataJson) {
+        try {
+            // Parse the data to get details
+            Map<String, String> data = objectMapper.readValue(dataJson, Map.class);
+            String type = data.get("type");
+            String lob = data.get("lob");
+            String env = data.get("env");
+
+            // Build status message based on type
+            String statusEmoji = "APPROVED".equals(status) ? "✅" : "❌";
+
+            StringBuilder detailsText = new StringBuilder();
+            detailsText.append(String.format("*Status: %s %s*\n\n", status, statusEmoji));
+
+            if ("FULL_ENV".equals(type)) {
+                detailsText.append("*Request Type:* Environment-Specific Push\n\n");
+                detailsText.append(String.format("*LOB:* `%s`\n", lob));
+                detailsText.append(String.format("*Environment:* `%s`\n", env));
+
+            } else if ("DOMAIN_SPECIFIC".equals(type)) {
+                String domainName = data.get("domainName");
+                String domainType = data.get("domainType");
+
+                detailsText.append("*Request Type:* Domain-Specific Push\n\n");
+                detailsText.append(String.format("*LOB:* `%s`\n", lob));
+                detailsText.append(String.format("*Environment:* `%s`\n", env));
+                detailsText.append(String.format("*Domain Name:* `%s`\n", domainName));
+                detailsText.append(String.format("*Domain Type:* `%s`\n", domainType));
+
+            } else if ("CONFIG_UPDATE".equals(type)) {
+                detailsText.append("*Request Type:* Config Update\n\n");
+                detailsText.append(String.format("*LOB:* `%s`\n", lob));
+                detailsText.append(String.format("*Environment:* `%s`\n", env));
+            }
+
+            detailsText.append(String.format("\n*%s by:* <@%s>", status, approvedBy));
+
+            // Create updated blocks (no buttons, just status)
+            List<LayoutBlock> updatedBlocks = Arrays.asList(
+                    SectionBlock.builder()
+                            .text(MarkdownTextObject.builder()
+                                    .text(detailsText.toString())
+                                    .build())
+                            .build(),
+
+                    com.slack.api.model.block.ContextBlock.builder()
+                            .elements(Arrays.asList(
+                                    MarkdownTextObject.builder()
+                                            .text(String.format("_%s at <!date^%d^{date_short_pretty} {time}|%s>_",
+                                                    status,
+                                                    System.currentTimeMillis() / 1000,
+                                                    new java.util.Date().toString()))
+                                            .build()
+                            ))
+                            .build()
+            );
+
+            // Update the message using chat.update
+            var updateRequest = com.slack.api.methods.request.chat.ChatUpdateRequest.builder()
+                    .channel(channelId)
+                    .ts(messageTs)
+                    .text(String.format("Request %s", status))
+                    .blocks(updatedBlocks)
+                    .build();
+
+            var updateResponse = methodsClient.chatUpdate(updateRequest);
+
+            if (!updateResponse.isOk()) {
+                log.error("Failed to update Slack message: {}", updateResponse.getError());
+                throw new RuntimeException("Failed to update Slack message: " + updateResponse.getError());
+            }
+
+            log.info("Successfully updated Slack message with {} status", status);
+
+        } catch (Exception e) {
+            log.error("Error updating Slack message status", e);
+            // Don't throw - message was already processed, this is just UI update
+            log.warn("Continuing despite Slack update failure");
+        }
+    }
+
 
     /**
      * Send approval request for config update (for ConfigUpdateController)
@@ -206,22 +291,7 @@ public class SlackApprovalService {
             Map<String, String> data = objectMapper.readValue(dataJson, Map.class);
             String type = data.get("type");
 
-            if ("FULL_ENV".equals(type)) {
-                String lob = data.get("lob");
-                String env = data.get("env");
-                log.info("Approved: Full env push for lob={}, env={}", lob, env);
-                lobService.pushToEnv(env, lob);
-
-            } else if ("DOMAIN_SPECIFIC".equals(type)) {
-                String lob = data.get("lob");
-                String env = data.get("env");
-                String domainName = data.get("domainName");
-                String domainType = data.get("domainType");
-                log.info("Approved: Domain push for lob={}, env={}, domain={}, type={}",
-                        lob, env, domainName, domainType);
-                lobService.pushToEnv(domainName, domainType, lob, env);
-
-            } else if ("CONFIG_UPDATE".equals(type)) {
+            if ("CONFIG_UPDATE".equals(type)) {
                 String updateRequestJson = data.get("updateRequest");
                 Map<String, List<Map<String, Object>>> updateRequest =
                         objectMapper.readValue(updateRequestJson, Map.class);

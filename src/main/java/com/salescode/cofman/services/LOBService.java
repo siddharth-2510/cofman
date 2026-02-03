@@ -34,6 +34,9 @@ public class LOBService {
     @Value("${salescode.auth.loginId:admin@applicate.in}")
     private String loginId;
 
+    @Value("${salescode.auth.decryptPhrase:admin@applicate.in}")
+    private String decryptPhrase;
+
     @Value("${salescode.auth.password:@1234}")
     private String password;
 
@@ -72,7 +75,7 @@ public class LOBService {
             ObjectNode body = mapper.createObjectNode();
             body.put("loginId", loginId);
             body.put("password", encryptedPassword);
-            body.put("lob", lob+env);
+            body.put("lob", lob.toLowerCase()+env.toLowerCase());
 
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_JSON);
@@ -108,17 +111,18 @@ public class LOBService {
         return KeyFactory.getInstance("RSA").generatePublic(keySpec);
     }
 
-    public boolean pushToEnv(String domainName,String domainType,String lob,String env){
+    public boolean pushToEnv(String domainName,String domainType,String lob,String env,String decryptPhraseInput){
+
         ReconstructResult results = transformService.reconstruct(lob,domainName,domainType,env);
         ObjectNode node = objectMapper.createObjectNode();
         node.put("domainName",domainName);
         node.put("domainType",domainType);
         node.put("domainValues",results.getJsonArray());
         List<ObjectNode> apiBody = List.of(node);
-        String url = String.format("http://localhost:8081"+"/metadata", env);
+        String url = String.format("http://localhost:8081"+"/metadata/cofman", env);
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_JSON);
-        headers.add("lob", lob+env);
+        headers.add("lob", lob.toLowerCase()+env.toLowerCase());
         headers.add("Authorization", getToken(lob,env));
         HttpEntity<List<ObjectNode>> requestEntity = new HttpEntity<>(apiBody, headers);
         ResponseEntity<String> response = restTemplate.postForEntity(url, requestEntity, String.class);
@@ -128,8 +132,9 @@ public class LOBService {
             return false;
     }
 
-    public Map<String, Boolean> pushToEnv(String env, String lob) {
-
+    public Map<String, Boolean> pushToEnv(String env, String lob,String decryptPhraseInput) {
+        if(decryptPhrase!=decryptPhraseInput)
+            throw new RuntimeException("DecryptPhrase mis match");
         Map<String, List<String>> domainsAndTypes =
                 readerService.getDomainsAndTypes(lob);
 
@@ -138,7 +143,7 @@ public class LOBService {
         domainsAndTypes.forEach((domainName, types) -> {
             for (String domainType : types) {
                 try {
-                    boolean success = pushToEnv(domainName, domainType, lob, env);
+                    boolean success = pushToEnv(domainName, domainType, lob, env,decryptPhraseInput);
 
                     String key = domainName + ":" + domainType;
                     result.put(key, success);

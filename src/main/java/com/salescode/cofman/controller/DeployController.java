@@ -18,12 +18,13 @@ public class DeployController {
     LOBService lobService;
 
     @PostMapping("deploy/{lob}/{env}")
-    public Map<String,Boolean> deploy(@PathVariable String lob, @PathVariable String env){
-        return lobService.pushToEnv(env, lob);
+    public Map<String,Boolean> deploy(@PathVariable String lob, @PathVariable String env,@RequestHeader("X-Decrypt-Phrase") String decryptPhrase){
+
+        return lobService.pushToEnv(env, lob,decryptPhrase);
     }
 
     @PostMapping("deploy/{lob}/{env}/{name}/{type}")
-    public boolean deployOne(@PathVariable String lob,@PathVariable String env,@PathVariable String name,@PathVariable String type){
-        return lobService.pushToEnv(name,type,lob,env);
+    public boolean deployOne(@PathVariable String lob,@PathVariable String env,@PathVariable String name,@PathVariable String type,@RequestHeader("X-Decrypt-Phrase") String decryptPhrase){
+        return lobService.pushToEnv(name,type,lob,env,decryptPhrase);
     }
 }

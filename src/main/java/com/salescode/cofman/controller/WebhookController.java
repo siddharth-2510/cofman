@@ -37,7 +37,7 @@ public class WebhookController {
             // Read raw bytes BEFORE any Spring processing
             byte[] rawBytes = inputStream.readAllBytes();
             String rawPayload = new String(rawBytes, StandardCharsets.UTF_8);
-            
+
             log.info("Received Slack interaction");
             log.debug("Raw payload: {}", rawPayload);
 
@@ -61,6 +61,14 @@ public class WebhookController {
 
             JsonNode payloadNode = objectMapper.readTree(jsonPayload);
 
+            // **EXTRACT MESSAGE TIMESTAMP AND CHANNEL**
+            String messageTs = payloadNode.get("message").get("ts").asText();
+            String channelId = payloadNode.get("channel").get("id").asText();
+            String userId = payloadNode.path("user").path("id").asText();
+            String userName = payloadNode.path("user").path("name").asText();
+
+            log.info("Message TS: {}, Channel: {}, User: {}", messageTs, channelId, userName);
+
             // Extract action details
             JsonNode actions = payloadNode.get("actions");
             if (actions != null && actions.isArray() && actions.size() > 0) {
@@ -72,10 +80,16 @@ public class WebhookController {
 
                 if ("approve_push".equals(actionId)) {
                     slackApprovalService.handleApproval(value);
+                    // **UPDATE MESSAGE TO SHOW APPROVAL**
+                    slackApprovalService.updateMessageStatus(
+                            channelId, messageTs, "APPROVED", userName, value);
                     return ResponseEntity.ok("✅ Approved and processed successfully!");
 
                 } else if ("reject_push".equals(actionId)) {
                     slackApprovalService.handleRejection(value);
+                    // **UPDATE MESSAGE TO SHOW REJECTION**
+                    slackApprovalService.updateMessageStatus(
+                            channelId, messageTs, "REJECTED", userName, value);
                     return ResponseEntity.ok("❌ Rejected");
                 }
             }
