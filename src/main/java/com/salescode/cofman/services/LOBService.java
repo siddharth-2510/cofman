@@ -120,7 +120,8 @@ public class LOBService {
         headers.setContentType(MediaType.APPLICATION_JSON);
         headers.add("lob", lob+env);
         headers.add("Authorization", getToken(lob,env));
-        ResponseEntity<String> response = restTemplate.postForEntity(url,apiBody, String.class);
+        HttpEntity<List<ObjectNode>> requestEntity = new HttpEntity<>(apiBody, headers);
+        ResponseEntity<String> response = restTemplate.postForEntity(url, requestEntity, String.class);
         if(response.getStatusCode().is2xxSuccessful())
             return true;
         else
