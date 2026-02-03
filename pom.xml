@@ -72,7 +72,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
+		<dependency>
+			<groupId>com.slack.api</groupId>
+			<artifactId>slack-api-client</artifactId>
+			<version>1.39.3</version>
+		</dependency>
 		<!-- Security Test -->
 		<dependency>
 			<groupId>org.springframework.security</groupId>
