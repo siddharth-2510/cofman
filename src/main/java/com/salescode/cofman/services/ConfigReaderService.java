@@ -29,7 +29,21 @@ public class ConfigReaderService {
 
 
     private final ObjectMapper objectMapper = new ObjectMapper();
-
+    public List<String> copyLobConfig(String fromLob, String toLob, String env,String domainName,String domainType) {
+        List<String> copiedConfigs = new ArrayList<>();
+        Set<String> environments = env.equalsIgnoreCase("all")?Set.of("uat","demo","prod"):Set.of(env);
+        for(String environment : environments){
+            Path sourceLobPath = Path.of(basePath, fromLob,domainName,domainType);
+            if (!Files.exists(sourceLobPath) || !Files.isDirectory(sourceLobPath)) {
+                throw new RuntimeException(String.format("Source LOB not found: %s for domainName %s and domainType %s" , fromLob,domainName,domainType));
+            }
+            copyDomainConfig(fromLob, toLob, domainName, domainType, environment);
+            String key = domainName + "/" + domainType;
+            key += " (env: " + environment + ")";
+            copiedConfigs.add(key);
+        }
+        return copiedConfigs;
+    }
     /**
      * Copy all configs from source LOB to target LOB
      */

@@ -182,9 +182,16 @@ public class ConfigController {
     public ResponseEntity<Map<String, Object>> copyLobConfigs(
             @RequestParam String fromLob,
             @RequestParam String toLob,
-            @RequestParam(required = false) String env) {
+
+            @RequestParam(required = false) String env,
+            @RequestParam(required = false) String domainName,
+            @RequestParam(required = false) String domainType) {
         try {
-            List<String> copiedConfigs = configReaderService.copyLob(fromLob, toLob, env);
+            List<String> copiedConfigs;
+            if(domainType!=null&&domainName!=null)
+               copiedConfigs =  configReaderService.copyLobConfig(fromLob, toLob, env,domainName,domainType);
+            else
+                copiedConfigs = configReaderService.copyLob(fromLob, toLob, env);
 
             String message = String.format(
                     "Successfully copied %d configs from %s to %s",
