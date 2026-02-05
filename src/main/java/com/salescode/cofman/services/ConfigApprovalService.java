@@ -6,6 +6,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -130,6 +131,88 @@ public class ConfigApprovalService {
 
         } catch (Exception e) {
             log.error("Failed to send domain push approval request", e);
+            throw new RuntimeException("Failed to send approval request", e);
+        }
+    }
+
+    /**
+     * Send approval request for LOB copy (entire LOB or specific env)
+     */
+    public void requestLobCopyApproval(
+            String fromLob,
+            String toLob,
+            String env,
+            String requestedBy) {
+        try {
+            Map<String, String> data = new HashMap<>();
+            data.put("fromLob", fromLob);
+            data.put("toLob", toLob);
+            data.put("env", env != null ? env : "ALL");
+            data.put("type", "LOB_COPY");
+
+            String dataJson = objectMapper.writeValueAsString(data);
+
+            String envText = env != null ? " (Environment: " + env + ")" : " (All environments)";
+            String message = String.format(
+                    "Copying entire LOB '%s' to '%s'%s",
+                    fromLob, toLob, envText
+            );
+
+            slackApprovalService.sendLobCopyApprovalRequest(
+                    fromLob,
+                    toLob,
+                    env,
+                    requestedBy,
+                    message,
+                    dataJson
+            );
+
+        } catch (Exception e) {
+            log.error("Failed to send LOB copy approval request", e);
+            throw new RuntimeException("Failed to send approval request", e);
+        }
+    }
+
+    /**
+     * Send approval request for specific domain config copy
+     */
+    public void requestDomainCopyApproval(
+            String fromLob,
+            String toLob,
+            String env,
+            String domainName,
+            String domainType,
+            String requestedBy) {
+        try {
+            Map<String, String> data = new HashMap<>();
+            data.put("fromLob", fromLob);
+            data.put("toLob", toLob);
+            data.put("env", env != null ? env : "ALL");
+            data.put("domainName", domainName);
+            data.put("domainType", domainType);
+            data.put("type", "DOMAIN_COPY");
+
+            String dataJson = objectMapper.writeValueAsString(data);
+
+            String envText = env != null ? " (Environment: " + env + ")" : " (All environments)";
+            String message = String.format(
+                    "Copying domain config '%s/%s' from LOB '%s' to '%s'%s",
+                    domainName, domainType, fromLob, toLob, envText
+            );
+
+            slackApprovalService.sendDomainCopyApprovalRequest(
+                    fromLob,
+                    toLob,
+                    env,
+                    domainName,
+                    domainType,
+                    requestedBy,
+                    message,
+                    dataJson
+            );
+
+        } catch (Exception e) {
+            log.error("Failed to send domain copy approval request", e);
             throw new RuntimeException("Failed to send approval request", e);
         }
     }

@@ -1,10 +1,9 @@
 package com.salescode.cofman.slack;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.salescode.cofman.controller.ConfigController;
-import com.salescode.cofman.controller.ConfigUpdateController;
+import com.salescode.cofman.services.ConfigOperationService;
+import com.salescode.cofman.services.ConfigReaderService;
 import com.salescode.cofman.services.ConfigUpdateService;
-import com.salescode.cofman.services.LOBService;
 import com.slack.api.methods.MethodsClient;
 import com.slack.api.methods.request.chat.ChatPostMessageRequest;
 import com.slack.api.methods.response.chat.ChatPostMessageResponse;
@@ -15,7 +14,6 @@ import com.slack.api.model.block.composition.PlainTextObject;
 import com.slack.api.model.block.element.ButtonElement;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -28,8 +26,9 @@ public class SlackApprovalService {
 
     private final MethodsClient methodsClient;
     private final ObjectMapper objectMapper;
-    private final LOBService lobService;
     private final ConfigUpdateService configUpdateService;
+    private final ConfigReaderService configReaderService;
+    private final ConfigOperationService configOperationService;
 
     @Value("${slack.channel.id}")
     private String channelId;
@@ -62,6 +61,127 @@ public class SlackApprovalService {
             throw new RuntimeException("Failed to send Slack approval", e);
         }
     }
+
+    /**
+     * Send approval request for config update (for ConfigUpdateController)
+     */
+    public void sendConfigUpdateApprovalRequest(
+            String lob, String env, String requestedBy,
+            String oldConfig, String newConfig,
+            Map<String, List<Map<String, Object>>> updateRequest) {
+
+        try {
+            Map<String, Object> data = new HashMap<>();
+            data.put("lob", lob);
+            data.put("env", env);
+            data.put("type", "CONFIG_UPDATE");
+
+            // Store the entire update request as JSON string
+            String requestJson = objectMapper.writeValueAsString(updateRequest);
+            data.put("updateRequest", requestJson);
+
+            String dataJson = objectMapper.writeValueAsString(data);
+
+            StringBuilder configChanges = getBuilder(oldConfig, newConfig);
+
+            String text = String.format("*Config Update Request*\n" +
+                            "LOB: `%s`\n" +
+                            "Environment: `%s`\n" +
+                            "Requested by: %s\n\n%s",
+                    lob, env, requestedBy, configChanges.toString());
+
+            sendApprovalMessage(text, dataJson);
+
+        } catch (Exception e) {
+            log.error("Failed to send config update approval request", e);
+            throw new RuntimeException("Failed to send Slack approval", e);
+        }
+    }
+
+    /**
+     * Send approval request for specific domain push (lob + env + domain + type)
+     */
+    public void sendDomainApprovalRequest(String lob, String env,
+                                          String domainName, String domainType,
+                                          String requestedBy,
+                                          String oldConfig, String newConfig) {
+        try {
+            Map<String, String> data = new HashMap<>();
+            data.put("lob", lob);
+            data.put("env", env);
+            data.put("domainName", domainName);
+            data.put("domainType", domainType);
+            data.put("type", "DOMAIN_SPECIFIC");
+
+            String dataJson = objectMapper.writeValueAsString(data);
+
+            StringBuilder configChanges = getBuilder(oldConfig, newConfig);
+
+            String text = String.format("*Domain-Specific Push Request*\n" +
+                            "LOB: `%s`\n" +
+                            "Environment: `%s`\n" +
+                            "Domain: `%s`\n" +
+                            "Type: `%s`\n" +
+                            "Requested by: %s\n\n%s",
+                    lob, env, domainName, domainType, requestedBy, configChanges.toString());
+
+            sendApprovalMessage(text, dataJson);
+
+        } catch (Exception e) {
+            log.error("Failed to send domain approval request", e);
+            throw new RuntimeException("Failed to send Slack approval", e);
+        }
+    }
+
+    /**
+     * Send approval request for LOB copy
+     */
+    public void sendLobCopyApprovalRequest(
+            String fromLob, String toLob, String env,
+            String requestedBy, String message, String dataJson) {
+        try {
+            String text = String.format("*LOB Copy Request*\n" +
+                            "From LOB: `%s`\n" +
+                            "To LOB: `%s`\n" +
+                            "Environment: `%s`\n" +
+                            "Requested by: %s\n\n" +
+                            "%s",
+                    fromLob, toLob, env != null ? env : "ALL", requestedBy, message);
+
+            sendApprovalMessage(text, dataJson);
+
+        } catch (Exception e) {
+            log.error("Failed to send LOB copy approval request", e);
+            throw new RuntimeException("Failed to send Slack approval", e);
+        }
+    }
+
+    /**
+     * Send approval request for domain config copy
+     */
+    public void sendDomainCopyApprovalRequest(
+            String fromLob, String toLob, String env,
+            String domainName, String domainType,
+            String requestedBy, String message, String dataJson) {
+        try {
+            String text = String.format("*Domain Config Copy Request*\n" +
+                            "From LOB: `%s`\n" +
+                            "To LOB: `%s`\n" +
+                            "Domain: `%s/%s`\n" +
+                            "Environment: `%s`\n" +
+                            "Requested by: %s\n\n" +
+                            "%s",
+                    fromLob, toLob, domainName, domainType,
+                    env != null ? env : "ALL", requestedBy, message);
+
+            sendApprovalMessage(text, dataJson);
+
+        } catch (Exception e) {
+            log.error("Failed to send domain copy approval request", e);
+            throw new RuntimeException("Failed to send Slack approval", e);
+        }
+    }
+
     /**
      * Update the original Slack message to show approval/rejection status
      */
@@ -98,6 +218,27 @@ public class SlackApprovalService {
             } else if ("CONFIG_UPDATE".equals(type)) {
                 detailsText.append("*Request Type:* Config Update\n\n");
                 detailsText.append(String.format("*LOB:* `%s`\n", lob));
+                detailsText.append(String.format("*Environment:* `%s`\n", env));
+
+            } else if ("LOB_COPY".equals(type)) {
+                String fromLob = data.get("fromLob");
+                String toLob = data.get("toLob");
+
+                detailsText.append("*Request Type:* LOB Copy\n\n");
+                detailsText.append(String.format("*From LOB:* `%s`\n", fromLob));
+                detailsText.append(String.format("*To LOB:* `%s`\n", toLob));
+                detailsText.append(String.format("*Environment:* `%s`\n", env));
+
+            } else if ("DOMAIN_COPY".equals(type)) {
+                String fromLob = data.get("fromLob");
+                String toLob = data.get("toLob");
+                String domainName = data.get("domainName");
+                String domainType = data.get("domainType");
+
+                detailsText.append("*Request Type:* Domain Config Copy\n\n");
+                detailsText.append(String.format("*From LOB:* `%s`\n", fromLob));
+                detailsText.append(String.format("*To LOB:* `%s`\n", toLob));
+                detailsText.append(String.format("*Domain:* `%s/%s`\n", domainName, domainType));
                 detailsText.append(String.format("*Environment:* `%s`\n", env));
             }
 
@@ -144,95 +285,6 @@ public class SlackApprovalService {
             log.error("Error updating Slack message status", e);
             // Don't throw - message was already processed, this is just UI update
             log.warn("Continuing despite Slack update failure");
-        }
-    }
-
-
-    /**
-     * Send approval request for config update (for ConfigUpdateController)
-     */
-    public void sendConfigUpdateApprovalRequest(
-            String lob, String env, String requestedBy,
-            String oldConfig, String newConfig,
-            Map<String, List<Map<String, Object>>> updateRequest) {
-
-        try {
-            Map<String, Object> data = new HashMap<>();
-            data.put("lob", lob);
-            data.put("env", env);
-            data.put("type", "CONFIG_UPDATE");
-
-            // Store the entire update request as JSON string
-            String requestJson = objectMapper.writeValueAsString(updateRequest);
-            data.put("updateRequest", requestJson);
-
-            String dataJson = objectMapper.writeValueAsString(data);
-
-            StringBuilder configChanges = getBuilder(oldConfig, newConfig);
-
-            String text = String.format("*Config Update Request*\n" +
-                            "LOB: `%s`\n" +
-                            "Environment: `%s`\n" +
-                            "Requested by: %s\n\n%s",
-                    lob, env, requestedBy, configChanges.toString());
-
-            sendApprovalMessage(text, dataJson);
-
-        } catch (Exception e) {
-            log.error("Failed to send config update approval request", e);
-            throw new RuntimeException("Failed to send Slack approval", e);
-        }
-    }
-
-    private static  StringBuilder getBuilder(String oldConfig, String newConfig) {
-        StringBuilder configChanges = new StringBuilder();
-
-        if (oldConfig != null && !oldConfig.isEmpty()) {
-            configChanges.append("*Old Configuration:*\n");
-            configChanges.append("```json\n");
-            configChanges.append(oldConfig);
-            configChanges.append("\n```\n\n");
-        }
-
-        configChanges.append("*New Configuration:*\n");
-        configChanges.append("```json\n");
-        configChanges.append(newConfig);
-        configChanges.append("\n```\n");
-        return configChanges;
-    }
-
-    /**
-     * Send approval request for specific domain push (lob + env + domain + type)
-     */
-    public void sendDomainApprovalRequest(String lob, String env,
-                                          String domainName, String domainType,
-                                          String requestedBy,
-                                          String oldConfig, String newConfig) {
-        try {
-            Map<String, String> data = new HashMap<>();
-            data.put("lob", lob);
-            data.put("env", env);
-            data.put("domainName", domainName);
-            data.put("domainType", domainType);
-            data.put("type", "DOMAIN_SPECIFIC");
-
-            String dataJson = objectMapper.writeValueAsString(data);
-
-            StringBuilder configChanges = getBuilder(oldConfig, newConfig);
-
-            String text = String.format("*Domain-Specific Push Request*\n" +
-                            "LOB: `%s`\n" +
-                            "Environment: `%s`\n" +
-                            "Domain: `%s`\n" +
-                            "Type: `%s`\n" +
-                            "Requested by: %s\n\n%s",
-                    lob, env, domainName, domainType, requestedBy, configChanges.toString());
-
-            sendApprovalMessage(text, dataJson);
-
-        } catch (Exception e) {
-            log.error("Failed to send domain approval request", e);
-            throw new RuntimeException("Failed to send Slack approval", e);
         }
     }
 
@@ -286,6 +338,9 @@ public class SlackApprovalService {
         }
     }
 
+    /**
+     * Handle approval action
+     */
     public void handleApproval(String dataJson) {
         try {
             Map<String, String> data = objectMapper.readValue(dataJson, Map.class);
@@ -299,8 +354,30 @@ public class SlackApprovalService {
                 log.info("Approved: Config update for lob={}, env={}",
                         data.get("lob"), data.get("env"));
 
-                // Call service instead of controller
                 configUpdateService.executeConfigUpdate(updateRequest);
+
+            } else if ("LOB_COPY".equals(type)) {
+                String fromLob = data.get("fromLob");
+                String toLob = data.get("toLob");
+                String env = data.get("env");
+
+                log.info("Approved: LOB copy from {} to {} (env={})", fromLob, toLob, env);
+
+                // Call the copy operation
+                configReaderService.copyLob(fromLob, toLob, "ALL".equals(env) ? null : env);
+
+            } else if ("DOMAIN_COPY".equals(type)) {
+                String fromLob = data.get("fromLob");
+                String toLob = data.get("toLob");
+                String env = data.get("env");
+                String domainName = data.get("domainName");
+                String domainType = data.get("domainType");
+
+                log.info("Approved: Domain copy {}/{} from {} to {} (env={})",
+                        domainName, domainType, fromLob, toLob, env);
+
+                // Call the specific domain copy operation
+                configReaderService.copyLobConfig(fromLob, toLob, env, domainName, domainType);
             }
 
         } catch (Exception e) {
@@ -309,18 +386,33 @@ public class SlackApprovalService {
         }
     }
 
-
-
     /**
      * Handle rejection action - called from webhook controller
      */
     public void handleRejection(String dataJson) {
         try {
             Map<String, String> data = objectMapper.readValue(dataJson, Map.class);
-            log.info("Rejected push request: {}", data);
+            log.info("Rejected request: {}", data);
 
         } catch (Exception e) {
             log.error("Error handling rejection", e);
         }
+    }
+
+    private static StringBuilder getBuilder(String oldConfig, String newConfig) {
+        StringBuilder configChanges = new StringBuilder();
+
+        if (oldConfig != null && !oldConfig.isEmpty()) {
+            configChanges.append("*Old Configuration:*\n");
+            configChanges.append("```json\n");
+            configChanges.append(oldConfig);
+            configChanges.append("\n```\n\n");
+        }
+
+        configChanges.append("*New Configuration:*\n");
+        configChanges.append("```json\n");
+        configChanges.append(newConfig);
+        configChanges.append("\n```\n");
+        return configChanges;
     }
 }
